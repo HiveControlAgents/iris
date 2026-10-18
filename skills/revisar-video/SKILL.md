@@ -1,6 +1,6 @@
 ---
 name: revisar-video
-description: Revisa um vídeo gerado por IA (Shorts, Reels, TikTok) quadro a quadro, aponta defeitos com o segundo exato, diz quais cenas gerar de novo e guarda lições para os próximos vídeos. Use quando pedirem para revisar, criticar, conferir ou dar nota a um vídeo, ou perguntarem o que melhorar nele.
+description: Reviews an AI-generated video (Shorts, Reels, TikTok) frame by frame, points out each defect with the exact second, says which scenes to regenerate and keeps lessons for the next videos. Use when asked to review, critique, check or score a video, or what to improve in it (also in Portuguese - revisar, criticar, dar nota).
 ---
 
 # ÍRIS: revisão de vídeo gerado por IA
