@@ -13,7 +13,7 @@ inputs:
     required: false
     default: ""
   videos:
-    description: Space-separated list of videos to review. Default: the videos added or changed in the pull request.
+    description: "Space-separated list of videos to review. Default: the videos added or changed in the pull request."
     required: false
     default: ""
   language:
