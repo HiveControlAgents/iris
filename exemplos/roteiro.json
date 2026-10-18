@@ -1,0 +1,9 @@
+{
+  "titulo": "Como o olho acompanha uma bola de tênis",
+  "tema": "rastreamento suave do olho humano",
+  "estilo_visual": "photorealistic sports photography, natural light",
+  "cenas": [
+    {"narracao": "Uma bola de tênis pode passar dos duzentos por hora. Como o olho acompanha?", "prompt": "tennis ball on clay court, low angle", "dur_s": 4.1},
+    {"narracao": "Nossos olhos têm uma habilidade chamada rastreamento suave.", "prompt": "close-up of a hawk eye, sharp focus", "dur_s": 6.7}
+  ]
+}

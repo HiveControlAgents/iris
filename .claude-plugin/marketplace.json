@@ -1,0 +1,14 @@
+{
+  "name": "iris",
+  "description": "ÍRIS: revisora de vídeos gerados por IA para Claude Code.",
+  "owner": {
+    "name": "Isaque Moutta (HiveControlAgents)"
+  },
+  "plugins": [
+    {
+      "name": "iris",
+      "source": "./",
+      "description": "Revisora de vídeos gerados por IA: mede, assiste, manda refazer e aprende."
+    }
+  ]
+}

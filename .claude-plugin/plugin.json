@@ -1,0 +1,21 @@
+{
+  "name": "iris",
+  "version": "0.1.0",
+  "description": "ÍRIS: revisora de vídeos gerados por IA. Assiste quadro a quadro, aponta defeitos com o segundo exato, manda refazer só as cenas ruins e aprende com cada vídeo.",
+  "author": {
+    "name": "Isaque Moutta",
+    "url": "https://github.com/IsaqueMoutta"
+  },
+  "homepage": "https://github.com/HiveControlAgents/iris",
+  "repository": "https://github.com/HiveControlAgents/iris",
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "shorts",
+    "reels",
+    "ai-video",
+    "review",
+    "qa",
+    "ffmpeg"
+  ]
+}
