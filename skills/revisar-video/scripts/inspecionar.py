@@ -79,31 +79,53 @@ def _normalizar(palavra: str) -> str:
     return re.sub(r"[^a-z0-9]", "", p)
 
 
-def comparar_narracao(roteiro_txt: str, ouvido_txt: str) -> dict:
-    """Palavras do roteiro x o que foi ouvido: divergências costumam ser pronúncia errada ou palavra engolida."""
+PROB_MINIMA = 0.6      # palavra que o transcritor ouviu com menos certeza que isto entra em "duvidosas"
+PARECIDA = 0.8         # semelhança mínima entre duas palavras para a troca ser só "suspeita", não erro
+
+
+def comparar_narracao(roteiro_txt: str, ouvido_txt: str, duvidosas: list[str] | tuple = ()) -> dict:
+    """Palavras do roteiro x o que foi ouvido. O transcritor (Whisper) corrige sozinho muita pronúncia torta, então
+    uma taxa alta não prova que a voz falou certo. "erros": palavra inventada pela voz, engolida ou trocada;
+    "suspeitas": o que tanto pode ser jeito do transcritor quanto pronúncia torta: palavra parecida ("alisios"/
+    "aliseos"), palavras emendadas ("ar poderosas"/"arpoderosas") ou palavrinha de até 2 letras engolida ("viaja a
+    centenas" sem o "a", elisão natural); "duvidosas": palavras ouvidas com pouca certeza. Número em dígitos ("200"
+    por "duzentos") não conta."""
     a = [w for w in (_normalizar(p) for p in roteiro_txt.split()) if w]
     b = [w for w in (_normalizar(p) for p in ouvido_txt.split()) if w]
     sm = difflib.SequenceMatcher(a=a, b=b, autojunk=False)
-    divergencias = [{"roteiro": " ".join(a[i1:i2]), "ouvido": " ".join(b[j1:j2])}
-                    for op, i1, i2, j1, j2 in sm.get_opcodes() if op != "equal"]
-    # números escritos por extenso no roteiro e em dígitos na transcrição não são erro de pronúncia
-    divergencias = [d for d in divergencias if not re.search(r"\d", d["ouvido"])]
+    erros, suspeitas = [], []
+    for op, i1, i2, j1, j2 in sm.get_opcodes():
+        if op == "equal" or re.search(r"\d", " ".join(b[j1:j2])):
+            continue
+        item = {"roteiro": " ".join(a[i1:i2]), "ouvido": " ".join(b[j1:j2])}
+        emendado = i2 > i1 and j2 > j1 and difflib.SequenceMatcher(None, "".join(a[i1:i2]), "".join(b[j1:j2])).ratio() >= PARECIDA
+        engolida_curta = j2 == j1 and all(len(p) <= 2 for p in a[i1:i2])
+        if emendado or engolida_curta:
+            suspeitas.append(item)
+        else:
+            erros.append(item)
     return {"palavras_roteiro": len(a), "palavras_ouvidas": len(b), "taxa_acerto": round(sm.ratio(), 3),
-            "divergencias": divergencias[:30]}
+            "erros": erros[:30], "suspeitas": suspeitas[:30], "duvidosas": list(duvidosas)[:30],
+            "divergencias": (erros + suspeitas)[:30]}
 
 
-def transcrever(video: Path, idioma: str) -> str | None:
-    """Transcrição com o Whisper que estiver instalado; sem nenhum, a comparação de narração é pulada."""
+def transcrever(video: Path, idioma: str) -> tuple[str, list[str]] | None:
+    """Transcrição com o Whisper que estiver instalado: (texto, palavras ouvidas com pouca certeza). Sem nenhum
+    Whisper, devolve None e a comparação de narração é pulada."""
     try:
         from faster_whisper import WhisperModel
         modelo = WhisperModel("small", device="cpu", compute_type="int8")
-        segmentos, _ = modelo.transcribe(str(video), language=idioma)
-        return " ".join(s.text for s in segmentos)
+        segmentos = list(modelo.transcribe(str(video), language=idioma, word_timestamps=True)[0])
+        return (" ".join(s.text for s in segmentos),
+                [w.word.strip() for s in segmentos for w in (s.words or []) if w.probability < PROB_MINIMA])
     except ImportError:
         pass
     try:
         import whisper
-        return whisper.load_model("small", device="cpu").transcribe(str(video), language=idioma, fp16=False)["text"]
+        res = whisper.load_model("small", device="cpu").transcribe(str(video), language=idioma, fp16=False,
+                                                                    word_timestamps=True)
+        return (res["text"], [w["word"].strip() for s in res["segments"] for w in s.get("words", [])
+                              if w.get("probability", 1.0) < PROB_MINIMA])
     except ImportError:
         return None
 
@@ -209,7 +231,7 @@ def medir(video: Path, roteiro: dict | None, referencia_voz: Path | None, idioma
     roteiro_txt = " ".join(c.get("narracao", "") for c in (roteiro or {}).get("cenas", [])).strip()
     if roteiro_txt and info["tem_audio"]:
         ouvido = transcrever(video, idioma)
-        medidas["narracao"] = (comparar_narracao(roteiro_txt, ouvido) if ouvido is not None
+        medidas["narracao"] = (comparar_narracao(roteiro_txt, *ouvido) if ouvido is not None
                                else {"pulado": "instale faster-whisper ou openai-whisper para comparar a narração"})
     if referencia_voz and info["tem_audio"]:
         medidas["audio"]["identidade_voz"] = medir_voz(video, referencia_voz)

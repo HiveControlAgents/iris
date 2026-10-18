@@ -13,8 +13,14 @@ Valores de referência para Shorts/Reels verticais. Use as medidas de `medidas.j
 - `congelamentos`: imagem parada por 2 s ou mais. `telas_pretas`: quase sempre defeito.
 
 ## Narração
-- `narracao.divergencias`: roteiro x transcrição. Costuma ser pronúncia errada ou palavra engolida.
-- `narracao.taxa_acerto` abaixo de 0,9 merece atenção.
+- O transcritor (Whisper) corrige sozinho muita pronúncia torta: `narracao.taxa_acerto` alta NÃO prova que a voz
+  falou certo e nunca é ponto forte.
+- `narracao.erros` (palavra inventada, engolida ou trocada): problema de tipo `narracao`, gravidade alta. Com
+  qualquer erro, a nota fica no máximo 6. Cite a palavra e a cena.
+- `narracao.suspeitas` (palavra por outra parecida, ex. "alisios"/"aliseos") e `narracao.duvidosas` (ouvidas com
+  pouca certeza): gravidade media.
+- Palavra difícil que erra em vídeos seguidos (termo técnico, nome estrangeiro) é problema do pipeline: lição de alvo
+  `roteiro` pedindo uma palavra mais comum no lugar.
 - `audio.identidade_voz.confere = false`: a voz mudou em relação à referência.
 
 ## Ritmo

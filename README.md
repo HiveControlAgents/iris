@@ -50,7 +50,7 @@ Requisitos: [Claude Code](https://claude.com/claude-code), Python 3.10+, `ffmpeg
 /plugin install iris@iris
 ```
 
-Opcionais: `pip install faster-whisper` (compara a narração com o roteiro) e `pip install librosa` (confere se a
+Opcionais: `pip install faster-whisper` (compara a narração com o roteiro e lista as palavras inventadas, engolidas ou duvidosas) e `pip install librosa` (confere se a
 voz é a mesma da gravação de referência).
 
 ## Usar

@@ -52,7 +52,7 @@ Requirements: [Claude Code](https://claude.com/claude-code), Python 3.10+, `ffmp
 /plugin install iris@iris
 ```
 
-Optional: `pip install faster-whisper` (compares the narration with the script) and `pip install librosa` (checks
+Optional: `pip install faster-whisper` (compares the narration with the script and lists invented, swallowed or doubtful words) and `pip install librosa` (checks
 that the voice matches the reference recording).
 
 ## Use

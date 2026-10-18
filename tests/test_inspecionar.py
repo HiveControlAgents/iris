@@ -47,9 +47,20 @@ def test_cenas_pelos_cortes_sem_roteiro():
 
 def test_comparar_narracao_ignora_acentos_e_numeros():
     r = inspecionar.comparar_narracao("A bola passa de duzentos por hora", "a bola passa de 200 por hora")
-    assert r["divergencias"] == []
+    assert r["divergencias"] == [] and r["erros"] == []
     r = inspecionar.comparar_narracao("o olho acompanha", "o olho companha")
     assert r["divergencias"] == [{"roteiro": "acompanha", "ouvido": "companha"}]
+
+
+def test_comparar_narracao_separa_erro_de_suspeita():
+    r = inspecionar.comparar_narracao("o olho acompanha a bola", "o olho companha a bola")
+    assert r["suspeitas"] == [{"roteiro": "acompanha", "ouvido": "companha"}] and r["erros"] == []
+    r = inspecionar.comparar_narracao("o olho acompanha a bola", "o olho acompanha mancinhas a bola", duvidosas=["bola"])
+    assert r["erros"] == [{"roteiro": "", "ouvido": "mancinhas"}] and r["duvidosas"] == ["bola"]
+    assert inspecionar.comparar_narracao("ela contrai a pupila", "ela acasse a pupila")["erros"]   # palavra trocada
+    assert inspecionar.comparar_narracao("essas correntes empurram", "correntes empurram")["erros"]   # engolida
+    r = inspecionar.comparar_narracao("correntes de ar poderosas que a transportam", "correntes de arpoderosas que transportam")
+    assert r["erros"] == [] and [s["ouvido"] for s in r["suspeitas"]] == ["arpoderosas", ""]   # emenda e "a" engolido
 
 
 def test_main_gera_medidas_e_folhas(video, tmp_path):
