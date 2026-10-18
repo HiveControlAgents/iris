@@ -1,0 +1,182 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "O segredo dos passes de costas no futebol",
+ "tema": "Por que os jogadores de futebol profissional conseguem passar a bola com precisão sem olhar",
+ "estilo_visual": "award-winning photorealistic sports equipment photography, natural outdoor light, shallow depth of field, sharp focus on ball and grass",
+ "inspecionado_em": "2026-10-18T19:09:01",
+ "video": {
+  "duracao_s": 46.5,
+  "tamanho_mb": 25.2,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -14.0,
+  "pico_dbfs": -1.5,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 5.43,
+   "dur_s": 5.43,
+   "brilho_ini": 108.1,
+   "brilho_fim": 99.2,
+   "saturacao_ini": 19.7,
+   "saturacao_fim": 21.6,
+   "cortes_internos_s": [],
+   "narracao": "Como o jogador consegue passar a bola com precisão sem olhar para o companheiro?",
+   "palavras_por_s": 2.58,
+   "quadro": "classic black and white pentagon soccer ball resting on short grass in stadium, late afternoon sunlight, blurred green background",
+   "movimento": "gentle slow push-in on ball surface, grass remains still"
+  },
+  {
+   "n": 2,
+   "inicio_s": 5.43,
+   "fim_s": 11.2,
+   "dur_s": 5.77,
+   "brilho_ini": 120.8,
+   "brilho_fim": 114.8,
+   "saturacao_ini": 9.4,
+   "saturacao_fim": 11.6,
+   "cortes_internos_s": [],
+   "narracao": "A visão periférica funciona como um mapa vivo ao redor do corpo do atleta.",
+   "palavras_por_s": 2.43,
+   "quadro": "classic black and white pentagon soccer ball on grass, subtle light reflection on panel surface, soft focus stadium backdrop",
+   "movimento": "slow lateral pan across ball, light catches pentagon texture"
+  },
+  {
+   "n": 3,
+   "inicio_s": 11.2,
+   "fim_s": 20.47,
+   "dur_s": 9.27,
+   "brilho_ini": 105.6,
+   "brilho_fim": 91.2,
+   "saturacao_ini": 19.0,
+   "saturacao_fim": 17.5,
+   "cortes_internos_s": [],
+   "narracao": "Enquanto o jogador olha para a frente, seu olho periférico rastreia cada movimento dos companheiros em tempo real.",
+   "palavras_por_s": 1.94,
+   "quadro": "classic black and white pentagon soccer ball positioned on vibrant grass, multiple balls blurred in background extreme distance",
+   "movimento": "slow zoom into ball, background remains soft and still"
+  },
+  {
+   "n": 4,
+   "inicio_s": 20.47,
+   "fim_s": 31.33,
+   "dur_s": 10.86,
+   "brilho_ini": 87.0,
+   "brilho_fim": 74.2,
+   "saturacao_ini": 14.4,
+   "saturacao_fim": 14.1,
+   "cortes_internos_s": [],
+   "narracao": "O cérebro constrói um modelo mental do espaço, calculando ângulo, velocidade e posição do receptor em milissegundos.",
+   "palavras_por_s": 1.57,
+   "quadro": "classic black and white pentagon soccer ball on grass surface, geometric shadows from stadium structure visible but soft",
+   "movimento": "gentle push-in toward ball center, shadows remain constant"
+  },
+  {
+   "n": 5,
+   "inicio_s": 31.33,
+   "fim_s": 39.23,
+   "dur_s": 7.9,
+   "brilho_ini": 105.1,
+   "brilho_fim": 92.8,
+   "saturacao_ini": 24.3,
+   "saturacao_fim": 27.1,
+   "cortes_internos_s": [],
+   "narracao": "Treinamento intenso transforma esse cálculo em ação automática, quase instintiva do corpo.",
+   "palavras_por_s": 1.52,
+   "quadro": "classic black and white pentagon soccer ball resting on grass, golden hour light angle creating long soft shadow",
+   "movimento": "slow pan left revealing ball shadow, ball and shadow remain perfectly still"
+  },
+  {
+   "n": 6,
+   "inicio_s": 39.23,
+   "fim_s": 46.5,
+   "dur_s": 7.27,
+   "brilho_ini": 113.7,
+   "brilho_fim": 97.3,
+   "saturacao_ini": 19.7,
+   "saturacao_fim": 21.5,
+   "cortes_internos_s": [],
+   "narracao": "Por isso o atleta executa o passe precisamente, mesmo quando seu olho foca em outro lugar do campo.",
+   "palavras_por_s": 2.48,
+   "quadro": "classic black and white pentagon soccer ball nestled in grass texture, shallow depth of field, warm natural light",
+   "movimento": "soft push-in on ball with grass detail, no movement in subject itself"
+  }
+ ],
+ "cortes_bruscos_s": [
+  5.43,
+  11.2,
+  20.47,
+  31.33,
+  39.23
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 93,
+  "palavras_ouvidas": 93,
+  "taxa_acerto": 0.978,
+  "erros": [
+   {
+    "roteiro": "",
+    "ouvido": "o"
+   }
+  ],
+  "suspeitas": [
+   {
+    "roteiro": "a",
+    "ouvido": ""
+   },
+   {
+    "roteiro": "milissegundos",
+    "ouvido": "milisegundos"
+   }
+  ],
+  "duvidosas": [
+   "como",
+   "o",
+   "o"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "",
+    "ouvido": "o"
+   },
+   {
+    "roteiro": "a",
+    "ouvido": ""
+   },
+   {
+    "roteiro": "milissegundos",
+    "ouvido": "milisegundos"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg"
+ ]
+}
