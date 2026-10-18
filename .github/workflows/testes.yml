@@ -24,3 +24,17 @@ jobs:
         run: brew install ffmpeg
       - run: pip install Pillow pytest
       - run: pytest -q tests
+      - run: pip install . && iris --help
+
+  action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: FedericoCarboni/setup-ffmpeg@v3
+      - run: >-
+          ffmpeg -hide_banner -loglevel error -f lavfi -i testsrc2=size=360x640:rate=30:duration=4
+          -f lavfi -i sine=frequency=440:duration=4 -shortest sintetico.mp4
+      - uses: ./
+        with:
+          videos: sintetico.mp4
+          comment: "false"

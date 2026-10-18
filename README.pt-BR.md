@@ -50,6 +50,24 @@ Requisitos: [Claude Code](https://claude.com/claude-code), Python 3.10+, `ffmpeg
 /plugin install iris@iris
 ```
 
+### Um comando, fora do Claude Code
+
+```
+pipx install git+https://github.com/HiveControlAgents/iris
+iris meu_video.mp4                     # ou: python -m iris meu_video.mp4, de dentro de um clone
+iris meu_video.mp4 --roteiro roteiro.json --resumo resumo.md
+```
+
+Roda o inspetor e, se o Claude Code estiver no PATH, a revisão completa (`claude -p`, com o login do seu Claude Code).
+Sem o Claude Code, ficam as medidas e as folhas de contato. `--sem-revisao` pula a revisão.
+
+### GitHub Action: revisar todo vídeo que entra num pull request
+
+Copie [exemplos/iris-no-pr.yml](exemplos/iris-no-pr.yml) para `.github/workflows/iris.yml`. A action acha os vídeos
+adicionados ou alterados no PR, roda a ÍRIS e posta o resumo como comentário. Com o segredo `ANTHROPIC_API_KEY`, o
+comentário traz a revisão completa (nota, defeitos com o segundo exato, cenas a refazer); sem ele, só as medidas
+automáticas (congelamentos, telas pretas, volume, cortes).
+
 Opcionais: `pip install faster-whisper` (compara a narração com o roteiro e lista as palavras inventadas, engolidas ou duvidosas) e `pip install librosa` (confere se a
 voz é a mesma da gravação de referência).
 
