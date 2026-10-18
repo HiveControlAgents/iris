@@ -20,6 +20,7 @@ python "<pasta desta skill>/scripts/inspecionar.py" caminho/do/video.mp4 [--rote
   roteiro e a narração é comparada com o que foi dito (precisa de faster-whisper ou openai-whisper). Sem ele, as cenas
   vêm dos cortes bruscos. Veja `exemplos/roteiro.json` na raiz do plugin.
 - `--referencia-voz`: gravação da voz aprovada. Confere se a narração ainda é a mesma voz (precisa de librosa).
+- `--max-refazer N`: quantas cenas a revisão pode mandar refazer (padrão 3). Se o usuário pedir outro limite, passe aqui.
 - Saída em `.iris/<nome-do-video>/`: `medidas.json` e `folha_N.jpg`.
 - Se faltar ffmpeg ou Pillow, diga ao usuário o que instalar e pare.
 
@@ -54,7 +55,7 @@ Grave em `.iris/<nome-do-video>/`:
   ```
 - `revisao.md`: a mesma revisão em texto curto para humanos, com a nota no topo e a lista de cenas a refazer.
 
-Regras do `refazer`: no máximo 3 cenas, e só defeitos de sorteio que estragam o vídeo (objeto que some, duplica ou
+Regras do `refazer`: no máximo `max_refazer` cenas (está em `medidas.json`; padrão 3), e só defeitos de sorteio que estragam o vídeo (objeto que some, duplica ou
 deforma; pessoa, mão ou texto proibido pelas regras; salto brusco; imagem sem relação com a narração). Defeito leve,
 de gosto ou de pipeline não entra. Se a pasta tiver `rodada: 2` (o usuário diz que é a versão refeita), `refazer`
 fica vazio e a revisão diz se as cenas refeitas melhoraram.

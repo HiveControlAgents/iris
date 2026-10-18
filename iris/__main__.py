@@ -71,6 +71,11 @@ def resumo(pasta: Path) -> str:
     alertas = [f"congelada {_tempo(c['inicio_s'])} ({c['dur_s']} s)" for c in m["congelamentos"]]
     alertas += [f"tela preta {_tempo(p['inicio_s'])}" for p in m["telas_pretas"]]
     alertas += [f"narração: '{e['roteiro']}' virou '{e['ouvido']}'" for e in (m.get("narracao") or {}).get("erros", [])]
+    if (a.get("picos_cortados") or {}).get("trechos"):
+        alertas.append(f"áudio estourado em {', '.join(_tempo(s) for s in a['picos_cortados']['segundos'][:5])}")
+    alertas += [f"silêncio {_tempo(s['inicio_s'])} ({s['dur_s']} s)" for s in a.get("silencios", [])]
+    alertas += [f"salto de volume {_tempo(s['segundo'])}" for s in a.get("saltos_volume", [])]
+    alertas += [f"música abafando a voz {_tempo(s['inicio_s'])}-{_tempo(s['fim_s'])}" for s in a.get("voz_abafada", [])]
     if alertas:
         linhas += ["", "Medidas: " + "; ".join(alertas)]
     if r and r.get("problemas"):
@@ -90,6 +95,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--roteiro", type=Path, help="JSON com 'cenas' (só com um vídeo)")
     ap.add_argument("--referencia-voz", type=Path, help="gravação da voz aprovada (librosa)")
     ap.add_argument("--idioma", default="pt", help="idioma da narração para o Whisper (padrão: pt)")
+    ap.add_argument("--max-refazer", type=int, default=3, help="máximo de cenas a refazer (padrão: 3)")
     ap.add_argument("--sem-revisao", action="store_true", help="só a inspeção, sem chamar o Claude Code")
     ap.add_argument("--revisao-em", help="língua da revisão, por exemplo en (padrão: a da skill, português)")
     ap.add_argument("--resumo", type=Path, help="grava um resumo em Markdown de todos os vídeos")
@@ -102,7 +108,8 @@ def main(argv: list[str] | None = None) -> int:
         pasta = Path(".iris") / video.stem
         extra = (["--roteiro", str(a.roteiro)] if a.roteiro else []) + \
                 (["--referencia-voz", str(a.referencia_voz)] if a.referencia_voz else [])
-        if inspecionar.main([str(video), "--saida", str(pasta), "--idioma", a.idioma, *extra]) != 0:
+        if inspecionar.main([str(video), "--saida", str(pasta), "--idioma", a.idioma,
+                            "--max-refazer", str(a.max_refazer), *extra]) != 0:
             codigo = 2
             partes.append(f"### {video.name}\n\nNão deu para inspecionar este vídeo.\n")
             continue

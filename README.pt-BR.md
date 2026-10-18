@@ -90,10 +90,24 @@ Ou só peça: "revisa esse vídeo". A revisão sai em `.iris/<nome-do-video>/rev
 
 1. `inspecionar.py` mede com ffmpeg: duração, resolução, loudness (LUFS) e pico, cortes bruscos, congelamentos,
    telas pretas, brilho e saturação por cena. Com roteiro, compara o texto com o que foi dito.
+   Também analisa o próprio áudio, além da transcrição: picos estourados, buracos de silêncio, saltos de volume e
+   trechos em que a música abafa a voz.
 2. Monta **folhas de contato**: 2 quadros por segundo, 6 por linha, com o tempo em amarelo no canto. É assim que o
    Claude enxerga um objeto sumindo entre dois quadros vizinhos.
 3. O Claude lê medidas, folhas, regras do canal e histórico, e escreve a revisão seguindo [critérios](skills/revisar-video/criterios.md).
 4. O histórico é atualizado. No vídeo seguinte, padrões repetidos viram correção de pipeline em vez de azar.
+
+## Revisar e refazer
+
+`--max-refazer N` define quantas cenas uma revisão pode mandar refazer (padrão 3). O adaptador ComfyUI incluído
+(local, de graça) gera de novo só essas cenas a partir do seu workflow:
+
+```
+python -m iris.comfyui .iris/meu_video/revisao.json --roteiro roteiro.json --workflow meu_workflow_api.json
+```
+
+Kling e outras APIs pagas entram pela mesma interface (documentada, não incluída). Veja
+[docs/adaptadores.md](docs/adaptadores.md).
 
 ## E o que já existe?
 

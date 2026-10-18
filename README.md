@@ -103,11 +103,25 @@ ask Claude, for example: "review this video and write the review in English".
 
 1. `inspecionar.py` measures with ffmpeg: length, resolution, loudness (LUFS) and peak, abrupt cuts, freezes, black
    screens, and brightness and saturation per scene. With a script, it compares the text with what was said.
+   It also analyzes the audio itself, beyond the transcript: clipping, silence gaps, loudness jumps and stretches
+   where the music drowns the voice.
 2. It builds **contact sheets**: 2 frames per second, 6 per row, with the timestamp in yellow in the corner. This is
    how Claude sees an object vanishing between two neighboring frames.
 3. Claude reads the measurements, the sheets, the channel rules and the history, and writes the review following the
    [criteria](skills/revisar-video/criterios.md).
 4. The history is updated. On the next video, repeated patterns become a pipeline fix instead of bad luck.
+
+## Review and re-render
+
+`--max-refazer N` sets how many scenes a review may ask to redo (default 3). The included ComfyUI adapter (local,
+free) regenerates only those scenes from your own workflow:
+
+```
+python -m iris.comfyui .iris/my_video/revisao.json --roteiro script.json --workflow my_workflow_api.json
+```
+
+Kling and other paid APIs plug in through the same interface (documented, not included). See
+[docs/adaptadores.md](docs/adaptadores.md).
 
 ## What about existing tools?
 
