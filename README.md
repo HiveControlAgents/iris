@@ -11,6 +11,22 @@ pipeline (Wan, Veo, Kling, Runway, CapCut, edição manual, tanto faz).
 gerar  ->  inspecionar  ->  revisar  ->  refazer só as cenas ruins  ->  aprender
 ```
 
+## Antes e depois
+
+O mesmo Short de curiosidade, antes e depois de passar pela ÍRIS:
+
+![O mesmo Short antes e depois da ÍRIS](demo/antes-depois.png)
+
+| | Antes (v3) | Depois (v4) |
+|---|---|---|
+| Nota | 5,5 | 7,5 |
+| Duração | 54 s | 42 s |
+| Objeto surgindo ou sumindo | bola aparece no ar e some (0:47) | nenhum |
+| Final | frase truncada | fecha a ideia do gancho |
+
+Revisões completas: [v3](demo/tenis-v3/revisao.md) e [v4](demo/tenis-v4/revisao.md). A ÍRIS também apontou o que
+ainda falta no v4 (áudio 2 dB baixo, legenda semitransparente que se repete), porque revisar não é só elogiar.
+
 ## O que ela entrega
 
 - **Nota** de 0 a 10 e um resumo de uma frase.
