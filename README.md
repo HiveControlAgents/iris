@@ -1,5 +1,7 @@
 # ÍRIS: a revisora de vídeos gerados por IA
 
+*[Read in English](README.en.md)*
+
 Ferramentas de vídeo com IA geram. A ÍRIS **revisa**: assiste o vídeo quadro a quadro, aponta cada defeito com o
 segundo exato, manda gerar de novo só as cenas ruins e guarda o que aprendeu para o próximo vídeo sair melhor.
 
@@ -101,14 +103,5 @@ MIT. Copyright (c) 2026 Isaque Moutta. Veja [LICENSE](LICENSE).
 
 ## English
 
-**ÍRIS** is a Claude Code plugin that reviews AI-generated short videos frame by frame. It measures the video with
-ffmpeg, builds timestamped contact sheets, and has Claude point out every defect with the exact second, tell apart
-one-off generation noise from pipeline bugs, list which scenes to regenerate (max 3), and keep a growing list of
-lessons in `.iris/historico.json`. No API key needed: it runs inside your Claude Code session.
-
-Install: `/plugin marketplace add HiveControlAgents/iris` then `/plugin install iris@iris`. Use: `/iris video.mp4`.
-Output and prompts are in Brazilian Portuguese for now; ask Claude to answer in your language.
-
-Created by **Isaque Moutta** ([@IsaqueMoutta](https://github.com/IsaqueMoutta)). If ÍRIS helps your videos, please
-credit "Reviewed by ÍRIS, by Isaque Moutta" with a link to this repository. MIT license: keep the copyright notice
-in any copy or fork.
+The full English version of this page is in [README.en.md](README.en.md): what ÍRIS does, the before and after
+demo, how to install and use it, how it works and how to credit it.
