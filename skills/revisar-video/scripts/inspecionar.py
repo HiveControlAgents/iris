@@ -241,11 +241,12 @@ def folhas_de_contato(video: Path, total: float, saida: Path) -> list[Path]:
         por_folha = COLUNAS * linhas
         for k in range(math.ceil(len(quadros) / por_folha) if quadros else 0):
             lote = quadros[k * por_folha:(k + 1) * por_folha]
-            primeira = Image.open(lote[0])
-            w, h, pad = primeira.width, primeira.height, 4
+            with Image.open(lote[0]) as primeira:          # fechar já: no Windows arquivo aberto trava a limpeza do tmp
+                (w, h), pad = primeira.size, 4
             folha = Image.new("RGB", (COLUNAS * (w + pad) + pad, linhas * (h + pad) + pad), "black")
             for i, arq in enumerate(lote):
-                q = Image.open(arq).convert("RGB")
+                with Image.open(arq) as im:
+                    q = im.convert("RGB")
                 d = ImageDraw.Draw(q)
                 t = (k * por_folha + i) / QPS          # o filtro fps=2 começa no quadro de t=0
                 texto = f"{int(t // 60)}:{t % 60:04.1f}"
