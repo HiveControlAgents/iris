@@ -35,7 +35,8 @@ python "<pasta desta skill>/scripts/inspecionar.py" caminho/do/video.mp4 [--rote
 
 ## 3. Analisar
 
-Use o checklist de [criterios.md](criterios.md). Para cada problema, anote: segundo exato, cena, o que se vê, causa
+Use o checklist de [criterios.md](criterios.md). Se o vídeo foi gravado pelo usuário (rosto, tela, voz própria) e
+não gerado por IA, use também [reels.md](reels.md). Para cada problema, anote: segundo exato, cena, o que se vê, causa
 provável e se é **sorteio** (aconteceu uma vez, outra semente resolve) ou **pipeline** (sistemático, ou já apareceu
 em vídeos do histórico). Nunca descreva este vídeo com base no histórico: o histórico só serve para reconhecer padrões.
 
