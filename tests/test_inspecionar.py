@@ -123,3 +123,8 @@ def test_audio_acha_voz_abafada_pela_musica(tmp_path):
                                                 "[v][m]amix=inputs=2:normalize=0")
     trechos = inspecionar.voz_abafada(misturado)
     assert trechos and trechos[0]["inicio_s"] == 0 and trechos[-1]["fim_s"] == 8
+
+
+def test_video_longo_tem_folhas_mais_espacadas():
+    assert inspecionar.ritmo_folha(55) == (2, 12)
+    assert inspecionar.ritmo_folha(600) == (0.2, 120)    # 10 min = 5 folhas, não 50

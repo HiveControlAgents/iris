@@ -30,6 +30,13 @@ import unicodedata
 from pathlib import Path
 
 QPS, COLUNAS, SEG_POR_FOLHA, LARGURA_QUADRO = 2, 6, 12, 250   # 6x4 quadros = 12 s por imagem
+# vídeo longo (mais de LONGO_S): 1 quadro a cada 5 s e 2 min por folha; a 2 qps um vídeo de 10 min daria 50 folhas
+QPS_LONGO, SEG_POR_FOLHA_LONGO, LONGO_S = 0.2, 120, 180
+
+
+def ritmo_folha(total: float) -> tuple[float, int]:
+    """(quadros por segundo, segundos por folha) para a duração do vídeo."""
+    return (QPS, SEG_POR_FOLHA) if total <= LONGO_S else (QPS_LONGO, SEG_POR_FOLHA_LONGO)
 LIMIAR_CORTE = 0.3
 SILENCIO_DB, SILENCIO_S = -45, 0.7    # buraco de silêncio: abaixo de -45 dBFS por 0,7 s ou mais
 SALTO_LU = 6                          # salto de volume: loudness de curto prazo (3 s) muda 6 LU ou mais em 1 s
@@ -323,7 +330,8 @@ def medir(video: Path, roteiro: dict | None, referencia_voz: Path | None, idioma
         "congelamentos": congelados,
         "telas_pretas": [{"inicio_s": float(a), "fim_s": float(b)} for a, b in pretas],
         "max_refazer": max_refazer,
-        "folha": {"quadros_por_segundo": QPS, "colunas": COLUNAS, "segundos_por_imagem": SEG_POR_FOLHA},
+        "folha": dict(zip(("quadros_por_segundo", "segundos_por_imagem"), ritmo_folha(info["duracao_s"])),
+                      colunas=COLUNAS),
     }
     if info["tem_audio"]:
         com_fala = [c for c in cenas if c.get("narracao")]
@@ -353,12 +361,14 @@ def _fonte(tamanho: int):
 
 
 def folhas_de_contato(video: Path, total: float, saida: Path) -> list[Path]:
-    """2 quadros por segundo, grandes o bastante para ver objetos sumindo, com o tempo exato no canto."""
+    """2 quadros por segundo (1 a cada 5 s em vídeo longo), grandes o bastante para ver objetos sumindo, com o
+    tempo exato no canto."""
     from PIL import Image, ImageDraw
-    linhas = round(SEG_POR_FOLHA * QPS / COLUNAS)
+    qps, seg = ritmo_folha(total)
+    linhas = round(seg * qps / COLUNAS)
     fonte, folhas = _fonte(22), []
     with tempfile.TemporaryDirectory() as tmp:
-        _ffmpeg(["-y", "-i", str(video), "-vf", f"fps={QPS},scale={LARGURA_QUADRO}:-2", "-q:v", "4",
+        _ffmpeg(["-y", "-i", str(video), "-vf", f"fps={qps},scale={LARGURA_QUADRO}:-2", "-q:v", "4",
                  str(Path(tmp) / "q_%05d.jpg")])
         quadros = sorted(Path(tmp).glob("q_*.jpg"))
         por_folha = COLUNAS * linhas
@@ -371,7 +381,7 @@ def folhas_de_contato(video: Path, total: float, saida: Path) -> list[Path]:
                 with Image.open(arq) as im:
                     q = im.convert("RGB")
                 d = ImageDraw.Draw(q)
-                t = (k * por_folha + i) / QPS          # o filtro fps=2 começa no quadro de t=0
+                t = (k * por_folha + i) / qps          # o filtro fps começa no quadro de t=0
                 texto = f"{int(t // 60)}:{t % 60:04.1f}"
                 caixa = d.textbbox((8, 8), texto, font=fonte)
                 d.rectangle((caixa[0] - 4, caixa[1] - 4, caixa[2] + 4, caixa[3] + 4), fill=(0, 0, 0))
