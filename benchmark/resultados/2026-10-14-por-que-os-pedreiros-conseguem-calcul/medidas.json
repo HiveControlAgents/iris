@@ -1,0 +1,231 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "A ciência por trás da precisão do pedreiro",
+ "tema": "Por que os pedreiros conseguem calcular distâncias e dimensões com tanta precisão?",
+ "estilo_visual": "Award-winning photorealistic documentary photography, natural sunlight, shallow depth of field, sharp focus on tools and materials, warm color grading",
+ "inspecionado_em": "2026-10-19T02:07:35",
+ "video": {
+  "duracao_s": 66.9,
+  "tamanho_mb": 40.1,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -14.4,
+  "pico_dbfs": -1.8,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 8.0,
+   "dur_s": 8.0,
+   "brilho_ini": 100.3,
+   "brilho_fim": 86.9,
+   "saturacao_ini": 14.0,
+   "saturacao_fim": 16.3,
+   "cortes_internos_s": [],
+   "narracao": "O pedreiro consegue medir uma parede apenas observando. Nenhuma trena, apenas os olhos e o tato.",
+   "palavras_por_s": 2.0,
+   "quadro": "Weathered stone wall at close range, centered, with builder's level tool placed against surface, soft morning light, blurred background",
+   "movimento": "Slow push-in toward the stone texture, subtle zoom, no pan"
+  },
+  {
+   "n": 2,
+   "inicio_s": 8.0,
+   "fim_s": 17.53,
+   "dur_s": 9.53,
+   "brilho_ini": 94.4,
+   "brilho_fim": 91.6,
+   "saturacao_ini": 8.3,
+   "saturacao_fim": 14.2,
+   "cortes_internos_s": [],
+   "narracao": "Essa habilidade nasce de uma estrutura no cérebro chamada córtex parietal. Ela processa informações de distância e profundidade.",
+   "palavras_por_s": 1.89,
+   "quadro": "Smooth river stone with rippling water droplets on surface, close medium shot, natural bokeh, warm light from side",
+   "movimento": "Gentle ripples spreading across water surface, minimal camera movement"
+  },
+  {
+   "n": 3,
+   "inicio_s": 17.53,
+   "fim_s": 25.83,
+   "dur_s": 8.3,
+   "brilho_ini": 84.7,
+   "brilho_fim": 76.2,
+   "saturacao_ini": 18.0,
+   "saturacao_fim": 17.0,
+   "cortes_internos_s": [],
+   "narracao": "Anos de trabalho reforçam conexões neurais. O cérebro constrói mapas internos de espaço e proporção.",
+   "palavras_por_s": 1.81,
+   "quadro": "Worn brick surface with mortar lines, macro-medium shot, showing texture and shadows, natural overcast light",
+   "movimento": "Very slow push-in revealing mortar grain detail, no lateral movement"
+  },
+  {
+   "n": 4,
+   "inicio_s": 25.83,
+   "fim_s": 33.13,
+   "dur_s": 7.3,
+   "brilho_ini": 83.1,
+   "brilho_fim": 76.1,
+   "saturacao_ini": 12.1,
+   "saturacao_fim": 15.3,
+   "cortes_internos_s": [],
+   "narracao": "Os olhos também treinam. Captam perspectiva linear: como as linhas convergem no horizonte.",
+   "palavras_por_s": 1.78,
+   "quadro": "Receding fence posts or building edge showing converging lines, eye level, one simple line of sight, golden hour light, shallow focus",
+   "movimento": "Gentle slow push forward along the line of perspective, camera height fixed"
+  },
+  {
+   "n": 5,
+   "inicio_s": 33.13,
+   "fim_s": 41.83,
+   "dur_s": 8.7,
+   "brilho_ini": 113.8,
+   "brilho_fim": 118.3,
+   "saturacao_ini": 9.3,
+   "saturacao_fim": 11.6,
+   "cortes_internos_s": [],
+   "narracao": "O tato oferece informações que os olhos não veem. Mãos identificam rugosidade, inclinação e irregularidades.",
+   "palavras_por_s": 1.72,
+   "quadro": "Rough concrete block surface in sunlight, close-up but not extreme macro, dust particles visible, warm natural light",
+   "movimento": "Soft light shift as sun clouds slightly, texture shadows remain stable"
+  },
+  {
+   "n": 6,
+   "inicio_s": 41.83,
+   "fim_s": 50.63,
+   "dur_s": 8.8,
+   "brilho_ini": 117.0,
+   "brilho_fim": 94.1,
+   "saturacao_ini": 2.3,
+   "saturacao_fim": 5.3,
+   "cortes_internos_s": [],
+   "narracao": "O cerebelo coordena movimento, equilíbrio e estimativa de força. Controla como aplica pressão e ajusta posição.",
+   "palavras_por_s": 1.82,
+   "quadro": "Level tool resting on stone surface, small frame, showing bubble at center, soft diffused light, minimal shadows",
+   "movimento": "Very slow push-in on the bubble, camera stable, no tilting"
+  },
+  {
+   "n": 7,
+   "inicio_s": 50.63,
+   "fim_s": 58.7,
+   "dur_s": 8.07,
+   "brilho_ini": 100.1,
+   "brilho_fim": 87.8,
+   "saturacao_ini": 7.7,
+   "saturacao_fim": 11.0,
+   "cortes_internos_s": [],
+   "narracao": "Repetição literal reprograma o sistema nervoso. Milhares de gestos criam padrões automáticos e precisos.",
+   "palavras_por_s": 1.73,
+   "quadro": "Stacked bricks or stone blocks showing perfect alignment, close-medium frame, strong geometric lines, afternoon light creating shadows",
+   "movimento": "Slow pan across aligned blocks left to right, very subtle, depth of field constant"
+  },
+  {
+   "n": 8,
+   "inicio_s": 58.7,
+   "fim_s": 66.9,
+   "dur_s": 8.2,
+   "brilho_ini": 129.1,
+   "brilho_fim": 113.3,
+   "saturacao_ini": 8.1,
+   "saturacao_fim": 8.8,
+   "cortes_internos_s": [],
+   "narracao": "Por isso o pedreiro experiente mede com os olhos. Seu corpo inteiro virou um instrumento de precisão.",
+   "palavras_por_s": 2.07,
+   "quadro": "Builder's trowel or flat hand positioned above finished stone surface, shallow depth, natural light, blurred architectural background",
+   "movimento": "Gentle shadow shift as clouds drift, object remains steady, no motion"
+  }
+ ],
+ "cortes_bruscos_s": [
+  8.0,
+  17.53,
+  25.83,
+  33.13,
+  41.83,
+  50.63,
+  58.7
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 124,
+  "palavras_ouvidas": 125,
+  "taxa_acerto": 0.948,
+  "erros": [],
+  "suspeitas": [
+   {
+    "roteiro": "parede",
+    "ouvido": "pareda"
+   },
+   {
+    "roteiro": "cortex parietal",
+    "ouvido": "cortexpareetal"
+   },
+   {
+    "roteiro": "captam",
+    "ouvido": "capta uma"
+   },
+   {
+    "roteiro": "cerebelo",
+    "ouvido": "cerebro"
+   },
+   {
+    "roteiro": "ajusta",
+    "ouvido": "ajuste a"
+   }
+  ],
+  "duvidosas": [
+   "cortexpareetal.",
+   "tato",
+   "o"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "parede",
+    "ouvido": "pareda"
+   },
+   {
+    "roteiro": "cortex parietal",
+    "ouvido": "cortexpareetal"
+   },
+   {
+    "roteiro": "captam",
+    "ouvido": "capta uma"
+   },
+   {
+    "roteiro": "cerebelo",
+    "ouvido": "cerebro"
+   },
+   {
+    "roteiro": "ajusta",
+    "ouvido": "ajuste a"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg",
+  "folha_5.jpg",
+  "folha_6.jpg"
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "Como o futebolista chuta sem olhar e acerta",
+ "tema": "Por que os jogadores de futebol conseguem chutar a bola com tanta precisão mesmo sem olhar",
+ "estilo_visual": "award-winning photorealistic sports equipment photography, natural stadium light, shallow depth of field, sharp focus on ball and grass",
+ "inspecionado_em": "2026-10-19T02:13:06",
+ "video": {
+  "duracao_s": 49.9,
+  "tamanho_mb": 29.4,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -14.0,
+  "pico_dbfs": -1.7,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 7.87,
+   "dur_s": 7.87,
+   "brilho_ini": 92.4,
+   "brilho_fim": 88.6,
+   "saturacao_ini": 13.5,
+   "saturacao_fim": 13.5,
+   "cortes_internos_s": [],
+   "narracao": "Um centroavante chuta sem olhar para a bola e ela entra no ângulo. Como isso funciona?",
+   "palavras_por_s": 2.03,
+   "quadro": "A white leather soccer ball resting on vibrant green grass field, close-up angle showing ball texture and grass detail",
+   "movimento": "slow push-in toward ball"
+  },
+  {
+   "n": 2,
+   "inicio_s": 7.87,
+   "fim_s": 16.23,
+   "dur_s": 8.36,
+   "brilho_ini": 102.6,
+   "brilho_fim": 87.8,
+   "saturacao_ini": 19.0,
+   "saturacao_fim": 17.3,
+   "cortes_internos_s": [],
+   "narracao": "O jogador memorizou onde a bola está através da visão periférica, a região fora do centro do olho.",
+   "palavras_por_s": 2.15,
+   "quadro": "Soccer ball on grass with blurred green field surroundings, ball in sharp focus center-frame",
+   "movimento": "gentle focus shift keeping ball steady"
+  },
+  {
+   "n": 3,
+   "inicio_s": 16.23,
+   "fim_s": 24.07,
+   "dur_s": 7.84,
+   "brilho_ini": 104.0,
+   "brilho_fim": 90.7,
+   "saturacao_ini": 14.0,
+   "saturacao_fim": 14.0,
+   "cortes_internos_s": [],
+   "narracao": "Enquanto foca no defensor que vem à frente, seu cérebro nunca perde a localização exata do alvo.",
+   "palavras_por_s": 2.17,
+   "quadro": "Soccer ball and goal net in background, both in same frame with natural perspective, grass foreground",
+   "movimento": "slow pan left to show goal net relationship"
+  },
+  {
+   "n": 4,
+   "inicio_s": 24.07,
+   "fim_s": 33.43,
+   "dur_s": 9.36,
+   "brilho_ini": 86.3,
+   "brilho_fim": 65.8,
+   "saturacao_ini": 13.8,
+   "saturacao_fim": 10.8,
+   "cortes_internos_s": [],
+   "narracao": "A propriocepção, sensibilidade do corpo no espaço, orienta os músculos da perna no ângulo perfeito.",
+   "palavras_por_s": 1.6,
+   "quadro": "Soccer ball positioned on grass with directional line perspective toward distant goal, natural lighting",
+   "movimento": "slow push-in toward ball maintaining angle"
+  },
+  {
+   "n": 5,
+   "inicio_s": 33.43,
+   "fim_s": 41.63,
+   "dur_s": 8.2,
+   "brilho_ini": 72.1,
+   "brilho_fim": 53.5,
+   "saturacao_ini": 18.2,
+   "saturacao_fim": 12.4,
+   "cortes_internos_s": [],
+   "narracao": "Milhares de treinos gravaram esse movimento no sistema nervoso do atleta de forma automática.",
+   "palavras_por_s": 1.71,
+   "quadro": "Soccer ball on grass showing multiple impact points worn into field, suggesting repeated action",
+   "movimento": "gentle pan right along worn grass path"
+  },
+  {
+   "n": 6,
+   "inicio_s": 41.63,
+   "fim_s": 49.9,
+   "dur_s": 8.27,
+   "brilho_ini": 119.1,
+   "brilho_fim": 110.0,
+   "saturacao_ini": 18.7,
+   "saturacao_fim": 19.7,
+   "cortes_internos_s": [],
+   "narracao": "Por isso o passes saem precisos sem o jogador precisar confirmar visualmente cada detalhe do chute.",
+   "palavras_por_s": 1.93,
+   "quadro": "Soccer ball entering net with grass and net visible, ball trajectory frozen mid-path",
+   "movimento": "slow push-in toward ball in net"
+  }
+ ],
+ "cortes_bruscos_s": [
+  7.87,
+  16.23,
+  24.07,
+  33.43,
+  41.63
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 96,
+  "palavras_ouvidas": 99,
+  "taxa_acerto": 0.954,
+  "erros": [],
+  "suspeitas": [
+   {
+    "roteiro": "propriocepcao",
+    "ouvido": "propria acepcao e"
+   },
+   {
+    "roteiro": "passes saem",
+    "ouvido": "passe sai em"
+   }
+  ],
+  "duvidosas": [
+   "É,"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "propriocepcao",
+    "ouvido": "propria acepcao e"
+   },
+   {
+    "roteiro": "passes saem",
+    "ouvido": "passe sai em"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg",
+  "folha_5.jpg"
+ ]
+}

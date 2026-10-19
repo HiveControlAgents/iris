@@ -1,0 +1,155 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "Como o olho humano acompanha uma bola a 200 km/h?",
+ "tema": "Por que os tenistas profissionais conseguem ver a bola em movimento?",
+ "estilo_visual": "photorealistic nature documentary footage with macro and wide angles, shot on cinema camera with telephoto lens, natural and golden light, shallow depth of field, smooth tracking movements",
+ "inspecionado_em": "2026-10-19T02:02:50",
+ "video": {
+  "duracao_s": 54.5,
+  "tamanho_mb": 45.0,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -14.5,
+  "pico_dbfs": -1.4,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 11.73,
+   "dur_s": 11.73,
+   "brilho_ini": 104.1,
+   "brilho_fim": 105.0,
+   "saturacao_ini": 18.1,
+   "saturacao_fim": 38.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 2,
+   "inicio_s": 11.73,
+   "fim_s": 15.37,
+   "dur_s": 3.64,
+   "brilho_ini": 61.1,
+   "brilho_fim": 80.9,
+   "saturacao_ini": 26.6,
+   "saturacao_fim": 32.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 3,
+   "inicio_s": 15.37,
+   "fim_s": 21.77,
+   "dur_s": 6.4,
+   "brilho_ini": 96.1,
+   "brilho_fim": 91.7,
+   "saturacao_ini": 31.8,
+   "saturacao_fim": 29.7,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 4,
+   "inicio_s": 21.77,
+   "fim_s": 31.13,
+   "dur_s": 9.36,
+   "brilho_ini": 82.0,
+   "brilho_fim": 83.0,
+   "saturacao_ini": 24.1,
+   "saturacao_fim": 26.5,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 5,
+   "inicio_s": 31.13,
+   "fim_s": 36.23,
+   "dur_s": 5.1,
+   "brilho_ini": 91.1,
+   "brilho_fim": 91.7,
+   "saturacao_ini": 13.1,
+   "saturacao_fim": 12.7,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 6,
+   "inicio_s": 36.23,
+   "fim_s": 38.37,
+   "dur_s": 2.14,
+   "brilho_ini": 106.7,
+   "brilho_fim": 99.2,
+   "saturacao_ini": 9.2,
+   "saturacao_fim": 13.0,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 7,
+   "inicio_s": 38.37,
+   "fim_s": 45.43,
+   "dur_s": 7.06,
+   "brilho_ini": 77.6,
+   "brilho_fim": 99.8,
+   "saturacao_ini": 25.9,
+   "saturacao_fim": 27.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 8,
+   "inicio_s": 45.43,
+   "fim_s": 54.5,
+   "dur_s": 9.07,
+   "brilho_ini": 59.5,
+   "brilho_fim": 61.0,
+   "saturacao_ini": 16.0,
+   "saturacao_fim": 13.1,
+   "cortes_internos_s": []
+  }
+ ],
+ "cortes_bruscos_s": [
+  11.73,
+  15.37,
+  21.77,
+  31.13,
+  36.23,
+  38.37,
+  45.43
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 136,
+  "palavras_ouvidas": 136,
+  "taxa_acerto": 0.985,
+  "erros": [],
+  "suspeitas": [],
+  "duvidosas": [
+   "por",
+   "quando"
+  ],
+  "divergencias": []
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg",
+  "folha_5.jpg"
+ ]
+}

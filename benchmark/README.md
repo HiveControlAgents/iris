@@ -25,7 +25,11 @@ python benchmark/rotular.py --videos my_videos/                    # labeling pa
 ## Precision and recall / precisão e revocação
 
 <!-- metricas:inicio -->
-No video labeled yet. / Nenhum vídeo rotulado ainda.
+| rotulados / labeled | precisão / precision | revocação / recall | certos | errados | perdidos |
+|---|---|---|---|---|---|
+| 0 (pendentes: 10) | — | — | 0 | 0 | 0 |
+
+_Atualizado em 2026-10-19 com `python benchmark/bench.py metricas`._
 <!-- metricas:fim -->
 
 ## Defects per video / defeitos por vídeo
@@ -33,9 +37,16 @@ No video labeled yet. / Nenhum vídeo rotulado ainda.
 <!-- tabela:inicio -->
 | vídeo | nota | defeitos | visual | narracao | ritmo | audio | legenda | tecnico | onde (segundo e tipo) |
 |---|---|---|---|---|---|---|---|---|---|
+| 2026-10-12-por-que-os-corvos-conseguem-reconhece | 5.0 | 14 | 8 | 0 | 2 | 1 | 2 | 1 | 0:49.0 visual; 0:45.0 visual; 0:55.0 visual; 0:29.5 visual; 0:38.0 visual; 0:17.5 visual; 0:04.0 visual; 0:05.0 visual; 0:00.0 legenda; 0:38.5 legenda; 0:21.5 ritmo; 0:00.0 ritmo; 0:00.0 audio; 0:00.0 tecnico |
+| Como o olho humano acompanha uma bola a 200 km/h? | 5.5 | 11 | 4 | 3 | 1 | 0 | 2 | 1 | 0:02.0 visual; 0:22.0 visual; 0:05.0 legenda; 0:11.0 legenda; 0:15.5 visual; 0:45.5 ritmo; 0:52.0 narracao; 0:02.0 narracao; 0:45.5 narracao; 0:11.7 visual; 0:00.0 tecnico |
 | Como o olho humano acompanha uma bola a 200 km/h? | 5.5 | 13 | 6 | 4 | 1 | 0 | 2 | 0 | 0:47.0 visual; 0:19.5 visual; 0:21.7 visual; 0:06.1 visual; 0:21.5 narracao; 0:49.0 narracao; 0:38.2 narracao; 0:45.5 narracao; 0:52.0 legenda; 0:19.5 legenda; 0:06.1 visual; 0:21.7 ritmo; 0:31.0 visual |
 | Como o olho acompanha uma bola a 200 km/h? | 6.5 | 11 | 5 | 2 | 2 | 1 | 1 | 0 | 0:24.5 visual; 0:04.1 visual; 0:10.8 visual; 0:00.0 ritmo; 0:00.0 legenda; 0:00.0 audio; 0:36.5 narracao; 0:00.5 narracao; 0:24.1 visual; 0:33.0 visual; 0:23.0 ritmo |
+| Por que o rio Paraná sobe e desce sem parar | 5.5 | 11 | 2 | 5 | 2 | 0 | 2 | 0 | 0:22.0 narracao; 0:08.0 narracao; 0:29.0 narracao; 0:05.2 narracao; 0:30.0 visual; 0:17.0 legenda; 0:00.0 legenda; 0:18.1 ritmo; 0:37.5 ritmo; 0:11.7 visual; 0:01.0 narracao |
+| A ciência por trás da precisão do pedreiro | 5.0 | 17 | 9 | 4 | 2 | 0 | 1 | 1 | 0:42.0 visual; 0:41.8 visual; 0:34.5 visual; 0:09.0 visual; 0:08.0 visual; 0:18.0 visual; 0:52.0 visual; 0:58.7 visual; 0:03.0 visual; 0:00.0 ritmo; 0:00.0 ritmo; 0:42.0 narracao; 0:11.0 narracao; 0:01.0 narracao; 0:28.5 narracao; 0:02.0 legenda; 0:00.0 tecnico |
+| Como a águia enxerga tão longe | 2.5 | 14 | 5 | 6 | 2 | 1 | 0 | 0 | 0:00.0 narracao; 0:08.5 narracao; 0:19.0 narracao; 0:38.5 narracao; 0:22.8 narracao; 0:31.0 narracao; 0:02.0 visual; 0:30.0 visual; 0:52.0 visual; 0:15.0 visual; 0:00.0 ritmo; 0:00.0 ritmo; 0:02.0 audio; 0:07.2 visual |
+| Como o futebolista chuta sem olhar e acerta | 6.0 | 10 | 5 | 2 | 2 | 0 | 1 | 0 | 0:05.0 visual; 0:29.0 visual; 0:45.5 visual; 0:24.1 visual; 0:33.4 visual; 0:00.0 ritmo; 0:00.0 ritmo; 0:24.5 narracao; 0:42.0 narracao; 0:31.5 legenda |
 | O segredo dos passes de costas no futebol | 5.0 | 13 | 6 | 3 | 2 | 0 | 2 | 0 | 0:30.0 visual; 0:21.5 visual; 0:20.5 visual; 0:05.4 visual; 0:00.0 ritmo; 0:20.5 ritmo; 0:00.0 narracao; 0:00.0 narracao; 0:29.5 narracao; 0:00.0 legenda; 0:41.0 legenda; 0:31.3 visual; 0:20.5 visual |
+| Por que a fumaça viaja centenas de quilômetros | 5.5 | 13 | 7 | 3 | 2 | 0 | 1 | 0 | 0:26.0 visual; 0:24.5 visual; 0:22.8 visual; 0:47.0 visual; 0:31.2 narracao; ? narracao; 0:18.0 narracao; 0:07.0 visual; 0:31.0 visual; 0:08.0 visual; 0:00.0 ritmo; 0:00.0 ritmo; 0:13.5 legenda |
 <!-- tabela:fim -->
 
 ---

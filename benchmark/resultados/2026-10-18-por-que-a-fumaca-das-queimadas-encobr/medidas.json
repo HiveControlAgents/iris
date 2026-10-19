@@ -1,0 +1,206 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "Por que a fumaça viaja centenas de quilômetros",
+ "tema": "Por que a fumaça das queimadas encobre cidades inteiras como Manaus",
+ "estilo_visual": "award-winning photorealistic nature photography, atmospheric perspective, natural diffuse light, shallow depth of field, sharp focus on particles and sky",
+ "inspecionado_em": "2026-10-19T02:15:15",
+ "video": {
+  "duracao_s": 55.1,
+  "tamanho_mb": 25.8,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -13.9,
+  "pico_dbfs": -1.7,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 6.83,
+   "dur_s": 6.83,
+   "brilho_ini": 141.9,
+   "brilho_fim": 140.4,
+   "saturacao_ini": 9.3,
+   "saturacao_fim": 9.6,
+   "cortes_internos_s": [],
+   "narracao": "A fumaça das queimadas sobe rápido e viaja a centenas de quilômetros de distância.",
+   "palavras_por_s": 2.05,
+   "quadro": "Dense smoke plume rising from forest fire, thick gray smoke column against bright sky, natural diffuse light, particles visible in sunlight",
+   "movimento": "slow push-in on smoke column, smoke billows gently upward"
+  },
+  {
+   "n": 2,
+   "inicio_s": 6.83,
+   "fim_s": 14.97,
+   "dur_s": 8.14,
+   "brilho_ini": 145.5,
+   "brilho_fim": 135.6,
+   "saturacao_ini": 3.7,
+   "saturacao_fim": 7.1,
+   "cortes_internos_s": [],
+   "narracao": "Ela alcança a atmosfera superior, onde existem correntes de ar poderosas que a transportam horizontalmente.",
+   "palavras_por_s": 1.84,
+   "quadro": "Aerial view of smoke layer spreading across sky, gray-white smoke dispersing horizontally in layers, natural light diffuse",
+   "movimento": "gentle pan across smoke layers, particles drift sideways slowly"
+  },
+  {
+   "n": 3,
+   "inicio_s": 14.97,
+   "fim_s": 22.8,
+   "dur_s": 7.83,
+   "brilho_ini": 113.6,
+   "brilho_fim": 100.5,
+   "saturacao_ini": 3.5,
+   "saturacao_fim": 6.2,
+   "cortes_internos_s": [],
+   "narracao": "Essas correntes, chamadas de ventos alísios, empurram a fumaça em uma única direção sem parar.",
+   "palavras_por_s": 1.92,
+   "quadro": "Layered atmospheric smoke with gradient from darker to lighter gray, clouds and smoke mixing, natural light",
+   "movimento": "slow lateral drift of smoke layers from left to right"
+  },
+  {
+   "n": 4,
+   "inicio_s": 22.8,
+   "fim_s": 31.23,
+   "dur_s": 8.43,
+   "brilho_ini": 113.8,
+   "brilho_fim": 119.0,
+   "saturacao_ini": 7.6,
+   "saturacao_fim": 11.2,
+   "cortes_internos_s": [],
+   "narracao": "A fumaça fina sobe enquanto a pesada desce, criando uma rede que se espalha sobre regiões inteiras.",
+   "palavras_por_s": 2.02,
+   "quadro": "Smoke at different altitudes, some darker particles near ground level, lighter wisps higher up, misty atmospheric effect",
+   "movimento": "soft vertical drift of smoke, lighter particles rising, denser ones settling"
+  },
+  {
+   "n": 5,
+   "inicio_s": 31.23,
+   "fim_s": 38.53,
+   "dur_s": 7.3,
+   "brilho_ini": 124.6,
+   "brilho_fim": 114.8,
+   "saturacao_ini": 13.2,
+   "saturacao_fim": 17.0,
+   "cortes_internos_s": [],
+   "narracao": "Partículas minúsculas filtram a luz solar, formando um véu que reduz a visibilidade no solo.",
+   "palavras_por_s": 2.05,
+   "quadro": "Sun partially obscured by smoke haze, golden light diffusing through dense smoke layer, particles suspended in air",
+   "movimento": "slow pan across hazy sky, sun's rays filtering through smoke gradually"
+  },
+  {
+   "n": 6,
+   "inicio_s": 38.53,
+   "fim_s": 47.0,
+   "dur_s": 8.47,
+   "brilho_ini": 134.3,
+   "brilho_fim": 122.2,
+   "saturacao_ini": 6.4,
+   "saturacao_fim": 9.2,
+   "cortes_internos_s": [],
+   "narracao": "A distância percorrida depende da altura que a fumaça atinge e da força dos ventos naquela altitude.",
+   "palavras_por_s": 2.01,
+   "quadro": "Vast landscape with smoke covering horizon, mountains or forest silhouette in the distance obscured by gray haze",
+   "movimento": "slow pan across misty landscape, haze gradually thickening toward horizon"
+  },
+  {
+   "n": 7,
+   "inicio_s": 47.0,
+   "fim_s": 55.1,
+   "dur_s": 8.1,
+   "brilho_ini": 162.2,
+   "brilho_fim": 147.0,
+   "saturacao_ini": 3.7,
+   "saturacao_fim": 7.2,
+   "cortes_internos_s": [],
+   "narracao": "Cidades a centenas de quilômetros ficam cobertas por fumaça que nasceu de um fogo distante.",
+   "palavras_por_s": 1.85,
+   "quadro": "Thick smoke haze covering entire sky, visibility reduced to minimal, gray-white atmospheric blanket",
+   "movimento": "slow push-in on uniform smoke layer, no movement of air masses visible"
+  }
+ ],
+ "cortes_bruscos_s": [
+  6.83,
+  14.97,
+  22.8,
+  31.23,
+  38.53,
+  47.0
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 108,
+  "palavras_ouvidas": 107,
+  "taxa_acerto": 0.967,
+  "erros": [
+   {
+    "roteiro": "particulas",
+    "ouvido": "cticulas"
+   },
+   {
+    "roteiro": "a",
+    "ouvido": "as"
+   }
+  ],
+  "suspeitas": [
+   {
+    "roteiro": "a",
+    "ouvido": ""
+   },
+   {
+    "roteiro": "alisios",
+    "ouvido": "aliseos"
+   }
+  ],
+  "duvidosas": [
+   "A",
+   "as"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "particulas",
+    "ouvido": "cticulas"
+   },
+   {
+    "roteiro": "a",
+    "ouvido": "as"
+   },
+   {
+    "roteiro": "a",
+    "ouvido": ""
+   },
+   {
+    "roteiro": "alisios",
+    "ouvido": "aliseos"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg",
+  "folha_5.jpg"
+ ]
+}

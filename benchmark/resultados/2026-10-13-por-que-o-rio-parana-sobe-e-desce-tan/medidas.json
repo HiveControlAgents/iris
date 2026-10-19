@@ -1,0 +1,225 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "Por que o rio Paraná sobe e desce sem parar",
+ "tema": "Por que o rio Paraná sobe e desce tanto?",
+ "estilo_visual": "Award-winning photorealistic nature photography of water and landscape, natural light, shallow depth of field, sharp focus on water surface and riverbank details",
+ "inspecionado_em": "2026-10-19T02:05:33",
+ "video": {
+  "duracao_s": 49.8,
+  "tamanho_mb": 30.9,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -14.7,
+  "pico_dbfs": -1.7,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 5.2,
+   "dur_s": 5.2,
+   "brilho_ini": 97.0,
+   "brilho_fim": 83.6,
+   "saturacao_ini": 7.5,
+   "saturacao_fim": 7.8,
+   "cortes_internos_s": [],
+   "narracao": "O rio Paraná não é um rio normal: ele sobe e desce como se tivesse pulmões.",
+   "palavras_por_s": 3.08,
+   "quadro": "A broad river flowing gently with moderate water level, dense green forest on both banks, morning mist hovering over the water, shot from a low angle focusing on the rippling water surface in the foreground",
+   "movimento": "Slow pan right along the water surface, gentle ripples catch the light"
+  },
+  {
+   "n": 2,
+   "inicio_s": 5.2,
+   "fim_s": 11.7,
+   "dur_s": 6.5,
+   "brilho_ini": 99.0,
+   "brilho_fim": 93.1,
+   "saturacao_ini": 6.7,
+   "saturacao_fim": 8.4,
+   "cortes_internos_s": [],
+   "narracao": "Na estação chuvosa, a água que cai nas nascentes da Serra do Mar desce toda para o Paraná.",
+   "palavras_por_s": 2.77,
+   "quadro": "Raindrops striking a dark rocky surface with water pooling and running downward, mountainous terrain in soft focus behind, shallow depth of field emphasizing the water flow",
+   "movimento": "Slow push-in on flowing water, droplets catch light naturally"
+  },
+  {
+   "n": 3,
+   "inicio_s": 11.7,
+   "fim_s": 18.07,
+   "dur_s": 6.37,
+   "brilho_ini": 80.0,
+   "brilho_fim": 82.7,
+   "saturacao_ini": 8.7,
+   "saturacao_fim": 10.7,
+   "cortes_internos_s": [],
+   "narracao": "Toda essa água se junta com tributários como o Iguaçu e o Tietê, criando um volume colossal.",
+   "palavras_por_s": 2.67,
+   "quadro": "Two water streams merging, one darker and one lighter, showing the junction point clearly, rocks and vegetation on the banks, clear morning light",
+   "movimento": "Slow zoom on the convergence point, water swirls gently"
+  },
+  {
+   "n": 4,
+   "inicio_s": 18.07,
+   "fim_s": 26.67,
+   "dur_s": 8.6,
+   "brilho_ini": 99.7,
+   "brilho_fim": 89.0,
+   "saturacao_ini": 12.7,
+   "saturacao_fim": 16.4,
+   "cortes_internos_s": [],
+   "narracao": "O rio sobe tanto que enche o reservatório de Itaipu, a usina que gera energia para milhões de brasileiros.",
+   "palavras_por_s": 2.21,
+   "quadro": "A large reservoir with calm, reflective water surface, forested shoreline stretching into distance, sky reflected perfectly, shot from water level with bank vegetation in soft focus foreground",
+   "movimento": "Slow push-in on water surface, slight ripples from wind"
+  },
+  {
+   "n": 5,
+   "inicio_s": 26.67,
+   "fim_s": 32.33,
+   "dur_s": 5.66,
+   "brilho_ini": 76.6,
+   "brilho_fim": 99.3,
+   "saturacao_ini": 9.8,
+   "saturacao_fim": 10.2,
+   "cortes_internos_s": [],
+   "narracao": "Mas na seca, pouca chuva cai nas nascentes e o rio baixa dramaticamente.",
+   "palavras_por_s": 2.3,
+   "quadro": "A river with visibly lower water level, exposed rocks and sandy banks, darker water, forest in background, shot emphasizing the distance between water and vegetation line",
+   "movimento": "Gentle pan left showing the exposed riverbank and water line"
+  },
+  {
+   "n": 6,
+   "inicio_s": 32.33,
+   "fim_s": 37.5,
+   "dur_s": 5.17,
+   "brilho_ini": 151.5,
+   "brilho_fim": 136.1,
+   "saturacao_ini": 6.9,
+   "saturacao_fim": 6.7,
+   "cortes_internos_s": [],
+   "narracao": "As usinas têm que controlar a liberação de água para manter o reservatório estável.",
+   "palavras_por_s": 2.71,
+   "quadro": "Water flowing over a large concrete dam structure, white water cascading, misty spray rising, shot from below with the turbulent water in sharp focus and dam wall slightly out of focus",
+   "movimento": "Slow push-in on the water jet, mist swirls gently"
+  },
+  {
+   "n": 7,
+   "inicio_s": 37.5,
+   "fim_s": 44.0,
+   "dur_s": 6.5,
+   "brilho_ini": 101.6,
+   "brilho_fim": 90.6,
+   "saturacao_ini": 10.7,
+   "saturacao_fim": 11.7,
+   "cortes_internos_s": [],
+   "narracao": "Esse ciclo se repete todo ano: chuva, enchente, seca e estiagem novamente.",
+   "palavras_por_s": 1.85,
+   "quadro": "A river at moderate water level with seasonal transition evident, some rocks partially exposed, water reflecting clouds, vegetation showing signs of seasonal change, wide shallow perspective on the water",
+   "movimento": "Slow pan right then left, mimicking the breathing rhythm, water surface ripples subtly"
+  },
+  {
+   "n": 8,
+   "inicio_s": 44.0,
+   "fim_s": 49.8,
+   "dur_s": 5.8,
+   "brilho_ini": 100.4,
+   "brilho_fim": 93.3,
+   "saturacao_ini": 11.6,
+   "saturacao_fim": 12.1,
+   "cortes_internos_s": [],
+   "narracao": "O rio Paraná é um ciclo natural que nos lembra como a água governa a vida na Terra.",
+   "palavras_por_s": 3.1,
+   "quadro": "River water in close foreground with green vegetation and riverbank in soft focus background, natural morning or afternoon golden light, peaceful flowing water, emphasis on the boundary between water and land",
+   "movimento": "Slow gentle push-in on water surface, maintaining shallow depth of field"
+  }
+ ],
+ "cortes_bruscos_s": [
+  5.2,
+  11.7,
+  18.07,
+  26.67,
+  32.33,
+  37.5,
+  44.0
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 127,
+  "palavras_ouvidas": 130,
+  "taxa_acerto": 0.965,
+  "erros": [
+   {
+    "roteiro": "nas",
+    "ouvido": ""
+   },
+   {
+    "roteiro": "",
+    "ouvido": "e"
+   },
+   {
+    "roteiro": "gera",
+    "ouvido": "aleira o que e re"
+   },
+   {
+    "roteiro": "nas",
+    "ouvido": ""
+   }
+  ],
+  "suspeitas": [],
+  "duvidosas": [
+   "chuvosa,",
+   "com",
+   "e",
+   "que",
+   "ré",
+   "Mas"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "nas",
+    "ouvido": ""
+   },
+   {
+    "roteiro": "",
+    "ouvido": "e"
+   },
+   {
+    "roteiro": "gera",
+    "ouvido": "aleira o que e re"
+   },
+   {
+    "roteiro": "nas",
+    "ouvido": ""
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg",
+  "folha_5.jpg"
+ ]
+}
