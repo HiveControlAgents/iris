@@ -48,6 +48,7 @@ def test_rotulos_e_metricas(base):
     assert bench.ler_rotulos(arq) == {"certos": 2, "errados": 1, "pendentes": 0, "perdidos": 1}
     m = bench.metricas()
     assert m["videos"] == 1 and m["precisao"] == round(2 / 3, 3) and m["revocacao"] == round(2 / 3, 3)
+    assert m["precisao_por_tipo"] == {"audio": 0.0, "legenda": 1.0, "visual": 1.0}
     assert "| 1 (pendentes: 0) | 67% | 67% | 2 | 1 | 1 |" in (base / "README.md").read_text(encoding="utf-8")
     bench.criar_rotulos("tenis-v3", "Tênis v3")               # não apaga o que já foi rotulado
     assert "seis dedos" in arq.read_text(encoding="utf-8")

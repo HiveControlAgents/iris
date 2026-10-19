@@ -13,6 +13,12 @@ pipeline (Wan, Veo, Kling, Runway, CapCut, manual editing, it does not matter).
 generate  ->  inspect  ->  review  ->  redo only the bad scenes  ->  learn
 ```
 
+## Accuracy
+
+On the first human-labeled videos of the [public benchmark](benchmark/README.md), ÍRIS was right in **92%** of the
+defects it pointed out (precision, 34 of 37) and caught **85%** of the defects a person found (recall, 34 of 40).
+Small sample: n = 3 videos, all from our own Shorts pipeline. The numbers are updated as more videos are labeled.
+
 ## Before and after
 
 The same trivia Short, before and after going through ÍRIS:

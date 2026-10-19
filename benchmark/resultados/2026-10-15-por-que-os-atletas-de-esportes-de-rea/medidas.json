@@ -1,0 +1,243 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "Como a águia enxerga tão longe",
+ "tema": "Por que os atletas de esportes de reação (tênis, badminton, squash) precisam treinar a visão periférica?",
+ "estilo_visual": "Award-winning photorealistic nature photography of birds of prey in flight and perched, natural golden and soft light, shallow depth of field with sharp focus on eyes and head, high contrast sky backgrounds.",
+ "inspecionado_em": "2026-10-19T02:10:23",
+ "video": {
+  "duracao_s": 52.8,
+  "tamanho_mb": 29.8,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -13.9,
+  "pico_dbfs": -1.6,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [
+   {
+    "inicio_s": 2.0,
+    "fim_s": 4.0,
+    "modulacao_db": 9.7
+   }
+  ],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 7.17,
+   "dur_s": 7.17,
+   "brilho_ini": 119.8,
+   "brilho_fim": 103.6,
+   "saturacao_ini": 12.1,
+   "saturacao_fim": 17.4,
+   "cortes_internos_s": [],
+   "narracao": "A águia enxerga uma lebre a mais de dois quilômetros de distância.",
+   "palavras_por_s": 1.67,
+   "quadro": "A golden eagle perched on a cliff edge, head turned slightly toward distant horizon, sharp focus on the intense yellow eye with dark pupil, soft wind ruffling feathers on neck and shoulders, blurred rocky terrain and distant landscape.",
+   "movimento": "Slow push-in on the eye, camera moves gently closer to the eagle's gaze line."
+  },
+  {
+   "n": 2,
+   "inicio_s": 7.17,
+   "fim_s": 14.5,
+   "dur_s": 7.33,
+   "brilho_ini": 93.2,
+   "brilho_fim": 83.3,
+   "saturacao_ini": 16.5,
+   "saturacao_fim": 18.5,
+   "cortes_internos_s": [],
+   "narracao": "Os olhos da águia possuem células fotossensíveis muito mais densas que os nossos.",
+   "palavras_por_s": 1.77,
+   "quadro": "Extreme close-up of a golden eagle's head in profile, focusing on the curved shape of the eye socket and the position of the large forward-facing eye, golden and brown feathers framing the eye, soft directional light emphasizing the eye's structure.",
+   "movimento": "Gentle pan left along the contour of the head, revealing the eye's prominent placement."
+  },
+  {
+   "n": 3,
+   "inicio_s": 14.5,
+   "fim_s": 22.6,
+   "dur_s": 8.1,
+   "brilho_ini": 112.7,
+   "brilho_fim": 101.8,
+   "saturacao_ini": 20.3,
+   "saturacao_fim": 21.5,
+   "cortes_internos_s": [],
+   "narracao": "Enquanto você enxerga bem até sessenta metros, a águia mantém a precisão visual em quilômetros.",
+   "palavras_por_s": 1.85,
+   "quadro": "An eagle in flight against a clear blue sky, wings spread wide, soaring over a vast landscape of mountains and valleys far below, captured from a distance showing the bird as a silhouette with defined wing edges.",
+   "movimento": "Slow zoom-out effect as the eagle rises higher into the frame."
+  },
+  {
+   "n": 4,
+   "inicio_s": 22.6,
+   "fim_s": 27.47,
+   "dur_s": 4.87,
+   "brilho_ini": 114.5,
+   "brilho_fim": 104.6,
+   "saturacao_ini": 11.5,
+   "saturacao_fim": 18.4,
+   "cortes_internos_s": [],
+   "narracao": "A fóvea dela tem quatro vezes mais concentração de células que a nossa.",
+   "palavras_por_s": 2.67,
+   "quadro": "A golden eagle diving or in steep descent, body angled forward, wings tucked slightly, intense focus on the forward-facing eye and the determined expression, blurred landscape rushing past behind.",
+   "movimento": "Slow pan down following the direction of the eagle's gaze toward the ground below."
+  },
+  {
+   "n": 5,
+   "inicio_s": 27.47,
+   "fim_s": 36.3,
+   "dur_s": 8.83,
+   "brilho_ini": 110.1,
+   "brilho_fim": 91.5,
+   "saturacao_ini": 11.6,
+   "saturacao_fim": 16.6,
+   "cortes_internos_s": [],
+   "narracao": "Além disso, a pupila da águia dilata e contrai instantaneamente para controlar a quantidade de luz.",
+   "palavras_por_s": 1.81,
+   "quadro": "Close-up of an eagle's eye as it appears in strong sunlight, iris details visible, surrounding feathers meticulously rendered, soft natural light creating subtle shadows around the eye socket.",
+   "movimento": "Slow push-in toward the pupil, then gentle pull-out, maintaining focus on the eye."
+  },
+  {
+   "n": 6,
+   "inicio_s": 36.3,
+   "fim_s": 45.03,
+   "dur_s": 8.73,
+   "brilho_ini": 93.0,
+   "brilho_fim": 93.8,
+   "saturacao_ini": 13.3,
+   "saturacao_fim": 15.2,
+   "cortes_internos_s": [],
+   "narracao": "Isso permite que ela caçe sob qualquer condição de iluminação sem perder a nitidez da visão.",
+   "palavras_por_s": 1.83,
+   "quadro": "A golden eagle in flight over a partially sunlit landscape, half of the eagle's body in sunlight and half in shadow, wings spread, transitioning between bright and dark zones of terrain below.",
+   "movimento": "Slow pan right following the eagle's trajectory across the light-shadow boundary."
+  },
+  {
+   "n": 7,
+   "inicio_s": 45.03,
+   "fim_s": 52.8,
+   "dur_s": 7.77,
+   "brilho_ini": 102.8,
+   "brilho_fim": 90.1,
+   "saturacao_ini": 10.3,
+   "saturacao_fim": 12.3,
+   "cortes_internos_s": [],
+   "narracao": "A visão da águia é um exemplo perfeito de como a evolução adapta órgãos ao ambiente de cada espécie.",
+   "palavras_por_s": 2.45,
+   "quadro": "A golden eagle perched on a high mountain crag or bare branch, silhouetted against a vast landscape stretching to the horizon, body erect and alert, eye gazing outward, golden hour lighting.",
+   "movimento": "Gentle pan left revealing more of the landscape vista behind the perched eagle."
+  }
+ ],
+ "cortes_bruscos_s": [
+  7.17,
+  14.5,
+  22.6,
+  27.47,
+  36.3,
+  45.03
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 104,
+  "palavras_ouvidas": 110,
+  "taxa_acerto": 0.907,
+  "erros": [
+   {
+    "roteiro": "",
+    "ouvido": "pumoes"
+   },
+   {
+    "roteiro": "",
+    "ouvido": "os e sacea"
+   },
+   {
+    "roteiro": "",
+    "ouvido": "a ag"
+   },
+   {
+    "roteiro": "cace",
+    "ouvido": "acasse"
+   }
+  ],
+  "suspeitas": [
+   {
+    "roteiro": "fotossensiveis",
+    "ouvido": "fossotossensiveis"
+   },
+   {
+    "roteiro": "fovea",
+    "ouvido": "fovia"
+   },
+   {
+    "roteiro": "contrai",
+    "ouvido": "contraa"
+   }
+  ],
+  "duvidosas": [
+   "a",
+   "2",
+   "fosso",
+   "Os",
+   "é",
+   "sácea.",
+   "águia",
+   "a",
+   "ag"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "",
+    "ouvido": "pumoes"
+   },
+   {
+    "roteiro": "",
+    "ouvido": "os e sacea"
+   },
+   {
+    "roteiro": "",
+    "ouvido": "a ag"
+   },
+   {
+    "roteiro": "cace",
+    "ouvido": "acasse"
+   },
+   {
+    "roteiro": "fotossensiveis",
+    "ouvido": "fossotossensiveis"
+   },
+   {
+    "roteiro": "fovea",
+    "ouvido": "fovia"
+   },
+   {
+    "roteiro": "contrai",
+    "ouvido": "contraa"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg",
+  "folha_5.jpg"
+ ]
+}

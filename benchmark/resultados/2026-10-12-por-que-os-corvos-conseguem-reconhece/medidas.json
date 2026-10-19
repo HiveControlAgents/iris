@@ -1,0 +1,160 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": null,
+ "tema": null,
+ "estilo_visual": null,
+ "inspecionado_em": "2026-10-19T02:00:10",
+ "video": {
+  "duracao_s": 59.58,
+  "tamanho_mb": 47.6,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 29.83,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -15.3,
+  "pico_dbfs": -1.4,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 4.77,
+   "dur_s": 4.77,
+   "brilho_ini": 102.3,
+   "brilho_fim": 78.6,
+   "saturacao_ini": 10.3,
+   "saturacao_fim": 14.2,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 2,
+   "inicio_s": 4.77,
+   "fim_s": 12.97,
+   "dur_s": 8.2,
+   "brilho_ini": 46.5,
+   "brilho_fim": 65.4,
+   "saturacao_ini": 5.1,
+   "saturacao_fim": 5.7,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 3,
+   "inicio_s": 12.97,
+   "fim_s": 21.47,
+   "dur_s": 8.5,
+   "brilho_ini": 76.6,
+   "brilho_fim": 69.8,
+   "saturacao_ini": 13.1,
+   "saturacao_fim": 12.5,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 4,
+   "inicio_s": 21.47,
+   "fim_s": 29.4,
+   "dur_s": 7.93,
+   "brilho_ini": 89.1,
+   "brilho_fim": 90.9,
+   "saturacao_ini": 10.8,
+   "saturacao_fim": 11.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 5,
+   "inicio_s": 29.4,
+   "fim_s": 37.77,
+   "dur_s": 8.37,
+   "brilho_ini": 191.0,
+   "brilho_fim": 97.7,
+   "saturacao_ini": 19.5,
+   "saturacao_fim": 8.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 6,
+   "inicio_s": 37.77,
+   "fim_s": 38.43,
+   "dur_s": 0.66,
+   "brilho_ini": 172.4,
+   "brilho_fim": 172.4,
+   "saturacao_ini": 8.8,
+   "saturacao_fim": 8.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 7,
+   "inicio_s": 38.87,
+   "fim_s": 45.2,
+   "dur_s": 6.33,
+   "brilho_ini": 129.2,
+   "brilho_fim": 84.5,
+   "saturacao_ini": 8.8,
+   "saturacao_fim": 11.0,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 8,
+   "inicio_s": 45.2,
+   "fim_s": 53.07,
+   "dur_s": 7.87,
+   "brilho_ini": 124.6,
+   "brilho_fim": 86.7,
+   "saturacao_ini": 8.0,
+   "saturacao_fim": 26.0,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 9,
+   "inicio_s": 53.07,
+   "fim_s": 59.58,
+   "dur_s": 6.51,
+   "brilho_ini": 72.3,
+   "brilho_fim": 76.0,
+   "saturacao_ini": 12.7,
+   "saturacao_fim": 13.8,
+   "cortes_internos_s": []
+  }
+ ],
+ "cortes_bruscos_s": [
+  4.77,
+  12.97,
+  21.47,
+  29.4,
+  37.77,
+  38.43,
+  38.5,
+  38.57,
+  38.63,
+  38.7,
+  38.87,
+  45.2,
+  53.07
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg",
+  "folha_5.jpg"
+ ]
+}

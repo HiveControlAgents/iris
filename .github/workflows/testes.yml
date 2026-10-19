@@ -17,7 +17,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - if: runner.os != 'macOS'
+      # no Linux, ffmpeg do apt: o download do setup-ffmpeg cai às vezes
+      - if: runner.os == 'Linux'
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - if: runner.os == 'Windows'
         uses: FedericoCarboni/setup-ffmpeg@v3
       # setup-ffmpeg só suporta x64; o runner macOS é arm64
       - if: runner.os == 'macOS'
@@ -30,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: FedericoCarboni/setup-ffmpeg@v3
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
       - run: >-
           ffmpeg -hide_banner -loglevel error -f lavfi -i testsrc2=size=360x640:rate=30:duration=4
           -f lavfi -i sine=frequency=440:duration=4 -shortest sintetico.mp4
