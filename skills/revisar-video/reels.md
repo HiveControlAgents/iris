@@ -1,8 +1,8 @@
 # Reels de criador (gravado e editado pelo usuário)
 
 Use quando o vídeo foi gravado pelo usuário (rosto, tela, voz própria), não gerado por IA. Soma-se a
-[criterios.md](criterios.md), que continua valendo para áudio, legenda e técnico. Regras de criadores de Reels com
-milhões de seguidores e do guia oficial do Instagram: são prática, não estudo formal.
+[criterios.md](criterios.md), que continua valendo para áudio, legenda e técnico. Regras de um estudo generalizado
+com informações públicas sobre Reels: são prática, não estudo formal.
 
 Use os mesmos `tipo` do `revisao.json`: gancho, formato e CTA são `ritmo`; tela ilegível é `visual`.
 
