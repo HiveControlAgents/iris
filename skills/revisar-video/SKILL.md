@@ -27,16 +27,17 @@ python "<pasta desta skill>/scripts/inspecionar.py" caminho/do/video.mp4 [--rote
 ## 2. Assistir
 
 1. Leia `medidas.json` inteiro.
-2. Abra TODAS as folhas de contato com a ferramenta de leitura de imagem. Cada folha tem 2 quadros por segundo,
-   6 por linha, da esquerda para a direita, com o tempo em amarelo no canto. Compare quadros vizinhos: é ali que
+2. Abra TODAS as folhas de contato com a ferramenta de leitura de imagem. Cada folha tem 2 quadros por segundo
+   (1 a cada 5 s em vídeo de mais de 3 min; o ritmo está em `medidas.json`, campo `folha`), 6 por linha, da esquerda para a direita, com o tempo em amarelo no canto. Compare quadros vizinhos: é ali que
    aparecem objetos sumindo, duplicando ou deformando.
 3. Leia `.iris/historico.json` se existir (lições já aprendidas e últimos vídeos) e `.iris/regras.md` se existir
    (regras do canal, por exemplo "sem pessoas" ou "sem texto na imagem").
 
 ## 3. Analisar
 
-Use o checklist de [criterios.md](criterios.md). Se o vídeo foi gravado pelo usuário (rosto, tela, voz própria) e
-não gerado por IA, use também [reels.md](reels.md). Para cada problema, anote: segundo exato, cena, o que se vê, causa
+Use o checklist de [criterios.md](criterios.md) e avalie gancho, virada e fecho por [retencao.md](retencao.md). Se
+o vídeo é longo e horizontal (mais de 3 min), [longo.md](longo.md) substitui as regras de duração, vertical e legenda.
+Se o vídeo foi gravado pelo usuário (rosto, tela, voz própria) e não gerado por IA, use também [reels.md](reels.md). Para cada problema, anote: segundo exato, cena, o que se vê, causa
 provável e se é **sorteio** (aconteceu uma vez, outra semente resolve) ou **pipeline** (sistemático, ou já apareceu
 em vídeos do histórico). Nunca descreva este vídeo com base no histórico: o histórico só serve para reconhecer padrões.
 
