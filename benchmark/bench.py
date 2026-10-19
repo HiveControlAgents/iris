@@ -181,12 +181,17 @@ def metricas() -> dict:
     return total
 
 
+def id_do_video(video: Path) -> str:
+    """Id de um vídeo achado numa pasta: o nome da pasta dele (ou pasta-arquivo, se não se chamar video.mp4)."""
+    return slug(video.parent.name if video.stem == "video" else f"{video.parent.name}-{video.stem}")
+
+
 def pasta(raiz: Path, padrao: str, roteiro_ao_lado: str, limite: int, fonte: str, licenca: str) -> int:
     """Adiciona todo vídeo de `raiz` que ainda não está no benchmark (o gancho do vídeo de toda noite)."""
     feitos = {v["id"] for v in _ler(VIDEOS, [])}
     novos = 0
     for video in sorted(raiz.glob(padrao)):
-        ident = slug(video.parent.name if video.stem == "video" else f"{video.parent.name}-{video.stem}")
+        ident = id_do_video(video)
         if ident in feitos:
             continue
         if novos >= limite:
