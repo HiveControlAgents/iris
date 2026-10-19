@@ -27,7 +27,15 @@ python benchmark/rotular.py --videos my_videos/                    # labeling pa
 <!-- metricas:inicio -->
 | rotulados / labeled | precisão / precision | revocação / recall | certos | errados | perdidos |
 |---|---|---|---|---|---|
-| 0 (pendentes: 10) | — | — | 0 | 0 | 0 |
+| 3 (pendentes: 7) | 92% | 85% | 34 | 3 | 6 |
+
+| tipo / type | precisão / precision | certos | errados |
+|---|---|---|---|
+| audio | 100% | 1 | 0 |
+| legenda | 80% | 4 | 1 |
+| narracao | 89% | 8 | 1 |
+| ritmo | 100% | 5 | 0 |
+| visual | 94% | 16 | 1 |
 
 _Atualizado em 2026-10-19 com `python benchmark/bench.py metricas`._
 <!-- metricas:fim -->

@@ -13,6 +13,12 @@ pipeline (Wan, Veo, Kling, Runway, CapCut, edição manual, tanto faz).
 gerar  ->  inspecionar  ->  revisar  ->  refazer só as cenas ruins  ->  aprender
 ```
 
+## Taxa de acerto
+
+Nos primeiros vídeos rotulados por uma pessoa no [benchmark público](benchmark/README.md), a ÍRIS acertou **92%** dos
+defeitos que apontou (precisão, 34 de 37) e pegou **85%** dos defeitos que a pessoa achou (revocação, 34 de 40).
+Amostra pequena: n = 3 vídeos, todos do nosso pipeline de Shorts. Os números mudam conforme mais vídeos são rotulados.
+
 ## Antes e depois
 
 O mesmo Short de curiosidade, antes e depois de passar pela ÍRIS:

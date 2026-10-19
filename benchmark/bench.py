@@ -158,6 +158,7 @@ def metricas() -> dict:
     """Precisão = achados certos / achados julgados; revocação = certos / (certos + defeitos que ela não viu).
     Só entram vídeos com todos os achados marcados."""
     total = {"certos": 0, "errados": 0, "perdidos": 0, "videos": 0, "pendentes": 0}
+    por_tipo: dict[str, list[int]] = {}                   # tipo -> [certos, errados]
     for arq in sorted(ROTULOS.glob("*.md")):
         r = ler_rotulos(arq)
         if r["pendentes"] or not (r["certos"] or r["errados"] or r["perdidos"]):
@@ -166,15 +167,25 @@ def metricas() -> dict:
         total["videos"] += 1
         for k in ("certos", "errados", "perdidos"):
             total[k] += r[k]
+        for linha in arq.read_text(encoding="utf-8").splitlines():
+            m = MARCA_ROTULO.match(linha.strip())
+            if m:
+                tipo = (m.group(3).split("|") + ["", ""])[1].strip() or "?"
+                por_tipo.setdefault(tipo, [0, 0])[0 if m.group(1) != " " else 1] += 1
     julgados = total["certos"] + total["errados"]
     total["precisao"] = round(total["certos"] / julgados, 3) if julgados else None
     total["revocacao"] = (round(total["certos"] / (total["certos"] + total["perdidos"]), 3)
                           if total["certos"] + total["perdidos"] else None)
+    total["precisao_por_tipo"] = {t: round(c / (c + e), 3) for t, (c, e) in sorted(por_tipo.items())}
     pct = lambda x: f"{x:.0%}" if x is not None else "—"  # noqa: E731
+    tipos = "".join(f"| {t} | {pct(total['precisao_por_tipo'][t])} | {c} | {e} |\n"
+                    for t, (c, e) in sorted(por_tipo.items()))
     conteudo = (f"| rotulados / labeled | precisão / precision | revocação / recall | certos | errados | perdidos |\n"
                 f"|---|---|---|---|---|---|\n"
                 f"| {total['videos']} (pendentes: {total['pendentes']}) | {pct(total['precisao'])} | "
                 f"{pct(total['revocacao'])} | {total['certos']} | {total['errados']} | {total['perdidos']} |\n\n"
+                + (f"| tipo / type | precisão / precision | certos | errados |\n|---|---|---|---|\n{tipos}\n"
+                   if tipos else "") +
                 f"_Atualizado em {dt.date.today().isoformat()} com `python benchmark/bench.py metricas`._")
     LEIAME.write_text(_trocar_secao(LEIAME.read_text(encoding="utf-8") if LEIAME.exists() else "", "metricas",
                                     conteudo), encoding="utf-8")
