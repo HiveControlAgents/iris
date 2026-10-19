@@ -19,6 +19,7 @@ python benchmark/bench.py adicionar video.mp4 --id my-video --roteiro script.jso
 python benchmark/bench.py adicionar sample.mp4 --id veo-sample --fonte terceiro --link https://... --licenca "..."
 python benchmark/bench.py pasta my_videos/ --padrao "*/video.mp4"   # every video not yet in the benchmark
 python benchmark/bench.py metricas                                  # after labeling
+python benchmark/rotular.py --videos my_videos/                    # labeling page on 127.0.0.1
 ```
 
 ## Precision and recall / precisão e revocação
@@ -45,6 +46,7 @@ Um teste público da ÍRIS em vídeos reais gerados por IA: o que ela acha em ca
 exato) e, depois que um humano rotula os achados, quantas vezes ela acerta (**precisão**) e quanto deixa passar
 (**revocação**).
 
-Para rotular: abra `rotulos/<id>.md`, assista ao vídeo, marque `[x] certo` ou `[x] errado` em cada achado e escreva,
+Para rotular, o jeito fácil é a página local: `python benchmark/rotular.py --videos PASTA_DOS_VIDEOS` abre o
+navegador; em cada achado, ▶ toca o trecho a partir de 2 s antes, e Certo / Errado já grava no arquivo. Ou, à mão: abra `rotulos/<id>.md`, assista ao vídeo, marque `[x] certo` ou `[x] errado` em cada achado e escreva,
 um por linha, os defeitos que a ÍRIS não viu. Depois rode `python benchmark/bench.py metricas`, que atualiza a seção
 acima. Só entram na conta os vídeos com todos os achados marcados.
