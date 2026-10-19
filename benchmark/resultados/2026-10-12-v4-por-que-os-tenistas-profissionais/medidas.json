@@ -1,0 +1,170 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "Como o olho acompanha uma bola a 200 km/h?",
+ "tema": "Por que os tenistas profissionais conseguem ver a bola em movimento?",
+ "estilo_visual": "award-winning photorealistic nature and sports photography, natural golden light, shallow depth of field, sharp focus",
+ "inspecionado_em": "2026-10-18T19:02:42",
+ "video": {
+  "duracao_s": 41.8,
+  "tamanho_mb": 24.9,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -15.9,
+  "pico_dbfs": -1.6,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 4.1,
+   "dur_s": 4.1,
+   "brilho_ini": 98.3,
+   "brilho_fim": 92.8,
+   "saturacao_ini": 39.7,
+   "saturacao_fim": 37.1,
+   "cortes_internos_s": [],
+   "narracao": "Bola de tênis a duzentos por hora. Como o olho acompanha?",
+   "palavras_por_s": 2.68,
+   "quadro": "A single yellow tennis ball resting on a red clay tennis court, fuzzy texture catching warm sunlight, net softly blurred behind",
+   "movimento": "Very slow push-in toward the ball, the ball stays still, a few dust particles float in the light, constant lighting"
+  },
+  {
+   "n": 2,
+   "inicio_s": 4.1,
+   "fim_s": 10.8,
+   "dur_s": 6.7,
+   "brilho_ini": 91.5,
+   "brilho_fim": 86.7,
+   "saturacao_ini": 17.1,
+   "saturacao_fim": 18.7,
+   "cortes_internos_s": [],
+   "narracao": "Nossos olhos têm uma habilidade chamada rastreamento suave: músculos finos giram o olho para seguir o que se move.",
+   "palavras_por_s": 2.84,
+   "quadro": "Close portrait of a hawk head in profile, sharp golden eye, detailed feathers, soft green forest background",
+   "movimento": "Locked-off camera, the hawk stays still and slowly blinks once, feathers stir softly, constant lighting"
+  },
+  {
+   "n": 3,
+   "inicio_s": 10.8,
+   "fim_s": 17.5,
+   "dur_s": 6.7,
+   "brilho_ini": 79.3,
+   "brilho_fim": 77.9,
+   "saturacao_ini": 19.5,
+   "saturacao_fim": 20.2,
+   "cortes_internos_s": [],
+   "narracao": "Esse reflexo é tão automático que o cérebro antecipa onde a bola vai estar, não só onde ela está agora.",
+   "palavras_por_s": 2.99,
+   "quadro": "A hawk perched on a branch at the edge of a forest, head turned sideways, golden sunlight through the leaves",
+   "movimento": "The hawk slowly turns its head, leaves sway softly in the background, constant lighting"
+  },
+  {
+   "n": 4,
+   "inicio_s": 17.5,
+   "fim_s": 24.07,
+   "dur_s": 6.57,
+   "brilho_ini": 79.3,
+   "brilho_fim": 77.6,
+   "saturacao_ini": 38.1,
+   "saturacao_fim": 36.2,
+   "cortes_internos_s": [],
+   "narracao": "Tenistas treinam essa previsão repetindo o mesmo movimento milhares de vezes, até o corpo responder sozinho.",
+   "palavras_por_s": 2.44,
+   "quadro": "A tennis racket resting on a red clay court next to a single yellow tennis ball, white baseline, dust in golden afternoon light",
+   "movimento": "Locked-off camera with a very slow subtle push-in, the racket and the ball stay still on the ground, constant lighting"
+  },
+  {
+   "n": 5,
+   "inicio_s": 24.07,
+   "fim_s": 29.53,
+   "dur_s": 5.46,
+   "brilho_ini": 89.2,
+   "brilho_fim": 93.4,
+   "saturacao_ini": 27.5,
+   "saturacao_fim": 33.3,
+   "cortes_internos_s": [],
+   "narracao": "A concentração e a visão periférica completam o trabalho, mostrando a quadra inteira ao mesmo tempo.",
+   "palavras_por_s": 2.93,
+   "quadro": "A tennis net post and taut white net cord on a red clay court, a single yellow tennis ball resting at the base of the net, trees in soft focus",
+   "movimento": "Gentle slow pan along the net, the ball stays still, trees sway softly, constant lighting"
+  },
+  {
+   "n": 6,
+   "inicio_s": 29.53,
+   "fim_s": 36.4,
+   "dur_s": 6.87,
+   "brilho_ini": 110.8,
+   "brilho_fim": 101.9,
+   "saturacao_ini": 42.9,
+   "saturacao_fim": 47.1,
+   "cortes_internos_s": [],
+   "narracao": "Mesmo os melhores perdem a bola de vista perto da raquete. Nesse instante, quem completa o caminho é o cérebro.",
+   "palavras_por_s": 2.91,
+   "quadro": "A yellow tennis ball resting on the strings of a tennis racket lying on red clay, warm golden light, shallow depth of field",
+   "movimento": "Very slow push-in toward the ball on the strings, nothing moves, constant lighting"
+  },
+  {
+   "n": 7,
+   "inicio_s": 36.4,
+   "fim_s": 41.8,
+   "dur_s": 5.4,
+   "brilho_ini": 79.4,
+   "brilho_fim": 77.9,
+   "saturacao_ini": 29.3,
+   "saturacao_fim": 33.5,
+   "cortes_internos_s": [],
+   "narracao": "Por isso, no tênis, quem vence o ponto não enxerga mais rápido. Enxerga antes.",
+   "palavras_por_s": 2.59,
+   "quadro": "Close-up of a single yellow tennis ball resting against the white net cord on a red clay court at golden hour, net mesh sharp in the foreground, background softly blurred, no people",
+   "movimento": "Locked-off camera with a very slow push-in toward the ball, the net sways gently, constant lighting and exposure"
+  }
+ ],
+ "cortes_bruscos_s": [
+  4.1,
+  10.8,
+  17.5,
+  24.07,
+  29.53,
+  36.4
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 116,
+  "palavras_ouvidas": 116,
+  "taxa_acerto": 0.991,
+  "erros": [],
+  "suspeitas": [],
+  "duvidosas": [
+   "por",
+   "quem"
+  ],
+  "divergencias": []
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg"
+ ]
+}

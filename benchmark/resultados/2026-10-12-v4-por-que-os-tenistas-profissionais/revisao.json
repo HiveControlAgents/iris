@@ -1,0 +1,161 @@
+{
+ "nota": 6.5,
+ "resumo": "Narração limpa e ritmo bom, mas 13 s de gavião num vídeo sobre tenistas, imagens quase todas paradas para um assunto de velocidade, sombra que pisca na cena 5, legendas quebradas no meio da frase e áudio baixo (-15,9 LUFS).",
+ "problemas": [
+  {
+   "segundo": 24.5,
+   "cena": 5,
+   "tipo": "visual",
+   "gravidade": "alta",
+   "descricao": "Uma sombra escura e larga surge e some no chão, no canto inferior esquerdo, entre quadros vizinhos (aparece em 24,5, 25,0, 26,0, 27,5 e 28,0 s; some em 24,0, 25,5, 27,0 e 28,5 s). Pisca na tela durante a cena toda.",
+   "causa": "Instabilidade temporal do modelo de vídeo na iluminação do chão; a câmera não faz o pan pedido e a sombra fica oscilando.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 4.1,
+   "cena": 2,
+   "tipo": "visual",
+   "gravidade": "media",
+   "descricao": "Cenas 2 e 3 (4,1 a 17,5 s, um terço do vídeo) mostram um gavião enquanto a narração fala dos olhos humanos e de como o cérebro prevê onde a bola vai estar. Num vídeo sobre tenistas, o espectador vê um pássaro sem que a narração o cite.",
+   "causa": "O prompt pediu o gavião de propósito como metáfora de visão; nenhuma frase da narração faz a ponte, então a imagem parece sem relação.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 10.8,
+   "cena": 3,
+   "tipo": "visual",
+   "gravidade": "media",
+   "descricao": "Segunda cena seguida de gavião (pousado num galho) sobre a frase 'o cérebro antecipa onde a bola vai estar'. Nada na imagem mostra antecipação nem bola.",
+   "causa": "Mesma escolha de metáfora animal do prompt da cena 2, repetida.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 0.0,
+   "cena": 1,
+   "tipo": "ritmo",
+   "gravidade": "media",
+   "descricao": "O gancho fala de uma bola a 200 por hora, mas a imagem é uma bola parada no saibro. Das 7 cenas, 5 mostram bola e/ou raquete paradas no chão. A pergunta só aparece em 2,5 s e nenhuma imagem passa a ideia de velocidade.",
+   "causa": "Todos os prompts pedem 'the ball stays still / nothing moves' para fugir de ação rápida que o modelo não sustenta; falta uma alternativa com sensação de movimento (câmera, desfoque, rastro).",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 0.0,
+   "cena": 1,
+   "tipo": "legenda",
+   "gravidade": "media",
+   "descricao": "Blocos de legenda terminam em artigo ou preposição solta: 'BOLA DE TÊNIS A' (0,0 s), 'NOSSOS OLHOS TÊM UMA' (4,0 s), 'MÚSCULOS FINOS GIRAM O' (8,0 s), 'OLHO PARA SEGUIR O' (9,0 s), 'ESSE REFLEXO É TÃO' (11,0 s), 'PREVISÃO REPETINDO O' (18,5 s). Em 23,0 s, 'SOZINHO. A CONCENTRAÇÃO' junta o fim de uma frase com o começo da seguinte.",
+   "causa": "As legendas são cortadas por número de palavras ou caracteres, sem respeitar pontuação nem fim de frase.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 0.0,
+   "cena": 1,
+   "tipo": "audio",
+   "gravidade": "media",
+   "descricao": "Loudness integrado de -15,9 LUFS, quase 2 LU abaixo do alvo de -14; vai soar baixo no celular perto de outros vídeos. Pico em -1,6 dBFS e nenhum trecho cortado.",
+   "causa": "A mixagem final não normaliza para -14 LUFS.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 36.5,
+   "cena": 7,
+   "tipo": "narracao",
+   "gravidade": "media",
+   "descricao": "O transcritor ouviu 'por' e 'quem' com pouca certeza. As duas palavras aparecem no fecho ('Por isso, no tênis, quem vence o ponto'), que passa rápido: o bloco 'NO TÊNIS' fica menos de 0,5 s na tela (aparece só esmaecido em 37,0 s). Ouça esse trecho e o 'quem completa' da cena 6 (34,5 s).",
+   "causa": "Palavras curtas e átonas engolidas pela voz sintética numa frase rápida.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 0.5,
+   "cena": 1,
+   "tipo": "narracao",
+   "gravidade": "baixa",
+   "descricao": "A narração diz 'a duzentos por hora' sem a unidade; o título diz 200 km/h.",
+   "causa": "O roteiro omitiu 'quilômetros'.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 24.07,
+   "cena": 5,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "A saturação sobe cerca de 21% do começo ao fim da cena (27,5 para 33,3).",
+   "causa": "Deriva de cor do modelo de vídeo ao longo do clipe.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 33.0,
+   "cena": 6,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "O aro da raquete parece preto até 32,5 s e fica azul vivo a partir de 33,0 s. Mudança leve, mas visível em quadros vizinhos.",
+   "causa": "Deriva de cor do modelo de vídeo durante o push-in.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 23.0,
+   "cena": 4,
+   "tipo": "ritmo",
+   "gravidade": "baixa",
+   "descricao": "'A concentração' (começo da narração da cena 5) já entra em 23,0 s, ainda na imagem da cena 4; o corte só vem em 24,07 s.",
+   "causa": "Corte de cena não alinhado ao início da frase seguinte na montagem.",
+   "origem": "pipeline"
+  }
+ ],
+ "refazer": [
+  {
+   "cena": 5,
+   "motivo": "Sombra escura que surge e some no chão entre quadros vizinhos durante a cena toda (24,5 a 28,5 s).",
+   "ajuste_prompt": "Trocar o pan por câmera travada ('locked-off camera, no camera movement') e pedir 'soft even light, no moving shadows'; outra semente."
+  }
+ ],
+ "licoes": [
+  {
+   "tipo_assunto": "geral",
+   "alvo": "geracao",
+   "regra": "Metáfora com animal só quando a narração cita o animal; quando o tema é humano, mostrar objetos, cenário ou detalhes do próprio tema."
+  },
+  {
+   "tipo_assunto": "esporte",
+   "alvo": "geracao",
+   "regra": "Em tema de velocidade, não deixar tudo parado: sugerir movimento com câmera (dolly, travelling), desfoque de movimento ou rastro, sem pedir ação rápida ao modelo."
+  },
+  {
+   "tipo_assunto": "geral",
+   "alvo": "montagem",
+   "regra": "Quebrar a legenda em pontuação ou fim de frase; nunca terminar um bloco em artigo ou preposição, nem juntar duas frases no mesmo bloco."
+  },
+  {
+   "tipo_assunto": "geral",
+   "alvo": "montagem",
+   "regra": "Normalizar o áudio final para -14 LUFS integrado, com pico até -1 dBFS."
+  },
+  {
+   "tipo_assunto": "geral",
+   "alvo": "roteiro",
+   "regra": "Falar a unidade das medidas por extenso (quilômetros por hora, metros) para bater com o título e não soar incompleto."
+  }
+ ],
+ "pipeline": [
+  {
+   "onde": "geração de legendas (montagem)",
+   "mudanca": "Cortar blocos em pontuação e evitar terminar em palavra funcional (a, o, um, uma, de, para, é, tão); se o bloco passar de ~32 caracteres, quebrar antes da palavra funcional.",
+   "motivo": "Seis blocos terminam em artigo ou preposição e um junta duas frases."
+  },
+  {
+   "onde": "mixagem final de áudio",
+   "mudanca": "Adicionar normalização de loudness (por exemplo ffmpeg loudnorm I=-14:TP=-1.5) depois da mixagem.",
+   "motivo": "Saiu em -15,9 LUFS, abaixo do alvo de -14."
+  },
+  {
+   "onde": "prompt que gera quadro/movimento das cenas",
+   "mudanca": "Proibir metáfora com animal não citada na narração e, em temas de velocidade, pedir movimento de câmera ou desfoque em vez de 'ball stays still' em todas as cenas.",
+   "motivo": "Duas cenas de gavião sem ligação com a fala e 5 de 7 cenas com bola parada num vídeo sobre velocidade."
+  },
+  {
+   "onde": "roteiro",
+   "mudanca": "Exigir unidade por extenso em números com medida.",
+   "motivo": "'a duzentos por hora' sem 'quilômetros'."
+  }
+ ]
+}
