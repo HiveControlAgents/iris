@@ -1,5 +1,5 @@
 ---
-description: Revisa um vídeo gerado por IA com a ÍRIS (nota, defeitos com o segundo exato, cenas a refazer)
+description: Review an AI-generated video with ÍRIS (score, defects with the exact second, scenes to redo)
 argument-hint: <video.mp4> [roteiro.json]
 ---
 

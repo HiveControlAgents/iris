@@ -1,7 +1,7 @@
 {
   "name": "iris",
   "version": "0.1.1",
-  "description": "ÍRIS: revisora de vídeos gerados por IA. Assiste quadro a quadro, aponta defeitos com o segundo exato, manda refazer só as cenas ruins e aprende com cada vídeo.",
+  "description": "ÍRIS: reviewer for AI-generated videos. Watches frame by frame, points out defects with the exact second, asks to redo only the bad scenes and learns from every video.",
   "author": {
     "name": "Isaque Moutta",
     "url": "https://github.com/IsaqueMoutta"
