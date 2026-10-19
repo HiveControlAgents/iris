@@ -1,0 +1,78 @@
+name: ÍRIS video review
+description: Reviews every video added or changed in a pull request and posts the summary as a PR comment.
+author: Isaque Moutta
+branding:
+  icon: film
+  color: yellow
+
+inputs:
+  anthropic-api-key:
+    description: >-
+      Optional. With it, Claude Code writes the full review (score, defects with the exact second, scenes to redo).
+      Without it, the comment has only the automatic measurements (freezes, black screens, loudness, cuts).
+    required: false
+    default: ""
+  videos:
+    description: "Space-separated list of videos to review. Default: the videos added or changed in the pull request."
+    required: false
+    default: ""
+  language:
+    description: Language of the narration, for Whisper (pt, en, es...).
+    required: false
+    default: pt
+  review-language:
+    description: Language of the written review.
+    required: false
+    default: en
+  comment:
+    description: Post the summary as a PR comment (true/false). The summary always goes to the job summary too.
+    required: false
+    default: "true"
+  github-token:
+    description: Token used to post the comment.
+    required: false
+    default: ${{ github.token }}
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+    - uses: FedericoCarboni/setup-ffmpeg@v3
+    - shell: bash
+      run: pip install --quiet "${{ github.action_path }}"
+    - if: inputs.anthropic-api-key != ''
+      shell: bash
+      run: npm install --global --silent @anthropic-ai/claude-code
+    - shell: bash
+      env:
+        ANTHROPIC_API_KEY: ${{ inputs.anthropic-api-key }}
+        GH_TOKEN: ${{ inputs.github-token }}
+        VIDEOS: ${{ inputs.videos }}
+        BASE: ${{ github.event.pull_request.base.sha }}
+        HEAD: ${{ github.event.pull_request.head.sha }}
+        PR: ${{ github.event.pull_request.number }}
+        IDIOMA: ${{ inputs.language }}
+        REVISAO_EM: ${{ inputs.review-language }}
+        COMENTAR: ${{ inputs.comment }}
+      run: |
+        if [ -n "$VIDEOS" ]; then
+          read -r -a lista <<< "$VIDEOS"
+        elif [ -n "$BASE" ]; then
+          git fetch --quiet --no-tags origin "$BASE" || true
+          mapfile -t lista < <(git diff --name-only --diff-filter=AM "$BASE" "$HEAD" | grep -iE '\.(mp4|mov|webm|mkv)$' || true)
+        fi
+        if [ "${#lista[@]}" -eq 0 ]; then
+          echo "ÍRIS: no videos to review."
+          exit 0
+        fi
+        sem=""
+        [ -z "$ANTHROPIC_API_KEY" ] && sem="--sem-revisao"
+        iris "${lista[@]}" $sem --idioma "$IDIOMA" --revisao-em "$REVISAO_EM" --resumo iris-resumo.md || codigo=$?
+        printf '\n<sub>Reviewed by [ÍRIS](https://github.com/HiveControlAgents/iris), by Isaque Moutta.</sub>\n' >> iris-resumo.md
+        cat iris-resumo.md >> "$GITHUB_STEP_SUMMARY"
+        if [ "$COMENTAR" = "true" ] && [ -n "$PR" ]; then
+          gh pr comment "$PR" --body-file iris-resumo.md
+        fi
+        exit "${codigo:-0}"

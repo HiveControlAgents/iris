@@ -52,6 +52,32 @@ Requirements: [Claude Code](https://claude.com/claude-code), Python 3.10+, `ffmp
 /plugin install iris@iris
 ```
 
+### One command, outside Claude Code
+
+```
+pipx install git+https://github.com/HiveControlAgents/iris
+iris my_video.mp4                      # or: python -m iris my_video.mp4, from a clone
+iris my_video.mp4 --roteiro script.json --revisao-em en --resumo summary.md
+```
+
+It runs the inspector and, if Claude Code is on the PATH, the full review (`claude -p`, using your own Claude Code
+login). Without Claude Code you still get the measurements and the contact sheets. `--sem-revisao` skips the review.
+
+### GitHub Action: review every video added in a pull request
+
+Copy [exemplos/iris-no-pr.yml](exemplos/iris-no-pr.yml) to `.github/workflows/iris.yml`. The action finds the videos
+added or changed in the PR, runs ÍRIS and posts the summary as a PR comment. With an `ANTHROPIC_API_KEY` secret the
+comment has the full review (score, defects with the exact second, scenes to redo); without it, only the automatic
+measurements (freezes, black screens, loudness, cuts).
+
+```yaml
+- uses: actions/checkout@v4
+  with: { fetch-depth: 0, lfs: true }
+- uses: HiveControlAgents/iris@main
+  with:
+    anthropic-api-key: ${{ secrets.ANTHROPIC_API_KEY }}   # optional
+```
+
 Optional: `pip install faster-whisper` (compares the narration with the script and lists invented, swallowed or doubtful words) and `pip install librosa` (checks
 that the voice matches the reference recording).
 
@@ -77,11 +103,25 @@ ask Claude, for example: "review this video and write the review in English".
 
 1. `inspecionar.py` measures with ffmpeg: length, resolution, loudness (LUFS) and peak, abrupt cuts, freezes, black
    screens, and brightness and saturation per scene. With a script, it compares the text with what was said.
+   It also analyzes the audio itself, beyond the transcript: clipping, silence gaps, loudness jumps and stretches
+   where the music drowns the voice.
 2. It builds **contact sheets**: 2 frames per second, 6 per row, with the timestamp in yellow in the corner. This is
    how Claude sees an object vanishing between two neighboring frames.
 3. Claude reads the measurements, the sheets, the channel rules and the history, and writes the review following the
    [criteria](skills/revisar-video/criterios.md).
 4. The history is updated. On the next video, repeated patterns become a pipeline fix instead of bad luck.
+
+## Review and re-render
+
+`--max-refazer N` sets how many scenes a review may ask to redo (default 3). The included ComfyUI adapter (local,
+free) regenerates only those scenes from your own workflow:
+
+```
+python -m iris.comfyui .iris/my_video/revisao.json --roteiro script.json --workflow my_workflow_api.json
+```
+
+Kling and other paid APIs plug in through the same interface (documented, not included). See
+[docs/adaptadores.md](docs/adaptadores.md).
 
 ## What about existing tools?
 

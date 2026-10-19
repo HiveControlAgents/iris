@@ -1,6 +1,6 @@
 {
   "name": "iris",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "ÍRIS: reviewer for AI-generated videos. Watches frame by frame, points out defects with the exact second, asks to redo only the bad scenes and learns from every video.",
   "author": {
     "name": "Isaque Moutta",

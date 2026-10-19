@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iris-revisora"
+version = "0.2.0"
+description = "ÍRIS: reviewer for AI-generated videos (inspector + Claude Code review)"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Isaque Moutta" }]
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10"]
+
+[project.optional-dependencies]
+narracao = ["faster-whisper"]
+voz = ["librosa"]
+
+[project.urls]
+Homepage = "https://github.com/HiveControlAgents/iris"
+
+[project.scripts]
+iris = "iris.__main__:main"
+
+[tool.setuptools]
+packages = ["iris", "iris.skill", "iris.skill.scripts"]
+
+[tool.setuptools.package-dir]
+"iris.skill" = "skills/revisar-video"
+
+[tool.setuptools.package-data]
+"iris.skill" = ["*.md"]

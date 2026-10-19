@@ -31,6 +31,12 @@ Valores de referência para Shorts/Reels verticais. Use as medidas de `medidas.j
 ## Áudio
 - `lufs_integrado` alvo -14 (±1) para YouTube/Instagram. Abaixo de -16 fica baixo no celular.
 - `pico_dbfs` até -1. Acima disso, risco de distorção depois da compressão da plataforma.
+- `picos_cortados.trechos` > 0: o áudio bateu no teto digital (distorção audível). Gravidade alta se passar de ~10.
+- `silencios`: buraco de 0,7 s ou mais no meio do vídeo. Entre frases é respiro; no meio de uma frase, ou mais de
+  ~1,5 s, quebra o ritmo.
+- `saltos_volume`: o volume muda 6 LU ou mais em 1 s (troca de música, cena mixada em outro nível, voz que some).
+- `voz_abafada`: trecho em que a música (ou ruído) preenche os vãos da fala. É heurística: confirme pela transcrição
+  (palavras `duvidosas` ou erros no mesmo trecho) antes de dar gravidade alta.
 
 ## Legendas (vistas nas folhas)
 - No máximo ~32 caracteres por bloco, sem cobrir o assunto principal.

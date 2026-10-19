@@ -1,0 +1,178 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "Como o olho humano acompanha uma bola a 200 km/h?",
+ "tema": "Por que os tenistas profissionais conseguem ver a bola em movimento?",
+ "estilo_visual": "award-winning photorealistic nature and sports photography, natural golden light, shallow depth of field, sharp focus",
+ "inspecionado_em": "2026-10-18T19:05:50",
+ "video": {
+  "duracao_s": 54.3,
+  "tamanho_mb": 36.0,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -14.5,
+  "pico_dbfs": -1.4,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 6.13,
+   "dur_s": 6.13,
+   "brilho_ini": 79.3,
+   "brilho_fim": 74.8,
+   "saturacao_ini": 32.1,
+   "saturacao_fim": 33.2,
+   "cortes_internos_s": [],
+   "narracao": "Uma bola de tênis viaja a mais de duzentos quilômetros por hora. Como o olho humano consegue acompanhá-la?",
+   "palavras_por_s": 2.94,
+   "quadro": "A single yellow tennis ball frozen in mid-air above a red clay tennis court, fuzzy texture catching warm sunlight, blurred net behind",
+   "prompt_video": "Close-up of a tennis ball moving rapidly through air in slow motion against a blurred court background, sunlight catching the fuzzy texture, shot with shallow depth of field, camera pans following the trajectory smoothly",
+   "movimento": "The tennis ball drifts slowly forward through the air, camera gently tracks it, dust particles float in the light"
+  },
+  {
+   "n": 2,
+   "inicio_s": 6.13,
+   "fim_s": 15.3,
+   "dur_s": 9.17,
+   "brilho_ini": 102.0,
+   "brilho_fim": 88.4,
+   "saturacao_ini": 12.8,
+   "saturacao_fim": 16.1,
+   "cortes_internos_s": [],
+   "narracao": "Nossos olhos possuem uma habilidade chamada rastreamento suave. Músculos ao redor dos olhos contraem e relaxam para acompanhar objetos em movimento.",
+   "palavras_por_s": 2.29,
+   "quadro": "Extreme close-up of the golden eye of a hawk, sharp feathers around it, catchlight in the pupil, soft green forest background",
+   "prompt_video": "Extreme close-up of human eye iris and pupil, light reflecting off the cornea, eye slowly moving from left to right, warm natural light, macro lens capturing fine detail of eye surface",
+   "movimento": "Very slow push-in toward the hawk eye, the bird stays still, feathers stir softly in the breeze"
+  },
+  {
+   "n": 3,
+   "inicio_s": 15.3,
+   "fim_s": 21.7,
+   "dur_s": 6.4,
+   "brilho_ini": 79.7,
+   "brilho_fim": 78.5,
+   "saturacao_ini": 19.5,
+   "saturacao_fim": 20.1,
+   "cortes_internos_s": [],
+   "narracao": "Esse reflexo é tão automático que seu cérebro antecipa onde a bola estará, não apenas onde ela é agora.",
+   "palavras_por_s": 2.97,
+   "quadro": "A hawk perched on a branch at the edge of a forest, head turned sideways, golden sunlight through the leaves",
+   "prompt_video": "Swift bird of prey turning its head to track movement through forest canopy, golden sunlight filtering through leaves, camera follows the bird's focused gaze, shallow depth of field emphasizing eye tracking",
+   "movimento": "The hawk slowly turns its head, leaves sway softly in the background"
+  },
+  {
+   "n": 4,
+   "inicio_s": 21.7,
+   "fim_s": 30.97,
+   "dur_s": 9.27,
+   "brilho_ini": 90.4,
+   "brilho_fim": 81.8,
+   "saturacao_ini": 36.4,
+   "saturacao_fim": 39.1,
+   "cortes_internos_s": [],
+   "narracao": "Tenistas desenvolvem essa habilidade com treinamento. Repetem o mesmo movimento milhares de vezes até o corpo responder instintivamente.",
+   "palavras_por_s": 1.94,
+   "quadro": "A tennis racket resting on a red clay court next to a single yellow tennis ball, white baseline, dust in golden afternoon light",
+   "prompt_video": "Tennis racket hitting a ball on clay court in slow motion, ball leaving the frame with motion blur, dust particles suspended in golden afternoon light, camera captures the swing arc smoothly",
+   "movimento": "Locked-off camera with a very slow subtle push-in, the racket and the ball stay still on the ground, a few dust particles float in the sunlight, nothing else changes"
+  },
+  {
+   "n": 5,
+   "inicio_s": 30.97,
+   "fim_s": 38.17,
+   "dur_s": 7.2,
+   "brilho_ini": 98.5,
+   "brilho_fim": 86.4,
+   "saturacao_ini": 8.6,
+   "saturacao_fim": 12.8,
+   "cortes_internos_s": [],
+   "narracao": "Mas nem todo mundo consegue atingir esse nível. A visão periférica e a concentração são fundamentais nesse processo.",
+   "palavras_por_s": 2.5,
+   "quadro": "An empty tennis court seen from above the baseline, crisp white lines, a single yellow ball resting near the service line, trees and sky in soft focus",
+   "prompt_video": "Open tennis court with lines clearly visible, single ball moving across the frame diagonally, trees and sky in soft focus background, natural daylight, slow tracking shot following the ball",
+   "movimento": "Gentle slow pan across the court, the ball stays still, trees sway softly"
+  },
+  {
+   "n": 6,
+   "inicio_s": 38.17,
+   "fim_s": 45.23,
+   "dur_s": 7.06,
+   "brilho_ini": 130.3,
+   "brilho_fim": 117.5,
+   "saturacao_ini": 40.9,
+   "saturacao_fim": 48.9,
+   "cortes_internos_s": [],
+   "narracao": "Sua retina atualiza a imagem dezenas de vezes por segundo. Isso cria a ilusão de movimento contínuo do que você vê.",
+   "palavras_por_s": 2.97,
+   "quadro": "Macro photograph of a single water drop hanging from a green leaf tip, light refracting through the droplet, warm golden background bokeh",
+   "prompt_video": "Macro shot of a drop of water falling slowly through air, light refracting through the droplet in multiple colors, background blurred, warm golden light, extreme close-up perspective",
+   "movimento": "The water drop trembles gently, very slow push-in, background bokeh shimmers softly"
+  },
+  {
+   "n": 7,
+   "inicio_s": 45.23,
+   "fim_s": 54.3,
+   "dur_s": 9.07,
+   "brilho_ini": 68.4,
+   "brilho_fim": 61.2,
+   "saturacao_ini": 35.9,
+   "saturacao_fim": 41.7,
+   "cortes_internos_s": [],
+   "narracao": "Então quando você assiste um jogo de tênis em câmera lenta, o jogador enxergava tudo isso em velocidade real. Impressionante, não?",
+   "palavras_por_s": 2.32,
+   "quadro": "Wide view of an empty red clay tennis court at sunset, golden light across the net, long soft shadows",
+   "prompt_video": "Wide shot of empty tennis court at sunset, single golden light illuminating the net, soft shadows across the clay, peaceful and serene, no movement, camera static with gentle warmth",
+   "movimento": "Static camera, the sunset light slowly warms the court, the net moves slightly in the breeze"
+  }
+ ],
+ "cortes_bruscos_s": [
+  6.13,
+  15.3,
+  21.7,
+  30.97,
+  38.17,
+  45.23
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 136,
+  "palavras_ouvidas": 136,
+  "taxa_acerto": 0.985,
+  "erros": [],
+  "suspeitas": [],
+  "duvidosas": [
+   "por",
+   "quando"
+  ],
+  "divergencias": []
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg",
+  "folha_5.jpg"
+ ]
+}

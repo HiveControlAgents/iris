@@ -7,12 +7,16 @@ Gera na pasta de saída (padrão: .iris/<nome-do-video>/):
     medidas.json   duração, resolução, loudness, cenas, cortes, congelamentos, telas pretas, narração
     folha_N.jpg    2 quadros por segundo, 6 por linha, com o tempo escrito em amarelo no canto
 
+O áudio é analisado de verdade, além da transcrição: picos cortados (clipping), buracos de silêncio, saltos de
+volume e trechos em que a música abafa a voz.
+
 Só precisa de ffmpeg/ffprobe no PATH e Pillow. Opcionais: openai-whisper ou faster-whisper (compara o que foi
 dito com o roteiro) e librosa (confere se a voz é a mesma da gravação de referência).
 """
 from __future__ import annotations
 
 import argparse
+import array
 import datetime as dt
 import difflib
 import json
@@ -27,6 +31,9 @@ from pathlib import Path
 
 QPS, COLUNAS, SEG_POR_FOLHA, LARGURA_QUADRO = 2, 6, 12, 250   # 6x4 quadros = 12 s por imagem
 LIMIAR_CORTE = 0.3
+SILENCIO_DB, SILENCIO_S = -45, 0.7    # buraco de silêncio: abaixo de -45 dBFS por 0,7 s ou mais
+SALTO_LU = 6                          # salto de volume: loudness de curto prazo (3 s) muda 6 LU ou mais em 1 s
+MODULACAO_DB = 10                     # voz abafada: na faixa da voz, as sílabas ficam a menos de 10 dB dos vãos
 
 
 def _rodar(args: list[str]) -> str:
@@ -47,7 +54,9 @@ def info_video(video: Path) -> dict:
             "tamanho_mb": round(video.stat().st_size / 2**20, 1),
             "largura": v.get("width"), "altura": v.get("height"),
             "fps": round(float(num) / float(den or 1), 2) if float(den or 1) else None,
-            "tem_audio": any(s["codec_type"] == "audio" for s in dados["streams"])}
+            "tem_audio": any(s["codec_type"] == "audio" for s in dados["streams"]),
+            "audio_hz": int(next((s.get("sample_rate", 0) for s in dados["streams"] if s["codec_type"] == "audio"), 0)),
+            "audio_canais": next((s.get("channels", 1) for s in dados["streams"] if s["codec_type"] == "audio"), 0)}
 
 
 def _metadados(video: Path, filtro: str) -> list[dict]:
@@ -158,6 +167,93 @@ def medir_voz(video: Path, referencia: Path) -> dict:
             "como_ler": "semelhança abaixo de 0,95 ou tom a mais de 15 Hz da referência = não é a mesma voz"}
 
 
+def _pcm(video: Path, args: list[str]) -> array.array:
+    """Amostras de 16 bits do áudio, depois dos filtros/opções de `args`."""
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-nostdin", "-loglevel", "error", "-i", str(video), "-vn", *args,
+                        "-f", "s16le", "-acodec", "pcm_s16le", "-"], capture_output=True)
+    amostras = array.array("h")
+    amostras.frombytes(r.stdout[:len(r.stdout) // 2 * 2])
+    if sys.byteorder == "big":
+        amostras.byteswap()
+    return amostras
+
+
+def _agrupar(tempos: list[float], folga: float) -> list[float]:
+    """Junta marcas a menos de `folga` segundos da anterior (um defeito longo vira uma marca só)."""
+    saida: list[float] = []
+    ultimo = -1e9
+    for t in tempos:
+        if t - ultimo > folga:
+            saida.append(round(t, 1))
+        ultimo = t
+    return saida
+
+
+def picos_cortados(video: Path, hz: int, canais: int) -> dict:
+    """Clipping: 3 ou mais amostras seguidas no teto digital, em qualquer canal (sem mixar, que esconderia o pico)."""
+    a, canais, hz = _pcm(video, []), canais or 1, hz or 48000
+    marcas = []
+    for c in range(canais):
+        seguidas = 0
+        for i, x in enumerate(a[c::canais]):
+            if x >= 32766 or x <= -32767:
+                seguidas += 1
+                if seguidas == 3:
+                    marcas.append(i / hz)
+            else:
+                seguidas = 0
+    return {"trechos": len(marcas), "segundos": _agrupar(sorted(marcas), 0.5)[:20]}
+
+
+def voz_abafada(video: Path, de: float = 0.0, ate: float | None = None) -> list[dict]:
+    """Música abafando a voz. A fala tem sílabas e vãos: na faixa da voz (300 a 3400 Hz) os quadros fortes ficam
+    bem acima dos fracos. Quando a música preenche os vãos, essa modulação cai. Mede a cada 2 s, em quadros de 50 ms,
+    a diferença entre o percentil 90 e o 10; abaixo de MODULACAO_DB com som presente (> -40 dBFS) é suspeito."""
+    hz = 16000
+    a = _pcm(video, ["-af", "highpass=f=300,lowpass=f=3400", "-ac", "1", "-ar", str(hz)])
+    quadro = hz // 20
+    db = []
+    for i in range(0, len(a) - quadro + 1, quadro):
+        energia = sum(x * x for x in a[i:i + quadro]) / quadro
+        db.append(10 * math.log10(energia / 32768 ** 2) if energia else -120.0)
+    trechos: list[dict] = []
+    for k in range(0, len(db) - 39, 40):                     # 40 quadros de 50 ms = 2 s
+        inicio = k / 20
+        if inicio < de or (ate is not None and inicio + 2 > ate):
+            continue
+        janela = sorted(db[k:k + 40])
+        p10, p90 = janela[4], janela[35]
+        if p90 > -40 and p90 - p10 < MODULACAO_DB:
+            if trechos and abs(trechos[-1]["fim_s"] - inicio) < 0.01:
+                trechos[-1]["fim_s"] = inicio + 2
+                trechos[-1]["modulacao_db"] = min(trechos[-1]["modulacao_db"], round(p90 - p10, 1))
+            else:
+                trechos.append({"inicio_s": inicio, "fim_s": inicio + 2, "modulacao_db": round(p90 - p10, 1)})
+    return trechos
+
+
+def analisar_audio(video: Path, log: str, info: dict, narracao: tuple[float, float] | None) -> dict:
+    """Áudio além da transcrição. `log` é a saída do ffmpeg com ebur128 e silencedetect; `narracao` é o intervalo
+    (início, fim) em que há fala, para não confundir introdução musical com voz abafada."""
+    total = info["duracao_s"]
+    silencios = [{"inicio_s": round(float(fim) - float(dur), 1), "dur_s": round(float(dur), 1)} for fim, dur in
+                 re.findall(r"silence_end: ([\d.]+) \| silence_duration: ([\d.]+)", log)]
+    # silêncio colado no começo ou no fim é respiro de edição, não buraco
+    buracos = [s for s in silencios if s["inicio_s"] > 0.3 and s["inicio_s"] + s["dur_s"] < total - 0.3]
+    curto = [(float(t), float(s)) for t, s in re.findall(r"t:\s*([\d.]+)\s+TARGET:.*?\sS:\s*(-?[\d.]+)", log)]
+    saltos, ultimo = [], -9.0
+    for (t0, s0), (t1, s1) in zip(curto, curto[10:]):         # 10 medidas de 0,1 s = 1 s
+        if t1 > 3 and min(s0, s1) > -50 and abs(s1 - s0) >= SALTO_LU and t1 - ultimo > 1.5:
+            saltos.append({"segundo": round(t1, 1), "de_lufs": s0, "para_lufs": s1})
+            ultimo = t1
+    de, ate = narracao or (0.0, None)
+    return {"picos_cortados": picos_cortados(video, info.get("audio_hz", 0), info.get("audio_canais", 1)),
+            "silencios": buracos, "saltos_volume": saltos[:20], "voz_abafada": voz_abafada(video, de, ate)[:20],
+            "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do "
+                        "vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a "
+                        "música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"}
+
+
 def fronteiras(roteiro: dict | None, cortes: list[float], total: float) -> list[tuple[float, float, dict]]:
     """Início e fim de cada cena: do roteiro (inicio_s/fim_s ou dur_s), ou dos cortes bruscos quando não há roteiro."""
     cenas = (roteiro or {}).get("cenas") or []
@@ -177,7 +273,7 @@ def fronteiras(roteiro: dict | None, cortes: list[float], total: float) -> list[
     return [(a, b, {}) for a, b in pares]
 
 
-def medir(video: Path, roteiro: dict | None, referencia_voz: Path | None, idioma: str) -> dict:
+def medir(video: Path, roteiro: dict | None, referencia_voz: Path | None, idioma: str, max_refazer: int = 3) -> dict:
     info = info_video(video)
     total = info["duracao_s"]
 
@@ -206,7 +302,7 @@ def medir(video: Path, roteiro: dict | None, referencia_voz: Path | None, idioma
 
     filtros = ["-i", str(video), "-vf", "freezedetect=n=0.002:d=2,blackdetect=d=0.3"]
     if info["tem_audio"]:
-        filtros += ["-af", "ebur128=peak=true"]
+        filtros += ["-af", f"ebur128=peak=true,silencedetect=n={SILENCIO_DB}dB:d={SILENCIO_S}"]
     log = _ffmpeg([*filtros, "-f", "null", "-"])
     lufs = re.findall(r"I:\s+(-?[\d.]+) LUFS", log)
     pico = re.findall(r"Peak:\s+(-?[\d.]+) dBFS", log)
@@ -226,8 +322,13 @@ def medir(video: Path, roteiro: dict | None, referencia_voz: Path | None, idioma
         "cortes_bruscos_s": cortes,
         "congelamentos": congelados,
         "telas_pretas": [{"inicio_s": float(a), "fim_s": float(b)} for a, b in pretas],
+        "max_refazer": max_refazer,
         "folha": {"quadros_por_segundo": QPS, "colunas": COLUNAS, "segundos_por_imagem": SEG_POR_FOLHA},
     }
+    if info["tem_audio"]:
+        com_fala = [c for c in cenas if c.get("narracao")]
+        trecho_fala = (com_fala[0]["inicio_s"], com_fala[-1]["fim_s"]) if com_fala else None
+        medidas["audio"].update(analisar_audio(video, log, info, trecho_fala))
     roteiro_txt = " ".join(c.get("narracao", "") for c in (roteiro or {}).get("cenas", [])).strip()
     if roteiro_txt and info["tem_audio"]:
         ouvido = transcrever(video, idioma)
@@ -289,6 +390,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--saida", type=Path, help="pasta de saída (padrão: .iris/<nome-do-video>)")
     ap.add_argument("--referencia-voz", type=Path, help="gravação da voz aprovada, para conferir o timbre (librosa)")
     ap.add_argument("--idioma", default="pt", help="idioma da narração para o Whisper (padrão: pt)")
+    ap.add_argument("--max-refazer", type=int, default=3, help="máximo de cenas que a revisão pode mandar refazer")
     a = ap.parse_args(argv)
 
     if not shutil.which("ffmpeg") or not shutil.which("ffprobe"):
@@ -301,7 +403,7 @@ def main(argv: list[str] | None = None) -> int:
     saida = a.saida or Path(".iris") / a.video.stem
     saida.mkdir(parents=True, exist_ok=True)
 
-    medidas = medir(a.video, roteiro, a.referencia_voz, a.idioma)
+    medidas = medir(a.video, roteiro, a.referencia_voz, a.idioma, a.max_refazer)
     folhas = folhas_de_contato(a.video, medidas["video"]["duracao_s"], saida)
     medidas["folhas"] = [f.name for f in folhas]
     (saida / "medidas.json").write_text(json.dumps(medidas, ensure_ascii=False, indent=1), encoding="utf-8")
