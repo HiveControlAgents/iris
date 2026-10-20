@@ -10,7 +10,7 @@ readme = "README.md"
 license = { text = "MIT" }
 authors = [{ name = "Isaque Moutta" }]
 requires-python = ">=3.10"
-dependencies = ["Pillow>=10"]
+dependencies = ["Pillow>=12.3.0"]
 
 [project.optional-dependencies]
 narracao = ["faster-whisper"]

@@ -1,4 +1,4 @@
-Pillow>=10
+Pillow>=12.3.0
 # opcionais
 # faster-whisper   # compara a narração com o roteiro
 # librosa          # confere se a voz é a mesma da referência

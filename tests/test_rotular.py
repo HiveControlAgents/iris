@@ -2,6 +2,7 @@
 import json
 import sys
 import threading
+import urllib.error
 import urllib.request
 from http.server import ThreadingHTTPServer
 from pathlib import Path
@@ -43,5 +44,32 @@ def test_servidor_rotula_e_serve_video_com_range(base, tmp_path):
         r = urllib.request.urlopen(urllib.request.Request(url + "/video/tenis-v3", headers={"Range": "bytes=10-19"}))
         assert r.status == 206 and r.read() == bytes(range(10, 20)) and r.headers["Content-Range"] == "bytes 10-19/1024"
         assert "ÍRIS" in urllib.request.urlopen(url + "/").read().decode()
+    finally:
+        servidor.shutdown()
+
+
+def test_servidor_recusa_pedido_de_outro_site(base):
+    arq = bench.criar_rotulos("tenis-v3", "Tênis v3")
+    antes = arq.read_text(encoding="utf-8")
+    rotular.Pagina.locais = {}
+    servidor = ThreadingHTTPServer(("127.0.0.1", 0), rotular.Pagina)
+    threading.Thread(target=servidor.serve_forever, daemon=True).start()
+    porta = servidor.server_port
+    corpo = json.dumps({"id": "tenis-v3", "i": 1, "valor": "errado", "texto": "mão com seis dedos"}).encode()
+
+    def codigo(caminho, dados=None, **cabecalhos):
+        try:
+            return urllib.request.urlopen(urllib.request.Request(f"http://127.0.0.1:{porta}{caminho}", data=dados,
+                                                                 headers=cabecalhos)).status
+        except urllib.error.HTTPError as e:
+            return e.code
+    try:
+        assert codigo("/api/rotulo", corpo, Origin="https://site-qualquer.com") == 403        # CSRF de outra aba
+        assert codigo("/api/perdido", corpo, Origin=f"http://127.0.0.1:{porta + 1}") == 403   # outra porta: outro site
+        assert arq.read_text(encoding="utf-8") == antes
+        assert codigo("/api/dados", Host=f"rebind.exemplo.com:{porta}") == 403                # DNS rebinding
+        assert codigo("/api/dados", Host=f"localhost:{porta}") == 200
+        assert codigo("/api/rotulo", corpo, Origin=f"http://127.0.0.1:{porta}") == 200        # a própria página
+        assert rotular.ler(arq)["achados"][1]["rotulo"] == "errado"
     finally:
         servidor.shutdown()
