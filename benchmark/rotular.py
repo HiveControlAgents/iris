@@ -5,6 +5,7 @@
 Sobe um servidor só em 127.0.0.1 e abre o navegador. Os vídeos são achados em PASTA_DOS_VIDEOS pelo mesmo id que
 `bench.py pasta` usa (o nome da pasta de cada vídeo) e servidos direto do disco: nunca vão para o repositório.
 Cada clique grava em benchmark/rotulos/<id>.md, no formato que `bench.py metricas` lê.
+Só atende a própria página: outro site aberto no navegador não consegue ler nem gravar os rótulos.
 """
 from __future__ import annotations
 
@@ -102,7 +103,17 @@ class Pagina(BaseHTTPRequestHandler):
     def _json(self, dados, codigo=200):
         self._enviar(codigo, json.dumps(dados, ensure_ascii=False).encode(), "application/json; charset=utf-8")
 
+    def _de_fora(self) -> bool:
+        """Pedido que não veio desta página: Host de outro nome (DNS rebinding) ou POST com Origin de outro site."""
+        locais = {f"127.0.0.1:{self.server.server_port}", f"localhost:{self.server.server_port}"}
+        if self.headers.get("Host", "").lower() not in locais:
+            return True
+        origem = self.headers.get("Origin")   # sem Origin (curl, testes) passa: navegador sempre manda no POST
+        return self.command == "POST" and origem is not None and origem.lower() not in {f"http://{h}" for h in locais}
+
     def do_GET(self):
+        if self._de_fora():
+            return self._json({"erro": "pedido de fora da página local"}, 403)
         if self.path == "/":
             return self._enviar(200, HTML.encode(), "text/html; charset=utf-8")
         if self.path == "/api/dados":
@@ -132,6 +143,8 @@ class Pagina(BaseHTTPRequestHandler):
         self._enviar(206 if m else 200, corpo, "video/mp4", extra)
 
     def do_POST(self):
+        if self._de_fora():
+            return self._json({"erro": "pedido de fora da página local"}, 403)
         try:
             pedido = json.loads(self.rfile.read(int(self.headers.get("Content-Length", 0))) or b"{}")
             ident = bench.slug(str(pedido.get("id", "")))
