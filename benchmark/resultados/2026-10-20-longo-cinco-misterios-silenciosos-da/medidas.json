@@ -1,0 +1,880 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "Five Quiet Mysteries Nature Has Never Solved",
+ "tema": "Cinco mistérios silenciosos da natureza: a árvore que avisa as vizinhas, o fungo que brilha, o mofo sem cérebro que resolve labirintos, as dunas que cantam e as luzes sem explicação de um vale na Noruega",
+ "estilo_visual": "Calm documentary nature photograph in the style of BBC Earth, soft low light, quiet mist and deep shadows, a single clear subject, gentle mystery, natural colors, wide horizontal framing.",
+ "inspecionado_em": "2026-10-21T02:04:32",
+ "video": {
+  "duracao_s": 585.6,
+  "tamanho_mb": 151.3,
+  "largura": 1920,
+  "altura": 1080,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -13.9,
+  "pico_dbfs": -1.0,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [
+   {
+    "inicio_s": 239.1,
+    "dur_s": 0.8
+   },
+   {
+    "inicio_s": 358.8,
+    "dur_s": 0.9
+   }
+  ],
+  "saltos_volume": [],
+  "voz_abafada": [
+   {
+    "inicio_s": 416.0,
+    "fim_s": 418.0,
+    "modulacao_db": 9.1
+   }
+  ],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 25.07,
+   "dur_s": 25.07,
+   "brilho_ini": 35.3,
+   "brilho_fim": 46.0,
+   "saturacao_ini": 9.9,
+   "saturacao_fim": 9.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 2,
+   "inicio_s": 25.07,
+   "fim_s": 35.4,
+   "dur_s": 10.33,
+   "brilho_ini": 64.0,
+   "brilho_fim": 64.1,
+   "saturacao_ini": 17.9,
+   "saturacao_fim": 17.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 3,
+   "inicio_s": 35.4,
+   "fim_s": 45.33,
+   "dur_s": 9.93,
+   "brilho_ini": 137.6,
+   "brilho_fim": 141.7,
+   "saturacao_ini": 18.2,
+   "saturacao_fim": 18.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 4,
+   "inicio_s": 45.33,
+   "fim_s": 58.03,
+   "dur_s": 12.7,
+   "brilho_ini": 164.7,
+   "brilho_fim": 156.6,
+   "saturacao_ini": 19.4,
+   "saturacao_fim": 15.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 5,
+   "inicio_s": 58.03,
+   "fim_s": 64.43,
+   "dur_s": 6.4,
+   "brilho_ini": 141.3,
+   "brilho_fim": 145.9,
+   "saturacao_ini": 9.3,
+   "saturacao_fim": 9.2,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 6,
+   "inicio_s": 64.43,
+   "fim_s": 70.8,
+   "dur_s": 6.37,
+   "brilho_ini": 140.7,
+   "brilho_fim": 142.1,
+   "saturacao_ini": 9.3,
+   "saturacao_fim": 10.0,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 7,
+   "inicio_s": 70.8,
+   "fim_s": 76.8,
+   "dur_s": 6.0,
+   "brilho_ini": 144.9,
+   "brilho_fim": 147.7,
+   "saturacao_ini": 12.1,
+   "saturacao_fim": 12.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 8,
+   "inicio_s": 76.8,
+   "fim_s": 82.77,
+   "dur_s": 5.97,
+   "brilho_ini": 151.2,
+   "brilho_fim": 145.8,
+   "saturacao_ini": 12.4,
+   "saturacao_fim": 12.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 9,
+   "inicio_s": 82.77,
+   "fim_s": 97.57,
+   "dur_s": 14.8,
+   "brilho_ini": 146.6,
+   "brilho_fim": 142.6,
+   "saturacao_ini": 11.8,
+   "saturacao_fim": 12.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 10,
+   "inicio_s": 97.57,
+   "fim_s": 108.83,
+   "dur_s": 11.26,
+   "brilho_ini": 145.6,
+   "brilho_fim": 135.5,
+   "saturacao_ini": 14.0,
+   "saturacao_fim": 13.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 11,
+   "inicio_s": 108.83,
+   "fim_s": 121.63,
+   "dur_s": 12.8,
+   "brilho_ini": 92.5,
+   "brilho_fim": 92.6,
+   "saturacao_ini": 11.7,
+   "saturacao_fim": 11.7,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 12,
+   "inicio_s": 121.63,
+   "fim_s": 136.13,
+   "dur_s": 14.5,
+   "brilho_ini": 113.1,
+   "brilho_fim": 112.9,
+   "saturacao_ini": 7.2,
+   "saturacao_fim": 7.2,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 13,
+   "inicio_s": 136.13,
+   "fim_s": 150.2,
+   "dur_s": 14.07,
+   "brilho_ini": 48.9,
+   "brilho_fim": 48.2,
+   "saturacao_ini": 21.9,
+   "saturacao_fim": 21.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 14,
+   "inicio_s": 150.2,
+   "fim_s": 165.9,
+   "dur_s": 15.7,
+   "brilho_ini": 37.0,
+   "brilho_fim": 37.0,
+   "saturacao_ini": 7.7,
+   "saturacao_fim": 7.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 15,
+   "inicio_s": 165.9,
+   "fim_s": 177.63,
+   "dur_s": 11.73,
+   "brilho_ini": 43.7,
+   "brilho_fim": 43.8,
+   "saturacao_ini": 7.0,
+   "saturacao_fim": 6.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 16,
+   "inicio_s": 177.63,
+   "fim_s": 194.2,
+   "dur_s": 16.57,
+   "brilho_ini": 45.7,
+   "brilho_fim": 45.8,
+   "saturacao_ini": 11.9,
+   "saturacao_fim": 11.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 17,
+   "inicio_s": 194.2,
+   "fim_s": 216.23,
+   "dur_s": 22.03,
+   "brilho_ini": 21.5,
+   "brilho_fim": 32.1,
+   "saturacao_ini": 11.3,
+   "saturacao_fim": 6.0,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 18,
+   "inicio_s": 216.23,
+   "fim_s": 230.57,
+   "dur_s": 14.34,
+   "brilho_ini": 52.9,
+   "brilho_fim": 56.8,
+   "saturacao_ini": 7.9,
+   "saturacao_fim": 7.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 19,
+   "inicio_s": 230.57,
+   "fim_s": 244.6,
+   "dur_s": 14.03,
+   "brilho_ini": 66.0,
+   "brilho_fim": 55.1,
+   "saturacao_ini": 7.6,
+   "saturacao_fim": 6.7,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 20,
+   "inicio_s": 244.6,
+   "fim_s": 256.1,
+   "dur_s": 11.5,
+   "brilho_ini": 23.5,
+   "brilho_fim": 40.1,
+   "saturacao_ini": 4.3,
+   "saturacao_fim": 8.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 21,
+   "inicio_s": 256.1,
+   "fim_s": 268.33,
+   "dur_s": 12.23,
+   "brilho_ini": 71.9,
+   "brilho_fim": 74.3,
+   "saturacao_ini": 17.0,
+   "saturacao_fim": 16.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 22,
+   "inicio_s": 268.33,
+   "fim_s": 281.17,
+   "dur_s": 12.84,
+   "brilho_ini": 81.6,
+   "brilho_fim": 82.2,
+   "saturacao_ini": 18.4,
+   "saturacao_fim": 18.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 23,
+   "inicio_s": 281.17,
+   "fim_s": 319.53,
+   "dur_s": 38.36,
+   "brilho_ini": 64.6,
+   "brilho_fim": 83.1,
+   "saturacao_ini": 10.3,
+   "saturacao_fim": 11.4,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 24,
+   "inicio_s": 319.53,
+   "fim_s": 326.3,
+   "dur_s": 6.77,
+   "brilho_ini": 123.1,
+   "brilho_fim": 123.1,
+   "saturacao_ini": 22.3,
+   "saturacao_fim": 21.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 25,
+   "inicio_s": 326.3,
+   "fim_s": 333.07,
+   "dur_s": 6.77,
+   "brilho_ini": 125.5,
+   "brilho_fim": 105.9,
+   "saturacao_ini": 22.6,
+   "saturacao_fim": 22.0,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 26,
+   "inicio_s": 333.07,
+   "fim_s": 349.3,
+   "dur_s": 16.23,
+   "brilho_ini": 77.2,
+   "brilho_fim": 70.9,
+   "saturacao_ini": 21.7,
+   "saturacao_fim": 19.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 27,
+   "inicio_s": 349.3,
+   "fim_s": 363.87,
+   "dur_s": 14.57,
+   "brilho_ini": 51.5,
+   "brilho_fim": 96.1,
+   "saturacao_ini": 14.3,
+   "saturacao_fim": 15.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 28,
+   "inicio_s": 363.87,
+   "fim_s": 377.43,
+   "dur_s": 13.56,
+   "brilho_ini": 182.5,
+   "brilho_fim": 183.2,
+   "saturacao_ini": 16.1,
+   "saturacao_fim": 15.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 29,
+   "inicio_s": 377.43,
+   "fim_s": 390.2,
+   "dur_s": 12.77,
+   "brilho_ini": 108.7,
+   "brilho_fim": 108.7,
+   "saturacao_ini": 21.5,
+   "saturacao_fim": 21.5,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 30,
+   "inicio_s": 390.2,
+   "fim_s": 402.27,
+   "dur_s": 12.07,
+   "brilho_ini": 164.9,
+   "brilho_fim": 172.0,
+   "saturacao_ini": 8.5,
+   "saturacao_fim": 9.4,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 31,
+   "inicio_s": 402.27,
+   "fim_s": 413.83,
+   "dur_s": 11.56,
+   "brilho_ini": 199.3,
+   "brilho_fim": 174.8,
+   "saturacao_ini": 11.1,
+   "saturacao_fim": 12.7,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 32,
+   "inicio_s": 413.83,
+   "fim_s": 430.83,
+   "dur_s": 17.0,
+   "brilho_ini": 124.5,
+   "brilho_fim": 120.0,
+   "saturacao_ini": 16.0,
+   "saturacao_fim": 13.4,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 33,
+   "inicio_s": 430.83,
+   "fim_s": 440.93,
+   "dur_s": 10.1,
+   "brilho_ini": 105.3,
+   "brilho_fim": 108.0,
+   "saturacao_ini": 5.7,
+   "saturacao_fim": 5.7,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 34,
+   "inicio_s": 440.93,
+   "fim_s": 454.07,
+   "dur_s": 13.14,
+   "brilho_ini": 146.2,
+   "brilho_fim": 130.5,
+   "saturacao_ini": 9.4,
+   "saturacao_fim": 12.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 35,
+   "inicio_s": 454.07,
+   "fim_s": 467.27,
+   "dur_s": 13.2,
+   "brilho_ini": 84.9,
+   "brilho_fim": 81.6,
+   "saturacao_ini": 22.0,
+   "saturacao_fim": 17.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 36,
+   "inicio_s": 467.27,
+   "fim_s": 491.93,
+   "dur_s": 24.66,
+   "brilho_ini": 57.1,
+   "brilho_fim": 57.2,
+   "saturacao_ini": 6.6,
+   "saturacao_fim": 6.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 37,
+   "inicio_s": 491.93,
+   "fim_s": 518.03,
+   "dur_s": 26.1,
+   "brilho_ini": 49.5,
+   "brilho_fim": 51.5,
+   "saturacao_ini": 7.6,
+   "saturacao_fim": 13.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 38,
+   "inicio_s": 518.03,
+   "fim_s": 532.77,
+   "dur_s": 14.74,
+   "brilho_ini": 73.5,
+   "brilho_fim": 61.1,
+   "saturacao_ini": 12.3,
+   "saturacao_fim": 11.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 39,
+   "inicio_s": 532.77,
+   "fim_s": 564.17,
+   "dur_s": 31.4,
+   "brilho_ini": 39.7,
+   "brilho_fim": 58.1,
+   "saturacao_ini": 8.8,
+   "saturacao_fim": 15.2,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 40,
+   "inicio_s": 564.17,
+   "fim_s": 573.13,
+   "dur_s": 8.96,
+   "brilho_ini": 89.6,
+   "brilho_fim": 92.5,
+   "saturacao_ini": 4.7,
+   "saturacao_fim": 4.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 41,
+   "inicio_s": 573.13,
+   "fim_s": 585.6,
+   "dur_s": 12.47,
+   "brilho_ini": 35.3,
+   "brilho_fim": 22.9,
+   "saturacao_ini": 7.5,
+   "saturacao_fim": 5.2,
+   "cortes_internos_s": []
+  }
+ ],
+ "cortes_bruscos_s": [
+  25.07,
+  35.4,
+  45.33,
+  58.03,
+  64.43,
+  70.8,
+  76.8,
+  82.77,
+  97.57,
+  108.83,
+  121.63,
+  136.13,
+  150.2,
+  165.9,
+  177.63,
+  194.2,
+  216.23,
+  230.57,
+  244.6,
+  256.1,
+  268.33,
+  281.17,
+  319.53,
+  326.3,
+  333.07,
+  349.3,
+  363.87,
+  377.43,
+  390.2,
+  402.27,
+  413.83,
+  430.83,
+  440.93,
+  454.07,
+  467.27,
+  491.93,
+  518.03,
+  532.77,
+  564.17,
+  573.13
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 1321,
+  "palavras_ouvidas": 1391,
+  "taxa_acerto": 0.031,
+  "erros": [
+   {
+    "roteiro": "in",
+    "ouvido": "em um valente quieto no noruejo uma luz aparece em cima das ruas da noite ela se engana ela se engana entao ela vanece e ninguem pode dizer por certeza o que foi isso e apenas"
+   },
+   {
+    "roteiro": "quiet valley in norway",
+    "ouvido": "ultima historia neste video antes nos vamos encontrar um brilho que envia os contos um forco que se engana e um criatorio com nenhum brilho que solta mazes cada um e real cada um tem sido estudado por cientistas por anos e cada um faz uma regra que pensamos que"
+   },
+   {
+    "roteiro": "light appears above the hills at night it hovers it drifts then it vanishes and nobody can say for sure what it was that is only the last story in this video before it we will meet",
+    "ouvido": "natureza tinha que seguir entao siga comigo e deixe"
+   },
+   {
+    "roteiro": "tree that sends warnings a forest that glows and a creature with",
+    "ouvido": "noite se enganar nos comecamos com um brilho"
+   },
+   {
+    "roteiro": "brain that solves mazes each one is real each one has been studied by scientists for years and each one breaks a rule we thought nature had to follow so stay with me and let the night get quiet we start with a tree on an open plain and the warning it whispers to the air on",
+    "ouvido": "planeio aberto e o brilho se espalha para o ar em"
+   },
+   {
+    "roteiro": "savanna the umbrella thorn acacia has",
+    "ouvido": "savannah"
+   },
+   {
+    "roteiro": "problem giraffes love its leaves and",
+    "ouvido": "ambrela thorna keshia tem um problema os girafes amam suas amigas e um brilho nao pode se enganar entao ele se engana em uma forma quieta quando um girafo comeca"
+   },
+   {
+    "roteiro": "tree cannot run away so it fights back in",
+    "ouvido": "enganar os amigas se mudam lentamente dentro de um tempo eles falam com imoveis as amigas se sentem atrasadas e o girafo se movimenta isso e bem claro mas cientistas notam algo estranho as amigas perto das que nao haviam tocado o girafo comecaram"
+   },
+   {
+    "roteiro": "quiet way when",
+    "ouvido": "fazer as mesmas amigas tambem o girafo amigado se despeje um gaso no ar as amigas se enganam e eles se preparam antes que os girafos evera e como se um brilho passasse pelo ar os girafos parecem saber as cientistas ja haviam visto eles esquentar os amigas mais perto eles se enganaram para os amigas mais perto como se eles pudessem dizer que os amigas se estivessem amigas"
+   },
+   {
+    "roteiro": "giraffe starts to chew the leaves slowly change within",
+    "ouvido": "primeira grande clube veio de fensas farmacia no afrique do sul antelope chamou kudu sem nada mais para comer mas akeisha morreu e muitos morreram e moraram aqui e o twist nao todo mundo concorda em que isso significa alguns cientistas acham que o gaso e uma mensagem real outras acham que e apenas um aliquio que os amigas aprendem"
+   },
+   {
+    "roteiro": "short time they fill with bitter chemicals soon the leaves taste awful and the giraffe moves on that alone is clever but scientists noticed something stranger trees nearby which",
+    "ouvido": "usar de qualquer forma a clube nao tem o brilho e ainda assim ela agir pensem essa pensao porque em um fogo negro algo mais esta agindo sem nenhum plano e ela se engana em foras de fogo em cima do mundo os viajadores once reportaram lentes de gosto la"
+   },
+   {
+    "roteiro": "giraffe had touched began making the same bitter chemicals too the injured tree releases",
+    "ouvido": "mar nao lentes de flores lentes de fome pela peca verde estar quietamente em lojas de fogo no ar old woodman chamouse foxfire e o nome esta estando no ar por cento de anos alguns ate nos chamaram de pecas de fogo para marcar um caminho por o ar"
+   },
+   {
+    "roteiro": "gas into the air neighboring trees pick it up and they get ready before the giraffes ever arrive it works like",
+    "ouvido": "verdade e estranha entao"
+   },
+   {
+    "roteiro": "warning passed through the wind giraffes seem to know it researchers have seen them skip the nearest trees they walk on to trees farther away",
+    "ouvido": "historia de gosto o gelo vem de uma fangas de vida fretado por roda de fogo a fangas se faz a luz usando uma reacao quimica em seus cabelos e uma luz colda ela nao da mais calor entao um fogo de gelo nao se sente mais quente que a luz do ar nada se torna e nada se desfeja agora a pergunta real por que uma fangas de gosto sem energia se faz luz em um lugar onde ninguem esta assistindo na natureza nada se faz nada uma resposta vem de um gosto no brasil"
+   },
+   {
+    "roteiro": "if they could tell which ones were warned the first big clue came from fenced farms in southern africa antelope called kudu had nothing else to eat but acacia leaves and many fell sick and died here is the twist not everyone agrees on what this means some scientists think the gas is",
+    "ouvido": "pesquisas encontram que o gelo se engana e cai com uma clara interna estando mais brilhante"
+   },
+   {
+    "roteiro": "real message others think it is only",
+    "ouvido": "noite mesmo em uma clara constante"
+   },
+   {
+    "roteiro": "leak that the neighbors learned to use either way the tree has no brain and still it acts hold that thought because deep in",
+    "ouvido": "clara sugira que"
+   },
+   {
+    "roteiro": "dark forest something else is acting without any plan at all and it glows in damp forests around the world travelers once reported ghost lights lying on the ground not floating lights pale green patches resting quietly on fallen logs in the dark old woodsmen called it foxfire and the name has stuck for hundreds of years some even carried pieces of glowing wood to mark",
+    "ouvido": "luz tenha um trabalho em testes gosto de fogos falsos levam mais insetos que os negros insetos podem carriedecer as forcas como corioes de finademor mas"
+   },
+   {
+    "roteiro": "path through the dark the truth is stranger than the ghost story the glow comes from living fungus threaded through rotting wood the fungus itself makes the light using a chemical reaction in its cells it is a cold light it gives off almost no heat so a glowing log feels no warmer than the dark wood beside it nothing burns and nothing smolders now the real question why would a fungus waste energy making light in a place where nobody is watching nature rarely does anything for nothing one answer comes from a mushroom in brazil researchers found that its glow rises and falls with an inner clock getting brighter at night even in constant darkness that clock suggests the light has a job in tests glowing fake mushrooms drew in more insects than dark ones insects may carry the spores away like tiny night couriers yet the full reason is",
+    "ouvido": "placa por que e"
+   },
+   {
+    "roteiro": "the forest keeps its lamps lit for reasons we only",
+    "ouvido": "a floresta mantem a luz linda por razoes que nos apenas"
+   },
+   {
+    "roteiro": "know next a blob with",
+    "ouvido": "sabemos"
+   },
+   {
+    "roteiro": "brain faces a maze on a damp forest floor a yellow blob creeps across the leaves it looks like spilled paint it is a",
+    "ouvido": "proximo um blobo sem brilho se faz um arroco em uma floresta de gosto de gosto um blobo verde se cria por acima das livas parece uma pintura espelhante e uma molde de"
+   },
+   {
+    "roteiro": "mold and it is neither a plant nor an",
+    "ouvido": "e nao e uma planta nem um"
+   },
+   {
+    "roteiro": "it is also a single cell though a huge one it has no brain no nerves and no eyes yet it moves toward food and",
+    "ouvido": "e tambem uma unica celula mesmo uma grande nao tem brilho nem nervos e nem olhos mas se fora comida e"
+   },
+   {
+    "roteiro": "slowly all on its own in",
+    "ouvido": "lentamente tudo em sua propria forma em um experimento famoso os cientistas compram um pequeno molde e colocaram uma molde de slime o comida espalhou em dois lados o blobo se espalhou por todo o caminho empurrando o todo entao algo estranho aconteceu"
+   },
+   {
+    "roteiro": "famous experiment scientists built",
+    "ouvido": "molde de slime se tornou de volta das maos mortas o que se espalhou foi uma fonte de sol traindo"
+   },
+   {
+    "roteiro": "small maze and put",
+    "ouvido": "distancia mais shorta entre as srb das duas fases de comida years depois outra equipe testou em um grande puzzle eles colocaram oitiflakes onde as grandes cidades ao lado do tokyo estao depois eles deixaram ela crescer por um dia"
+   },
+   {
+    "roteiro": "",
+    "ouvido": "rede de se construiram parecidas remarkably como o sistema real do rio de railroad por ali engenheiros ja tavam por decadas planejando as coisas o blobo construiu algo parecido em um dia aqui e o pessaro as moldes de"
+   },
+   {
+    "roteiro": "mold inside food waited at two ends the blob spread through every path filling the whole maze then something odd happened the",
+    "ouvido": "podem aprender um que encontra uma substancia mais barata novamente e novamente se desabora e essa leste pode passar a outra molde de"
+   },
+   {
+    "roteiro": "mold pulled back from the dead ends what stayed was",
+    "ouvido": "quando as duas se mergem cientistas ainda estao trabalhando como uma unica cela faz uma leste qualquer"
+   }
+  ],
+  "suspeitas": [],
+  "duvidosas": [
+   "um",
+   "valente",
+   "quieto",
+   "noruejo,",
+   "em",
+   "das",
+   "ruas",
+   "da",
+   "Ela",
+   "se",
+   "engana,",
+   "ela",
+   "se",
+   "então",
+   "e",
+   "por",
+   "certeza",
+   "foi.",
+   "Isso",
+   "neste",
+   "vamos",
+   "encontrar",
+   "um",
+   "brilho",
+   "envia",
+   "os",
+   "contos,",
+   "um",
+   "forço",
+   "se"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "in",
+    "ouvido": "em um valente quieto no noruejo uma luz aparece em cima das ruas da noite ela se engana ela se engana entao ela vanece e ninguem pode dizer por certeza o que foi isso e apenas"
+   },
+   {
+    "roteiro": "quiet valley in norway",
+    "ouvido": "ultima historia neste video antes nos vamos encontrar um brilho que envia os contos um forco que se engana e um criatorio com nenhum brilho que solta mazes cada um e real cada um tem sido estudado por cientistas por anos e cada um faz uma regra que pensamos que"
+   },
+   {
+    "roteiro": "light appears above the hills at night it hovers it drifts then it vanishes and nobody can say for sure what it was that is only the last story in this video before it we will meet",
+    "ouvido": "natureza tinha que seguir entao siga comigo e deixe"
+   },
+   {
+    "roteiro": "tree that sends warnings a forest that glows and a creature with",
+    "ouvido": "noite se enganar nos comecamos com um brilho"
+   },
+   {
+    "roteiro": "brain that solves mazes each one is real each one has been studied by scientists for years and each one breaks a rule we thought nature had to follow so stay with me and let the night get quiet we start with a tree on an open plain and the warning it whispers to the air on",
+    "ouvido": "planeio aberto e o brilho se espalha para o ar em"
+   },
+   {
+    "roteiro": "savanna the umbrella thorn acacia has",
+    "ouvido": "savannah"
+   },
+   {
+    "roteiro": "problem giraffes love its leaves and",
+    "ouvido": "ambrela thorna keshia tem um problema os girafes amam suas amigas e um brilho nao pode se enganar entao ele se engana em uma forma quieta quando um girafo comeca"
+   },
+   {
+    "roteiro": "tree cannot run away so it fights back in",
+    "ouvido": "enganar os amigas se mudam lentamente dentro de um tempo eles falam com imoveis as amigas se sentem atrasadas e o girafo se movimenta isso e bem claro mas cientistas notam algo estranho as amigas perto das que nao haviam tocado o girafo comecaram"
+   },
+   {
+    "roteiro": "quiet way when",
+    "ouvido": "fazer as mesmas amigas tambem o girafo amigado se despeje um gaso no ar as amigas se enganam e eles se preparam antes que os girafos evera e como se um brilho passasse pelo ar os girafos parecem saber as cientistas ja haviam visto eles esquentar os amigas mais perto eles se enganaram para os amigas mais perto como se eles pudessem dizer que os amigas se estivessem amigas"
+   },
+   {
+    "roteiro": "giraffe starts to chew the leaves slowly change within",
+    "ouvido": "primeira grande clube veio de fensas farmacia no afrique do sul antelope chamou kudu sem nada mais para comer mas akeisha morreu e muitos morreram e moraram aqui e o twist nao todo mundo concorda em que isso significa alguns cientistas acham que o gaso e uma mensagem real outras acham que e apenas um aliquio que os amigas aprendem"
+   },
+   {
+    "roteiro": "short time they fill with bitter chemicals soon the leaves taste awful and the giraffe moves on that alone is clever but scientists noticed something stranger trees nearby which",
+    "ouvido": "usar de qualquer forma a clube nao tem o brilho e ainda assim ela agir pensem essa pensao porque em um fogo negro algo mais esta agindo sem nenhum plano e ela se engana em foras de fogo em cima do mundo os viajadores once reportaram lentes de gosto la"
+   },
+   {
+    "roteiro": "giraffe had touched began making the same bitter chemicals too the injured tree releases",
+    "ouvido": "mar nao lentes de flores lentes de fome pela peca verde estar quietamente em lojas de fogo no ar old woodman chamouse foxfire e o nome esta estando no ar por cento de anos alguns ate nos chamaram de pecas de fogo para marcar um caminho por o ar"
+   },
+   {
+    "roteiro": "gas into the air neighboring trees pick it up and they get ready before the giraffes ever arrive it works like",
+    "ouvido": "verdade e estranha entao"
+   },
+   {
+    "roteiro": "warning passed through the wind giraffes seem to know it researchers have seen them skip the nearest trees they walk on to trees farther away",
+    "ouvido": "historia de gosto o gelo vem de uma fangas de vida fretado por roda de fogo a fangas se faz a luz usando uma reacao quimica em seus cabelos e uma luz colda ela nao da mais calor entao um fogo de gelo nao se sente mais quente que a luz do ar nada se torna e nada se desfeja agora a pergunta real por que uma fangas de gosto sem energia se faz luz em um lugar onde ninguem esta assistindo na natureza nada se faz nada uma resposta vem de um gosto no brasil"
+   },
+   {
+    "roteiro": "if they could tell which ones were warned the first big clue came from fenced farms in southern africa antelope called kudu had nothing else to eat but acacia leaves and many fell sick and died here is the twist not everyone agrees on what this means some scientists think the gas is",
+    "ouvido": "pesquisas encontram que o gelo se engana e cai com uma clara interna estando mais brilhante"
+   },
+   {
+    "roteiro": "real message others think it is only",
+    "ouvido": "noite mesmo em uma clara constante"
+   },
+   {
+    "roteiro": "leak that the neighbors learned to use either way the tree has no brain and still it acts hold that thought because deep in",
+    "ouvido": "clara sugira que"
+   },
+   {
+    "roteiro": "dark forest something else is acting without any plan at all and it glows in damp forests around the world travelers once reported ghost lights lying on the ground not floating lights pale green patches resting quietly on fallen logs in the dark old woodsmen called it foxfire and the name has stuck for hundreds of years some even carried pieces of glowing wood to mark",
+    "ouvido": "luz tenha um trabalho em testes gosto de fogos falsos levam mais insetos que os negros insetos podem carriedecer as forcas como corioes de finademor mas"
+   },
+   {
+    "roteiro": "path through the dark the truth is stranger than the ghost story the glow comes from living fungus threaded through rotting wood the fungus itself makes the light using a chemical reaction in its cells it is a cold light it gives off almost no heat so a glowing log feels no warmer than the dark wood beside it nothing burns and nothing smolders now the real question why would a fungus waste energy making light in a place where nobody is watching nature rarely does anything for nothing one answer comes from a mushroom in brazil researchers found that its glow rises and falls with an inner clock getting brighter at night even in constant darkness that clock suggests the light has a job in tests glowing fake mushrooms drew in more insects than dark ones insects may carry the spores away like tiny night couriers yet the full reason is",
+    "ouvido": "placa por que e"
+   },
+   {
+    "roteiro": "the forest keeps its lamps lit for reasons we only",
+    "ouvido": "a floresta mantem a luz linda por razoes que nos apenas"
+   },
+   {
+    "roteiro": "know next a blob with",
+    "ouvido": "sabemos"
+   },
+   {
+    "roteiro": "brain faces a maze on a damp forest floor a yellow blob creeps across the leaves it looks like spilled paint it is a",
+    "ouvido": "proximo um blobo sem brilho se faz um arroco em uma floresta de gosto de gosto um blobo verde se cria por acima das livas parece uma pintura espelhante e uma molde de"
+   },
+   {
+    "roteiro": "mold and it is neither a plant nor an",
+    "ouvido": "e nao e uma planta nem um"
+   },
+   {
+    "roteiro": "it is also a single cell though a huge one it has no brain no nerves and no eyes yet it moves toward food and",
+    "ouvido": "e tambem uma unica celula mesmo uma grande nao tem brilho nem nervos e nem olhos mas se fora comida e"
+   },
+   {
+    "roteiro": "slowly all on its own in",
+    "ouvido": "lentamente tudo em sua propria forma em um experimento famoso os cientistas compram um pequeno molde e colocaram uma molde de slime o comida espalhou em dois lados o blobo se espalhou por todo o caminho empurrando o todo entao algo estranho aconteceu"
+   },
+   {
+    "roteiro": "famous experiment scientists built",
+    "ouvido": "molde de slime se tornou de volta das maos mortas o que se espalhou foi uma fonte de sol traindo"
+   },
+   {
+    "roteiro": "small maze and put",
+    "ouvido": "distancia mais shorta entre as srb das duas fases de comida years depois outra equipe testou em um grande puzzle eles colocaram oitiflakes onde as grandes cidades ao lado do tokyo estao depois eles deixaram ela crescer por um dia"
+   },
+   {
+    "roteiro": "",
+    "ouvido": "rede de se construiram parecidas remarkably como o sistema real do rio de railroad por ali engenheiros ja tavam por decadas planejando as coisas o blobo construiu algo parecido em um dia aqui e o pessaro as moldes de"
+   },
+   {
+    "roteiro": "mold inside food waited at two ends the blob spread through every path filling the whole maze then something odd happened the",
+    "ouvido": "podem aprender um que encontra uma substancia mais barata novamente e novamente se desabora e essa leste pode passar a outra molde de"
+   },
+   {
+    "roteiro": "mold pulled back from the dead ends what stayed was",
+    "ouvido": "quando as duas se mergem cientistas ainda estao trabalhando como uma unica cela faz uma leste qualquer"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg",
+  "folha_5.jpg",
+  "folha_6.jpg",
+  "folha_7.jpg",
+  "folha_8.jpg",
+  "folha_9.jpg",
+  "folha_10.jpg",
+  "folha_11.jpg",
+  "folha_12.jpg",
+  "folha_13.jpg",
+  "folha_14.jpg",
+  "folha_15.jpg",
+  "folha_16.jpg",
+  "folha_17.jpg",
+  "folha_18.jpg",
+  "folha_19.jpg",
+  "folha_20.jpg",
+  "folha_21.jpg",
+  "folha_22.jpg",
+  "folha_23.jpg",
+  "folha_24.jpg",
+  "folha_25.jpg",
+  "folha_26.jpg",
+  "folha_27.jpg",
+  "folha_28.jpg",
+  "folha_29.jpg",
+  "folha_30.jpg",
+  "folha_31.jpg",
+  "folha_32.jpg",
+  "folha_33.jpg",
+  "folha_34.jpg",
+  "folha_35.jpg",
+  "folha_36.jpg",
+  "folha_37.jpg",
+  "folha_38.jpg",
+  "folha_39.jpg",
+  "folha_40.jpg",
+  "folha_41.jpg",
+  "folha_42.jpg",
+  "folha_43.jpg",
+  "folha_44.jpg",
+  "folha_45.jpg",
+  "folha_46.jpg",
+  "folha_47.jpg",
+  "folha_48.jpg",
+  "folha_49.jpg"
+ ]
+}

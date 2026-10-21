@@ -1,0 +1,249 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "The Plant That Counts Before It Snaps",
+ "tema": "Como a Venus flytrap (planta carnívora) sabe contar os toques antes de fechar a armadilha",
+ "estilo_visual": "Photorealistic nature documentary photograph, soft even overcast light, dark mossy background, natural muted green and deep red colors, sharp focus on a single subject.",
+ "inspecionado_em": "2026-10-21T02:00:08",
+ "video": {
+  "duracao_s": 52.8,
+  "tamanho_mb": 31.9,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -14.5,
+  "pico_dbfs": -1.8,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 5.53,
+   "dur_s": 5.53,
+   "brilho_ini": 76.7,
+   "brilho_fim": 72.6,
+   "saturacao_ini": 19.5,
+   "saturacao_fim": 18.6,
+   "cortes_internos_s": [],
+   "narracao": "This plant can count, and it never snaps shut by mistake. Here is how.",
+   "palavras_por_s": 2.53,
+   "quadro": "A single green Venus flytrap plant with red-pink inner lobes and fine green teeth along the edges, trap wide open and perfectly still, centered on dark wet moss, soft even overcast light, empty trap, nothing inside, nothing else in the frame, no insects, no water drops, no people, no text",
+   "movimento": "slow push-in, everything else completely still"
+  },
+  {
+   "n": 2,
+   "inicio_s": 5.53,
+   "fim_s": 12.43,
+   "dur_s": 6.9,
+   "brilho_ini": 79.0,
+   "brilho_fim": 78.9,
+   "saturacao_ini": 18.9,
+   "saturacao_fim": 20.4,
+   "cortes_internos_s": [],
+   "narracao": "Inside every open trap are tiny hairs. Brush one a single time, and nothing happens.",
+   "palavras_por_s": 2.17,
+   "quadro": "Close macro view of the red-pink inner surface of a single green Venus flytrap plant, trap wide open and still, fine green teeth along the edge, soft even overcast light, dark mossy background, empty trap, no insects, no water drops, no people, no text",
+   "movimento": "slow push-in, everything else completely still"
+  },
+  {
+   "n": 3,
+   "inicio_s": 12.43,
+   "fim_s": 20.43,
+   "dur_s": 8.0,
+   "brilho_ini": 60.9,
+   "brilho_fim": 61.5,
+   "saturacao_ini": 14.7,
+   "saturacao_fim": 16.1,
+   "cortes_internos_s": [],
+   "narracao": "The plant waits. If a second touch follows quickly, it decides something alive is inside.",
+   "palavras_por_s": 1.88,
+   "quadro": "A single green Venus flytrap plant with red-pink inner lobes, trap open and still, seen from slightly above, dark wet moss below, soft even overcast light, empty trap, no insects, no water drops, no people, no text",
+   "movimento": "slow push-in, everything else completely still"
+  },
+  {
+   "n": 4,
+   "inicio_s": 20.43,
+   "fim_s": 27.07,
+   "dur_s": 6.64,
+   "brilho_ini": 62.1,
+   "brilho_fim": 85.4,
+   "saturacao_ini": 17.3,
+   "saturacao_fim": 15.1,
+   "cortes_internos_s": [],
+   "narracao": "A raindrop or a falling leaf may tickle one hair. The trap simply stays open.",
+   "palavras_por_s": 2.26,
+   "quadro": "A single green Venus flytrap plant with red-pink inner lobes and fine green teeth, trap open and calm, seen from the side at eye level with the plant, dark moss background, soft even overcast light, empty trap, nothing else in the frame, no insects, no water drops, no people, no text",
+   "movimento": "slow push-in, everything else completely still"
+  },
+  {
+   "n": 5,
+   "inicio_s": 27.07,
+   "fim_s": 35.6,
+   "dur_s": 8.53,
+   "brilho_ini": 129.2,
+   "brilho_fim": 111.6,
+   "saturacao_ini": 11.6,
+   "saturacao_fim": 15.0,
+   "cortes_internos_s": [],
+   "narracao": "Here is the twist. If nothing moves inside, the trap slowly opens again, as if it never happened.",
+   "palavras_por_s": 2.11,
+   "quadro": "A single green Venus flytrap plant with its trap half closed, green teeth loosely crossing, red-pink inside barely visible, held perfectly still on dark wet moss, soft even overcast light, nothing else in the frame, no insects, no water drops, no people, no text",
+   "movimento": "slow push-in, everything else completely still"
+  },
+  {
+   "n": 6,
+   "inicio_s": 35.6,
+   "fim_s": 44.33,
+   "dur_s": 8.73,
+   "brilho_ini": 79.2,
+   "brilho_fim": 70.7,
+   "saturacao_ini": 17.7,
+   "saturacao_fim": 16.7,
+   "cortes_internos_s": [],
+   "narracao": "Struggling prey keeps touching the hairs, so the trap seals tight. Every wasted snap costs the plant energy.",
+   "palavras_por_s": 2.06,
+   "quadro": "A single green Venus flytrap plant with its trap fully closed, green teeth tightly interlocked like a cage, centered on dark wet moss, soft even overcast light, nothing else in the frame, no insects, no water drops, no people, no text",
+   "movimento": "slow push-in, everything else completely still"
+  },
+  {
+   "n": 7,
+   "inicio_s": 44.33,
+   "fim_s": 52.8,
+   "dur_s": 8.47,
+   "brilho_ini": 65.0,
+   "brilho_fim": 46.8,
+   "saturacao_ini": 16.4,
+   "saturacao_fim": 11.7,
+   "cortes_internos_s": [],
+   "narracao": "A plant with no brain counts touches. It waits, it checks, and it never snaps by mistake.",
+   "palavras_por_s": 2.01,
+   "quadro": "A single green Venus flytrap plant with red-pink inner lobes and fine green teeth, trap wide open and still, centered on dark wet moss, soft even overcast light, empty trap, nothing else in the frame, no insects, no water drops, no people, no text",
+   "movimento": "slow push-in, everything else completely still"
+  }
+ ],
+ "cortes_bruscos_s": [
+  5.53,
+  12.43,
+  20.43,
+  27.07,
+  35.6,
+  44.33
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 112,
+  "palavras_ouvidas": 90,
+  "taxa_acerto": 0.05,
+  "erros": [
+   {
+    "roteiro": "this plant can count and it never snaps shut by mistake here is how inside every open trap are tiny hairs brush one",
+    "ouvido": "esta planta nao pode ser abundida e nunca over nahwa sem erover ta bom esta bom"
+   },
+   {
+    "roteiro": "single time and nothing happens the plant waits if",
+    "ouvido": "espinha"
+   },
+   {
+    "roteiro": "second touch follows quickly it decides something alive is inside",
+    "ouvido": "cada velocidade de visitedes em umvad when najah o planta aquece se"
+   },
+   {
+    "roteiro": "raindrop or",
+    "ouvido": "segunda untsama apanhar rapido ie algoal la esta"
+   },
+   {
+    "roteiro": "falling leaf may tickle one hair the trap simply stays open here is the twist if nothing moves inside the trap slowly opens again as if it never happened struggling prey keeps touching the hairs so the trap seals tight every wasted snap costs the plant energy",
+    "ouvido": "espera matters no streep ou um tulio ango domre algo umally se semps sac month e nada mexe dentro o que womb parliamentar"
+   },
+   {
+    "roteiro": "plant with no brain counts touches it waits it checks and it never snaps by mistake",
+    "ouvido": "presenca varieties cada vez que countries ada a propriedade de clientes estrelas da pran omg oadhemata supermarketosh ele tome e nunca parte de horrivel cures"
+   }
+  ],
+  "suspeitas": [],
+  "duvidosas": [
+   "Esta",
+   "não",
+   "pode",
+   "ser",
+   "abundida,",
+   "over",
+   "Nahwa",
+   "sem",
+   "erover.",
+   "Tá",
+   "bom!",
+   "Está",
+   "bom",
+   "a",
+   "espinha",
+   "a",
+   "cada",
+   "velocidade",
+   "de",
+   "visitedes,",
+   "Em",
+   "umvadیک,",
+   "when",
+   "Najah",
+   "o",
+   "planta",
+   "aquece,",
+   "se",
+   "a",
+   "segunda"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "this plant can count and it never snaps shut by mistake here is how inside every open trap are tiny hairs brush one",
+    "ouvido": "esta planta nao pode ser abundida e nunca over nahwa sem erover ta bom esta bom"
+   },
+   {
+    "roteiro": "single time and nothing happens the plant waits if",
+    "ouvido": "espinha"
+   },
+   {
+    "roteiro": "second touch follows quickly it decides something alive is inside",
+    "ouvido": "cada velocidade de visitedes em umvad when najah o planta aquece se"
+   },
+   {
+    "roteiro": "raindrop or",
+    "ouvido": "segunda untsama apanhar rapido ie algoal la esta"
+   },
+   {
+    "roteiro": "falling leaf may tickle one hair the trap simply stays open here is the twist if nothing moves inside the trap slowly opens again as if it never happened struggling prey keeps touching the hairs so the trap seals tight every wasted snap costs the plant energy",
+    "ouvido": "espera matters no streep ou um tulio ango domre algo umally se semps sac month e nada mexe dentro o que womb parliamentar"
+   },
+   {
+    "roteiro": "plant with no brain counts touches it waits it checks and it never snaps by mistake",
+    "ouvido": "presenca varieties cada vez que countries ada a propriedade de clientes estrelas da pran omg oadhemata supermarketosh ele tome e nunca parte de horrivel cures"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg",
+  "folha_5.jpg"
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "nota": 6.0,
+ "resumo": "Vídeo longo (9:45, horizontal) visualmente limpo e coerente com os cinco mistérios, áudio dentro do alvo, mas com imagens quase paradas por 12 s ou mais e narração não conferida: a transcrição saiu em português sobre um roteiro em inglês.",
+ "problemas": [
+  {
+   "segundo": 0.0,
+   "cena": 1,
+   "tipo": "narracao",
+   "gravidade": "alta",
+   "descricao": "A checagem de narração não vale: o roteiro está em inglês e o 'ouvido' é uma versão em português do mesmo texto ('em um vale quieto no Noruega uma luz aparece...'), com palavras em inglês vazando ('old woodman', 'remarkably', 'years depois', 'oitiflakes'). Por isso a taxa de acerto deu 0,031 e as 30 'divergências' não provam erro de voz. A pronúncia de termos como 'acacia', 'kudu' e 'foxfire' segue sem conferência.",
+   "causa": "Transcritor rodando com idioma fixo em português sobre áudio em inglês: ele traduz em vez de transcrever.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 82.77,
+   "cena": 9,
+   "tipo": "ritmo",
+   "gravidade": "media",
+   "descricao": "O vídeo inteiro é feito de imagens quase paradas, só com um zoom leve: cada imagem fica de 10 a 15 s na tela (ex.: 1:22.8-1:37.5, 2:01.5-2:15.9, 2:16-2:30, 6:42.5-6:53.8). A cena 23 (4:41-5:19) junta três imagens de cerca de 13 s cada. Para 9:45 de vídeo, a imagem cansa antes da narração.",
+   "causa": "A montagem segura uma imagem por trecho longo de narração, sem movimento real nem troca de enquadramento.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 177.63,
+   "cena": 16,
+   "tipo": "visual",
+   "gravidade": "media",
+   "descricao": "Os cogumelos luminosos saem translúcidos, com talos e chapéus sobrepostos como numa dupla exposição. Parece um fantasma de render, não uma foto documental. Fica estável até 3:13.8.",
+   "causa": "Geração confundiu 'brilho' com transparência; só aparece nesta imagem.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 0.0,
+   "cena": 1,
+   "tipo": "ritmo",
+   "gravidade": "baixa",
+   "descricao": "O gancho fica 12 s numa só imagem do vale com a luz parada no céu. A luz não paira nem se move, embora a narração diga que ela paira e some.",
+   "causa": "Imagem estática no lugar de um clipe com a luz se movendo.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 430.83,
+   "cena": 33,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "Monte de pó claro sobre uma mesa escura, em fundo de estúdio. Destoa do estilo documental de natureza e pode ser lido como farinha ou outro pó, não como areia de duna.",
+   "causa": "Prompt de close de grãos de areia sem cenário natural.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 377.43,
+   "cena": 29,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "Duna chapada, sem contraste, sob um céu azul liso, com cara de imagem lavada. É a mais fraca da seção das dunas.",
+   "causa": "Luz plana na geração.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 416.0,
+   "cena": 32,
+   "tipo": "audio",
+   "gravidade": "baixa",
+   "descricao": "Entre 6:56 e 6:58 o fundo preenche os vãos da fala (modulação de 9,1 dB). Como a transcrição não serve, não dá para confirmar se alguma palavra fica encoberta.",
+   "causa": "Provável som de duna ou música mais alta sob a voz.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 239.1,
+   "cena": 20,
+   "tipo": "audio",
+   "gravidade": "baixa",
+   "descricao": "Pausas de 0,8 s (3:59.1) e 0,9 s (5:58.8, cena 30). As duas ficam abaixo de 1,5 s e perto de trocas de assunto, então provavelmente são respiro.",
+   "causa": "Pausa entre frases na voz.",
+   "origem": "pipeline"
+  }
+ ],
+ "refazer": [
+  {
+   "cena": 16,
+   "motivo": "Cogumelos translúcidos e sobrepostos, com cara de dupla exposição, entre 2:57.6 e 3:14.2.",
+   "ajuste_prompt": "Pedir cogumelos de corpo sólido e opaco, com brilho verde só nas lamelas e nas bordas, um grupo pequeno e nítido sobre tronco podre, sem transparência."
+  }
+ ],
+ "licoes": [
+  {
+   "tipo_assunto": "geral",
+   "alvo": "montagem",
+   "regra": "Em vídeo longo e calmo, troque de imagem ou de enquadramento a cada 6 a 8 s, ou use clipe com movimento real. Imagem quase parada por 12 s ou mais cansa mesmo no tom documental."
+  },
+  {
+   "tipo_assunto": "natureza",
+   "alvo": "geracao",
+   "regra": "Para assunto que brilha (bioluminescência), peça corpo sólido e opaco com o brilho só nas bordas. Pedir só 'glowing' tende a gerar objetos translúcidos e sobrepostos."
+  },
+  {
+   "tipo_assunto": "natureza",
+   "alvo": "geracao",
+   "regra": "Close de material (areia, pó, grãos) precisa de cenário natural no prompt. Sem isso o modelo põe o material numa mesa de estúdio e quebra o estilo documental."
+  }
+ ],
+ "pipeline": [
+  {
+   "onde": "inspecionar.py (transcrição da narração)",
+   "mudanca": "Usar o idioma do roteiro (aqui, inglês) ou a detecção automática no transcritor, em vez de português fixo.",
+   "motivo": "Com o idioma errado o transcritor traduz e a comparação com o roteiro dá 3% de acerto, sem dizer nada sobre a voz."
+  },
+  {
+   "onde": "inspecionar.py (detecção de cenas) / roteiro",
+   "mudanca": "Passar o roteiro com dur_s por cena ou baixar o limiar de corte para pegar cortes suaves.",
+   "motivo": "Cinco trocas de imagem não foram detectadas (~0:12.3, ~3:25.8, ~4:54.8, ~5:07.9, ~9:07.8). Isso junta imagens diferentes numa só cena e gera falsas derivas de brilho (cenas 1, 17, 23, 39)."
+  },
+  {
+   "onde": "montagem",
+   "mudanca": "Limitar cada imagem a ~8 s, ou alternar duas imagens por bloco de narração, ou usar clipe animado no lugar de foto com zoom.",
+   "motivo": "Quase todas as imagens ficam de 10 a 15 s praticamente paradas."
+  }
+ ]
+}

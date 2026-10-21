@@ -1,0 +1,147 @@
+{
+ "nota": 5.5,
+ "resumo": "Imagens bonitas e coerentes na maior parte, mas a transcrição não reconheceu quase nada da narração em inglês (95 palavras no roteiro, acerto de 4,5%), a cena 5 mostra um besouro em cima da laranja enquanto a voz diz que os insetos ficam longe, e o áudio está 2 LU abaixo do alvo.",
+ "problemas": [
+  {
+   "segundo": 0.0,
+   "cena": 1,
+   "tipo": "narracao",
+   "gravidade": "alta",
+   "descricao": "A transcrição não bate com o roteiro em nenhuma cena (taxa_acerto 0,045). Logo na abertura, 'Every orange is covered in tiny bottles of flammable oil' foi ouvido como 'ambos olhos holandes portas são department...'; 'called limonene' (cena 4, ~12,5 s) virou 'chamando limineo'; o fechamento (cenas 5 a 9) saiu inteiro em português aproximado. A nota fica limitada a 6.",
+   "causa": "O Whisper ouviu o áudio como português: escreve em português, às vezes traduz ('chamando' = 'called', 'mas essa ... tem' = 'but that ... has'). Ou a voz da narração é de português lendo texto em inglês (sotaque forte o bastante para o detector escolher português), ou o inspetor forçou o idioma 'pt' na transcrição. As medidas não permitem separar as duas causas: é preciso ouvir os primeiros 4 s.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 14.53,
+   "cena": 5,
+   "tipo": "visual",
+   "gravidade": "alta",
+   "descricao": "Um besouro verde metálico grande fica em cima da laranja durante toda a cena (14,5 a 17,5 s) enquanto a narração e a legenda dizem 'Many insects stay away'. A imagem contradiz a frase.",
+   "causa": "O prompt pedia o besouro 'parado numa folha próxima', mas o modelo pôs o inseto no assunto principal. Colocar o inseto no prompt de uma frase sobre insetos que se afastam convida o erro.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 0.0,
+   "cena": 0,
+   "tipo": "audio",
+   "gravidade": "media",
+   "descricao": "Loudness integrada de -16 LUFS, 2 LU abaixo do alvo de -14; no limite de ficar baixo no celular. O pico de -1,4 dBFS está bom e nenhum trecho satura.",
+   "causa": "A mixagem final não normaliza para -14 LUFS.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 13.5,
+   "cena": 4,
+   "tipo": "legenda",
+   "gravidade": "media",
+   "descricao": "O bloco 'LIMONENE. THE TREE MAKES' junta o fim de uma frase com o começo da seguinte, atravessa o corte das 14,53 s e deixa 'THE TREE MAKES' solto até 'IT AS ARMOR.' aparecer.",
+   "causa": "As legendas são quebradas por número de palavras, sem respeitar o ponto final nem o corte de cena.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 25.5,
+   "cena": 8,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "Um fio verde liga o topo da laranja ao galho de pinheiro, como se a fruta pendesse do pinheiro, mas ela está apoiada no musgo. O galho tem uma forma cilíndrica estranha ao fundo.",
+   "causa": "O modelo misturou o cabinho da laranja com as agulhas do pinheiro.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 0.0,
+   "cena": 1,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "A laranja de abertura tem uma faixa clara em forma de crescente na lateral, que parece mais um gomo descascado do que um reflexo de sol.",
+   "causa": "Reflexo especular exagerado pelo modelo.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 31.5,
+   "cena": 9,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "De 31,5 s em diante a casca da laranja final ganha um vinco vertical, como uma rachadura. A luz é de dia nublado e não do pôr do sol dourado que o prompt pedia.",
+   "causa": "Deformação leve do modelo de vídeo durante o push-in.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 18.0,
+   "cena": 6,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "Em 'Near a flame, it sparks' só se vê uma vela acesa com a casca encostada na base. Nada faísca; a frase de impacto do vídeo fica sem prova visual.",
+   "causa": "O prompt descreve faíscas flutuando no ar, não a casca espremida liberando óleo que acende na chama.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 3.67,
+   "cena": 2,
+   "tipo": "ritmo",
+   "gravidade": "baixa",
+   "descricao": "A cena 2 tem 3,57 palavras/s, acima da faixa de 2,3 a 3,0. A média do vídeo (2,75) está boa.",
+   "causa": "Cena curta (2,8 s) para uma frase de 10 palavras.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 34.0,
+   "cena": 9,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "O brilho cai de 100 para 62 dentro da cena 9. É o fade para preto do final, visível só no último meio segundo; aceitável.",
+   "causa": "Fade-out da montagem.",
+   "origem": "pipeline"
+  }
+ ],
+ "refazer": [
+  {
+   "cena": 5,
+   "motivo": "O besouro pousado na laranja contradiz 'Many insects stay away'.",
+   "ajuste_prompt": "Tirar o besouro do prompt, ou mostrar um inseto se afastando: 'a small beetle flying away from a ripe orange on a citrus branch, mid-air, a clear gap between insect and fruit'. Acrescentar 'no insects touching the fruit'."
+  }
+ ],
+ "licoes": [
+  {
+   "tipo_assunto": "natureza",
+   "alvo": "geracao",
+   "regra": "Quando a narração diz que algo está ausente ou se afasta ('os insetos ficam longe'), não ponha esse elemento parado no prompt: o modelo o coloca em destaque, em cima do assunto principal. Mostre-o em movimento de saída, ou não mostre."
+  },
+  {
+   "tipo_assunto": "geral",
+   "alvo": "roteiro",
+   "regra": "O idioma da voz de narração precisa ser o mesmo do roteiro. Uma voz de outro idioma lendo o texto fica ininteligível, e a transcrição detecta o idioma errado."
+  },
+  {
+   "tipo_assunto": "geral",
+   "alvo": "montagem",
+   "regra": "Um bloco de legenda nunca junta o fim de uma frase com o começo da próxima nem atravessa um corte de cena."
+  },
+  {
+   "tipo_assunto": "geral",
+   "alvo": "geracao",
+   "regra": "A frase de impacto (a revelação do vídeo) precisa de um prompt que mostre a ação acontecendo, não só os objetos lado a lado."
+  }
+ ],
+ "pipeline": [
+  {
+   "onde": "etapa de narração (TTS)",
+   "mudanca": "Conferir se a voz escolhida é de inglês quando o roteiro é em inglês, e travar o idioma da voz pelo idioma do roteiro.",
+   "motivo": "A transcrição saiu em português aproximado do começo ao fim (acerto de 4,5%)."
+  },
+  {
+   "onde": "inspetor (transcrição)",
+   "mudanca": "Passar ao Whisper o idioma do roteiro em vez de deixar 'pt' fixo ou a detecção automática, e gravar em medidas.json o idioma detectado.",
+   "motivo": "Sem isso não dá para saber se o erro é da voz ou do transcritor; a palavra 'chamando' no lugar de 'called' sugere que o Whisper estava traduzindo."
+  },
+  {
+   "onde": "mixagem final",
+   "mudanca": "Normalizar para -14 LUFS com pico máximo de -1 dBFS (por exemplo, loudnorm I=-14:TP=-1).",
+   "motivo": "A loudness ficou em -16 LUFS."
+  },
+  {
+   "onde": "geração das legendas",
+   "mudanca": "Quebrar os blocos no ponto final e nos cortes de cena antes de aplicar o limite de palavras por bloco.",
+   "motivo": "O bloco 'LIMONENE. THE TREE MAKES' mistura duas frases e cruza um corte."
+  }
+ ]
+}

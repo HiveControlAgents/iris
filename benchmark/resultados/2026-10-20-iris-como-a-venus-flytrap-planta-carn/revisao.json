@@ -1,0 +1,156 @@
+{
+ "nota": 5.0,
+ "resumo": "Técnica e áudio corretos, mas a transcrição da narração não bate com o roteiro, 4 das 7 cenas mostram dioneias com armadilhas empilhadas ou espelhadas (anatomia impossível), a cena 5 rompe o estilo com fundo branco de estúdio e as imagens quase paradas nunca mostram a armadilha agindo.",
+ "problemas": [
+  {
+   "segundo": 0.0,
+   "cena": 1,
+   "tipo": "narracao",
+   "gravidade": "alta",
+   "descricao": "A transcrição saiu quase toda em português sem sentido (\"esta planta nao pode ser abundida\", \"supermarketosh\", \"parliamentar\") para um roteiro em inglês; taxa de acerto 0,05 e 6 trechos de erro cobrindo o vídeo inteiro, da cena 1 à 7.",
+   "causa": "O mais provável é que o Whisper tenha rodado com idioma português (ou detecção errada) sobre uma narração em inglês: trechos como \"e nada mexe dentro\" são tradução de \"nothing moves inside\". Também é possível que o TTS tenha usado voz ou idioma errados. É preciso ouvir para confirmar; até lá, conta como erro de narração.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 12.5,
+   "cena": 3,
+   "tipo": "visual",
+   "gravidade": "media",
+   "descricao": "A planta aparece como um totem simétrico: três armadilhas no alto e uma quarta presa por baixo no mesmo caule, em cruz. Uma dioneia real não cresce assim.",
+   "causa": "O formato vertical 9:16 com \"single plant ... centered\" leva o modelo a preencher a altura empilhando armadilhas em simetria.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 20.5,
+   "cena": 4,
+   "tipo": "visual",
+   "gravidade": "media",
+   "descricao": "Duas armadilhas ligadas ponta a ponta: o pecíolo da armadilha de baixo sai direto da folha da armadilha de cima.",
+   "causa": "O mesmo empilhamento vertical da cena 3.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 20.5,
+   "cena": 4,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "O brilho sobe de 62 para 85 ao longo da cena (+37%), e a cena clareia sem motivo.",
+   "causa": "Deriva de exposição do modelo de vídeo durante o push-in.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 27.1,
+   "cena": 5,
+   "tipo": "visual",
+   "gravidade": "alta",
+   "descricao": "Salto brusco de estilo: fundo de parede branca de estúdio, planta inteira em vaso e brilho 129 contra cerca de 60 a 80 nas outras cenas. O prompt pedia uma única armadilha meio fechada sobre musgo escuro; as armadilhas aparecem abertas, então a imagem também não ilustra \"the trap slowly opens again\".",
+   "causa": "A semente ignorou o fundo e o enquadramento do prompt.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 35.6,
+   "cena": 6,
+   "tipo": "visual",
+   "gravidade": "media",
+   "descricao": "Duas armadilhas fechadas empilhadas na vertical, uma presa à base da outra, como uma armadilha duplicada.",
+   "causa": "O mesmo empilhamento vertical das cenas 3 e 4.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 44.3,
+   "cena": 7,
+   "tipo": "visual",
+   "gravidade": "media",
+   "descricao": "Armadilha \"haltere\": duas armadilhas abertas, espelhadas, nas duas pontas de um mesmo caule. É a imagem mais artificial do vídeo e fecha o vídeo.",
+   "causa": "O mesmo empilhamento vertical espelhado.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 0.0,
+   "cena": 1,
+   "tipo": "ritmo",
+   "gravidade": "media",
+   "descricao": "As 7 cenas são quase fotos paradas: o push-in mal se nota e a armadilha nunca fecha nem reabre, embora a narração fale de toque, fechamento e reabertura. As cenas 3, 5, 6 e 7 têm 8 s ou mais assim, e o gancho dos 2 primeiros segundos não tem movimento.",
+   "causa": "Todos os prompts pedem \"everything else completely still\" e \"empty trap\", o que tira justamente a ação que o assunto promete.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 0.5,
+   "cena": 1,
+   "tipo": "legenda",
+   "gravidade": "baixa",
+   "descricao": "As legendas ficam no meio da armadilha de baixo em quase todas as cenas, cobrindo o assunto principal.",
+   "causa": "Posição fixa da legenda (cerca de 70% da altura), que coincide com onde o modelo coloca a planta.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 11.5,
+   "cena": 2,
+   "tipo": "legenda",
+   "gravidade": "baixa",
+   "descricao": "Os blocos atravessam o fim da frase e truncam a leitura: \"BRUSH ONE A SINGLE\" / \"TIME, AND NOTHING\", \"HAPPENS. THE PLANT\" (11,5 s), \"OPEN. HERE\" (26,0 s), \"TIGHT. EVERY WASTED SNAP\" (40,0 s).",
+   "causa": "O fatiamento da legenda conta palavras e não respeita a pontuação.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 6.0,
+   "cena": 2,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "A narração fala dos \"tiny hairs\" dentro da armadilha, mas a macro mostra a armadilha de perfil e os pelos-gatilho não aparecem.",
+   "causa": "O prompt não pede os pelos-gatilho.",
+   "origem": "pipeline"
+  }
+ ],
+ "refazer": [
+  {
+   "cena": 5,
+   "motivo": "Salto brusco de estilo (fundo branco de estúdio, planta em vaso, brilho quase o dobro do resto) e imagem que não mostra a armadilha meio fechada da narração.",
+   "ajuste_prompt": "Reforçar o fundo e o close: \"extreme close-up of ONE half-closed trap filling the frame, dark wet moss background, outdoor bog, no pot, no wall, no white background\"."
+  }
+ ],
+ "licoes": [
+  {
+   "tipo_assunto": "natureza",
+   "alvo": "geracao",
+   "regra": "Em formato vertical, pedir 'single plant/animal, centered' faz o modelo empilhar ou espelhar partes do corpo para preencher a altura; peça close de uma parte só, preenchendo o quadro, e diga 'natural asymmetric growth'."
+  },
+  {
+   "tipo_assunto": "natureza",
+   "alvo": "roteiro",
+   "regra": "Se o assunto é um movimento (fechar, abrir, atacar), ao menos uma cena precisa mostrá-lo; proibir todo movimento no prompt deixa o vídeo em fotos paradas que não provam a narração."
+  },
+  {
+   "tipo_assunto": "geral",
+   "alvo": "geracao",
+   "regra": "Fixe o cenário em todas as cenas com termos negativos explícitos (no studio, no white background, no pot) para a semente não trocar de ambiente no meio do vídeo."
+  },
+  {
+   "tipo_assunto": "geral",
+   "alvo": "montagem",
+   "regra": "Quebre a legenda na pontuação: um bloco não deve juntar o fim de uma frase com o começo da seguinte."
+  }
+ ],
+ "pipeline": [
+  {
+   "onde": "transcrição da narração no inspetor (Whisper)",
+   "mudanca": "Passar o idioma do roteiro (en) ao transcritor em vez de deixar detectar ou forçar português.",
+   "motivo": "A transcrição em português de uma narração em inglês zera a taxa de acerto e esconde erros reais da voz."
+  },
+  {
+   "onde": "template de prompt das cenas",
+   "mudanca": "Trocar 'single plant ... centered' por close de uma armadilha preenchendo o quadro, com 'one trap only, natural asymmetric plant, no mirrored or stacked traps'.",
+   "motivo": "4 de 7 cenas saíram com armadilhas empilhadas ou espelhadas."
+  },
+  {
+   "onde": "campo movimento do roteiro",
+   "mudanca": "Permitir movimento lento da própria armadilha nas cenas que descrevem a ação (por exemplo 'trap slowly closes'), mantendo o resto parado.",
+   "motivo": "Com 'everything else completely still' em todas as cenas, o vídeo vira uma sequência de fotos e a promessa do gancho nunca é mostrada."
+  },
+  {
+   "onde": "geração de legendas",
+   "mudanca": "Cortar os blocos na pontuação e subir a legenda para uma faixa que não cubra o centro do assunto.",
+   "motivo": "Blocos truncados e texto sobre a armadilha em quase todas as cenas."
+  }
+ ]
+}

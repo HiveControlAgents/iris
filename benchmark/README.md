@@ -27,7 +27,7 @@ python benchmark/rotular.py --videos my_videos/                    # labeling pa
 <!-- metricas:inicio -->
 | rotulados / labeled | precisão / precision | revocação / recall | certos | errados | perdidos |
 |---|---|---|---|---|---|
-| 3 (pendentes: 7) | 92% | 85% | 34 | 3 | 6 |
+| 3 (pendentes: 10) | 92% | 85% | 34 | 3 | 6 |
 
 | tipo / type | precisão / precision | certos | errados |
 |---|---|---|---|
@@ -37,7 +37,7 @@ python benchmark/rotular.py --videos my_videos/                    # labeling pa
 | ritmo | 100% | 5 | 0 |
 | visual | 94% | 16 | 1 |
 
-_Atualizado em 2026-10-20 com `python benchmark/bench.py metricas`._
+_Atualizado em 2026-10-21 com `python benchmark/bench.py metricas`._
 <!-- metricas:fim -->
 
 ## Defects per video / defeitos por vídeo
@@ -55,6 +55,9 @@ _Atualizado em 2026-10-20 com `python benchmark/bench.py metricas`._
 | Como o futebolista chuta sem olhar e acerta | 6.0 | 10 | 5 | 2 | 2 | 0 | 1 | 0 | 0:05.0 visual; 0:29.0 visual; 0:45.5 visual; 0:24.1 visual; 0:33.4 visual; 0:00.0 ritmo; 0:00.0 ritmo; 0:24.5 narracao; 0:42.0 narracao; 0:31.5 legenda |
 | O segredo dos passes de costas no futebol | 5.0 | 13 | 6 | 3 | 2 | 0 | 2 | 0 | 0:30.0 visual; 0:21.5 visual; 0:20.5 visual; 0:05.4 visual; 0:00.0 ritmo; 0:20.5 ritmo; 0:00.0 narracao; 0:00.0 narracao; 0:29.5 narracao; 0:00.0 legenda; 0:41.0 legenda; 0:31.3 visual; 0:20.5 visual |
 | Por que a fumaça viaja centenas de quilômetros | 5.5 | 13 | 7 | 3 | 2 | 0 | 1 | 0 | 0:26.0 visual; 0:24.5 visual; 0:22.8 visual; 0:47.0 visual; 0:31.2 narracao; ? narracao; 0:18.0 narracao; 0:07.0 visual; 0:31.0 visual; 0:08.0 visual; 0:00.0 ritmo; 0:00.0 ritmo; 0:13.5 legenda |
+| The Plant That Counts Before It Snaps | 5.0 | 11 | 7 | 1 | 1 | 0 | 2 | 0 | 0:00.0 narracao; 0:12.5 visual; 0:20.5 visual; 0:20.5 visual; 0:27.1 visual; 0:35.6 visual; 0:44.3 visual; 0:00.0 ritmo; 0:00.5 legenda; 0:11.5 legenda; 0:06.0 visual |
+| Five Quiet Mysteries Nature Has Never Solved | 6.0 | 8 | 3 | 1 | 2 | 2 | 0 | 0 | 0:00.0 narracao; 1:22.8 ritmo; 2:57.6 visual; 0:00.0 ritmo; 7:10.8 visual; 6:17.4 visual; 6:56.0 audio; 3:59.1 audio |
+| Every Orange Hides a Flammable Secret | 5.5 | 10 | 6 | 1 | 1 | 1 | 1 | 0 | 0:00.0 narracao; 0:14.5 visual; 0:00.0 audio; 0:13.5 legenda; 0:25.5 visual; 0:00.0 visual; 0:31.5 visual; 0:18.0 visual; 0:03.7 ritmo; 0:34.0 visual |
 <!-- tabela:fim -->
 
 ---

@@ -1,0 +1,271 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "Every Orange Hides a Flammable Secret",
+ "tema": "Why does an orange peel smell so strong, and what is hidden in that smell?",
+ "estilo_visual": "award-winning photorealistic nature photography, natural light, shallow depth of field, sharp focus, rich warm colors",
+ "inspecionado_em": "2026-10-21T02:11:03",
+ "video": {
+  "duracao_s": 34.5,
+  "tamanho_mb": 18.8,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -16.0,
+  "pico_dbfs": -1.4,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 3.67,
+   "dur_s": 3.67,
+   "brilho_ini": 84.4,
+   "brilho_fim": 83.8,
+   "saturacao_ini": 22.5,
+   "saturacao_fim": 22.9,
+   "cortes_internos_s": [],
+   "narracao": "Every orange is covered in tiny bottles of flammable oil.",
+   "palavras_por_s": 2.72,
+   "quadro": "A single ripe orange with bright orange dimpled peel hanging on the branch of a citrus tree in a sunny orchard, glossy dark green leaves around it, background softly blurred",
+   "movimento": "slow push-in"
+  },
+  {
+   "n": 2,
+   "inicio_s": 3.67,
+   "fim_s": 6.47,
+   "dur_s": 2.8,
+   "brilho_ini": 84.5,
+   "brilho_fim": 84.3,
+   "saturacao_ini": 29.5,
+   "saturacao_fim": 29.7,
+   "cortes_internos_s": [],
+   "narracao": "Each tiny dot on the peel is an oil gland.",
+   "palavras_por_s": 3.57,
+   "quadro": "Medium-close view of the bright orange dimpled peel of a ripe orange on a citrus tree branch, tiny round pores glistening with oil in warm sunlight, dark green leaf at the edge, background blurred",
+   "movimento": "gentle pan right"
+  },
+  {
+   "n": 3,
+   "inicio_s": 6.47,
+   "fim_s": 10.53,
+   "dur_s": 4.06,
+   "brilho_ini": 76.9,
+   "brilho_fim": 76.8,
+   "saturacao_ini": 12.2,
+   "saturacao_fim": 15.9,
+   "cortes_internos_s": [],
+   "narracao": "Bend the peel, and those glands burst into a fine, fragrant mist.",
+   "palavras_por_s": 2.96,
+   "quadro": "A curled strip of bright orange citrus peel resting on a dark wooden table, a faint glowing mist of fine oil droplets hanging in the air above it, backlit by warm window light, dark background",
+   "movimento": "mist drifts softly"
+  },
+  {
+   "n": 4,
+   "inicio_s": 10.53,
+   "fim_s": 14.53,
+   "dur_s": 4.0,
+   "brilho_ini": 77.1,
+   "brilho_fim": 78.2,
+   "saturacao_ini": 21.8,
+   "saturacao_fim": 22.4,
+   "cortes_internos_s": [],
+   "narracao": "That bright smell comes mostly from one molecule, called limonene.",
+   "palavras_por_s": 2.5,
+   "quadro": "A halved ripe orange with juicy segments and thick bright orange peel resting on a dark wooden table beside a glossy green citrus leaf, warm side light, background blurred",
+   "movimento": "slow push-in"
+  },
+  {
+   "n": 5,
+   "inicio_s": 14.53,
+   "fim_s": 17.97,
+   "dur_s": 3.44,
+   "brilho_ini": 86.1,
+   "brilho_fim": 84.5,
+   "saturacao_ini": 24.7,
+   "saturacao_fim": 24.3,
+   "cortes_internos_s": [],
+   "narracao": "The tree makes it as armor. Many insects stay away.",
+   "palavras_por_s": 2.91,
+   "quadro": "A ripe orange with bright orange dimpled peel on the branch of a citrus tree, a small green beetle resting still on a nearby glossy dark green leaf, soft morning light, background blurred",
+   "movimento": "leaves sway softly"
+  },
+  {
+   "n": 6,
+   "inicio_s": 17.97,
+   "fim_s": 21.53,
+   "dur_s": 3.56,
+   "brilho_ini": 60.9,
+   "brilho_fim": 63.3,
+   "saturacao_ini": 13.6,
+   "saturacao_fim": 16.5,
+   "cortes_internos_s": [],
+   "narracao": "But that perfume has a secret. Near a flame, it sparks.",
+   "palavras_por_s": 3.09,
+   "quadro": "A lit candle with a small steady flame on a dark wooden table, a curled strip of bright orange citrus peel resting beside it, tiny glowing sparks floating in the warm light, dark background",
+   "movimento": "candle flame flickers gently"
+  },
+  {
+   "n": 7,
+   "inicio_s": 21.53,
+   "fim_s": 25.73,
+   "dur_s": 4.2,
+   "brilho_ini": 71.2,
+   "brilho_fim": 70.3,
+   "saturacao_ini": 23.3,
+   "saturacao_fim": 27.3,
+   "cortes_internos_s": [],
+   "narracao": "Stranger still, this molecule comes in two shapes, like mirror images.",
+   "palavras_por_s": 2.62,
+   "quadro": "A single ripe orange with bright orange dimpled peel resting on the edge of a still dark pond, its perfect reflection on the calm water surface, soft evening light, background blurred",
+   "movimento": "water ripples softly"
+  },
+  {
+   "n": 8,
+   "inicio_s": 25.73,
+   "fim_s": 30.0,
+   "dur_s": 4.27,
+   "brilho_ini": 68.7,
+   "brilho_fim": 67.9,
+   "saturacao_ini": 19.9,
+   "saturacao_fim": 20.9,
+   "cortes_internos_s": [],
+   "narracao": "One shape smells like oranges. Its mirror twin smells like pine.",
+   "palavras_por_s": 2.58,
+   "quadro": "A ripe orange with bright orange dimpled peel resting on green moss beside a brown pine cone and a green pine branch with long needles, forest floor, soft light, background blurred",
+   "movimento": "gentle pan left"
+  },
+  {
+   "n": 9,
+   "inicio_s": 30.0,
+   "fim_s": 34.5,
+   "dur_s": 4.5,
+   "brilho_ini": 100.2,
+   "brilho_fim": 61.6,
+   "saturacao_ini": 19.2,
+   "saturacao_fim": 11.0,
+   "cortes_internos_s": [],
+   "narracao": "Every orange wears armor made of perfume that can burn.",
+   "palavras_por_s": 2.22,
+   "quadro": "A single ripe orange with bright orange dimpled peel hanging on the branch of a citrus tree at golden sunset, glossy dark green leaves glowing at the edges, background softly blurred",
+   "movimento": "slow push-in"
+  }
+ ],
+ "cortes_bruscos_s": [
+  3.67,
+  6.47,
+  10.53,
+  14.53,
+  17.97,
+  21.53,
+  25.73,
+  30.0
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 95,
+  "palavras_ouvidas": 83,
+  "taxa_acerto": 0.045,
+  "erros": [
+   {
+    "roteiro": "every orange is covered in tiny bottles of flammable oil each tiny dot on the peel is an oil gland bend the peel and those glands burst into",
+    "ouvido": "ambos olhos holandes portas sao department lichas todos os pilotoso import inadimunes sao avenidos os estat doses das candidaturas evitem"
+   },
+   {
+    "roteiro": "fine fragrant mist that bright",
+    "ouvido": "vaca maceka singsistir a"
+   },
+   {
+    "roteiro": "comes mostly from one",
+    "ouvido": "breaker esta entre um"
+   },
+   {
+    "roteiro": "called limonene the tree makes it",
+    "ouvido": "chamando limineo a tr forecastamente lensa que"
+   },
+   {
+    "roteiro": "armor many insects stay away but that perfume has a secret near a flame it sparks stranger still this molecule comes in two shapes like mirror images one shape smells like oranges its mirror twin smells like pine every orange wears armor made of perfume that can burn",
+    "ouvido": "citomestras fijam dosllingos mas essa trajetriftia tem alguma dureteca quase nadeira exuais como industria se e uma kule vermelha cincojako como im uma espinha do os mentos remembered e o espinhos porro quelhe como o sapador cadaahrtorled glasses escondido por profunda que pode deger"
+   }
+  ],
+  "suspeitas": [],
+  "duvidosas": [
+   "Ambos",
+   "olhos",
+   "holandés",
+   "portas",
+   "são",
+   "department",
+   "явlichas.",
+   "Todos",
+   "pilotosó",
+   "import",
+   "inadimunes",
+   "são",
+   "avenidos,",
+   "os",
+   "estát",
+   "doses",
+   "das",
+   "candidaturas",
+   "evitem",
+   "a",
+   "vaca",
+   "maceka",
+   "singsistir.",
+   "A",
+   "smell",
+   "놓",
+   "breaker",
+   "está",
+   "entre",
+   "um"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "every orange is covered in tiny bottles of flammable oil each tiny dot on the peel is an oil gland bend the peel and those glands burst into",
+    "ouvido": "ambos olhos holandes portas sao department lichas todos os pilotoso import inadimunes sao avenidos os estat doses das candidaturas evitem"
+   },
+   {
+    "roteiro": "fine fragrant mist that bright",
+    "ouvido": "vaca maceka singsistir a"
+   },
+   {
+    "roteiro": "comes mostly from one",
+    "ouvido": "breaker esta entre um"
+   },
+   {
+    "roteiro": "called limonene the tree makes it",
+    "ouvido": "chamando limineo a tr forecastamente lensa que"
+   },
+   {
+    "roteiro": "armor many insects stay away but that perfume has a secret near a flame it sparks stranger still this molecule comes in two shapes like mirror images one shape smells like oranges its mirror twin smells like pine every orange wears armor made of perfume that can burn",
+    "ouvido": "citomestras fijam dosllingos mas essa trajetriftia tem alguma dureteca quase nadeira exuais como industria se e uma kule vermelha cincojako como im uma espinha do os mentos remembered e o espinhos porro quelhe como o sapador cadaahrtorled glasses escondido por profunda que pode deger"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg"
+ ]
+}
