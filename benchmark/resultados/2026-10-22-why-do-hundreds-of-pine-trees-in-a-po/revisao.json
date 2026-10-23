@@ -1,0 +1,142 @@
+{
+ "nota": 4.5,
+ "resumo": "O vídeo fala de pinheiros tortos, mas quase todas as cenas mostram troncos retos; a narração não foi confirmada (o transcritor ouviu português num roteiro em inglês) e a cena 8 enfia o tronco dentro de um barco.",
+ "problemas": [
+  {
+   "segundo": 0.0,
+   "cena": 1,
+   "tipo": "visual",
+   "gravidade": "alta",
+   "descricao": "O assunto do vídeo (tronco em forma de J, curvado junto ao chão) não aparece. Cena 1 (0-3,7 s): tronco principal reto enquanto a narração diz 'all bend the same way'. Cena 2 (3,7-8 s): tronco só levemente inclinado, sem curva. Cena 3 (8-12,3 s): fileira de troncos retos sob 'almost every bend points north'. Cena 6 (20,8-24,7 s): troncos retos. Cena 7 (24,7-29 s): muda de pinheiro em pé, nada achatada pela neve. Só as cenas 5 e 9 mostram alguma inclinação. Assim a cena 4 ('as outras crescem retas') fica igual às anteriores e o contraste da história some.",
+   "causa": "O modelo de imagem puxa árvores para o padrão vertical e ignora 'curving sharply sideways in a smooth J shape'. A descrição da forma no prompt não basta.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 0.0,
+   "cena": 1,
+   "tipo": "narracao",
+   "gravidade": "alta",
+   "descricao": "A narração não confere com o roteiro: taxa_acerto 0,027. O transcritor ouviu português ('hunderdas de pines', 'em Polonia tem tudo se juntado', 'o vento pesado pressa os pines jovens') num roteiro e numas legendas em inglês. Pelo medidas.json não dá para saber se a voz falou o roteiro certo.",
+   "causa": "Duas hipóteses: a voz da narração é um modelo em português lendo texto em inglês (sotaque forte, o Whisper detectou pt), ou o transcritor rodou com o idioma fixo em pt. As duas são do pipeline. É preciso ouvir o trecho de 0 a 4 s para saber qual é.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 29.0,
+   "cena": 8,
+   "tipo": "visual",
+   "gravidade": "alta",
+   "descricao": "Um barco de madeira laranja aparece no chão da floresta com o tronco do pinheiro atravessando o casco, um objeto fisicamente impossível que fica na tela de 29 a 33,5 s. O tronco também é reto, sem a curva que a cena devia mostrar.",
+   "causa": "A metáfora do prompt ('the bend shaped like the rib of a wooden boat') virou um barco literal.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 0.0,
+   "cena": 1,
+   "tipo": "ritmo",
+   "gravidade": "media",
+   "descricao": "O gancho é fraco. Os 3,7 s iniciais mostram uma floresta comum quase parada, com uma afirmação sem pergunta, e a imagem não mostra nada de estranho que prenda o olho.",
+   "causa": "A cena de abertura depende da curva do tronco, que não foi gerada.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 11.5,
+   "cena": 3,
+   "tipo": "legenda",
+   "gravidade": "media",
+   "descricao": "Há blocos de legenda que juntam o fim de uma frase com o começo da seguinte ou que partem uma expressão: 'NORTH. JUST OUTSIDE' (11,5-12,5 s), 'THEN COMES THE STRANGE' / 'PART: NOBODY WROTE DOWN' (21-23 s), 'AND ONLY' / 'TO THESE TREES.' (19-20 s), 'SNOW PRESSED THE YOUNG' / 'TREES FLAT' (26-27 s).",
+   "causa": "As legendas são quebradas por contagem de palavras ou caracteres, sem respeitar o fim de frase nem os grupos de palavras.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 0.0,
+   "cena": 1,
+   "tipo": "audio",
+   "gravidade": "media",
+   "descricao": "Loudness integrada de -15,8 LUFS, abaixo do alvo de -14 (±1) e no limite de ficar baixa no celular.",
+   "causa": "A mixagem final não normaliza para -14 LUFS.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 33.5,
+   "cena": 9,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "O pinheiro está iluminado como de dia, com cores fortes, contra um fundo preto, e parece recortado e colado. Não lembra luar.",
+   "causa": "O sufixo 'at night, dark sky', repetido no prompt, gera um fundo escuro mas não muda a luz do assunto.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 20.83,
+   "cena": 6,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "O prompt pede anoitecer e noite, mas o céu sai azul forte de dia. A cena destoa da 5 e da 7.",
+   "causa": "O prompt é contraditório ('at dusk ... faint last light ... at night, dark sky'), com o sufixo de noite colado automaticamente.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 16.7,
+   "cena": 5,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "O brilho cai do começo ao fim da cena: 1 de 80,5 para 63,8 (-21%), 5 de 83,5 para 68,5 (-18%) e 7 de 135,9 para 114,2 (-16%). Já na cena 9 a queda (-27%) é o fade final e está certa.",
+   "causa": "O movimento de câmera ou o gerador escurece o quadro ao longo da cena.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 3.7,
+   "cena": 2,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "Os movimentos pedidos quase não aparecem. A cena 2 ('pan right along the curve') e a cena 7 ('snowflakes drift down') ficam praticamente paradas nas folhas, sem flocos visíveis.",
+   "causa": "O gerador de vídeo dá pouco movimento a imagens estáticas.",
+   "origem": "pipeline"
+  }
+ ],
+ "refazer": [
+  {
+   "cena": 8,
+   "motivo": "O tronco atravessa um barco que surgiu da metáfora do prompt: objeto impossível na tela por 4,5 s.",
+   "ajuste_prompt": "Tirar a comparação com o barco. Descrever só a forma: 'the lower trunk grows almost horizontally along the mossy ground for about one meter, then turns sharply upward into a vertical trunk, a smooth hockey-stick curve seen from the side'. Se quiser mostrar o barco, fazer uma cena separada com uma costela de barco antiga, sem árvore."
+  }
+ ],
+ "licoes": [
+  {
+   "tipo_assunto": "natureza",
+   "alvo": "geracao",
+   "regra": "Quando a história depende de uma forma incomum (árvore torta, rocha estranha), o prompt precisa descrever a geometria em termos físicos e de câmera (direção, comprimento, ângulo, vista lateral). Confira na primeira imagem se a forma apareceu antes de gerar o resto."
+  },
+  {
+   "tipo_assunto": "geral",
+   "alvo": "geracao",
+   "regra": "Não use metáforas e comparações com objetos no prompt de imagem ('em forma de costela de barco'): o modelo desenha o objeto literalmente."
+  },
+  {
+   "tipo_assunto": "geral",
+   "alvo": "roteiro",
+   "regra": "A cena de contraste ('fora daqui elas são normais') só funciona se as cenas anteriores mostrarem claramente o fenômeno. Sem isso, as duas ficam iguais e a história perde o sentido."
+  },
+  {
+   "tipo_assunto": "geral",
+   "alvo": "montagem",
+   "regra": "Quebre as legendas no fim de frase ou de grupo de palavras. Nunca junte o fim de uma frase com o começo da seguinte no mesmo bloco."
+  }
+ ],
+ "pipeline": [
+  {
+   "onde": "narração (TTS) e inspeção (transcrição)",
+   "mudanca": "Garantir que a voz do TTS é do mesmo idioma do roteiro (inglês) e passar o idioma explícito ao Whisper (language='en') na inspeção.",
+   "motivo": "O transcritor ouviu português num roteiro em inglês (acerto de 2,7%). Ou a voz está errada ou a verificação não vale."
+  },
+  {
+   "onde": "prompts das cenas (geração de imagem)",
+   "mudanca": "Para o assunto central, usar uma imagem de referência ou image-to-image de um pinheiro em J e descrever a forma de maneira física (tronco horizontal rente ao chão, depois vertical, vista lateral). Remover metáforas.",
+   "motivo": "6 de 9 cenas mostram troncos retos e o vídeo não mostra o fenômeno de que fala."
+  },
+  {
+   "onde": "montagem: legendas e mixagem",
+   "mudanca": "Quebrar legendas por pontuação e grupo de palavras e normalizar o áudio final para -14 LUFS (loudnorm I=-14:TP=-1).",
+   "motivo": "Há blocos que juntam duas frases e a loudness está em -15,8 LUFS."
+  }
+ ]
+}

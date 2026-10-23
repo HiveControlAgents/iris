@@ -1,0 +1,55 @@
+{
+ "nota": 7.0,
+ "resumo": "Visual coerente e bonito na maior parte, mas a cena 3 mostra círculos cinza de pedra em duas fileiras retas no lugar de areia vermelha em favo de mel, as legendas quebram no meio das ideias, o áudio está baixo e a narração não pôde ser conferida porque a transcrição saiu em português.",
+ "problemas": [
+  {"segundo": 11.0, "cena": 3, "tipo": "visual", "gravidade": "media",
+   "descricao": "Os círculos viram discos cinza-esbranquiçados, com cara de pedra, enfileirados em duas linhas retas como uma estrada até as dunas. Isso contradiz a narração ('spaced almost evenly, like a giant honeycomb') e as cenas 1 e 2, que mostram areia vermelha cercada de capim. Em 12.0 s ainda há um tufo de capim no meio de um dos círculos.",
+   "causa": "'Regular evenly spaced pattern' sem vista de cima virou fileiras em perspectiva; o prompt não repete a cor nem o material do centro do círculo.",
+   "origem": "sorteio"},
+  {"segundo": 0.0, "cena": 0, "tipo": "narracao", "gravidade": "media",
+   "descricao": "A narração não foi verificada. O transcritor devolveu o texto em português ('cantulas perfeitas de circulos', 'circulos feris', 'deserto namib', 'termites de sand'), por isso os 5 'erros' e a taxa_acerto de 0,036 vêm do idioma errado, não da voz. O conteúdo ouvido acompanha o roteiro frase a frase, mas palavras tortas podem ter passado.",
+   "causa": "O Whisper detectou ou recebeu o idioma errado (pt) para uma narração em inglês.",
+   "origem": "pipeline"},
+  {"segundo": 4.5, "cena": 1, "tipo": "legenda", "gravidade": "media",
+   "descricao": "Os blocos de legenda juntam o fim de uma frase com o começo da seguinte e atravessam o corte: 'THEM. THEY ARE CALLED' (4.5–5.5 s) e 'GRASS. THEY RUN ALONG' (10.0–11.0 s). Também quebram termos no meio: 'ONE IDEA BLAMES SAND' / 'TERMITES.' (16.5–18.5 s), 'THE SAME PATTERNS TURNED' / 'UP IN AUSTRALIA' (23.0–24.5 s), 'AT THE EDGE DRAIN' / 'THE WATER' (30.5–31.5 s), além de 'TERMITES. THEY EAT', 'UNDERGROUND. BUT THEN' e 'GRASS. EITHER WAY,'.",
+   "causa": "O fatiador de legendas corta por número de palavras sem respeitar ponto final, termo composto ou fronteira de cena.",
+   "origem": "pipeline"},
+  {"segundo": 0.0, "cena": 0, "tipo": "audio", "gravidade": "media",
+   "descricao": "Loudness integrado de -15,9 LUFS, quase 2 LU abaixo do alvo de -14, no limite do 'fica baixo no celular'. O pico de -1,6 dBFS está ok e não há clipping.",
+   "causa": "A mixagem final não normaliza para -14 LUFS.",
+   "origem": "pipeline"},
+  {"segundo": 22.5, "cena": 5, "tipo": "visual", "gravidade": "baixa",
+   "descricao": "No fundo, os círculos australianos parecem buracos escuros e fundos (crateras), não manchas de terra nua. O círculo do primeiro plano está correto.",
+   "causa": "O modelo interpretou 'bare circular patch' à distância como depressão.",
+   "origem": "sorteio"},
+  {"segundo": 27.5, "cena": 6, "tipo": "visual", "gravidade": "baixa",
+   "descricao": "As gotas d'água pedidas no prompt não aparecem, e o tufo do primeiro plano abre em leque radial meio artificial. Em 31.0 s surge um montinho avermelhado no topo, entre os tufos. A cena ainda casa com a narração.",
+   "causa": "Detalhe fino (gotas) que o modelo de vídeo não sustenta em plano fechado.",
+   "origem": "sorteio"},
+  {"segundo": 1.0, "cena": 1, "tipo": "ritmo", "gravidade": "baixa",
+   "descricao": "A cena 1 tem 3,14 palavras/s, acima da faixa de 2,3–3,0, logo no gancho. A cena 7 cai para 2,19. A média do vídeo (cerca de 2,8) está boa.",
+   "causa": "Frase de abertura longa para 5 s.",
+   "origem": "sorteio"},
+  {"segundo": 38.5, "cena": 7, "tipo": "visual", "gravidade": "baixa",
+   "descricao": "O brilho cai de 91,8 para 66,5 e a saturação de 36,9 para 28,4 por causa do fade-out final. Em 39.0 s o sol fica esverdeado durante o escurecimento.",
+   "causa": "O fade para preto é aplicado sobre uma imagem muito saturada.",
+   "origem": "pipeline"}
+ ],
+ "refazer": [
+  {"cena": 3, "motivo": "Os círculos aparecem cinza, como discos de pedra, em duas fileiras retas, sem relação com o 'favo de mel' da narração e diferentes dos círculos de areia vermelha das cenas 1 e 2.",
+   "ajuste_prompt": "Trocar 'Elevated view ... regular evenly spaced pattern' por 'High top-down aerial view of a red sand grassland, hundreds of round bare patches of red sand, each ringed by taller golden grass, scattered evenly in a honeycomb-like hexagonal pattern filling the whole frame, no rows, no paths, no stones'."}
+ ],
+ "licoes": [
+  {"tipo_assunto": "natureza", "alvo": "geracao",
+   "regra": "Quando várias cenas mostram o mesmo objeto, repita no prompt de cada uma a cor, o material e a borda do objeto. Sem isso, o modelo muda o objeto de uma cena para outra."},
+  {"tipo_assunto": "geral", "alvo": "geracao",
+   "regra": "Padrão espalhado pelo terreno ('evenly spaced', 'honeycomb') pede vista de cima ('top-down aerial'). Em perspectiva, o modelo transforma o padrão em fileiras ou estradas."},
+  {"tipo_assunto": "geral", "alvo": "montagem",
+   "regra": "Bloco de legenda termina em ponto final ou pausa natural e nunca atravessa corte de cena. Não separe substantivo composto nem verbo de sua partícula ('sand termites', 'turned up')."}
+ ],
+ "pipeline": [
+  {"onde": "scripts/inspecionar.py (transcrição)", "mudanca": "Passar o idioma do roteiro para o Whisper (language='en' neste canal) em vez de deixar a detecção automática.", "motivo": "A transcrição veio em português e gerou 5 falsos 'erros' de narração (taxa_acerto 0,036), o que impede conferir a voz de verdade."},
+  {"onde": "etapa de legendas", "mudanca": "Fatiar os blocos por frase (quebrar em . , ;) com limite de ~32 caracteres e fechar o bloco no corte de cena.", "motivo": "Blocos como 'THEM. THEY ARE CALLED' e 'ONE IDEA BLAMES SAND' / 'TERMITES.' truncam a leitura."},
+  {"onde": "mixagem final", "mudanca": "Normalizar para -14 LUFS integrado (loudnorm I=-14:TP=-1).", "motivo": "O vídeo saiu com -15,9 LUFS."}
+ ]
+}

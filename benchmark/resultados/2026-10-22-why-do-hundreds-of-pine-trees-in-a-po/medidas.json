@@ -1,0 +1,264 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "Why Do Hundreds of Trees in Poland Bend North?",
+ "tema": "Why do hundreds of pine trees in a Polish forest all grow bent the same way?",
+ "estilo_visual": "award-winning photorealistic nature photography, natural light, shallow depth of field, sharp focus, moody quiet forest atmosphere",
+ "inspecionado_em": "2026-10-23T02:00:07",
+ "video": {
+  "duracao_s": 38.5,
+  "tamanho_mb": 23.7,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -15.8,
+  "pico_dbfs": -1.7,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 3.7,
+   "dur_s": 3.7,
+   "brilho_ini": 80.5,
+   "brilho_fim": 63.8,
+   "saturacao_ini": 10.1,
+   "saturacao_fim": 9.9,
+   "cortes_internos_s": [],
+   "narracao": "Hundreds of pine trees in Poland all bend the same way.",
+   "palavras_por_s": 2.97,
+   "quadro": "A single tall Scots pine growing wild in a quiet forest, its reddish-brown trunk curving sharply sideways just above the ground in a smooth J shape, then rising straight up, mossy forest floor, other bent pines softly blurred behind, soft misty dawn light",
+   "movimento": "slow push-in"
+  },
+  {
+   "n": 2,
+   "inicio_s": 3.7,
+   "fim_s": 8.03,
+   "dur_s": 4.33,
+   "brilho_ini": 82.9,
+   "brilho_fim": 74.1,
+   "saturacao_ini": 18.6,
+   "saturacao_fim": 17.8,
+   "cortes_internos_s": [],
+   "narracao": "Each trunk curves sideways near the ground, then shoots straight up.",
+   "palavras_por_s": 2.54,
+   "quadro": "Medium close shot of the base of a Scots pine trunk growing wild in a forest, reddish-brown flaky bark, the trunk bending in a deep smooth curve parallel to the mossy ground before turning upward, fallen pine needles around it, background blurred",
+   "movimento": "gentle pan right along the curve"
+  },
+  {
+   "n": 3,
+   "inicio_s": 8.03,
+   "fim_s": 12.3,
+   "dur_s": 4.27,
+   "brilho_ini": 66.2,
+   "brilho_fim": 62.6,
+   "saturacao_ini": 15.0,
+   "saturacao_fim": 13.5,
+   "cortes_internos_s": [],
+   "narracao": "Strangest of all, almost every bend points in one direction: north.",
+   "palavras_por_s": 2.58,
+   "quadro": "A row of Scots pines growing wild in a forest, each trunk curving at the base in the same direction, reddish-brown bark, green moss and ferns on the ground, low golden sunlight from the side, soft haze between the trunks",
+   "movimento": "slow lateral pan left"
+  },
+  {
+   "n": 4,
+   "inicio_s": 12.3,
+   "fim_s": 16.7,
+   "dur_s": 4.4,
+   "brilho_ini": 56.0,
+   "brilho_fim": 53.8,
+   "saturacao_ini": 11.6,
+   "saturacao_fim": 12.9,
+   "cortes_internos_s": [],
+   "narracao": "Just outside this grove, the other pines in the forest grow perfectly straight.",
+   "palavras_por_s": 2.95,
+   "quadro": "Tall straight Scots pine trunks growing wild in a dense forest, reddish-brown bark, green canopy high above, ferns on the forest floor, soft afternoon light filtering between the trunks",
+   "movimento": "slow tilt up along the trunks"
+  },
+  {
+   "n": 5,
+   "inicio_s": 16.7,
+   "fim_s": 20.83,
+   "dur_s": 4.13,
+   "brilho_ini": 83.5,
+   "brilho_fim": 68.5,
+   "saturacao_ini": 14.2,
+   "saturacao_fim": 14.1,
+   "cortes_internos_s": [],
+   "narracao": "So whatever bent them happened only here, and only to these trees.",
+   "palavras_por_s": 2.91,
+   "quadro": "Close-up of reddish-brown flaky Scots pine bark on a curved trunk growing wild in a forest, a patch of bright green moss on the bark, fallen needles below, background softly blurred",
+   "movimento": "very slow push-in"
+  },
+  {
+   "n": 6,
+   "inicio_s": 20.83,
+   "fim_s": 24.73,
+   "dur_s": 3.9,
+   "brilho_ini": 41.7,
+   "brilho_fim": 40.5,
+   "saturacao_ini": 11.2,
+   "saturacao_fim": 12.8,
+   "cortes_internos_s": [],
+   "narracao": "Then comes the strange part: nobody wrote down what it was.",
+   "palavras_por_s": 2.82,
+   "quadro": "A grove of bent Scots pines growing wild in a forest at dusk, curved trunks dark against a deep blue sky, faint last light behind the trees, quiet and still, at night, dark sky",
+   "movimento": "pine needles sway softly"
+  },
+  {
+   "n": 7,
+   "inicio_s": 24.73,
+   "fim_s": 29.03,
+   "dur_s": 4.3,
+   "brilho_ini": 135.9,
+   "brilho_fim": 114.2,
+   "saturacao_ini": 5.6,
+   "saturacao_fim": 8.4,
+   "cortes_internos_s": [],
+   "narracao": "One idea says heavy snow pressed the young trees flat each winter.",
+   "palavras_por_s": 2.79,
+   "quadro": "A young Scots pine sapling growing wild in a forest, its thin trunk bent low under a thick layer of fresh white snow, snow-covered forest floor, pale winter light, other snowy pines blurred behind",
+   "movimento": "light snowflakes drift down slowly"
+  },
+  {
+   "n": 8,
+   "inicio_s": 29.03,
+   "fim_s": 33.5,
+   "dur_s": 4.47,
+   "brilho_ini": 72.0,
+   "brilho_fim": 67.2,
+   "saturacao_ini": 14.9,
+   "saturacao_fim": 16.1,
+   "cortes_internos_s": [],
+   "narracao": "Another says farmers bent them on purpose, to grow curved wood for boats.",
+   "palavras_por_s": 2.91,
+   "quadro": "Medium close shot of the smooth curved base of a mature Scots pine growing wild in a forest, the bend shaped like the rib of a wooden boat, reddish-brown bark, soft morning light, mossy ground, background blurred",
+   "movimento": "slow push-in"
+  },
+  {
+   "n": 9,
+   "inicio_s": 33.5,
+   "fim_s": 38.5,
+   "dur_s": 5.0,
+   "brilho_ini": 45.9,
+   "brilho_fim": 33.7,
+   "saturacao_ini": 7.1,
+   "saturacao_fim": 4.9,
+   "cortes_internos_s": [],
+   "narracao": "A century later, the trees still bow north, and nobody knows why.",
+   "palavras_por_s": 2.4,
+   "quadro": "A single curved Scots pine growing wild in a forest at night, its J-shaped trunk outlined by pale moonlight, mossy ground, other bent pines faintly visible behind, dark sky, at night, dark sky",
+   "movimento": "very slow push-in"
+  }
+ ],
+ "cortes_bruscos_s": [
+  3.7,
+  8.03,
+  12.3,
+  16.7,
+  20.83,
+  24.73,
+  29.03,
+  33.5
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 106,
+  "palavras_ouvidas": 120,
+  "taxa_acerto": 0.027,
+  "erros": [
+   {
+    "roteiro": "hundreds of pine trees in poland all bend the same way each trunk curves sideways near the ground then shoots straight up strangest of all almost every bend points in one direction north just outside this grove the other",
+    "ouvido": "hunderdas de"
+   },
+   {
+    "roteiro": "in the forest grow perfectly straight",
+    "ouvido": "em polonia tem tudo se juntado da mesma forma cada um de pines curvas nas partes perto do grao depois se juntam direto o mais estranho de todos quase todos os pines de pines em uma direcao norte justo fora dessa pina os outros pines em fora se juntam bem direto entao qualquer coisa que se juntaram"
+   },
+   {
+    "roteiro": "whatever bent them happened only here and only to these trees then comes the strange part nobody wrote down what it was one idea says heavy snow pressed the young trees flat each winter another says farmers bent them on purpose to grow curved wood for boats",
+    "ouvido": "aqui e so para esses pines depois vem"
+   },
+   {
+    "roteiro": "century later the trees still bow north and nobody knows why",
+    "ouvido": "parte estranha ninguem escreveu o que foi uma ideia diz que o vento pesado pressa os pines jovens em cada vento outro againer notes que os asks eles pularam a camada paraar os pines um silencio depois os pines ainda nao mais passaram no norte e ninguem sabe que porque"
+   }
+  ],
+  "suspeitas": [],
+  "duvidosas": [
+   "Hunderdas",
+   "de",
+   "pines",
+   "Polonia",
+   "têm",
+   "tudo",
+   "se",
+   "juntado",
+   "da",
+   "Cada",
+   "um",
+   "de",
+   "pines",
+   "curvas",
+   "nas",
+   "partes",
+   "perto",
+   "do",
+   "grão,",
+   "depois",
+   "se",
+   "juntam",
+   "direto.",
+   "O",
+   "mais",
+   "de",
+   "todos,",
+   "de",
+   "em",
+   "uma"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "hundreds of pine trees in poland all bend the same way each trunk curves sideways near the ground then shoots straight up strangest of all almost every bend points in one direction north just outside this grove the other",
+    "ouvido": "hunderdas de"
+   },
+   {
+    "roteiro": "in the forest grow perfectly straight",
+    "ouvido": "em polonia tem tudo se juntado da mesma forma cada um de pines curvas nas partes perto do grao depois se juntam direto o mais estranho de todos quase todos os pines de pines em uma direcao norte justo fora dessa pina os outros pines em fora se juntam bem direto entao qualquer coisa que se juntaram"
+   },
+   {
+    "roteiro": "whatever bent them happened only here and only to these trees then comes the strange part nobody wrote down what it was one idea says heavy snow pressed the young trees flat each winter another says farmers bent them on purpose to grow curved wood for boats",
+    "ouvido": "aqui e so para esses pines depois vem"
+   },
+   {
+    "roteiro": "century later the trees still bow north and nobody knows why",
+    "ouvido": "parte estranha ninguem escreveu o que foi uma ideia diz que o vento pesado pressa os pines jovens em cada vento outro againer notes que os asks eles pularam a camada paraar os pines um silencio depois os pines ainda nao mais passaram no norte e ninguem sabe que porque"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg"
+ ]
+}

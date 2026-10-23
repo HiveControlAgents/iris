@@ -1,0 +1,240 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "Who Draws These Perfect Circles in the Desert?",
+ "tema": "Why do thousands of perfect bare circles cover the Namib Desert (fairy circles)?",
+ "estilo_visual": "award-winning photorealistic nature photography, natural golden light, shallow depth of field, sharp focus, warm earthy colors",
+ "inspecionado_em": "2026-10-23T02:02:43",
+ "video": {
+  "duracao_s": 39.6,
+  "tamanho_mb": 24.4,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -15.9,
+  "pico_dbfs": -1.6,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 5.1,
+   "dur_s": 5.1,
+   "brilho_ini": 110.6,
+   "brilho_fim": 107.1,
+   "saturacao_ini": 32.6,
+   "saturacao_fim": 30.5,
+   "cortes_internos_s": [],
+   "narracao": "Countless perfect circles cover a desert in Africa. And no one is sure what makes them.",
+   "palavras_por_s": 3.14,
+   "quadro": "High aerial photograph of a vast flat desert grassland at golden hour, red sand plain covered with dozens of round bare patches of red sand evenly spaced in pale yellow grass, each bare circle ringed by a band of taller grass, distant rocky mountains on the horizon, clear sky",
+   "movimento": "slow push-in"
+  },
+  {
+   "n": 2,
+   "inicio_s": 5.1,
+   "fim_s": 11.0,
+   "dur_s": 5.9,
+   "brilho_ini": 130.1,
+   "brilho_fim": 115.9,
+   "saturacao_ini": 26.3,
+   "saturacao_fim": 26.8,
+   "cortes_internos_s": [],
+   "narracao": "They are called fairy circles. Bare round patches of red sand, each ringed by taller grass.",
+   "palavras_por_s": 2.71,
+   "quadro": "Ground-level view of one single round bare patch of smooth red sand several meters wide in a desert grassland, the whole circle visible, its edge lined by a ring of taller golden grass tufts, short pale grass beyond, soft morning light, empty landscape",
+   "movimento": "grass sways softly"
+  },
+  {
+   "n": 3,
+   "inicio_s": 11.0,
+   "fim_s": 16.57,
+   "dur_s": 5.57,
+   "brilho_ini": 83.6,
+   "brilho_fim": 82.3,
+   "saturacao_ini": 33.2,
+   "saturacao_fim": 34.9,
+   "cortes_internos_s": [],
+   "narracao": "They run along the edge of the Namib Desert, spaced almost evenly, like a giant honeycomb.",
+   "palavras_por_s": 2.87,
+   "quadro": "Elevated view over rolling red sand grassland in late afternoon light, many round bare sand patches spread in a regular evenly spaced pattern across the plain into the distance, long soft shadows from the grass rings, hazy orange sky",
+   "movimento": "gentle pan left"
+  },
+  {
+   "n": 4,
+   "inicio_s": 16.57,
+   "fim_s": 22.33,
+   "dur_s": 5.76,
+   "brilho_ini": 99.9,
+   "brilho_fim": 98.6,
+   "saturacao_ini": 43.0,
+   "saturacao_fim": 41.8,
+   "cortes_internos_s": [],
+   "narracao": "One idea blames sand termites. They eat the grass roots and keep water trapped underground.",
+   "palavras_por_s": 2.6,
+   "quadro": "Close view at the edge of a bare red sand circle, dry dead grass tufts with exposed pale roots lying on the smooth red sand, a few small sand grains and tiny mounds, living golden grass behind slightly out of focus, warm low sunlight",
+   "movimento": "slow push-in"
+  },
+  {
+   "n": 5,
+   "inicio_s": 22.33,
+   "fim_s": 27.33,
+   "dur_s": 5.0,
+   "brilho_ini": 108.0,
+   "brilho_fim": 97.7,
+   "saturacao_ini": 40.5,
+   "saturacao_fim": 39.4,
+   "cortes_internos_s": [],
+   "narracao": "But then the same patterns turned up in Australia, in places with no such termites.",
+   "palavras_por_s": 3.0,
+   "quadro": "Elevated view over the Australian outback, red earth plain covered with round spiny grass hummocks forming a ring around one bare circular patch of red soil, more evenly spaced bare circles in the distance, blue sky with thin white clouds",
+   "movimento": "slow push-in"
+  },
+  {
+   "n": 6,
+   "inicio_s": 27.33,
+   "fim_s": 33.2,
+   "dur_s": 5.87,
+   "brilho_ini": 85.8,
+   "brilho_fim": 78.7,
+   "saturacao_ini": 24.8,
+   "saturacao_fim": 24.8,
+   "cortes_internos_s": [],
+   "narracao": "There, the grass may draw them itself. Thirsty plants at the edge drain the water from the center.",
+   "palavras_por_s": 3.07,
+   "quadro": "Close view of a dense ring of green and golden grass tufts at the edge of a bare circle of red sand, tiny glistening water droplets on the grass blades after rain, the dry bare sand of the circle center in soft focus beside them, early morning light",
+   "movimento": "grass sways softly"
+  },
+  {
+   "n": 7,
+   "inicio_s": 33.2,
+   "fim_s": 39.6,
+   "dur_s": 6.4,
+   "brilho_ini": 91.8,
+   "brilho_fim": 66.5,
+   "saturacao_ini": 36.9,
+   "saturacao_fim": 28.4,
+   "cortes_internos_s": [],
+   "narracao": "Termites or thirsty grass. Either way, the desert draws perfect circles all by itself.",
+   "palavras_por_s": 2.19,
+   "quadro": "One single perfect bare circle of red sand ringed by tall golden grass in the foreground, the whole circle visible, red sand dunes and a glowing orange sunset sky softly blurred behind, empty landscape",
+   "movimento": "slow push-in"
+  }
+ ],
+ "cortes_bruscos_s": [
+  5.1,
+  11.0,
+  16.57,
+  22.33,
+  27.33,
+  33.2
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 110,
+  "palavras_ouvidas": 115,
+  "taxa_acerto": 0.036,
+  "erros": [
+   {
+    "roteiro": "countless perfect circles cover",
+    "ouvido": "cantulas perfeitas de circulos sejam um deserto na africa e ninguem e seguro o que faz eles sao chamados de circulos feris patas de roda roda rosa cada vez que se arrinham por um alto grato eles jogam ao lado do deserto namib espalhados quase malamente como um circulo gigante uma ideia e de embriar termites de sand eles comem as rodas de grato e manterem"
+   },
+   {
+    "roteiro": "desert in africa and",
+    "ouvido": "agua traida mas ai as mesmas patterns se tornam em australia em lugares com naosese termites ai o grato pode tragar eles plantes de grato"
+   },
+   {
+    "roteiro": "one is sure what makes them they are called fairy circles bare round patches of red sand each ringed by taller grass they run along the edge of the namib desert spaced almost evenly like",
+    "ouvido": "lado da agua traem"
+   },
+   {
+    "roteiro": "giant honeycomb one idea blames sand",
+    "ouvido": "agua do centro"
+   },
+   {
+    "roteiro": "they eat the grass roots and keep water trapped underground but then the same patterns turned up in australia in places with no such termites there the grass may draw them itself thirsty plants at the edge drain the water from the center termites or thirsty grass either way the desert draws perfect circles all by itself",
+    "ouvido": "ou grato de grato de qualquer forma o deserto traga circulos perfeitosos todo"
+   }
+  ],
+  "suspeitas": [],
+  "duvidosas": [
+   "Cántulas",
+   "de",
+   "círculos",
+   "sejam",
+   "um",
+   "na",
+   "é",
+   "seguro",
+   "o",
+   "faz.",
+   "Eles",
+   "de",
+   "feris,",
+   "patas",
+   "de",
+   "roda",
+   "roda",
+   "rosa,",
+   "cada",
+   "vez",
+   "que",
+   "se",
+   "arrinham",
+   "por",
+   "um",
+   "alto",
+   "grato.",
+   "jogam",
+   "ao",
+   "lado"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "countless perfect circles cover",
+    "ouvido": "cantulas perfeitas de circulos sejam um deserto na africa e ninguem e seguro o que faz eles sao chamados de circulos feris patas de roda roda rosa cada vez que se arrinham por um alto grato eles jogam ao lado do deserto namib espalhados quase malamente como um circulo gigante uma ideia e de embriar termites de sand eles comem as rodas de grato e manterem"
+   },
+   {
+    "roteiro": "desert in africa and",
+    "ouvido": "agua traida mas ai as mesmas patterns se tornam em australia em lugares com naosese termites ai o grato pode tragar eles plantes de grato"
+   },
+   {
+    "roteiro": "one is sure what makes them they are called fairy circles bare round patches of red sand each ringed by taller grass they run along the edge of the namib desert spaced almost evenly like",
+    "ouvido": "lado da agua traem"
+   },
+   {
+    "roteiro": "giant honeycomb one idea blames sand",
+    "ouvido": "agua do centro"
+   },
+   {
+    "roteiro": "they eat the grass roots and keep water trapped underground but then the same patterns turned up in australia in places with no such termites there the grass may draw them itself thirsty plants at the edge drain the water from the center termites or thirsty grass either way the desert draws perfect circles all by itself",
+    "ouvido": "ou grato de grato de qualquer forma o deserto traga circulos perfeitosos todo"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg"
+ ]
+}
