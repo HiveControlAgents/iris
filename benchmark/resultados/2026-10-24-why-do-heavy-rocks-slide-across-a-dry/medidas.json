@@ -1,0 +1,216 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "The Rocks That Move Across Death Valley Alone",
+ "tema": "Why do heavy rocks slide across a dry lakebed in Death Valley (the sailing stones of Racetrack Playa)?",
+ "estilo_visual": "award-winning photorealistic nature photography, natural light, shallow depth of field, sharp focus, muted desert tones",
+ "inspecionado_em": "2026-10-24T02:06:43",
+ "video": {
+  "duracao_s": 41.0,
+  "tamanho_mb": 25.0,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -15.8,
+  "pico_dbfs": -1.7,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 6.33,
+   "dur_s": 6.33,
+   "brilho_ini": 109.9,
+   "brilho_fim": 101.0,
+   "saturacao_ini": 6.4,
+   "saturacao_fim": 6.8,
+   "cortes_internos_s": [],
+   "narracao": "Heavy rocks in Death Valley move across the desert all by themselves. For decades, nobody saw it happen.",
+   "palavras_por_s": 2.84,
+   "quadro": "A single dark brown boulder about knee high resting on a flat pale dry lakebed of cracked mud. Behind it, one long narrow shallow groove in the mud runs straight back toward distant dark mountains. Soft dusk light, low side view, the whole boulder and its groove visible, empty desert, no footprints.",
+   "movimento": "slow push-in toward the boulder"
+  },
+  {
+   "n": 2,
+   "inicio_s": 6.33,
+   "fim_s": 11.43,
+   "dur_s": 5.1,
+   "brilho_ini": 150.3,
+   "brilho_fim": 137.1,
+   "saturacao_ini": 6.6,
+   "saturacao_fim": 10.2,
+   "cortes_internos_s": [],
+   "narracao": "They sit on a dry lakebed called Racetrack Playa. The ground is flat and cracked.",
+   "palavras_por_s": 2.94,
+   "quadro": "A vast perfectly flat pale lakebed covered in small polygon-shaped mud cracks, a few scattered dark brown boulders resting far apart, dark rocky mountains on the horizon, clear morning sky, empty landscape with no roads, no footprints.",
+   "movimento": "gentle pan right across the lakebed"
+  },
+  {
+   "n": 3,
+   "inicio_s": 11.43,
+   "fim_s": 16.63,
+   "dur_s": 5.2,
+   "brilho_ini": 135.0,
+   "brilho_fim": 125.5,
+   "saturacao_ini": 10.7,
+   "saturacao_fim": 10.8,
+   "cortes_internos_s": [],
+   "narracao": "Behind each rock runs a long trail in the mud. Some trails curve, others zigzag.",
+   "palavras_por_s": 2.88,
+   "quadro": "A dark brown boulder about knee high on pale cracked mud, seen from above at a low angle. Behind it, one narrow shallow groove in the mud runs straight for a long distance, then turns sharply sideways, then turns again toward the boulder. Soft morning light, long shadow, empty desert.",
+   "movimento": "slow tilt along the groove toward the boulder"
+  },
+  {
+   "n": 4,
+   "inicio_s": 16.63,
+   "fim_s": 22.53,
+   "dur_s": 5.9,
+   "brilho_ini": 94.3,
+   "brilho_fim": 95.4,
+   "saturacao_ini": 17.9,
+   "saturacao_fim": 17.5,
+   "cortes_internos_s": [],
+   "narracao": "Then scientists put trackers on the rocks and watched. The answer was not wind alone. It was ice.",
+   "palavras_por_s": 3.05,
+   "quadro": "The same dark brown boulder about knee high on the flat pale cracked lakebed at night, its long shallow groove in the mud running behind it, clear sky full of stars, faint blue moonlight, empty desert, no lights.",
+   "movimento": "stars drift slowly, gentle push-in"
+  },
+  {
+   "n": 5,
+   "inicio_s": 22.53,
+   "fim_s": 28.77,
+   "dur_s": 6.24,
+   "brilho_ini": 110.5,
+   "brilho_fim": 104.7,
+   "saturacao_ini": 10.3,
+   "saturacao_fim": 10.9,
+   "cortes_internos_s": [],
+   "narracao": "After rare rain, a shallow pond forms and freezes overnight. Morning sun cracks the ice into panels.",
+   "palavras_por_s": 2.72,
+   "quadro": "A very shallow sheet of still water covering a flat lakebed, its surface covered by thin clear plates of ice with straight cracks between them. A dark brown boulder about knee high sits in the shallow water, low golden sunrise light, dark mountains in the background.",
+   "movimento": "sunlight glints softly on the ice, slow push-in"
+  },
+  {
+   "n": 6,
+   "inicio_s": 28.77,
+   "fim_s": 34.13,
+   "dur_s": 5.36,
+   "brilho_ini": 116.2,
+   "brilho_fim": 106.6,
+   "saturacao_ini": 8.9,
+   "saturacao_fim": 10.5,
+   "cortes_internos_s": [],
+   "narracao": "A gentle breeze pushes the floating ice. The ice pushes the rocks through the soft mud.",
+   "palavras_por_s": 2.99,
+   "quadro": "Close side view of a dark brown boulder about knee high standing in very shallow water on a lakebed. A thin flat plate of clear ice floats on the water and rests against the side of the boulder. A narrow fresh groove in the soft mud is visible under the clear water behind the boulder. Soft morning light.",
+   "movimento": "water ripples gently around the boulder"
+  },
+  {
+   "n": 7,
+   "inicio_s": 34.13,
+   "fim_s": 41.0,
+   "dur_s": 6.87,
+   "brilho_ini": 117.0,
+   "brilho_fim": 52.3,
+   "saturacao_ini": 12.1,
+   "saturacao_fim": 6.0,
+   "cortes_internos_s": [],
+   "narracao": "These rocks never move by themselves. Thin ice and a quiet wind carry them across the desert.",
+   "palavras_por_s": 2.47,
+   "quadro": "The same dark brown boulder about knee high resting on the flat pale cracked dry lakebed, one long narrow shallow groove in the mud stretching straight behind it to the horizon, warm golden sunset light, long shadow, dark mountains in the distance, empty desert.",
+   "movimento": "very slow push-in, light fades softly"
+  }
+ ],
+ "cortes_bruscos_s": [
+  6.33,
+  11.43,
+  16.63,
+  22.53,
+  28.77,
+  34.13
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 116,
+  "palavras_ouvidas": 120,
+  "taxa_acerto": 0.025,
+  "erros": [
+   {
+    "roteiro": "dry lakebed called racetrack playa the ground is flat and cracked behind each rock runs",
+    "ouvido": "tres quantas quantas detachements que suas ondas stirring e ballolada ate aolfonar os creekos tem divem"
+   },
+   {
+    "roteiro": "long trail in the mud some trails curve others zigzag then scientists put trackers on the rocks and watched the answer was not wind alone it was ice after rare rain",
+    "ouvido": "lingua lane os multin adesao"
+   }
+  ],
+  "suspeitas": [],
+  "duvidosas": [
+   "Ataques",
+   "pesadas",
+   "confirmadas",
+   "no",
+   "caos",
+   "da",
+   "vibe",
+   "da",
+   "cidade",
+   "passarem",
+   "aoться",
+   "durante",
+   "decadas",
+   "que",
+   "tinha",
+   "Eles",
+   "markets",
+   "em",
+   "uma",
+   "sua",
+   "ilha",
+   "mat",
+   "harassada",
+   "que",
+   "falanik",
+   "Queije,",
+   "O",
+   "planeta",
+   "é",
+   "factories"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "dry lakebed called racetrack playa the ground is flat and cracked behind each rock runs",
+    "ouvido": "tres quantas quantas detachements que suas ondas stirring e ballolada ate aolfonar os creekos tem divem"
+   },
+   {
+    "roteiro": "long trail in the mud some trails curve others zigzag then scientists put trackers on the rocks and watched the answer was not wind alone it was ice after rare rain",
+    "ouvido": "lingua lane os multin adesao"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg"
+ ]
+}

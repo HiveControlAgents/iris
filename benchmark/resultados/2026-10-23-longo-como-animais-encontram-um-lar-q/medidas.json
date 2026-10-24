@@ -1,0 +1,702 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "How Do Animals Find a Home They Have Never Seen?",
+ "tema": "Como animais encontram um lar que nunca viram: o salmão que segue um cheiro, a borboleta-monarca que faz uma viagem que nenhum ancestral vivo ensinou, a tartaruga que lê o campo magnético da Terra e o pisco-de-peito-ruivo, cuja bússola pode funcionar por física quântica",
+ "estilo_visual": "Calm wildlife documentary photograph in the style of BBC Earth and National Geographic, wide horizontal composition, natural soft light, quiet mysterious mood with mist, moonlight or dawn glow, realistic textures, one clear main subject fully visible",
+ "inspecionado_em": "2026-10-24T02:00:20",
+ "video": {
+  "duracao_s": 257.5,
+  "tamanho_mb": 150.3,
+  "largura": 1920,
+  "altura": 1080,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -15.7,
+  "pico_dbfs": -1.0,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 7.27,
+   "dur_s": 7.27,
+   "brilho_ini": 50.3,
+   "brilho_fim": 73.8,
+   "saturacao_ini": 11.3,
+   "saturacao_fim": 16.5,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 2,
+   "inicio_s": 7.27,
+   "fim_s": 15.33,
+   "dur_s": 8.06,
+   "brilho_ini": 108.2,
+   "brilho_fim": 93.2,
+   "saturacao_ini": 5.9,
+   "saturacao_fim": 6.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 3,
+   "inicio_s": 15.33,
+   "fim_s": 22.8,
+   "dur_s": 7.47,
+   "brilho_ini": 72.4,
+   "brilho_fim": 68.7,
+   "saturacao_ini": 2.1,
+   "saturacao_fim": 4.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 4,
+   "inicio_s": 22.8,
+   "fim_s": 30.9,
+   "dur_s": 8.1,
+   "brilho_ini": 81.1,
+   "brilho_fim": 70.0,
+   "saturacao_ini": 8.8,
+   "saturacao_fim": 10.7,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 5,
+   "inicio_s": 30.9,
+   "fim_s": 38.07,
+   "dur_s": 7.17,
+   "brilho_ini": 85.0,
+   "brilho_fim": 72.5,
+   "saturacao_ini": 5.9,
+   "saturacao_fim": 9.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 6,
+   "inicio_s": 38.07,
+   "fim_s": 45.17,
+   "dur_s": 7.1,
+   "brilho_ini": 76.2,
+   "brilho_fim": 60.0,
+   "saturacao_ini": 3.1,
+   "saturacao_fim": 4.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 7,
+   "inicio_s": 45.17,
+   "fim_s": 52.1,
+   "dur_s": 6.93,
+   "brilho_ini": 69.6,
+   "brilho_fim": 70.0,
+   "saturacao_ini": 10.3,
+   "saturacao_fim": 13.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 8,
+   "inicio_s": 52.1,
+   "fim_s": 60.27,
+   "dur_s": 8.17,
+   "brilho_ini": 72.8,
+   "brilho_fim": 75.4,
+   "saturacao_ini": 13.8,
+   "saturacao_fim": 13.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 9,
+   "inicio_s": 60.27,
+   "fim_s": 69.27,
+   "dur_s": 9.0,
+   "brilho_ini": 93.1,
+   "brilho_fim": 89.7,
+   "saturacao_ini": 10.4,
+   "saturacao_fim": 11.4,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 10,
+   "inicio_s": 69.27,
+   "fim_s": 77.23,
+   "dur_s": 7.96,
+   "brilho_ini": 92.9,
+   "brilho_fim": 84.6,
+   "saturacao_ini": 6.1,
+   "saturacao_fim": 8.0,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 11,
+   "inicio_s": 77.23,
+   "fim_s": 87.23,
+   "dur_s": 10.0,
+   "brilho_ini": 119.0,
+   "brilho_fim": 95.9,
+   "saturacao_ini": 22.0,
+   "saturacao_fim": 27.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 12,
+   "inicio_s": 87.23,
+   "fim_s": 94.3,
+   "dur_s": 7.07,
+   "brilho_ini": 74.7,
+   "brilho_fim": 66.0,
+   "saturacao_ini": 11.2,
+   "saturacao_fim": 10.2,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 13,
+   "inicio_s": 94.3,
+   "fim_s": 102.77,
+   "dur_s": 8.47,
+   "brilho_ini": 92.4,
+   "brilho_fim": 87.1,
+   "saturacao_ini": 10.2,
+   "saturacao_fim": 13.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 14,
+   "inicio_s": 102.77,
+   "fim_s": 110.23,
+   "dur_s": 7.46,
+   "brilho_ini": 89.1,
+   "brilho_fim": 76.2,
+   "saturacao_ini": 13.3,
+   "saturacao_fim": 15.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 15,
+   "inicio_s": 110.23,
+   "fim_s": 118.43,
+   "dur_s": 8.2,
+   "brilho_ini": 122.7,
+   "brilho_fim": 98.8,
+   "saturacao_ini": 19.4,
+   "saturacao_fim": 19.5,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 16,
+   "inicio_s": 118.43,
+   "fim_s": 126.53,
+   "dur_s": 8.1,
+   "brilho_ini": 86.9,
+   "brilho_fim": 81.4,
+   "saturacao_ini": 12.0,
+   "saturacao_fim": 13.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 17,
+   "inicio_s": 126.53,
+   "fim_s": 135.0,
+   "dur_s": 8.47,
+   "brilho_ini": 78.0,
+   "brilho_fim": 83.7,
+   "saturacao_ini": 3.4,
+   "saturacao_fim": 7.7,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 18,
+   "inicio_s": 135.0,
+   "fim_s": 142.3,
+   "dur_s": 7.3,
+   "brilho_ini": 78.7,
+   "brilho_fim": 71.4,
+   "saturacao_ini": 6.0,
+   "saturacao_fim": 14.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 19,
+   "inicio_s": 142.3,
+   "fim_s": 148.7,
+   "dur_s": 6.4,
+   "brilho_ini": 61.3,
+   "brilho_fim": 64.7,
+   "saturacao_ini": 33.5,
+   "saturacao_fim": 33.7,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 20,
+   "inicio_s": 148.7,
+   "fim_s": 156.3,
+   "dur_s": 7.6,
+   "brilho_ini": 65.5,
+   "brilho_fim": 64.1,
+   "saturacao_ini": 8.3,
+   "saturacao_fim": 12.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 21,
+   "inicio_s": 156.3,
+   "fim_s": 164.2,
+   "dur_s": 7.9,
+   "brilho_ini": 58.9,
+   "brilho_fim": 53.2,
+   "saturacao_ini": 11.1,
+   "saturacao_fim": 15.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 22,
+   "inicio_s": 164.2,
+   "fim_s": 173.73,
+   "dur_s": 9.53,
+   "brilho_ini": 69.3,
+   "brilho_fim": 64.3,
+   "saturacao_ini": 5.7,
+   "saturacao_fim": 11.7,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 23,
+   "inicio_s": 173.73,
+   "fim_s": 181.63,
+   "dur_s": 7.9,
+   "brilho_ini": 59.5,
+   "brilho_fim": 53.9,
+   "saturacao_ini": 5.5,
+   "saturacao_fim": 8.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 24,
+   "inicio_s": 181.63,
+   "fim_s": 189.57,
+   "dur_s": 7.94,
+   "brilho_ini": 123.1,
+   "brilho_fim": 91.1,
+   "saturacao_ini": 5.2,
+   "saturacao_fim": 9.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 25,
+   "inicio_s": 189.57,
+   "fim_s": 198.47,
+   "dur_s": 8.9,
+   "brilho_ini": 51.5,
+   "brilho_fim": 55.2,
+   "saturacao_ini": 10.0,
+   "saturacao_fim": 18.7,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 26,
+   "inicio_s": 198.47,
+   "fim_s": 205.3,
+   "dur_s": 6.83,
+   "brilho_ini": 78.3,
+   "brilho_fim": 75.2,
+   "saturacao_ini": 15.0,
+   "saturacao_fim": 15.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 27,
+   "inicio_s": 205.3,
+   "fim_s": 222.77,
+   "dur_s": 17.47,
+   "brilho_ini": 73.4,
+   "brilho_fim": 61.7,
+   "saturacao_ini": 11.3,
+   "saturacao_fim": 4.4,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 28,
+   "inicio_s": 222.77,
+   "fim_s": 230.93,
+   "dur_s": 8.16,
+   "brilho_ini": 65.3,
+   "brilho_fim": 59.1,
+   "saturacao_ini": 4.8,
+   "saturacao_fim": 7.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 29,
+   "inicio_s": 230.93,
+   "fim_s": 239.57,
+   "dur_s": 8.64,
+   "brilho_ini": 37.3,
+   "brilho_fim": 51.9,
+   "saturacao_ini": 5.2,
+   "saturacao_fim": 8.7,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 30,
+   "inicio_s": 239.57,
+   "fim_s": 248.9,
+   "dur_s": 9.33,
+   "brilho_ini": 57.2,
+   "brilho_fim": 56.5,
+   "saturacao_ini": 4.9,
+   "saturacao_fim": 7.4,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 31,
+   "inicio_s": 248.9,
+   "fim_s": 257.5,
+   "dur_s": 8.6,
+   "brilho_ini": 150.1,
+   "brilho_fim": 64.9,
+   "saturacao_ini": 8.4,
+   "saturacao_fim": 5.5,
+   "cortes_internos_s": []
+  }
+ ],
+ "cortes_bruscos_s": [
+  7.27,
+  15.33,
+  22.8,
+  30.9,
+  38.07,
+  45.17,
+  52.1,
+  60.27,
+  69.27,
+  77.23,
+  87.23,
+  94.3,
+  102.77,
+  110.23,
+  118.43,
+  126.53,
+  135.0,
+  142.3,
+  148.7,
+  156.3,
+  164.2,
+  173.73,
+  181.63,
+  189.57,
+  198.47,
+  205.3,
+  222.77,
+  230.93,
+  239.57,
+  248.9
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 745,
+  "palavras_ouvidas": 679,
+  "taxa_acerto": 0.041,
+  "erros": [
+   {
+    "roteiro": "",
+    "ouvido": "um pequeno bairro canto espera na noite do lar do automovel nao foi escondido nesta rota mas ja sabe qual e o sol os animais passam nos ocasioes e continentes para chegar"
+   },
+   {
+    "roteiro": "small songbird waits in the dark of an autumn night it has never flown this route yet it already knows which way is south animals cross oceans and continents to reach places they have never seen a river a forest a beach and nobody gave them a map tonight a salmon a",
+    "ouvido": "lugares que nunca haviam visto um rio um foro um bairro e ninguem lhe deu uma mapa hoje um salmao um"
+   },
+   {
+    "roteiro": "a turtle and that small bird the last one may use physics we still cannot fully explain a",
+    "ouvido": "um turma e aquele pequeno bairro o ultimo pode usar fizias que ainda nao podemos explicar um"
+   },
+   {
+    "roteiro": "begins life in",
+    "ouvido": "comeca"
+   },
+   {
+    "roteiro": "cold clear",
+    "ouvido": "vida em um clare clare"
+   },
+   {
+    "roteiro": "hidden in gravel months or years later it drifts downstream toward the ocean out there it may spend years often far from the coast the sea has no roads no signs and no",
+    "ouvido": "escuro e gravado monha ou anos depois ele se descer para o oceano ao fora pode se ver anos muitas vezes longe da costa o rio nao tem rostas nao tem rostas e nao tem"
+   },
+   {
+    "roteiro": "it could remember then one season it turns around it swims back to the river mouth then upstream choosing the right branch at every fork very often it ends up in the same small",
+    "ouvido": "que pode lembrar e ai uma saida se torna ela se descer para o rio e ai em cima escolhendo a direita brancha de cada forca ainda ela acaba em um mesmo pequeno"
+   },
+   {
+    "roteiro": "where it hatched scientists wondered for decades how",
+    "ouvido": "onde ela se enxerga"
+   },
+   {
+    "roteiro": "fish could",
+    "ouvido": "cientifica perguntou ha decadas como um fico poderia fazer isso a resposta se tornou a ser a sua rosa cada stream traz seu proprio rio de senso"
+   },
+   {
+    "roteiro": "that the answer turned out to be its nose every stream carries its own blend of scents from the soil the rocks the plants along its banks the",
+    "ouvido": "sol dos rocos das plantas nas bancas o"
+   },
+   {
+    "roteiro": "memorizes that scent before leaving in experiments",
+    "ouvido": "lembrava aquele sentado antes de ir em experimentos o"
+   },
+   {
+    "roteiro": "with blocked noses lost their way and often picked the wrong",
+    "ouvido": "com os rostos de bloco perdeu o seu caminho e muitas vezes pica o errado"
+   },
+   {
+    "roteiro": "still the",
+    "ouvido": "mas o"
+   },
+   {
+    "roteiro": "had one advantage it made the journey once going out the next traveler goes home to",
+    "ouvido": "teve uma vantagem ele fez"
+   },
+   {
+    "roteiro": "place it has never seen every autumn",
+    "ouvido": "jornada de vez em vez saindo o proximo travelador vai para uma lugar que nunca se viu cada rio os butterflies do"
+   },
+   {
+    "roteiro": "",
+    "ouvido": "saem de canada e os eua eles saem de sul mil vezes por quilometros para as montanhas do centro de mexico e ai em um pouco de forums de ferros eles se juntam por milhares as branchas se amam sob os rios de cor aqui e a parte estranha ninguem desses"
+   },
+   {
+    "roteiro": "leave canada and the northern united states they fly south thousands of kilometers toward the mountains of central mexico there in",
+    "ouvido": "nunca se viu aqui"
+   },
+   {
+    "roteiro": "few high forests of fir trees they gather by the millions whole branches sag under the weight of orange wings here is the strange part none of these",
+    "ouvido": "ultima vez para fazer esse rio vivem varias generacoes antes em espray o travelador mora no norte le e mora os seus filhos vivem apenas ha semanas entao os filhos grandes seguem depois em um ano ou ano uma geracao diferente foi criada esses"
+   },
+   {
+    "roteiro": "has ever been here the last ones to make this trip lived several generations earlier in spring the travelers head north lay eggs and die their children live only weeks so",
+    "ouvido": "vivem por muitos meses e eles flutam em sul sem um unico guia parte de seus compassos se sentem em algum lugar inesperado eles se estirem pelo sol e o cloc que traga o sonho"
+   },
+   {
+    "roteiro": "the grandchildren that follow then late in summer",
+    "ouvido": "movimento vivem na antena as pesquisas tambem tem encontrado noticias de um sentido magnetico mesmo que ninguem sabe exatamente como o proximo travelador pode ir em um sentido mais lindo em um dom de boa utilizador um portal do calculoond shapes em lu legallyl pierde"
+   },
+   {
+    "roteiro": "different generation is born these butterflies live for many months and they fly south without",
+    "ouvido": "steam em kadn liver os jovens tertes parecem lembrar essa significativa em tantos que os cientistas recreatam os fios magneticos distantes os hatchlings se tornam e moraram como se realmente estavam la depois o surpresa veio os fios magneticos do earth se desplazam e durante os anos os nespos tertes ao lado da costa se desplazaram entao os tertes podem ler o planeta como uma mapa mas como nenhum animal se sente magnetismo em tudo um pequeno birde oferece uma resposta estranha cada automovel muitos robs flysam na noite em um solo decadas atras os estudantes notavam algo estranho sobre como eles escolham uma direcao"
+   },
+   {
+    "roteiro": "single guide part of their compass sits somewhere unexpected they steer by the sun and the clock that tracks the moving sun lives in their antennae researchers have also found signs of",
+    "ouvido": "sua compassa nao e como as nossas ela nao se sinta no norte ela sente o angulo em que o fio se despeja estrangers ainda parecem precisar de luz e em toda"
+   },
+   {
+    "roteiro": "magnetic sense though nobody knows exactly how our next traveler may lean on that sense even more on",
+    "ouvido": "escala"
+   },
+   {
+    "roteiro": "dark beach",
+    "ouvido": "compassa desaparece alguma luz espacial espetacular azul e verde traz ela para tras"
+   },
+   {
+    "roteiro": "tiny loggerhead turtle digs its way out of the sand it crawls toward the brightest horizon the sea then it swims hard for days out into the open sea",
+    "ouvido": "explicacao da luta vive dentro do seu oi"
+   },
+   {
+    "roteiro": "female may not return to land again for many years when she is grown she comes back to lay eggs often on the same stretch of coast where she hatched sometimes decades earlier smell cannot guide her across an ocean the leading idea is magnetism every stretch of coast has its own magnetic signature young turtles seem to memorize that signature in tanks where scientists recreated distant magnetic fields hatchlings turned and swam as if truly there then came the surprise earths magnetic field slowly drifts and over the years turtle nests along the coast have drifted with it so turtles may read the planet like",
+    "ouvido": "luz espalhe uma proteina especial la e cria paras de moleculas com uma propriedade de quanto delicada essa propriedade pode responder ao fio magnetico de o ceu alguns estudantes suspeitam que o birde se sente como um fio feio"
+   },
+   {
+    "roteiro": "map but how does any animal feel magnetism at all one small bird offers",
+    "ouvido": "clua estranha chegou por um acidente em uma cidade de universidade germana robbins testou em um rio de fio sem perder o sentido de direcao"
+   },
+   {
+    "roteiro": "strange answer each autumn many european robins fly south at night alone decades ago researchers noticed something odd about how they choose a direction their compass is not like ours it does not point north it senses the angle at which the field dips into the ground stranger still it seems to need light in complete darkness the compass fails some dim light especially blue and green brings it back the leading explanation lives inside the eye light strikes a special protein there and creates pairs of molecules with a delicate quantum property that property may respond to the weak magnetic field of the earth some scientists suspect the bird sees the field as a faint pattern the strangest clue arrived by accident in one german university town robins tested in wooden huts simply lost their sense of direction the cause was faint electrical noise from the town far too weak to harm anything shielded huts brought the compass back that hints at something quantum so the small bird in the dark may be sensing physics that science has not yet proven and every autumn it finds south anyway",
+    "ouvido": "causa foi o rio de um noio de almoco eletrico da cidade"
+   }
+  ],
+  "suspeitas": [],
+  "duvidosas": [
+   "Um",
+   "pequeno",
+   "bairro",
+   "canto",
+   "espera",
+   "na",
+   "noite",
+   "do",
+   "lar",
+   "do",
+   "automóvel.",
+   "Não",
+   "foi",
+   "escondido",
+   "nesta",
+   "rota,",
+   "qual",
+   "é",
+   "sol.",
+   "Os",
+   "passam",
+   "nos",
+   "ocasiões",
+   "continentes",
+   "chegar",
+   "a",
+   "foro,",
+   "bairro,",
+   "lhe",
+   "uma"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "",
+    "ouvido": "um pequeno bairro canto espera na noite do lar do automovel nao foi escondido nesta rota mas ja sabe qual e o sol os animais passam nos ocasioes e continentes para chegar"
+   },
+   {
+    "roteiro": "small songbird waits in the dark of an autumn night it has never flown this route yet it already knows which way is south animals cross oceans and continents to reach places they have never seen a river a forest a beach and nobody gave them a map tonight a salmon a",
+    "ouvido": "lugares que nunca haviam visto um rio um foro um bairro e ninguem lhe deu uma mapa hoje um salmao um"
+   },
+   {
+    "roteiro": "a turtle and that small bird the last one may use physics we still cannot fully explain a",
+    "ouvido": "um turma e aquele pequeno bairro o ultimo pode usar fizias que ainda nao podemos explicar um"
+   },
+   {
+    "roteiro": "begins life in",
+    "ouvido": "comeca"
+   },
+   {
+    "roteiro": "cold clear",
+    "ouvido": "vida em um clare clare"
+   },
+   {
+    "roteiro": "hidden in gravel months or years later it drifts downstream toward the ocean out there it may spend years often far from the coast the sea has no roads no signs and no",
+    "ouvido": "escuro e gravado monha ou anos depois ele se descer para o oceano ao fora pode se ver anos muitas vezes longe da costa o rio nao tem rostas nao tem rostas e nao tem"
+   },
+   {
+    "roteiro": "it could remember then one season it turns around it swims back to the river mouth then upstream choosing the right branch at every fork very often it ends up in the same small",
+    "ouvido": "que pode lembrar e ai uma saida se torna ela se descer para o rio e ai em cima escolhendo a direita brancha de cada forca ainda ela acaba em um mesmo pequeno"
+   },
+   {
+    "roteiro": "where it hatched scientists wondered for decades how",
+    "ouvido": "onde ela se enxerga"
+   },
+   {
+    "roteiro": "fish could",
+    "ouvido": "cientifica perguntou ha decadas como um fico poderia fazer isso a resposta se tornou a ser a sua rosa cada stream traz seu proprio rio de senso"
+   },
+   {
+    "roteiro": "that the answer turned out to be its nose every stream carries its own blend of scents from the soil the rocks the plants along its banks the",
+    "ouvido": "sol dos rocos das plantas nas bancas o"
+   },
+   {
+    "roteiro": "memorizes that scent before leaving in experiments",
+    "ouvido": "lembrava aquele sentado antes de ir em experimentos o"
+   },
+   {
+    "roteiro": "with blocked noses lost their way and often picked the wrong",
+    "ouvido": "com os rostos de bloco perdeu o seu caminho e muitas vezes pica o errado"
+   },
+   {
+    "roteiro": "still the",
+    "ouvido": "mas o"
+   },
+   {
+    "roteiro": "had one advantage it made the journey once going out the next traveler goes home to",
+    "ouvido": "teve uma vantagem ele fez"
+   },
+   {
+    "roteiro": "place it has never seen every autumn",
+    "ouvido": "jornada de vez em vez saindo o proximo travelador vai para uma lugar que nunca se viu cada rio os butterflies do"
+   },
+   {
+    "roteiro": "",
+    "ouvido": "saem de canada e os eua eles saem de sul mil vezes por quilometros para as montanhas do centro de mexico e ai em um pouco de forums de ferros eles se juntam por milhares as branchas se amam sob os rios de cor aqui e a parte estranha ninguem desses"
+   },
+   {
+    "roteiro": "leave canada and the northern united states they fly south thousands of kilometers toward the mountains of central mexico there in",
+    "ouvido": "nunca se viu aqui"
+   },
+   {
+    "roteiro": "few high forests of fir trees they gather by the millions whole branches sag under the weight of orange wings here is the strange part none of these",
+    "ouvido": "ultima vez para fazer esse rio vivem varias generacoes antes em espray o travelador mora no norte le e mora os seus filhos vivem apenas ha semanas entao os filhos grandes seguem depois em um ano ou ano uma geracao diferente foi criada esses"
+   },
+   {
+    "roteiro": "has ever been here the last ones to make this trip lived several generations earlier in spring the travelers head north lay eggs and die their children live only weeks so",
+    "ouvido": "vivem por muitos meses e eles flutam em sul sem um unico guia parte de seus compassos se sentem em algum lugar inesperado eles se estirem pelo sol e o cloc que traga o sonho"
+   },
+   {
+    "roteiro": "the grandchildren that follow then late in summer",
+    "ouvido": "movimento vivem na antena as pesquisas tambem tem encontrado noticias de um sentido magnetico mesmo que ninguem sabe exatamente como o proximo travelador pode ir em um sentido mais lindo em um dom de boa utilizador um portal do calculoond shapes em lu legallyl pierde"
+   },
+   {
+    "roteiro": "different generation is born these butterflies live for many months and they fly south without",
+    "ouvido": "steam em kadn liver os jovens tertes parecem lembrar essa significativa em tantos que os cientistas recreatam os fios magneticos distantes os hatchlings se tornam e moraram como se realmente estavam la depois o surpresa veio os fios magneticos do earth se desplazam e durante os anos os nespos tertes ao lado da costa se desplazaram entao os tertes podem ler o planeta como uma mapa mas como nenhum animal se sente magnetismo em tudo um pequeno birde oferece uma resposta estranha cada automovel muitos robs flysam na noite em um solo decadas atras os estudantes notavam algo estranho sobre como eles escolham uma direcao"
+   },
+   {
+    "roteiro": "single guide part of their compass sits somewhere unexpected they steer by the sun and the clock that tracks the moving sun lives in their antennae researchers have also found signs of",
+    "ouvido": "sua compassa nao e como as nossas ela nao se sinta no norte ela sente o angulo em que o fio se despeja estrangers ainda parecem precisar de luz e em toda"
+   },
+   {
+    "roteiro": "magnetic sense though nobody knows exactly how our next traveler may lean on that sense even more on",
+    "ouvido": "escala"
+   },
+   {
+    "roteiro": "dark beach",
+    "ouvido": "compassa desaparece alguma luz espacial espetacular azul e verde traz ela para tras"
+   },
+   {
+    "roteiro": "tiny loggerhead turtle digs its way out of the sand it crawls toward the brightest horizon the sea then it swims hard for days out into the open sea",
+    "ouvido": "explicacao da luta vive dentro do seu oi"
+   },
+   {
+    "roteiro": "female may not return to land again for many years when she is grown she comes back to lay eggs often on the same stretch of coast where she hatched sometimes decades earlier smell cannot guide her across an ocean the leading idea is magnetism every stretch of coast has its own magnetic signature young turtles seem to memorize that signature in tanks where scientists recreated distant magnetic fields hatchlings turned and swam as if truly there then came the surprise earths magnetic field slowly drifts and over the years turtle nests along the coast have drifted with it so turtles may read the planet like",
+    "ouvido": "luz espalhe uma proteina especial la e cria paras de moleculas com uma propriedade de quanto delicada essa propriedade pode responder ao fio magnetico de o ceu alguns estudantes suspeitam que o birde se sente como um fio feio"
+   },
+   {
+    "roteiro": "map but how does any animal feel magnetism at all one small bird offers",
+    "ouvido": "clua estranha chegou por um acidente em uma cidade de universidade germana robbins testou em um rio de fio sem perder o sentido de direcao"
+   },
+   {
+    "roteiro": "strange answer each autumn many european robins fly south at night alone decades ago researchers noticed something odd about how they choose a direction their compass is not like ours it does not point north it senses the angle at which the field dips into the ground stranger still it seems to need light in complete darkness the compass fails some dim light especially blue and green brings it back the leading explanation lives inside the eye light strikes a special protein there and creates pairs of molecules with a delicate quantum property that property may respond to the weak magnetic field of the earth some scientists suspect the bird sees the field as a faint pattern the strangest clue arrived by accident in one german university town robins tested in wooden huts simply lost their sense of direction the cause was faint electrical noise from the town far too weak to harm anything shielded huts brought the compass back that hints at something quantum so the small bird in the dark may be sensing physics that science has not yet proven and every autumn it finds south anyway",
+    "ouvido": "causa foi o rio de um noio de almoco eletrico da cidade"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg",
+  "folha_5.jpg",
+  "folha_6.jpg",
+  "folha_7.jpg",
+  "folha_8.jpg",
+  "folha_9.jpg",
+  "folha_10.jpg",
+  "folha_11.jpg",
+  "folha_12.jpg",
+  "folha_13.jpg",
+  "folha_14.jpg",
+  "folha_15.jpg",
+  "folha_16.jpg",
+  "folha_17.jpg",
+  "folha_18.jpg",
+  "folha_19.jpg",
+  "folha_20.jpg",
+  "folha_21.jpg",
+  "folha_22.jpg"
+ ]
+}

@@ -27,7 +27,7 @@ python benchmark/rotular.py --videos my_videos/                    # labeling pa
 <!-- metricas:inicio -->
 | rotulados / labeled | precisão / precision | revocação / recall | certos | errados | perdidos |
 |---|---|---|---|---|---|
-| 3 (pendentes: 12) | 92% | 85% | 34 | 3 | 6 |
+| 3 (pendentes: 14) | 92% | 85% | 34 | 3 | 6 |
 
 | tipo / type | precisão / precision | certos | errados |
 |---|---|---|---|
@@ -37,7 +37,7 @@ python benchmark/rotular.py --videos my_videos/                    # labeling pa
 | ritmo | 100% | 5 | 0 |
 | visual | 94% | 16 | 1 |
 
-_Atualizado em 2026-10-23 com `python benchmark/bench.py metricas`._
+_Atualizado em 2026-10-24 com `python benchmark/bench.py metricas`._
 <!-- metricas:fim -->
 
 ## Defects per video / defeitos por vídeo
@@ -59,7 +59,9 @@ _Atualizado em 2026-10-23 com `python benchmark/bench.py metricas`._
 | Five Quiet Mysteries Nature Has Never Solved | 6.0 | 8 | 3 | 1 | 2 | 2 | 0 | 0 | 0:00.0 narracao; 1:22.8 ritmo; 2:57.6 visual; 0:00.0 ritmo; 7:10.8 visual; 6:17.4 visual; 6:56.0 audio; 3:59.1 audio |
 | Every Orange Hides a Flammable Secret | 5.5 | 10 | 6 | 1 | 1 | 1 | 1 | 0 | 0:00.0 narracao; 0:14.5 visual; 0:00.0 audio; 0:13.5 legenda; 0:25.5 visual; 0:00.0 visual; 0:31.5 visual; 0:18.0 visual; 0:03.7 ritmo; 0:34.0 visual |
 | Why Do Hundreds of Trees in Poland Bend North? | 4.5 | 10 | 6 | 1 | 1 | 1 | 1 | 0 | 0:00.0 visual; 0:00.0 narracao; 0:29.0 visual; 0:00.0 ritmo; 0:11.5 legenda; 0:00.0 audio; 0:33.5 visual; 0:20.8 visual; 0:16.7 visual; 0:03.7 visual |
+| How Do Animals Find a Home They Have Never Seen? | 6.0 | 13 | 9 | 1 | 1 | 1 | 0 | 1 | 0:00.0 narracao; 1:27.5 visual; 3:45.5 visual; 3:59.6 visual; 3:27.0 visual; 3:20.0 visual; 4:14.5 visual; 0:23.0 visual; 2:54.0 visual; 2:31.5 visual; 0:00.0 ritmo; 3:25.3 tecnico; 0:00.0 audio |
 | Who Draws These Perfect Circles in the Desert? | 7.0 | 8 | 4 | 1 | 1 | 1 | 1 | 0 | 0:11.0 visual; 0:00.0 narracao; 0:04.5 legenda; 0:00.0 audio; 0:22.5 visual; 0:27.5 visual; 0:01.0 ritmo; 0:38.5 visual |
+| The Rocks That Move Across Death Valley Alone | 4.5 | 9 | 7 | 1 | 0 | 1 | 0 | 0 | 0:09.0 visual; 0:06.0 narracao; 0:29.0 visual; 0:04.5 visual; 0:16.6 visual; 0:22.5 visual; 0:00.0 visual; 0:11.4 visual; 0:00.0 audio |
 <!-- tabela:fim -->
 
 ---
