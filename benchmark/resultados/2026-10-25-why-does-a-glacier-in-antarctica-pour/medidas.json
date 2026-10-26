@@ -1,0 +1,232 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "Why Is This Antarctic Glacier Bleeding Red?",
+ "tema": "Why does a glacier in Antarctica pour a red waterfall onto the ice (Blood Falls, Taylor Glacier)?",
+ "estilo_visual": "award-winning photorealistic nature photography, cold natural daylight, muted polar colors, shallow depth of field, sharp focus",
+ "inspecionado_em": "2026-10-26T02:00:08",
+ "video": {
+  "duracao_s": 39.8,
+  "tamanho_mb": 24.4,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -15.5,
+  "pico_dbfs": -1.3,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 5.03,
+   "dur_s": 5.03,
+   "brilho_ini": 149.9,
+   "brilho_fim": 149.1,
+   "saturacao_ini": 9.3,
+   "saturacao_fim": 10.2,
+   "cortes_internos_s": [],
+   "narracao": "A glacier in Antarctica is bleeding. A dark red stream pours out of the white ice.",
+   "palavras_por_s": 3.18,
+   "quadro": "A tall white ice cliff of an Antarctic glacier with a dark rust-red stain streaming down its face onto a frozen white lake, bare brown rocky valley slopes behind, pale grey polar sky, medium shot from the frozen lake",
+   "movimento": "slow push-in"
+  },
+  {
+   "n": 2,
+   "inicio_s": 5.03,
+   "fim_s": 10.73,
+   "dur_s": 5.7,
+   "brilho_ini": 166.5,
+   "brilho_fim": 159.7,
+   "saturacao_ini": 8.0,
+   "saturacao_fim": 10.2,
+   "cortes_internos_s": [],
+   "narracao": "Explorers found it over a century ago. They blamed red algae, and the name Blood Falls stuck.",
+   "palavras_por_s": 2.98,
+   "quadro": "The same tall white ice cliff of an Antarctic glacier with a dark rust-red stain streaming down its face onto a frozen white lake, seen from slightly to the left, bare brown rocky valley slopes behind, pale grey polar sky, medium shot",
+   "movimento": "gentle pan right"
+  },
+  {
+   "n": 3,
+   "inicio_s": 10.73,
+   "fim_s": 16.03,
+   "dur_s": 5.3,
+   "brilho_ini": 147.5,
+   "brilho_fim": 143.3,
+   "saturacao_ini": 13.1,
+   "saturacao_fim": 14.0,
+   "cortes_internos_s": [],
+   "narracao": "But there is no algae. Deep under the glacier hides a lake of extremely salty water.",
+   "palavras_por_s": 3.02,
+   "quadro": "Thick layered glacier ice in blue and white bands at the base of an Antarctic ice cliff, a deep blue crack running into the ice, a thin rust-red stain at the bottom edge, bare brown rocks beside it, medium shot",
+   "movimento": "slow push-in toward the blue crack"
+  },
+  {
+   "n": 4,
+   "inicio_s": 16.03,
+   "fim_s": 21.83,
+   "dur_s": 5.8,
+   "brilho_ini": 156.8,
+   "brilho_fim": 157.5,
+   "saturacao_ini": 10.1,
+   "saturacao_fim": 12.8,
+   "cortes_internos_s": [],
+   "narracao": "That water is so salty it stays liquid in deep cold. Sunlight has not touched it for ages.",
+   "palavras_por_s": 3.1,
+   "quadro": "A small pool of dark still water at the foot of a white Antarctic ice wall, its edges crusted with white frost crystals, frozen white lake ice around it, soft grey polar light, medium shot",
+   "movimento": "water surface ripples faintly"
+  },
+  {
+   "n": 5,
+   "inicio_s": 21.83,
+   "fim_s": 27.1,
+   "dur_s": 5.27,
+   "brilho_ini": 168.3,
+   "brilho_fim": 157.9,
+   "saturacao_ini": 14.8,
+   "saturacao_fim": 16.2,
+   "cortes_internos_s": [],
+   "narracao": "And it is full of iron. The water comes out clear, then turns red when it touches air.",
+   "palavras_por_s": 3.42,
+   "quadro": "A small trickle of clear water flowing out from the base of a white Antarctic ice wall, the wet ice below it stained bright rust orange and dark red, frozen white lake surface in the foreground, medium shot",
+   "movimento": "water trickles slowly downward"
+  },
+  {
+   "n": 6,
+   "inicio_s": 27.1,
+   "fim_s": 33.13,
+   "dur_s": 6.03,
+   "brilho_ini": 144.8,
+   "brilho_fim": 135.3,
+   "saturacao_ini": 15.2,
+   "saturacao_fim": 18.0,
+   "cortes_internos_s": [],
+   "narracao": "Stranger still, tiny microbes live in that dark water. They survive with no light and little oxygen.",
+   "palavras_por_s": 2.82,
+   "quadro": "A shallow channel of dark rust-red water running across white Antarctic lake ice, glassy wet surface, faint blue light glowing through the thick ice wall above it, medium shot",
+   "movimento": "water flows gently along the channel"
+  },
+  {
+   "n": 7,
+   "inicio_s": 33.13,
+   "fim_s": 39.8,
+   "dur_s": 6.67,
+   "brilho_ini": 153.0,
+   "brilho_fim": 83.8,
+   "saturacao_ini": 10.3,
+   "saturacao_fim": 6.5,
+   "cortes_internos_s": [],
+   "narracao": "So the glacier is not bleeding blood. It is bleeding rust, from a hidden world under the ice.",
+   "palavras_por_s": 2.7,
+   "quadro": "The same tall white ice cliff of an Antarctic glacier with a dark rust-red stain streaming down its face onto a frozen white lake, bare brown rocky valley slopes behind, pale grey polar sky, medium shot from the frozen lake",
+   "movimento": "slow push-in"
+  }
+ ],
+ "cortes_bruscos_s": [
+  5.03,
+  10.73,
+  16.03,
+  21.83,
+  27.1,
+  33.13
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 120,
+  "palavras_ouvidas": 107,
+  "taxa_acerto": 0.026,
+  "erros": [
+   {
+    "roteiro": "",
+    "ouvido": "um gelante em antprechen voltando umallen resso do carbonite klebber mergulhoso ao formado por tras doias dos uceis explorers deixaramoitavia por apenas um kindou um seculo elel apanhelm de aldeia irred crossover e"
+   },
+   {
+    "roteiro": "glacier in antarctica is bleeding",
+    "ouvido": "fomatese sangraacci mas nao existe ald neyred communicatede muscul road pha hahigh unespeco por colours igual vai se es holly e estes julgou em major g posted ra la talvez ai niewarm ciao gra eleam am breasts cds r pure manaus vaz"
+   },
+   {
+    "roteiro": "dark red stream pours out of the white ice explorers found it over",
+    "ouvido": "calfi eles nao vivem com nenhum luz e um pouco de oxigenio entao"
+   },
+   {
+    "roteiro": "century ago they blamed red algae and the name blood falls stuck but there is no algae deep under the glacier hides a lake of extremely salty water that water is so salty it stays liquid in deep cold sunlight has not touched it for ages and it is full of iron the water comes out clear then turns red when it touches air stranger still tiny microbes live in that dark water they survive with no light and little oxygen so the glacier is not bleeding blood it is bleeding rust from a hidden world under the ice",
+    "ouvido": "glacia nao esta com o sangue e uma sangue de sangue de um mundo escuro escuro"
+   }
+  ],
+  "suspeitas": [],
+  "duvidosas": [
+   "Um",
+   "gelante",
+   "Antprechen",
+   "voltando,",
+   "Umällen",
+   "resso",
+   "do",
+   "carbonite",
+   "Klebber",
+   "mergulhoso",
+   "ao",
+   "formado",
+   "por",
+   "trás",
+   "doias",
+   "dos",
+   "úceis.",
+   "Explorers",
+   "deixaramoitavia",
+   "por",
+   "apenas",
+   "kindou",
+   "um",
+   "século,",
+   "Elel",
+   "apanhelm",
+   "de",
+   "aldeia",
+   "irred",
+   "crossover"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "",
+    "ouvido": "um gelante em antprechen voltando umallen resso do carbonite klebber mergulhoso ao formado por tras doias dos uceis explorers deixaramoitavia por apenas um kindou um seculo elel apanhelm de aldeia irred crossover e"
+   },
+   {
+    "roteiro": "glacier in antarctica is bleeding",
+    "ouvido": "fomatese sangraacci mas nao existe ald neyred communicatede muscul road pha hahigh unespeco por colours igual vai se es holly e estes julgou em major g posted ra la talvez ai niewarm ciao gra eleam am breasts cds r pure manaus vaz"
+   },
+   {
+    "roteiro": "dark red stream pours out of the white ice explorers found it over",
+    "ouvido": "calfi eles nao vivem com nenhum luz e um pouco de oxigenio entao"
+   },
+   {
+    "roteiro": "century ago they blamed red algae and the name blood falls stuck but there is no algae deep under the glacier hides a lake of extremely salty water that water is so salty it stays liquid in deep cold sunlight has not touched it for ages and it is full of iron the water comes out clear then turns red when it touches air stranger still tiny microbes live in that dark water they survive with no light and little oxygen so the glacier is not bleeding blood it is bleeding rust from a hidden world under the ice",
+    "ouvido": "glacia nao esta com o sangue e uma sangue de sangue de um mundo escuro escuro"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg"
+ ]
+}
