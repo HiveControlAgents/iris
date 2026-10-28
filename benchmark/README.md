@@ -27,7 +27,7 @@ python benchmark/rotular.py --videos my_videos/                    # labeling pa
 <!-- metricas:inicio -->
 | rotulados / labeled | precisão / precision | revocação / recall | certos | errados | perdidos |
 |---|---|---|---|---|---|
-| 3 (pendentes: 15) | 92% | 85% | 34 | 3 | 6 |
+| 3 (pendentes: 18) | 92% | 85% | 34 | 3 | 6 |
 
 | tipo / type | precisão / precision | certos | errados |
 |---|---|---|---|
@@ -37,7 +37,7 @@ python benchmark/rotular.py --videos my_videos/                    # labeling pa
 | ritmo | 100% | 5 | 0 |
 | visual | 94% | 16 | 1 |
 
-_Atualizado em 2026-10-26 com `python benchmark/bench.py metricas`._
+_Atualizado em 2026-10-28 com `python benchmark/bench.py metricas`._
 <!-- metricas:fim -->
 
 ## Defects per video / defeitos por vídeo
@@ -57,12 +57,15 @@ _Atualizado em 2026-10-26 com `python benchmark/bench.py metricas`._
 | Por que a fumaça viaja centenas de quilômetros | 5.5 | 13 | 7 | 3 | 2 | 0 | 1 | 0 | 0:26.0 visual; 0:24.5 visual; 0:22.8 visual; 0:47.0 visual; 0:31.2 narracao; ? narracao; 0:18.0 narracao; 0:07.0 visual; 0:31.0 visual; 0:08.0 visual; 0:00.0 ritmo; 0:00.0 ritmo; 0:13.5 legenda |
 | The Plant That Counts Before It Snaps | 5.0 | 11 | 7 | 1 | 1 | 0 | 2 | 0 | 0:00.0 narracao; 0:12.5 visual; 0:20.5 visual; 0:20.5 visual; 0:27.1 visual; 0:35.6 visual; 0:44.3 visual; 0:00.0 ritmo; 0:00.5 legenda; 0:11.5 legenda; 0:06.0 visual |
 | Five Quiet Mysteries Nature Has Never Solved | 6.0 | 8 | 3 | 1 | 2 | 2 | 0 | 0 | 0:00.0 narracao; 1:22.8 ritmo; 2:57.6 visual; 0:00.0 ritmo; 7:10.8 visual; 6:17.4 visual; 6:56.0 audio; 3:59.1 audio |
+| Why Owls Fly in Total Silence | 5.5 | 8 | 3 | 1 | 2 | 1 | 1 | 0 | 0:00.0 narracao; 0:00.0 ritmo; 0:00.0 ritmo; 0:20.2 visual; 0:11.6 visual; 0:15.1 visual; 0:17.5 legenda; 0:00.0 audio |
 | Every Orange Hides a Flammable Secret | 5.5 | 10 | 6 | 1 | 1 | 1 | 1 | 0 | 0:00.0 narracao; 0:14.5 visual; 0:00.0 audio; 0:13.5 legenda; 0:25.5 visual; 0:00.0 visual; 0:31.5 visual; 0:18.0 visual; 0:03.7 ritmo; 0:34.0 visual |
 | Why Do Hundreds of Trees in Poland Bend North? | 4.5 | 10 | 6 | 1 | 1 | 1 | 1 | 0 | 0:00.0 visual; 0:00.0 narracao; 0:29.0 visual; 0:00.0 ritmo; 0:11.5 legenda; 0:00.0 audio; 0:33.5 visual; 0:20.8 visual; 0:16.7 visual; 0:03.7 visual |
 | How Do Animals Find a Home They Have Never Seen? | 6.0 | 13 | 9 | 1 | 1 | 1 | 0 | 1 | 0:00.0 narracao; 1:27.5 visual; 3:45.5 visual; 3:59.6 visual; 3:27.0 visual; 3:20.0 visual; 4:14.5 visual; 0:23.0 visual; 2:54.0 visual; 2:31.5 visual; 0:00.0 ritmo; 3:25.3 tecnico; 0:00.0 audio |
 | Who Draws These Perfect Circles in the Desert? | 7.0 | 8 | 4 | 1 | 1 | 1 | 1 | 0 | 0:11.0 visual; 0:00.0 narracao; 0:04.5 legenda; 0:00.0 audio; 0:22.5 visual; 0:27.5 visual; 0:01.0 ritmo; 0:38.5 visual |
 | The Rocks That Move Across Death Valley Alone | 4.5 | 9 | 7 | 1 | 0 | 1 | 0 | 0 | 0:09.0 visual; 0:06.0 narracao; 0:29.0 visual; 0:04.5 visual; 0:16.6 visual; 0:22.5 visual; 0:00.0 visual; 0:11.4 visual; 0:00.0 audio |
 | Why Is This Antarctic Glacier Bleeding Red? | 7.0 | 9 | 3 | 1 | 2 | 1 | 2 | 0 | 0:00.0 narracao; 0:05.0 visual; 0:37.5 visual; 0:16.0 visual; 0:08.5 legenda; 0:00.0 legenda; 0:21.8 ritmo; 0:39.3 ritmo; 0:00.0 audio |
+| The Strangest Sounds on Earth, and the Whale No On | 6.5 | 9 | 5 | 0 | 2 | 0 | 0 | 2 | 0:59.0 visual; 0:37.5 visual; 1:11.5 visual; 0:00.0 tecnico; 0:05.5 visual; 3:07.2 ritmo; 1:03.6 ritmo; 3:27.7 visual; 0:00.0 tecnico |
+| The Waterfall That Turns Into Fire Every February | 6.0 | 7 | 3 | 1 | 1 | 1 | 1 | 0 | 0:00.0 narracao; 0:05.4 ritmo; 0:00.0 audio; 0:04.5 legenda; 0:10.0 visual; 0:06.0 visual; 0:28.9 visual |
 <!-- tabela:fim -->
 
 ---

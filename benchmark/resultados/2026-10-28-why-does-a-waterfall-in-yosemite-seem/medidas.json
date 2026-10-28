@@ -1,0 +1,271 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "The Waterfall That Turns Into Fire Every February",
+ "tema": "Why does a waterfall in Yosemite seem to pour liquid fire every February (Horsetail Fall, the natural firefall)?",
+ "estilo_visual": "award-winning photorealistic nature photography, natural light, shallow depth of field, sharp focus, rich true-to-life color",
+ "inspecionado_em": "2026-10-28T02:07:34",
+ "video": {
+  "duracao_s": 35.3,
+  "tamanho_mb": 21.8,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -15.2,
+  "pico_dbfs": 0.0,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 5.37,
+   "dur_s": 5.37,
+   "brilho_ini": 62.8,
+   "brilho_fim": 73.3,
+   "saturacao_ini": 12.9,
+   "saturacao_fim": 13.5,
+   "cortes_internos_s": [],
+   "narracao": "Every February, a waterfall in California seems to pour liquid fire. For a few minutes only.",
+   "palavras_por_s": 2.98,
+   "quadro": "A thin ribbon waterfall dropping down the face of a vast sheer gray granite cliff, the falling water glowing bright orange and red in the last sunset light, the rest of the granite cliff in deep blue shadow, dark pine forest at the base, pale evening sky",
+   "movimento": "slow push-in, falling water shimmers softly"
+  },
+  {
+   "n": 2,
+   "inicio_s": 5.37,
+   "fim_s": 9.97,
+   "dur_s": 4.6,
+   "brilho_ini": 103.4,
+   "brilho_fim": 97.7,
+   "saturacao_ini": 8.3,
+   "saturacao_fim": 10.6,
+   "cortes_internos_s": [],
+   "narracao": "It falls down the eastern face of El Capitan, a giant granite wall in Yosemite.",
+   "palavras_por_s": 3.26,
+   "quadro": "A vast sheer gray granite cliff rising high above a dark pine forest in afternoon daylight, a thin ribbon waterfall dropping down the face of the cliff, white water against pale gray rock, soft blue sky",
+   "movimento": "gentle tilt up along the cliff"
+  },
+  {
+   "n": 3,
+   "inicio_s": 9.97,
+   "fim_s": 14.47,
+   "dur_s": 4.5,
+   "brilho_ini": 93.4,
+   "brilho_fim": 89.8,
+   "saturacao_ini": 4.0,
+   "saturacao_fim": 4.0,
+   "cortes_internos_s": [],
+   "narracao": "For most of the year, it is barely there. Just a thin ribbon of melting snow.",
+   "palavras_por_s": 3.56,
+   "quadro": "Close view of the upper edge of a vast sheer gray granite cliff, a thin ribbon waterfall of clear white water spilling over the rim, patches of white snow resting on the granite above, soft daylight",
+   "movimento": "water falls softly, slow push-in"
+  },
+  {
+   "n": 4,
+   "inicio_s": 14.47,
+   "fim_s": 19.37,
+   "dur_s": 4.9,
+   "brilho_ini": 59.6,
+   "brilho_fim": 54.7,
+   "saturacao_ini": 7.8,
+   "saturacao_fim": 8.8,
+   "cortes_internos_s": [],
+   "narracao": "But in late February, the last rays of sunset hit the water. The angle is just right.",
+   "palavras_por_s": 3.47,
+   "quadro": "A thin ribbon waterfall dropping down the face of a vast sheer gray granite cliff, a narrow band of warm golden sunset light touching only the falling water and the rock beside it, the lower cliff already in cool shadow, dark pine forest at the base",
+   "movimento": "golden light glows gently on the water"
+  },
+  {
+   "n": 5,
+   "inicio_s": 19.37,
+   "fim_s": 23.63,
+   "dur_s": 4.26,
+   "brilho_ini": 49.1,
+   "brilho_fim": 53.2,
+   "saturacao_ini": 11.6,
+   "saturacao_fim": 15.0,
+   "cortes_internos_s": [],
+   "narracao": "The water glows orange and red, while the cliff around it falls into shadow.",
+   "palavras_por_s": 3.29,
+   "quadro": "Close view of a thin ribbon waterfall on a dark gray granite cliff, the falling water glowing bright orange and deep red in the last sunset light, mist at the edges lit orange, the surrounding granite in deep shadow",
+   "movimento": "falling water shimmers, mist drifts slowly"
+  },
+  {
+   "n": 6,
+   "inicio_s": 23.63,
+   "fim_s": 28.9,
+   "dur_s": 5.27,
+   "brilho_ini": 106.2,
+   "brilho_fim": 97.6,
+   "saturacao_ini": 5.2,
+   "saturacao_fim": 6.2,
+   "cortes_internos_s": [],
+   "narracao": "Yet it is fragile. Without enough snow, or with one passing cloud, the fire never appears.",
+   "palavras_por_s": 3.04,
+   "quadro": "A thin ribbon waterfall dropping down the face of a vast sheer gray granite cliff under a thick gray overcast sky, pale white water against flat gray rock, dark pine forest at the base, soft cold diffuse light",
+   "movimento": "low clouds drift slowly across the sky"
+  },
+  {
+   "n": 7,
+   "inicio_s": 28.9,
+   "fim_s": 35.3,
+   "dur_s": 6.4,
+   "brilho_ini": 47.6,
+   "brilho_fim": 37.3,
+   "saturacao_ini": 12.6,
+   "saturacao_fim": 10.4,
+   "cortes_internos_s": [],
+   "narracao": "No lava, no flames. Every February, it is only water and sunlight, pretending to be fire.",
+   "palavras_por_s": 2.5,
+   "quadro": "Close view of a thin ribbon waterfall on a dark gray granite cliff, the falling water glowing bright orange and red in the last sunset light, droplets catching the light, deep shadow on the rock around it",
+   "movimento": "very slow push-in, water glimmers softly"
+  }
+ ],
+ "cortes_bruscos_s": [
+  5.37,
+  9.97,
+  14.47,
+  19.37,
+  23.63,
+  28.9
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 110,
+  "palavras_ouvidas": 106,
+  "taxa_acerto": 0.074,
+  "erros": [
+   {
+    "roteiro": "every february a waterfall in",
+    "ouvido": "em fevereiro um caixa de agua em"
+   },
+   {
+    "roteiro": "seems to pour liquid fire for a few minutes only it falls down the eastern",
+    "ouvido": "parece ser de agua liquida apenas por alguns minutos ela caiu na"
+   },
+   {
+    "roteiro": "of el",
+    "ouvido": "do l"
+   },
+   {
+    "roteiro": "a giant",
+    "ouvido": "uma"
+   },
+   {
+    "roteiro": "wall in",
+    "ouvido": "grande na"
+   },
+   {
+    "roteiro": "for most of the year it is barely there just a thin ribbon of melting snow but in late february the last rays of sunset hit the water the angle is just right the water glows",
+    "ouvido": "por mais de um ano ela esta la em baixo apenas um rio solado de chuva mas em fevereiro o ultimo rio de sol foi acertado o angulo e justo o rio sepula em"
+   },
+   {
+    "roteiro": "and",
+    "ouvido": "e em"
+   },
+   {
+    "roteiro": "while the cliff around it falls into shadow yet it is fragile without enough snow or with one passing cloud the fire never appears no",
+    "ouvido": "enquanto o clipe em volta caiu em um chao mas e fragil sem suficiente chuva ou com um caixa de caixa o fogo nunca aparece sem"
+   },
+   {
+    "roteiro": "no flames every february it is only water and sunlight pretending to be fire",
+    "ouvido": "sem fome em fevereiro e apenas agua e somente pretendo ser fio"
+   }
+  ],
+  "suspeitas": [],
+  "duvidosas": [
+   "Em",
+   "um",
+   "caixa",
+   "em",
+   "ser",
+   "de",
+   "água",
+   "apenas",
+   "por",
+   "alguns",
+   "Ela",
+   "caiu",
+   "na",
+   "face",
+   "do",
+   "L",
+   "granite",
+   "grande",
+   "na",
+   "Por",
+   "mais",
+   "de",
+   "um",
+   "ela",
+   "está",
+   "lá",
+   "em",
+   "baixo,",
+   "apenas",
+   "um"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "every february a waterfall in",
+    "ouvido": "em fevereiro um caixa de agua em"
+   },
+   {
+    "roteiro": "seems to pour liquid fire for a few minutes only it falls down the eastern",
+    "ouvido": "parece ser de agua liquida apenas por alguns minutos ela caiu na"
+   },
+   {
+    "roteiro": "of el",
+    "ouvido": "do l"
+   },
+   {
+    "roteiro": "a giant",
+    "ouvido": "uma"
+   },
+   {
+    "roteiro": "wall in",
+    "ouvido": "grande na"
+   },
+   {
+    "roteiro": "for most of the year it is barely there just a thin ribbon of melting snow but in late february the last rays of sunset hit the water the angle is just right the water glows",
+    "ouvido": "por mais de um ano ela esta la em baixo apenas um rio solado de chuva mas em fevereiro o ultimo rio de sol foi acertado o angulo e justo o rio sepula em"
+   },
+   {
+    "roteiro": "and",
+    "ouvido": "e em"
+   },
+   {
+    "roteiro": "while the cliff around it falls into shadow yet it is fragile without enough snow or with one passing cloud the fire never appears no",
+    "ouvido": "enquanto o clipe em volta caiu em um chao mas e fragil sem suficiente chuva ou com um caixa de caixa o fogo nunca aparece sem"
+   },
+   {
+    "roteiro": "no flames every february it is only water and sunlight pretending to be fire",
+    "ouvido": "sem fome em fevereiro e apenas agua e somente pretendo ser fio"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg"
+ ]
+}

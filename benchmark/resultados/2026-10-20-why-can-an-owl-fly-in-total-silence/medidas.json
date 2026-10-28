@@ -1,0 +1,247 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "Why Owls Fly in Total Silence",
+ "tema": "Why can an owl fly in total silence?",
+ "estilo_visual": "award-winning photorealistic nature photography, soft blue dusk light, shallow depth of field, sharp focus, same barn owl with white heart-shaped face and buff-golden back in every scene",
+ "inspecionado_em": "2026-10-28T02:00:07",
+ "video": {
+  "duracao_s": 28.9,
+  "tamanho_mb": 17.7,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -15.3,
+  "pico_dbfs": -1.6,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 3.27,
+   "dur_s": 3.27,
+   "brilho_ini": 72.7,
+   "brilho_fim": 77.2,
+   "saturacao_ini": 14.2,
+   "saturacao_fim": 13.4,
+   "cortes_internos_s": [],
+   "narracao": "An owl can fly right past you and make no sound at all.",
+   "palavras_por_s": 3.98,
+   "quadro": "Medium-close shot of a barn owl with a white heart-shaped face, buff-golden back and pale speckled chest, perched upright on a mossy branch in a dusk forest, blurred dark trees behind",
+   "movimento": "slow push-in"
+  },
+  {
+   "n": 2,
+   "inicio_s": 3.27,
+   "fim_s": 7.63,
+   "dur_s": 4.36,
+   "brilho_ini": 103.6,
+   "brilho_fim": 99.0,
+   "saturacao_ini": 12.1,
+   "saturacao_fim": 13.8,
+   "cortes_internos_s": [],
+   "narracao": "Most birds whoosh when they fly, because air rushing over their wings makes noise.",
+   "palavras_por_s": 3.21,
+   "quadro": "Medium shot of a barn owl with a white heart-shaped face and buff-golden back perched on a mossy branch, dry leaves hanging in the blurred background",
+   "movimento": "leaves sway softly in the background"
+  },
+  {
+   "n": 3,
+   "inicio_s": 7.63,
+   "fim_s": 11.63,
+   "dur_s": 4.0,
+   "brilho_ini": 81.7,
+   "brilho_fim": 78.7,
+   "saturacao_ini": 13.6,
+   "saturacao_fim": 17.0,
+   "cortes_internos_s": [],
+   "narracao": "But the front edge of an owl feather is soft, like the teeth of a comb.",
+   "palavras_por_s": 4.0,
+   "quadro": "Close shot of the folded wing of a barn owl with buff-golden feathers and fine pale speckles, soft feather edges in sharp focus, dusk forest blurred behind",
+   "movimento": "gentle pan left"
+  },
+  {
+   "n": 4,
+   "inicio_s": 11.63,
+   "fim_s": 15.1,
+   "dur_s": 3.47,
+   "brilho_ini": 46.4,
+   "brilho_fim": 55.8,
+   "saturacao_ini": 7.9,
+   "saturacao_fim": 10.6,
+   "cortes_internos_s": [],
+   "narracao": "The back edge of every wing is frayed, like a soft fringe.",
+   "palavras_por_s": 3.46,
+   "quadro": "A single buff-golden barn owl feather with pale speckles resting on dark green moss, fine frayed fringe along its edge, dusk light",
+   "movimento": "slow push-in"
+  },
+  {
+   "n": 5,
+   "inicio_s": 15.1,
+   "fim_s": 20.17,
+   "dur_s": 5.07,
+   "brilho_ini": 76.4,
+   "brilho_fim": 67.4,
+   "saturacao_ini": 18.6,
+   "saturacao_fim": 15.9,
+   "cortes_internos_s": [],
+   "narracao": "And the feather surface feels like velvet, which swallows the tiny sounds feathers make.",
+   "palavras_por_s": 2.76,
+   "quadro": "Close shot of the soft velvety surface of a buff-golden barn owl feather lying on dark green moss, fine downy texture in sharp focus",
+   "movimento": "slow gentle pan right"
+  },
+  {
+   "n": 6,
+   "inicio_s": 20.17,
+   "fim_s": 24.2,
+   "dur_s": 4.03,
+   "brilho_ini": 78.9,
+   "brilho_fim": 69.3,
+   "saturacao_ini": 12.4,
+   "saturacao_fim": 14.6,
+   "cortes_internos_s": [],
+   "narracao": "So the air flows smoothly, and the mouse below hears nothing coming.",
+   "palavras_por_s": 2.98,
+   "quadro": "Medium shot of a barn owl with a white heart-shaped face and buff-golden back perched on a mossy branch, light night mist drifting low in the blurred forest behind",
+   "movimento": "mist drifts slowly in the background"
+  },
+  {
+   "n": 7,
+   "inicio_s": 24.2,
+   "fim_s": 28.9,
+   "dur_s": 4.7,
+   "brilho_ini": 70.3,
+   "brilho_fim": 35.0,
+   "saturacao_ini": 20.4,
+   "saturacao_fim": 8.4,
+   "cortes_internos_s": [],
+   "narracao": "That is why an owl can fly past you, and the night stays silent.",
+   "palavras_por_s": 2.98,
+   "quadro": "Medium shot of a barn owl with a white heart-shaped face and buff-golden back perched on a mossy branch, deep blue dusk, softly blurred dark forest behind",
+   "movimento": "slow push-in"
+  }
+ ],
+ "cortes_bruscos_s": [
+  3.27,
+  7.63,
+  11.63,
+  15.1,
+  20.17,
+  24.2
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 95,
+  "palavras_ouvidas": 97,
+  "taxa_acerto": 0.052,
+  "erros": [
+   {
+    "roteiro": "an owl can fly right past you and make no sound at all most birds whoosh when they fly because air rushing over their wings makes noise but the front edge of an owl feather is soft like the teeth of",
+    "ouvido": "um alvo pode voar por perto e fazer nao ser somente muitas brancas voam quando voam porque o alvo quebrando sobre suas vidas faz somente mas"
+   },
+   {
+    "roteiro": "",
+    "ouvido": "frente da fita de um alvo e sofrida como a pareda de um"
+   },
+   {
+    "roteiro": "the back edge of every wing is frayed like",
+    "ouvido": ""
+   },
+   {
+    "roteiro": "soft",
+    "ouvido": "parte de cada vidro e frada como um"
+   },
+   {
+    "roteiro": "and the feather surface feels like velvet which swallows the tiny sounds feathers make so the air flows smoothly and the",
+    "ouvido": "sofrido e a fita de fita se sente como um velvete que sobra os fichinhos de fichinhas entao o alvo sofre bem e o"
+   },
+   {
+    "roteiro": "below hears nothing coming that is why an owl can fly past you and the night stays silent",
+    "ouvido": "abaixo nao tem nada que vir e por isso que um alvo pode voar por perto e a noite se solte"
+   }
+  ],
+  "suspeitas": [],
+  "duvidosas": [
+   "Um",
+   "alvo",
+   "voar",
+   "por",
+   "perto",
+   "fazer",
+   "não",
+   "ser",
+   "somente.",
+   "Muitas",
+   "brancas",
+   "voam",
+   "voam,",
+   "o",
+   "quebrando",
+   "sobre",
+   "suas",
+   "vidas",
+   "somente.",
+   "frente",
+   "da",
+   "fita",
+   "é",
+   "sofrida,",
+   "a",
+   "pareda",
+   "comb.",
+   "parte",
+   "de",
+   "cada"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "an owl can fly right past you and make no sound at all most birds whoosh when they fly because air rushing over their wings makes noise but the front edge of an owl feather is soft like the teeth of",
+    "ouvido": "um alvo pode voar por perto e fazer nao ser somente muitas brancas voam quando voam porque o alvo quebrando sobre suas vidas faz somente mas"
+   },
+   {
+    "roteiro": "",
+    "ouvido": "frente da fita de um alvo e sofrida como a pareda de um"
+   },
+   {
+    "roteiro": "the back edge of every wing is frayed like",
+    "ouvido": ""
+   },
+   {
+    "roteiro": "soft",
+    "ouvido": "parte de cada vidro e frada como um"
+   },
+   {
+    "roteiro": "and the feather surface feels like velvet which swallows the tiny sounds feathers make so the air flows smoothly and the",
+    "ouvido": "sofrido e a fita de fita se sente como um velvete que sobra os fichinhos de fichinhas entao o alvo sofre bem e o"
+   },
+   {
+    "roteiro": "below hears nothing coming that is why an owl can fly past you and the night stays silent",
+    "ouvido": "abaixo nao tem nada que vir e por isso que um alvo pode voar por perto e a noite se solte"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg"
+ ]
+}

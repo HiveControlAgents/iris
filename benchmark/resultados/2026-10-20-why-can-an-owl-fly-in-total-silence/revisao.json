@@ -1,0 +1,61 @@
+{
+ "nota": 5.5,
+ "resumo": "Visual limpo e tecnicamente correto, mas a narração reprova na transcrição (o Whisper ouviu português em todas as cenas), a fala corre rápido demais nas 4 primeiras cenas e o vídeo inteiro sobre voo silencioso nunca mostra a coruja voando.",
+ "problemas": [
+  {"segundo": 0.0, "cena": 1, "tipo": "narracao", "gravidade": "alta",
+   "descricao": "Os 6 trechos de narracao.erros cobrem o vídeo inteiro: o transcritor devolveu português fonético ('um alvo pode voar por perto', 'muitas brancas voam quando voam') no lugar do texto em inglês. A estrutura das frases bate com o roteiro, então é provável que a voz fale inglês, mas com sotaque ou idioma de TTS que levou o Whisper a detectar português. Do jeito que foi medida, a narração não confere com o roteiro.",
+   "causa": "Voz de TTS com idioma ou sotaque errado para texto em inglês, ou transcritor sem idioma fixo (detecção automática caiu em pt). Precisa ouvir ou retranscrever com idioma 'en' para separar os dois casos.",
+   "origem": "pipeline"},
+  {"segundo": 0.0, "cena": 1, "tipo": "ritmo", "gravidade": "media",
+   "descricao": "Fala rápida demais nas cenas 1 a 4: 3,98, 3,21, 4,0 e 3,46 palavras/s (bom é 2,3 a 3,0). No geral são 95 palavras em 28,9 s, cerca de 3,3 palavras/s.",
+   "causa": "Roteiro com palavras demais para a duração das cenas iniciais.",
+   "origem": "pipeline"},
+  {"segundo": 0.0, "cena": 1, "tipo": "ritmo", "gravidade": "media",
+   "descricao": "Gancho fraco: a narração diz 'an owl can fly right past you', mas a imagem é uma coruja parada no galho, só com push-in lento. Não há voo nem pergunta na tela nos 2 primeiros segundos.",
+   "causa": "O prompt da cena 1 pede coruja pousada; o roteiro não traz a ação do tema para o gancho.",
+   "origem": "pipeline"},
+  {"segundo": 20.17, "cena": 6, "tipo": "visual", "gravidade": "media",
+   "descricao": "Um vídeo sobre voo silencioso não mostra voo em nenhum momento: as cenas 1, 2, 6 e 7 são a mesma coruja pousada de frente. Na cena 6 a narração fala do rato que não ouve nada chegando, mas não aparece rato nem ataque, e a névoa pedida no prompt mal aparece.",
+   "causa": "Os prompts evitam ação (todos 'perched on a mossy branch'), o que deixa o visual repetitivo e solto da narração.",
+   "origem": "pipeline"},
+  {"segundo": 11.63, "cena": 4, "tipo": "visual", "gravidade": "media",
+   "descricao": "A pena mostrada é cinza com pintas laranja (não parece pena de suindara buff-dourada) e a franja aparece só na base felpuda, perto do cálamo. A narração fala da borda traseira da asa franjada, que a imagem não mostra. O brilho também sobe de 46,4 para 55,8 dentro da cena (+20%).",
+   "causa": "Prompt genérico ('fine frayed fringe along its edge'); o modelo desenhou uma pena qualquer com penugem na base.",
+   "origem": "sorteio"},
+  {"segundo": 15.1, "cena": 5, "tipo": "visual", "gravidade": "baixa",
+   "descricao": "A pena muda de uma cena para a outra (cinza pintada na 4, bege lisa na 5) enquanto a narração segue falando de 'the feather'. A coruja também varia entre as cenas: dorso escuro na 1, muito pintado na 3, quase branca na 6.",
+   "causa": "Cada cena é gerada sem referência visual fixa; o estilo pede 'same barn owl', mas não há imagem de referência.",
+   "origem": "pipeline"},
+  {"segundo": 17.5, "cena": 5, "tipo": "legenda", "gravidade": "baixa",
+   "descricao": "Blocos cortados no meio da ideia: 'WHICH SWALLOWS THE TINY' (17,5 a 18,0 s) separa 'tiny' de 'sounds'. 'COMING. THAT IS WHY' (23,0 a 24,0 s) junta o fim de uma frase com o começo da outra.",
+   "causa": "A divisão das legendas conta palavras ou caracteres e ignora pontuação e sintagma.",
+   "origem": "pipeline"},
+  {"segundo": 0.0, "cena": 1, "tipo": "audio", "gravidade": "baixa",
+   "descricao": "Volume integrado de -15,3 LUFS, um pouco abaixo da faixa alvo de -14 ±1. O pico de -1,6 dBFS está ok e não há cortes.",
+   "causa": "A normalização final não mira -14 LUFS.",
+   "origem": "pipeline"}
+ ],
+ "refazer": [
+  {"cena": 4, "motivo": "A imagem não mostra o que a narração diz (borda traseira franjada). A pena é de outra espécie e o brilho deriva 20% dentro da cena.",
+   "ajuste_prompt": "Macro de uma pena de voo (rêmige) de suindara, buff-dourada com pintas claras, sobre musgo escuro. Franja fina e macia ao longo de TODA a borda traseira (lado comprido), penugem só na borda e não na base. Luz constante de crepúsculo, sem mudança de exposição."}
+ ],
+ "licoes": [
+  {"tipo_assunto": "animais", "alvo": "geracao",
+   "regra": "Quando o tema é uma ação do animal (voar, caçar, nadar), o gancho e pelo menos mais uma cena precisam mostrar essa ação em movimento lento e simples (planar, deslizar). O vídeo não pode ser feito só de poses paradas."},
+  {"tipo_assunto": "geral", "alvo": "roteiro",
+   "regra": "Ajustar o texto de cada cena para no máximo 3,0 palavras/s: cortar palavras ou alongar a cena em vez de acelerar a fala."},
+  {"tipo_assunto": "animais", "alvo": "geracao",
+   "regra": "Em close de detalhe anatômico (pena, escama, garra), o prompt diz a espécie, a cor e ONDE fica a estrutura citada na narração. Prompt genérico gera uma peça genérica que não mostra o que se fala."},
+  {"tipo_assunto": "geral", "alvo": "montagem",
+   "regra": "Bloco de legenda nunca junta o fim de uma frase com o começo da seguinte nem separa adjetivo do substantivo."},
+  {"tipo_assunto": "geral", "alvo": "geracao",
+   "regra": "Personagem ou objeto que se repete entre cenas precisa de uma imagem de referência fixa; só o texto 'same X in every scene' não segura a continuidade."}
+ ],
+ "pipeline": [
+  {"onde": "voz (TTS) e transcrição de conferência", "mudanca": "Fixar o idioma da voz em inglês (voz nativa en) e passar language='en' ao Whisper da inspeção. Depois retranscrever este vídeo para confirmar se o erro é da voz ou do transcritor.", "motivo": "O vídeo inteiro foi ouvido como português, o que derruba a conferência da narração e pode indicar sotaque errado na voz."},
+  {"onde": "geração do roteiro", "mudanca": "Limite de 3,0 palavras/s por cena, validado antes da síntese de voz.", "motivo": "Cenas 1 a 4 entre 3,2 e 4,0 palavras/s."},
+  {"onde": "prompts de cena (temas de ação animal)", "mudanca": "Exigir no gancho uma cena com a ação do tema em câmera lenta (ex.: coruja planando de asas abertas, de lado, fundo desfocado).", "motivo": "Quatro das sete cenas são a mesma pose pousada e o voo nunca aparece."},
+  {"onde": "montagem das legendas", "mudanca": "Quebrar blocos em pontuação e não terminar bloco em artigo ou adjetivo.", "motivo": "Blocos 'WHICH SWALLOWS THE TINY' e 'COMING. THAT IS WHY'."},
+  {"onde": "mixagem final", "mudanca": "Normalizar para -14 LUFS integrado com teto de -1 dBFS.", "motivo": "Saiu em -15,3 LUFS."}
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "nota": 6.0,
+ "resumo": "Visual forte e fiel ao tema (o 'fogo' da Horsetail Fall aparece já no primeiro quadro), mas a narração não pôde ser conferida porque a transcrição saiu em português, o pico de áudio bate em 0 dBFS e o roteiro corre rápido demais.",
+ "problemas": [
+  {"segundo": 0.0, "cena": 1, "tipo": "narracao", "gravidade": "alta",
+   "descricao": "medidas.json traz 9 trechos em narracao.erros e taxa_acerto de 0,074: o roteiro está em inglês e o 'ouvido' está em português ('em fevereiro um caixa de agua', 'sem fome em fevereiro... pretendo ser fio'). O texto ouvido acompanha o sentido do roteiro frase a frase e deixa vazar palavras em inglês ('granite', 'face', 'L' de El Capitan), então quase certamente a voz fala inglês e o transcritor rodou em português. Mesmo assim, a pronúncia de nada foi conferida, e por isso a nota fica limitada a 6.",
+   "causa": "Transcritor com idioma forçado (ou detectado) como português para uma narração em inglês; a checagem de narração ficou inválida.",
+   "origem": "pipeline"},
+  {"segundo": 5.37, "cena": 2, "tipo": "ritmo", "gravidade": "media",
+   "descricao": "Cinco das sete cenas passam de 3,0 palavras/s (cena 2: 3,26; cena 3: 3,56; cena 4: 3,47; cena 5: 3,29; cena 6: 3,04). A média é ~3,1 (110 palavras em 35,3 s), e o miolo explicativo (cenas 3 a 5) fica corrido.",
+   "causa": "Roteiro denso demais para o tempo de cada cena.",
+   "origem": "pipeline"},
+  {"segundo": 0.0, "cena": 1, "tipo": "audio", "gravidade": "media",
+   "descricao": "pico_dbfs = 0,0 (o limite é -1). Ainda não há trecho cortado, mas a compressão da plataforma pode distorcer. O volume integrado de -15,2 LUFS também fica um pouco abaixo da faixa de -14 ±1.",
+   "causa": "Mixagem final sem limitador de pico e sem normalização para -14 LUFS.",
+   "origem": "pipeline"},
+  {"segundo": 4.5, "cena": 1, "tipo": "legenda", "gravidade": "baixa",
+   "descricao": "Blocos de legenda atravessam o fim de frase: 'ONLY. IT FALLS DOWN' (4,5 s), 'RIGHT. THE WATER GLOWS' (18,5 s), 'APPEARS. NO LAVA,' (28,0 s). 'CLOUD, THE FIRE NEVER' (26,5 s) também corta a ideia no meio.",
+   "causa": "A legenda é fatiada por número de palavras e ignora a pontuação.",
+   "origem": "pipeline"},
+  {"segundo": 10.0, "cena": 3, "tipo": "visual", "gravidade": "baixa",
+   "descricao": "A narração diz 'barely there, just a thin ribbon', mas a imagem mostra uma queda d'água larga e volumosa. O mesmo vale para a cena 6 ('fragile', 'without enough snow'), que mostra uma cachoeira cheia. O contraste do roteiro se perde.",
+   "causa": "O modelo de imagem tende a gerar cachoeiras grandes; o prompt não ancora a escala.",
+   "origem": "pipeline"},
+  {"segundo": 6.0, "cena": 2, "tipo": "visual", "gravidade": "baixa",
+   "descricao": "Pequena mancha azulada na borda do penhasco, no ponto onde a água começa a cair (6,0 a 9,5 s). Ela fica estável, sem piscar, e quase não se nota no celular.",
+   "causa": "Artefato de geração.",
+   "origem": "sorteio"},
+  {"segundo": 28.9, "cena": 7, "tipo": "visual", "gravidade": "baixa",
+   "descricao": "O brilho cai cerca de 22% ao longo da cena (47,6 para 37,3), e na cena 1 sobe cerca de 17% (62,8 para 73,3). Com o pôr do sol isso é aceitável. Na cena 7, a água laranja escorrendo em placas parece mais lava do que água, justo quando a narração diz 'no lava'.",
+   "causa": "Deriva de exposição do modelo de vídeo; o prompt 'glowing bright orange and red' em close puxa para textura de lava.",
+   "origem": "sorteio"}
+ ],
+ "refazer": [],
+ "licoes": [
+  {"tipo_assunto": "geral", "alvo": "roteiro", "regra": "Limitar a narração a ~2,7 palavras/s por cena (cerca de 13 palavras em 5 s); cortar palavras antes de esticar a cena."},
+  {"tipo_assunto": "geral", "alvo": "montagem", "regra": "Fatiar a legenda respeitando a pontuação: um bloco nunca junta o fim de uma frase com o começo da seguinte."},
+  {"tipo_assunto": "geral", "alvo": "montagem", "regra": "Masterizar o áudio final em -14 LUFS com limitador de pico em -1 dBTP."},
+  {"tipo_assunto": "natureza", "alvo": "geracao", "regra": "Quando a narração fala de algo pequeno, fraco ou escasso, o prompt deve ancorar a escala (fio fino, distante, ocupando pouco do quadro), porque o modelo exagera rios e cachoeiras."}
+ ],
+ "pipeline": [
+  {"onde": "inspetor (transcrição da narração)", "mudanca": "Passar ao transcritor o idioma do roteiro (aqui, inglês) em vez de forçar ou deixar detectar português.", "motivo": "Com a narração em inglês, a transcrição saiu traduzida para o português e gerou 9 'erros' falsos; a checagem de pronúncia ficou inútil."},
+  {"onde": "mixagem final", "mudanca": "Adicionar normalização loudnorm para I=-14, TP=-1.", "motivo": "O pico chegou a 0,0 dBFS e o volume integrado ficou em -15,2 LUFS."},
+  {"onde": "gerador de legendas", "mudanca": "Quebrar os blocos em '.', '?' e '!' antes de aplicar o limite de palavras.", "motivo": "Três blocos atravessam o fim de frase e um corta a ideia no meio."}
+ ]
+}

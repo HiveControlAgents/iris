@@ -1,0 +1,621 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "The Strangest Sounds on Earth, and the Whale No One Has Seen",
+ "tema": "The strangest sounds in nature, from singing ice and the Bloop to the sky booms of Seneca Lake and the fifty-two hertz whale no one has seen",
+ "estilo_visual": "Realistic horizontal nature documentary photograph in the style of BBC Earth and National Geographic, calm mysterious mood, soft natural light, deep shadows, muted cold colors, fine realistic detail.",
+ "inspecionado_em": "2026-10-28T02:02:30",
+ "video": {
+  "duracao_s": 241.4,
+  "tamanho_mb": 139.3,
+  "largura": 1920,
+  "altura": 1080,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -14.9,
+  "pico_dbfs": -1.0,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 20.8,
+   "dur_s": 20.8,
+   "brilho_ini": 45.8,
+   "brilho_fim": 42.7,
+   "saturacao_ini": 25.8,
+   "saturacao_fim": 15.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 2,
+   "inicio_s": 20.8,
+   "fim_s": 27.2,
+   "dur_s": 6.4,
+   "brilho_ini": 58.8,
+   "brilho_fim": 62.7,
+   "saturacao_ini": 31.6,
+   "saturacao_fim": 30.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 3,
+   "inicio_s": 27.2,
+   "fim_s": 41.93,
+   "dur_s": 14.73,
+   "brilho_ini": 33.0,
+   "brilho_fim": 58.6,
+   "saturacao_ini": 6.0,
+   "saturacao_fim": 11.4,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 4,
+   "inicio_s": 41.93,
+   "fim_s": 49.37,
+   "dur_s": 7.44,
+   "brilho_ini": 53.6,
+   "brilho_fim": 50.5,
+   "saturacao_ini": 5.1,
+   "saturacao_fim": 7.2,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 5,
+   "inicio_s": 49.37,
+   "fim_s": 63.63,
+   "dur_s": 14.26,
+   "brilho_ini": 27.6,
+   "brilho_fim": 67.6,
+   "saturacao_ini": 2.8,
+   "saturacao_fim": 14.2,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 6,
+   "inicio_s": 63.63,
+   "fim_s": 80.1,
+   "dur_s": 16.47,
+   "brilho_ini": 34.8,
+   "brilho_fim": 52.0,
+   "saturacao_ini": 5.3,
+   "saturacao_fim": 12.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 7,
+   "inicio_s": 80.1,
+   "fim_s": 89.0,
+   "dur_s": 8.9,
+   "brilho_ini": 68.2,
+   "brilho_fim": 50.4,
+   "saturacao_ini": 26.2,
+   "saturacao_fim": 33.5,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 8,
+   "inicio_s": 89.0,
+   "fim_s": 108.37,
+   "dur_s": 19.37,
+   "brilho_ini": 78.1,
+   "brilho_fim": 59.6,
+   "saturacao_ini": 18.9,
+   "saturacao_fim": 14.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 9,
+   "inicio_s": 108.37,
+   "fim_s": 115.97,
+   "dur_s": 7.6,
+   "brilho_ini": 96.4,
+   "brilho_fim": 76.8,
+   "saturacao_ini": 16.7,
+   "saturacao_fim": 24.4,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 10,
+   "inicio_s": 115.97,
+   "fim_s": 123.07,
+   "dur_s": 7.1,
+   "brilho_ini": 110.6,
+   "brilho_fim": 98.2,
+   "saturacao_ini": 17.1,
+   "saturacao_fim": 22.7,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 11,
+   "inicio_s": 123.07,
+   "fim_s": 129.7,
+   "dur_s": 6.63,
+   "brilho_ini": 111.9,
+   "brilho_fim": 105.6,
+   "saturacao_ini": 15.8,
+   "saturacao_fim": 19.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 12,
+   "inicio_s": 129.7,
+   "fim_s": 136.8,
+   "dur_s": 7.1,
+   "brilho_ini": 123.1,
+   "brilho_fim": 114.4,
+   "saturacao_ini": 7.0,
+   "saturacao_fim": 9.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 13,
+   "inicio_s": 136.8,
+   "fim_s": 143.77,
+   "dur_s": 6.97,
+   "brilho_ini": 115.7,
+   "brilho_fim": 110.6,
+   "saturacao_ini": 8.1,
+   "saturacao_fim": 12.4,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 14,
+   "inicio_s": 143.77,
+   "fim_s": 150.53,
+   "dur_s": 6.76,
+   "brilho_ini": 144.3,
+   "brilho_fim": 127.1,
+   "saturacao_ini": 10.7,
+   "saturacao_fim": 11.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 15,
+   "inicio_s": 150.53,
+   "fim_s": 159.23,
+   "dur_s": 8.7,
+   "brilho_ini": 102.3,
+   "brilho_fim": 91.2,
+   "saturacao_ini": 8.1,
+   "saturacao_fim": 11.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 16,
+   "inicio_s": 159.23,
+   "fim_s": 165.93,
+   "dur_s": 6.7,
+   "brilho_ini": 95.8,
+   "brilho_fim": 76.8,
+   "saturacao_ini": 6.4,
+   "saturacao_fim": 8.4,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 17,
+   "inicio_s": 165.93,
+   "fim_s": 172.57,
+   "dur_s": 6.64,
+   "brilho_ini": 147.0,
+   "brilho_fim": 128.1,
+   "saturacao_ini": 10.7,
+   "saturacao_fim": 12.0,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 18,
+   "inicio_s": 172.57,
+   "fim_s": 180.03,
+   "dur_s": 7.46,
+   "brilho_ini": 124.6,
+   "brilho_fim": 91.2,
+   "saturacao_ini": 6.6,
+   "saturacao_fim": 6.5,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 19,
+   "inicio_s": 180.03,
+   "fim_s": 187.17,
+   "dur_s": 7.14,
+   "brilho_ini": 36.7,
+   "brilho_fim": 44.2,
+   "saturacao_ini": 4.1,
+   "saturacao_fim": 7.0,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 20,
+   "inicio_s": 187.17,
+   "fim_s": 201.3,
+   "dur_s": 14.13,
+   "brilho_ini": 53.2,
+   "brilho_fim": 55.0,
+   "saturacao_ini": 29.2,
+   "saturacao_fim": 14.0,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 21,
+   "inicio_s": 201.3,
+   "fim_s": 207.73,
+   "dur_s": 6.43,
+   "brilho_ini": 76.1,
+   "brilho_fim": 71.2,
+   "saturacao_ini": 39.4,
+   "saturacao_fim": 37.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 22,
+   "inicio_s": 207.73,
+   "fim_s": 213.63,
+   "dur_s": 5.9,
+   "brilho_ini": 27.9,
+   "brilho_fim": 26.5,
+   "saturacao_ini": 3.7,
+   "saturacao_fim": 5.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 23,
+   "inicio_s": 213.63,
+   "fim_s": 241.4,
+   "dur_s": 27.77,
+   "brilho_ini": 60.2,
+   "brilho_fim": 34.5,
+   "saturacao_ini": 36.4,
+   "saturacao_fim": 19.3,
+   "cortes_internos_s": []
+  }
+ ],
+ "cortes_bruscos_s": [
+  20.8,
+  27.2,
+  41.93,
+  49.37,
+  63.63,
+  80.1,
+  89.0,
+  108.37,
+  115.97,
+  123.07,
+  129.7,
+  136.8,
+  143.77,
+  150.53,
+  159.23,
+  165.93,
+  172.57,
+  180.03,
+  187.17,
+  201.3,
+  207.73,
+  213.63
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 761,
+  "palavras_ouvidas": 776,
+  "taxa_acerto": 0.055,
+  "erros": [
+   {
+    "roteiro": "somewhere in the pacific",
+    "ouvido": "em um lugar no pacifico uma ovoa foi cantar por decadas"
+   },
+   {
+    "roteiro": "whale has been singing for decades its voice is so strange that no other whale seems to answer scientists have followed its song across the ocean for years yet no one is sure they have ever seen the",
+    "ouvido": "voz e tao estranha que nenhum outro ovoa parece responder os cientistas continuaram a musica em torno do oceano por anos mas ninguem e seguro que eles nunca haviam visto o"
+   },
+   {
+    "roteiro": "itself nature is",
+    "ouvido": "a natureza e"
+   },
+   {
+    "roteiro": "of",
+    "ouvido": "de"
+   },
+   {
+    "roteiro": "like this",
+    "ouvido": "como isso"
+   },
+   {
+    "roteiro": "from",
+    "ouvido": "de um escuro calmo um ovo que canta como um toile de lago um rolo de um marro de la hoje nos ouvimos quatro de eles os dois foram resolvidos um ainda e aberto e o ultimo pode estar chamando agora em uma noite em angl bc um ovo de oceano pode progressar com um trails de sorvete nao ser liesado exatamente algum coisa estranha como os magas de um alugro estat outoflrec de vermel meurick e descer para o ar e tao artificial que as pessoas que ouviram isso pela primeira vez muitas vezes sejam para uma maquina mas o horario e amplo e still"
+   },
+   {
+    "roteiro": "calm sky ice that sings like",
+    "ouvido": "forca e"
+   },
+   {
+    "roteiro": "toy laser",
+    "ouvido": "agua quando"
+   },
+   {
+    "roteiro": "roar from the empty deep sea tonight we listen to four of them two were solved one is still open and the last one may be calling right now on",
+    "ouvido": "noite cresce"
+   },
+   {
+    "roteiro": "cold night",
+    "ouvido": "chute se descer e longas craques se acertam em uma instancia aqui e"
+   },
+   {
+    "roteiro": "frozen lake can start to make noise not cracking exactly something stranger like the chirps of a toy space gun skaters on clear black ice describe it the same way a high bright whistle that slides downward and fades into the dark it sounds so artificial that people who hear it for the first time often look around for a machine but the shore is empty and still the source is the ice itself as the night grows colder the sheet shrinks and long cracks race across it in an instant here is the strange part inside thin ice",
+    "ouvido": "parte estranha em cima de um icone os"
+   },
+   {
+    "roteiro": "faster than",
+    "ouvido": "mais rapido que os"
+   },
+   {
+    "roteiro": "so every crack arrives sorted by pitch your ear hears the high notes first then the",
+    "ouvido": "entao cada craque vem sortido por uma pichada a sua ovo escuta as novas primeiro e depois os"
+   },
+   {
+    "roteiro": "one snap becomes a sliding whistle like a",
+    "ouvido": "um snapp se torna um icone escutado como um"
+   },
+   {
+    "roteiro": "in an old",
+    "ouvido": "em um filme de filmes de filmes de filmes de"
+   },
+   {
+    "roteiro": "film so the ice was never really singing it was breaking and distance turned the break into music but in the deep ocean",
+    "ouvido": "entao"
+   },
+   {
+    "roteiro": "much larger sound was waiting in nineteen ninetyseven underwater microphones in the pacific picked up",
+    "ouvido": "ovo nunca foi realmente cantar foi rompendo e"
+   },
+   {
+    "roteiro": "it rose in pitch for about",
+    "ouvido": "foi arrasado em pichada por cerca de um minuto foi lento para ser ouvido por acusticos por estacionos que ouviram por milhares de estacionos"
+   },
+   {
+    "roteiro": "minute it was loud enough to be heard across the ocean by listening stations thousands of miles apart scientists nicknamed it the",
+    "ouvido": "gente se chamou de o"
+   },
+   {
+    "roteiro": "its pattern had",
+    "ouvido": ""
+   },
+   {
+    "roteiro": "strange quality to some ears it sounded less like",
+    "ouvido": "sua patterna tinha uma qualidade estranha para alguns anos ela parecia mais como uma maquina e mais como uma coisa de vida essa ideia se tornou mais rapido se um animal se fez o animal teria que ser mais grande do que qualquer creature que sabemos por anos o bloop vivia em uma gata entre"
+   },
+   {
+    "roteiro": "machine and more like",
+    "ouvido": "ciencia e"
+   },
+   {
+    "roteiro": "living thing that idea spread fast if an animal made it the animal would have to be far larger than any creature we know for years the bloop lived in the gap between science and legend then scientists recorded",
+    "ouvido": "legenda depois os cientistas recorreram os"
+   },
+   {
+    "roteiro": "with the same shape near",
+    "ouvido": "com a mesma forma de"
+   },
+   {
+    "roteiro": "the answer was ice when giant icebergs crack and break away from frozen shelves they shake the water like an earthquake the monster was",
+    "ouvido": ""
+   },
+   {
+    "roteiro": "breaking wall of ice heard from across an ocean but some",
+    "ouvido": "resposta foi o icone quando os icones grandes cracam e rompem de frones eles chacam a agua como um ovo o monstro foi um ovo de cha ouvido por um ovo mas alguns"
+   },
+   {
+    "roteiro": "still have no source anyone can find along certain lakes and coasts people hear",
+    "ouvido": "ainda nao tem"
+   },
+   {
+    "roteiro": "deep",
+    "ouvido": "forca que ninguem pode encontrar durante certas lentes e cocas as pessoas ouviram um"
+   },
+   {
+    "roteiro": "on calm days like distant cannon fire rolling across still water around",
+    "ouvido": "de calma em dias como o fio distante rolando por agua ao lado da liga de"
+   },
+   {
+    "roteiro": "lake in",
+    "ouvido": "em"
+   }
+  ],
+  "suspeitas": [],
+  "duvidosas": [
+   "Em",
+   "um",
+   "lugar",
+   "no",
+   "Pacífico,",
+   "uma",
+   "ovoa",
+   "foi",
+   "A",
+   "voz",
+   "é",
+   "nenhum",
+   "parece",
+   "Os",
+   "continuaram",
+   "música",
+   "em",
+   "torno",
+   "é",
+   "seguro",
+   "eles",
+   "haviam",
+   "A",
+   "é",
+   "full",
+   "sounds",
+   "como",
+   "isso.",
+   "de",
+   "escuro"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "somewhere in the pacific",
+    "ouvido": "em um lugar no pacifico uma ovoa foi cantar por decadas"
+   },
+   {
+    "roteiro": "whale has been singing for decades its voice is so strange that no other whale seems to answer scientists have followed its song across the ocean for years yet no one is sure they have ever seen the",
+    "ouvido": "voz e tao estranha que nenhum outro ovoa parece responder os cientistas continuaram a musica em torno do oceano por anos mas ninguem e seguro que eles nunca haviam visto o"
+   },
+   {
+    "roteiro": "itself nature is",
+    "ouvido": "a natureza e"
+   },
+   {
+    "roteiro": "of",
+    "ouvido": "de"
+   },
+   {
+    "roteiro": "like this",
+    "ouvido": "como isso"
+   },
+   {
+    "roteiro": "from",
+    "ouvido": "de um escuro calmo um ovo que canta como um toile de lago um rolo de um marro de la hoje nos ouvimos quatro de eles os dois foram resolvidos um ainda e aberto e o ultimo pode estar chamando agora em uma noite em angl bc um ovo de oceano pode progressar com um trails de sorvete nao ser liesado exatamente algum coisa estranha como os magas de um alugro estat outoflrec de vermel meurick e descer para o ar e tao artificial que as pessoas que ouviram isso pela primeira vez muitas vezes sejam para uma maquina mas o horario e amplo e still"
+   },
+   {
+    "roteiro": "calm sky ice that sings like",
+    "ouvido": "forca e"
+   },
+   {
+    "roteiro": "toy laser",
+    "ouvido": "agua quando"
+   },
+   {
+    "roteiro": "roar from the empty deep sea tonight we listen to four of them two were solved one is still open and the last one may be calling right now on",
+    "ouvido": "noite cresce"
+   },
+   {
+    "roteiro": "cold night",
+    "ouvido": "chute se descer e longas craques se acertam em uma instancia aqui e"
+   },
+   {
+    "roteiro": "frozen lake can start to make noise not cracking exactly something stranger like the chirps of a toy space gun skaters on clear black ice describe it the same way a high bright whistle that slides downward and fades into the dark it sounds so artificial that people who hear it for the first time often look around for a machine but the shore is empty and still the source is the ice itself as the night grows colder the sheet shrinks and long cracks race across it in an instant here is the strange part inside thin ice",
+    "ouvido": "parte estranha em cima de um icone os"
+   },
+   {
+    "roteiro": "faster than",
+    "ouvido": "mais rapido que os"
+   },
+   {
+    "roteiro": "so every crack arrives sorted by pitch your ear hears the high notes first then the",
+    "ouvido": "entao cada craque vem sortido por uma pichada a sua ovo escuta as novas primeiro e depois os"
+   },
+   {
+    "roteiro": "one snap becomes a sliding whistle like a",
+    "ouvido": "um snapp se torna um icone escutado como um"
+   },
+   {
+    "roteiro": "in an old",
+    "ouvido": "em um filme de filmes de filmes de filmes de"
+   },
+   {
+    "roteiro": "film so the ice was never really singing it was breaking and distance turned the break into music but in the deep ocean",
+    "ouvido": "entao"
+   },
+   {
+    "roteiro": "much larger sound was waiting in nineteen ninetyseven underwater microphones in the pacific picked up",
+    "ouvido": "ovo nunca foi realmente cantar foi rompendo e"
+   },
+   {
+    "roteiro": "it rose in pitch for about",
+    "ouvido": "foi arrasado em pichada por cerca de um minuto foi lento para ser ouvido por acusticos por estacionos que ouviram por milhares de estacionos"
+   },
+   {
+    "roteiro": "minute it was loud enough to be heard across the ocean by listening stations thousands of miles apart scientists nicknamed it the",
+    "ouvido": "gente se chamou de o"
+   },
+   {
+    "roteiro": "its pattern had",
+    "ouvido": ""
+   },
+   {
+    "roteiro": "strange quality to some ears it sounded less like",
+    "ouvido": "sua patterna tinha uma qualidade estranha para alguns anos ela parecia mais como uma maquina e mais como uma coisa de vida essa ideia se tornou mais rapido se um animal se fez o animal teria que ser mais grande do que qualquer creature que sabemos por anos o bloop vivia em uma gata entre"
+   },
+   {
+    "roteiro": "machine and more like",
+    "ouvido": "ciencia e"
+   },
+   {
+    "roteiro": "living thing that idea spread fast if an animal made it the animal would have to be far larger than any creature we know for years the bloop lived in the gap between science and legend then scientists recorded",
+    "ouvido": "legenda depois os cientistas recorreram os"
+   },
+   {
+    "roteiro": "with the same shape near",
+    "ouvido": "com a mesma forma de"
+   },
+   {
+    "roteiro": "the answer was ice when giant icebergs crack and break away from frozen shelves they shake the water like an earthquake the monster was",
+    "ouvido": ""
+   },
+   {
+    "roteiro": "breaking wall of ice heard from across an ocean but some",
+    "ouvido": "resposta foi o icone quando os icones grandes cracam e rompem de frones eles chacam a agua como um ovo o monstro foi um ovo de cha ouvido por um ovo mas alguns"
+   },
+   {
+    "roteiro": "still have no source anyone can find along certain lakes and coasts people hear",
+    "ouvido": "ainda nao tem"
+   },
+   {
+    "roteiro": "deep",
+    "ouvido": "forca que ninguem pode encontrar durante certas lentes e cocas as pessoas ouviram um"
+   },
+   {
+    "roteiro": "on calm days like distant cannon fire rolling across still water around",
+    "ouvido": "de calma em dias como o fio distante rolando por agua ao lado da liga de"
+   },
+   {
+    "roteiro": "lake in",
+    "ouvido": "em"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg",
+  "folha_5.jpg",
+  "folha_6.jpg",
+  "folha_7.jpg",
+  "folha_8.jpg",
+  "folha_9.jpg",
+  "folha_10.jpg",
+  "folha_11.jpg",
+  "folha_12.jpg",
+  "folha_13.jpg",
+  "folha_14.jpg",
+  "folha_15.jpg",
+  "folha_16.jpg",
+  "folha_17.jpg",
+  "folha_18.jpg",
+  "folha_19.jpg",
+  "folha_20.jpg",
+  "folha_21.jpg"
+ ]
+}
