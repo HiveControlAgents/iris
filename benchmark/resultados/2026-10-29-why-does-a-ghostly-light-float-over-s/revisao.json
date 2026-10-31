@@ -1,0 +1,194 @@
+{
+ "nota": 6.5,
+ "resumo": "Roteiro, ritmo e áudio funcionam, mas as bolhas da cena 7 viram olhos, uma lua surge na cena 5 e toda cena dá um salto de contraste na emenda das duas partes do clipe.",
+ "observacoes": [
+  "Os números de cena seguem as 9 cenas do roteiro, não as 4 de medidas.json (que vêm só dos cortes bruscos), porque é por elas que se refaz.",
+  "narracao.erros de medidas.json não contam e o teto de nota 6 não foi aplicado: o inspetor transcreveu narração em inglês com o Whisper em português. A transcrição em inglês da produção bate com o roteiro palavra a palavra, mas foi feita na narração antes da mixagem, não no vídeo final; a voz não foi ouvida nesta revisão.",
+  "A rodada de produção registrada é a 4 (cenas 3, 5, 6, 7 e 8 refeitas por último), mas nem a pasta da revisão nem o pedido marcam esta versão como refeita, então vale a regra normal do refazer. Sem revisões anteriores nem acesso às versões antigas, não dá para dizer se as cenas melhoraram."
+ ],
+ "problemas": [
+  {
+   "segundo": 35.0,
+   "cena": 7,
+   "tipo": "visual",
+   "gravidade": "alta",
+   "descricao": "As bolhas de gás viram bolas azuis opacas com anel claro e centro escuro, que parecem olhos abertos entre as folhas; fica pior de 35,0 a 36,5 s, exatamente onde se fala em metano e fosfina.",
+   "causa": "A foto da cena tem bolhas transparentes e corretas; a deformação vem da etapa de vídeo, que escurece e satura as bolhas.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 21.0,
+   "cena": 5,
+   "tipo": "visual",
+   "gravidade": "alta",
+   "descricao": "Uma lua branca surge no céu e cresce em brilho até 25,5 s, com a cena pedindo céu sem lua; aos 20,5 s ela ainda não está lá.",
+   "causa": "A foto tem um ponto claro minúsculo nesse mesmo lugar do céu e o vídeo o transforma em lua.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 34.5,
+   "cena": 7,
+   "tipo": "visual",
+   "gravidade": "media",
+   "descricao": "Salto de contraste e saturação cerca de 3 s depois do início de cada cena: 3,5 s (cena 1), 14,0 s (cena 3), 18,5 s (cena 4), 34,5 s (cena 7), 40,0 s (cena 8) e 45,5 s (cena 9). O inspetor não acusa corte, mas a imagem muda de cor e de forma de um quadro de amostra para o outro.",
+   "causa": "É a emenda entre a parte 1 e a parte 2 de cada clipe: o quadro-ponte que dá início à parte 2 já está bem mais contrastado e saturado que a foto original. Medidas apontam a mesma deriva: saturação de 16,7 para 21,7 e brilho de 57,0 para 67,4 nos trechos iniciais.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 0.0,
+   "cena": 1,
+   "tipo": "visual",
+   "gravidade": "media",
+   "descricao": "Nas cenas 1, 8 e 9 a luz é uma labareda grande, branca e presa à água, com reflexo em colunas, parecendo um queimador de gás. A narração fala em luz pálida que flutua e em chama fraca (38,5 s).",
+   "causa": "O modelo interpreta fogo azul sobre água como chama com base na superfície; o mesmo ocorre em várias cenas.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 15.5,
+   "cena": 4,
+   "tipo": "visual",
+   "gravidade": "media",
+   "descricao": "A chama nasce laranja e branca, em vez de azul-pálida, e solta um pedaço aceso que flutua sozinho (16,5 a 17,5 s) antes de virar azul aos 18,5 s. Há também pontos de luz atrás dos juncos que parecem lâmpadas.",
+   "causa": "Variação de cor e forma do fogo na etapa de vídeo; a cor deixa de bater com a das outras cenas.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 30.5,
+   "cena": 6,
+   "tipo": "visual",
+   "gravidade": "media",
+   "descricao": "O fogo-fátuo ao fundo vira fumaça rosa e uma queimada na margem oposta (29,5 a 31,0 s), longe da língua fina de fogo azul pedida; o céu também fica azul, não negro.",
+   "causa": "Deriva de cor e forma durante o clipe, somada à emenda das partes.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 12.0,
+   "cena": 3,
+   "tipo": "narracao",
+   "gravidade": "media",
+   "descricao": "will-o'-the-wisp foi ouvido como \"willow the wisp\" na transcrição da produção; pode ser só jeito do transcritor, mas é a palavra-chave do vídeo.",
+   "causa": "Termo composto incomum para a voz sintética.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 27.4,
+   "cena": 6,
+   "tipo": "narracao",
+   "gravidade": "media",
+   "descricao": "A cena precisou de 3 tomadas e a escolhida ainda tem \"Swamp\", \"Light\" e \"Jack\" ouvidos com pouca certeza, e jack-o'-lantern como suspeita.",
+   "causa": "Termo composto incomum para a voz sintética.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 28.5,
+   "cena": 6,
+   "tipo": "legenda",
+   "gravidade": "media",
+   "descricao": "A legenda fica sempre na mesma altura e cobre a boca da abóbora nas cenas 5 e 6 (21,0 a 31,0 s) e a base da chama em boa parte do vídeo.",
+   "causa": "Posição fixa da legenda, sem levar em conta onde está o assunto.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 24.0,
+   "cena": 5,
+   "tipo": "legenda",
+   "gravidade": "baixa",
+   "descricao": "Blocos terminam no meio da ideia: \"ON YOUR PORCH EVERY\" (24,0 s), \"AND IT LEADS YOU\" (14,0 s) e \"THE LIGHT NEVER STAYS\" (15,5 s). Aos 20,5 s a legenda \"STOP, AND IT WAITS.\" ainda está sobre a abóbora, já na cena seguinte.",
+   "causa": "Os blocos são cortados por tamanho, não por sentido.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 45.5,
+   "cena": 9,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "O reflexo na água fica quase fixo enquanto a chama muda de forma, e a chama estoura para branco em 45,5 a 46,5 s.",
+   "causa": "Reflexo mal acompanhado pelo modelo de vídeo.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 0.0,
+   "cena": 1,
+   "tipo": "audio",
+   "gravidade": "baixa",
+   "descricao": "Loudness integrado de -15,2 LUFS, um pouco abaixo da faixa de -14 ±1. Pico de -1,5 dBFS e nenhum corte, silêncio ou salto de volume.",
+   "causa": "Alvo de mixagem levemente baixo.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 0.0,
+   "cena": 1,
+   "tipo": "tecnico",
+   "gravidade": "media",
+   "descricao": "A inspeção acusou 9 erros de narração e acerto de 5,3%, com texto ouvido em português (\"luz de lente\", \"despeja\") para um roteiro em inglês. É alarme falso e impede de checar a pronúncia do vídeo final.",
+   "causa": "O inspetor rodou com o idioma padrão pt.",
+   "origem": "pipeline"
+  }
+ ],
+ "refazer": [
+  {
+   "cena": 7,
+   "motivo": "As bolhas viram olhos abertos entre as folhas (31,5 a 36,5 s, pior a partir de 35,0 s).",
+   "ajuste_prompt": "Manter a foto, que está boa, e trocar a semente do vídeo. Tirar \"no eyes, no faces\" do texto e pedir \"tiny clear transparent air bubbles, colorless, barely visible\"; no movimento, só ondulação leve da água."
+  },
+  {
+   "cena": 5,
+   "motivo": "Uma lua surge no céu aos 21,0 s e cresce até o fim da cena, contra o que o quadro pede.",
+   "ajuste_prompt": "Refazer a foto sem o ponto claro no céu. Trocar \"no moon, no stars\" por uma descrição afirmativa: \"thick unbroken low cloud covering the whole sky, starless, featureless darkness above the marsh\"."
+  }
+ ],
+ "licoes": [
+  {
+   "tipo_assunto": "natureza",
+   "alvo": "geracao",
+   "regra": "Descrever o que deve aparecer em vez de negar no texto do quadro: \"no moon\" ou \"no eyes\" não impediram o elemento; prefira a forma afirmativa (céu coberto por nuvens) ou o prompt negativo."
+  },
+  {
+   "tipo_assunto": "natureza",
+   "alvo": "geracao",
+   "regra": "Conferir a foto antes de animar: um ponto claro no céu pode virar lua ou sol no vídeo."
+  },
+  {
+   "tipo_assunto": "natureza",
+   "alvo": "geracao",
+   "regra": "Bolhas ou gotas grandes e redondas podem virar olhos no vídeo; mantenha-as pequenas, transparentes e poucas, ou mostre o efeito pela ondulação da água."
+  },
+  {
+   "tipo_assunto": "natureza",
+   "alvo": "geracao",
+   "regra": "Fogo pedido sobre a água sai como chama presa à superfície; para luz que flutua, peça um brilho fraco, pequeno e difuso, separado da água."
+  },
+  {
+   "tipo_assunto": "geral",
+   "alvo": "montagem",
+   "regra": "Clipe gerado em partes precisa ter cor e contraste igualados na emenda; sem isso, a imagem salta no meio da cena mesmo sem corte."
+  },
+  {
+   "tipo_assunto": "geral",
+   "alvo": "montagem",
+   "regra": "Legenda em posição fixa acaba cobrindo o assunto; escolha a altura conforme a cena e quebre os blocos por sentido, não por tamanho."
+  }
+ ],
+ "pipeline": [
+  {
+   "onde": "inspeção (scripts/inspecionar.py, opção --idioma)",
+   "mudanca": "Rodar com --idioma en em vídeos em inglês, ou usar o idioma do roteiro em vez do padrão pt.",
+   "motivo": "Com o idioma errado, todo vídeo em inglês sai com erros falsos de narração e sem checagem real da voz."
+  },
+  {
+   "onde": "etapa de vídeo, quadro-ponte entre parte 1 e parte 2",
+   "mudanca": "Igualar a cor e o contraste do quadro-ponte aos da foto da cena, ou aplicar correção de cor na parte 2 antes de juntar.",
+   "motivo": "O salto se repete em quase todas as cenas por volta de 3 s depois do início."
+  },
+  {
+   "onde": "geração das legendas",
+   "mudanca": "Permitir legenda mais baixa ou mais alta por cena e quebrar os blocos em fim de frase ou vírgula.",
+   "motivo": "A legenda cobre a abóbora nas cenas 5 e 6 e vários blocos cortam a ideia."
+  },
+  {
+   "onde": "mixagem final",
+   "mudanca": "Subir o alvo de loudness em cerca de 1 dB, mantendo o pico em -1 dBFS ou menos.",
+   "motivo": "O vídeo está em -15,2 LUFS, fora da faixa de -14 ±1."
+  }
+ ]
+}

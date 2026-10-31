@@ -1,0 +1,643 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "Four Waters That Keep Secrets, and the River That Swallows Itself",
+ "tema": "Water that keeps a secret: the Old Man of the Lake at Crater Lake, Lost Lake in Oregon that drains every summer, the natural gas flame behind Eternal Flame Falls, and the Devil's Kettle waterfall that seems to swallow half a river",
+ "estilo_visual": "Calm cinematic nature documentary photograph in the style of BBC Earth and National Geographic, horizontal frame, one clear subject fully visible, soft mysterious light with mist, dawn or dusk tones, deep natural colors, ultra realistic, no people.",
+ "inspecionado_em": "2026-10-31T08:07:10",
+ "video": {
+  "duracao_s": 273.4,
+  "tamanho_mb": 166.7,
+  "largura": 1920,
+  "altura": 1080,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -14.8,
+  "pico_dbfs": -1.4,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 7.33,
+   "dur_s": 7.33,
+   "brilho_ini": 68.8,
+   "brilho_fim": 79.2,
+   "saturacao_ini": 4.5,
+   "saturacao_fim": 7.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 2,
+   "inicio_s": 7.33,
+   "fim_s": 15.0,
+   "dur_s": 7.67,
+   "brilho_ini": 104.8,
+   "brilho_fim": 97.4,
+   "saturacao_ini": 14.1,
+   "saturacao_fim": 20.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 3,
+   "inicio_s": 15.0,
+   "fim_s": 22.33,
+   "dur_s": 7.33,
+   "brilho_ini": 55.7,
+   "brilho_fim": 70.4,
+   "saturacao_ini": 11.2,
+   "saturacao_fim": 16.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 4,
+   "inicio_s": 22.33,
+   "fim_s": 30.87,
+   "dur_s": 8.54,
+   "brilho_ini": 94.8,
+   "brilho_fim": 89.5,
+   "saturacao_ini": 11.1,
+   "saturacao_fim": 14.0,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 5,
+   "inicio_s": 30.87,
+   "fim_s": 38.63,
+   "dur_s": 7.76,
+   "brilho_ini": 91.4,
+   "brilho_fim": 87.7,
+   "saturacao_ini": 14.6,
+   "saturacao_fim": 19.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 6,
+   "inicio_s": 38.63,
+   "fim_s": 45.93,
+   "dur_s": 7.3,
+   "brilho_ini": 107.4,
+   "brilho_fim": 91.0,
+   "saturacao_ini": 20.7,
+   "saturacao_fim": 27.2,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 7,
+   "inicio_s": 45.93,
+   "fim_s": 53.67,
+   "dur_s": 7.74,
+   "brilho_ini": 97.7,
+   "brilho_fim": 97.6,
+   "saturacao_ini": 19.8,
+   "saturacao_fim": 28.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 8,
+   "inicio_s": 53.67,
+   "fim_s": 62.63,
+   "dur_s": 8.96,
+   "brilho_ini": 86.0,
+   "brilho_fim": 66.9,
+   "saturacao_ini": 14.2,
+   "saturacao_fim": 15.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 9,
+   "inicio_s": 62.63,
+   "fim_s": 70.73,
+   "dur_s": 8.1,
+   "brilho_ini": 118.6,
+   "brilho_fim": 105.6,
+   "saturacao_ini": 12.2,
+   "saturacao_fim": 16.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 10,
+   "inicio_s": 70.73,
+   "fim_s": 78.57,
+   "dur_s": 7.84,
+   "brilho_ini": 97.5,
+   "brilho_fim": 79.3,
+   "saturacao_ini": 13.0,
+   "saturacao_fim": 17.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 11,
+   "inicio_s": 78.57,
+   "fim_s": 86.3,
+   "dur_s": 7.73,
+   "brilho_ini": 63.5,
+   "brilho_fim": 68.2,
+   "saturacao_ini": 15.7,
+   "saturacao_fim": 17.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 12,
+   "inicio_s": 86.3,
+   "fim_s": 94.3,
+   "dur_s": 8.0,
+   "brilho_ini": 75.0,
+   "brilho_fim": 69.4,
+   "saturacao_ini": 3.6,
+   "saturacao_fim": 4.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 13,
+   "inicio_s": 94.3,
+   "fim_s": 101.67,
+   "dur_s": 7.37,
+   "brilho_ini": 72.5,
+   "brilho_fim": 62.3,
+   "saturacao_ini": 4.6,
+   "saturacao_fim": 7.2,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 14,
+   "inicio_s": 101.67,
+   "fim_s": 110.57,
+   "dur_s": 8.9,
+   "brilho_ini": 58.7,
+   "brilho_fim": 57.2,
+   "saturacao_ini": 5.4,
+   "saturacao_fim": 7.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 15,
+   "inicio_s": 110.57,
+   "fim_s": 126.13,
+   "dur_s": 15.56,
+   "brilho_ini": 55.4,
+   "brilho_fim": 42.8,
+   "saturacao_ini": 10.1,
+   "saturacao_fim": 10.0,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 16,
+   "inicio_s": 126.13,
+   "fim_s": 135.2,
+   "dur_s": 9.07,
+   "brilho_ini": 70.1,
+   "brilho_fim": 61.0,
+   "saturacao_ini": 8.4,
+   "saturacao_fim": 11.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 17,
+   "inicio_s": 135.2,
+   "fim_s": 142.7,
+   "dur_s": 7.5,
+   "brilho_ini": 73.6,
+   "brilho_fim": 63.3,
+   "saturacao_ini": 10.0,
+   "saturacao_fim": 15.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 18,
+   "inicio_s": 142.7,
+   "fim_s": 150.5,
+   "dur_s": 7.8,
+   "brilho_ini": 75.1,
+   "brilho_fim": 66.8,
+   "saturacao_ini": 5.9,
+   "saturacao_fim": 8.2,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 19,
+   "inicio_s": 150.5,
+   "fim_s": 158.23,
+   "dur_s": 7.73,
+   "brilho_ini": 73.1,
+   "brilho_fim": 67.1,
+   "saturacao_ini": 11.1,
+   "saturacao_fim": 15.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 20,
+   "inicio_s": 158.23,
+   "fim_s": 166.03,
+   "dur_s": 7.8,
+   "brilho_ini": 65.3,
+   "brilho_fim": 64.7,
+   "saturacao_ini": 11.8,
+   "saturacao_fim": 18.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 21,
+   "inicio_s": 166.03,
+   "fim_s": 174.0,
+   "dur_s": 7.97,
+   "brilho_ini": 87.5,
+   "brilho_fim": 78.7,
+   "saturacao_ini": 25.4,
+   "saturacao_fim": 30.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 22,
+   "inicio_s": 174.0,
+   "fim_s": 182.9,
+   "dur_s": 8.9,
+   "brilho_ini": 64.9,
+   "brilho_fim": 59.9,
+   "saturacao_ini": 6.7,
+   "saturacao_fim": 7.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 23,
+   "inicio_s": 182.9,
+   "fim_s": 199.33,
+   "dur_s": 16.43,
+   "brilho_ini": 33.2,
+   "brilho_fim": 56.6,
+   "saturacao_ini": 5.4,
+   "saturacao_fim": 10.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 24,
+   "inicio_s": 199.33,
+   "fim_s": 207.1,
+   "dur_s": 7.77,
+   "brilho_ini": 80.4,
+   "brilho_fim": 77.2,
+   "saturacao_ini": 6.9,
+   "saturacao_fim": 11.5,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 25,
+   "inicio_s": 207.1,
+   "fim_s": 215.37,
+   "dur_s": 8.27,
+   "brilho_ini": 84.4,
+   "brilho_fim": 69.5,
+   "saturacao_ini": 9.4,
+   "saturacao_fim": 6.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 26,
+   "inicio_s": 215.37,
+   "fim_s": 222.07,
+   "dur_s": 6.7,
+   "brilho_ini": 54.3,
+   "brilho_fim": 58.7,
+   "saturacao_ini": 4.8,
+   "saturacao_fim": 5.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 27,
+   "inicio_s": 222.07,
+   "fim_s": 229.43,
+   "dur_s": 7.36,
+   "brilho_ini": 68.7,
+   "brilho_fim": 66.6,
+   "saturacao_ini": 4.7,
+   "saturacao_fim": 5.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 28,
+   "inicio_s": 229.43,
+   "fim_s": 238.0,
+   "dur_s": 8.57,
+   "brilho_ini": 83.1,
+   "brilho_fim": 77.7,
+   "saturacao_ini": 4.8,
+   "saturacao_fim": 7.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 29,
+   "inicio_s": 238.0,
+   "fim_s": 246.1,
+   "dur_s": 8.1,
+   "brilho_ini": 46.0,
+   "brilho_fim": 60.6,
+   "saturacao_ini": 6.2,
+   "saturacao_fim": 11.0,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 30,
+   "inicio_s": 246.1,
+   "fim_s": 254.83,
+   "dur_s": 8.73,
+   "brilho_ini": 81.5,
+   "brilho_fim": 80.4,
+   "saturacao_ini": 6.2,
+   "saturacao_fim": 8.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 31,
+   "inicio_s": 254.83,
+   "fim_s": 264.17,
+   "dur_s": 9.34,
+   "brilho_ini": 85.1,
+   "brilho_fim": 76.2,
+   "saturacao_ini": 7.2,
+   "saturacao_fim": 9.2,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 32,
+   "inicio_s": 264.17,
+   "fim_s": 273.4,
+   "dur_s": 9.23,
+   "brilho_ini": 55.1,
+   "brilho_fim": 41.1,
+   "saturacao_ini": 4.8,
+   "saturacao_fim": 5.4,
+   "cortes_internos_s": []
+  }
+ ],
+ "cortes_bruscos_s": [
+  7.33,
+  15.0,
+  22.33,
+  30.87,
+  38.63,
+  45.93,
+  53.67,
+  62.63,
+  70.73,
+  78.57,
+  86.3,
+  94.3,
+  101.67,
+  110.57,
+  126.13,
+  135.2,
+  142.7,
+  150.5,
+  158.23,
+  166.03,
+  174.0,
+  182.9,
+  199.33,
+  207.1,
+  215.37,
+  222.07,
+  229.43,
+  238.0,
+  246.1,
+  254.83,
+  264.17
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 888,
+  "palavras_ouvidas": 940,
+  "taxa_acerto": 0.031,
+  "erros": [
+   {
+    "roteiro": "half of this river falls into",
+    "ouvido": "ha uma parte do rio que caiu em um colo no rock os rios saem os flores saem para as generacoes ninguem encontrou onde qualquer coisa veio nao e"
+   },
+   {
+    "roteiro": "secret tonight we visit four of them from",
+    "ouvido": "parte estranha"
+   },
+   {
+    "roteiro": "river that swallows itself",
+    "ouvido": "descanse nao o jeito que um pudel se descer no sol ele se descanse como se alguem tivesse apagado o segredo e na sala de leste as ruas estao sendo levadas"
+   },
+   {
+    "roteiro": "log that has floated upright for over",
+    "ouvido": "oldes lavatuzes quando o nivel descanse o watero se descanse quietamente como um tubo de batata se descanse em lateo de som o leste e uma metode rica e se descanse em um rio e um rio e se descanse de ano"
+   },
+   {
+    "roteiro": "century",
+    "ouvido": "ano aqui e"
+   },
+   {
+    "roteiro": "lake that drains away every summer and",
+    "ouvido": "torre o leste nao desaparece o rio de lavado esta dentro de um tubo de batata e funciona como um esponjo gigante os cientistas pensam que o watero sepira por as montanhas e se joinsa"
+   },
+   {
+    "roteiro": "fire that burns behind",
+    "ouvido": "reserva de por no sol o mesmo tipo que se enfri"
+   },
+   {
+    "roteiro": "waterfall some riddles have answers now one answer was hiding in plain sight the whole time but the first secret floats quietly in the deepest lake in america crater lake in oregon fills the broken top of an ancient volcano its water is so deep and clear that the blue looks almost like ink out on that water drifts",
+    "ouvido": "espanha e as ruas descer entao o leste e uma porta nao uma envergonha o nosso proximo leste tambem se descanse mas o que vem de fora nao e watero e fogo em um parque quieto no numero do oeste uma ria descanse sobre uma roda grama e um fogo de pequeno o tipo que voce pode facilmente viajar ate voce veja o watero descanse com um fogo pequeno no rodo o fogo se descanse ele fica lido enquanto o watero se passa nao e magia o gaso natural liga por as ruas no rodo e quando e lido pode se descanse por longas estrelas por raio fogo e spray quando e possivel os visitantes se reenvistam em vento o fogo pode se descanse por um curto de azeite como um lancho escuro escuro no fogo as cemis de gaso sao comuns aqui mas quando os cientistas mesmaram essa eles tem um numero de efeitos de alta em alta e de propao as gasas sao usadas em um rodo muito fio mas o rodo beneath esses fogos provavelmente nao era fio para cozinhar gaso assim com as regioes de usual este fogo nao deveria existir as investigantes disseram que o fogo poderia se formar de outra maneira atraves de um processo mais rapido e mais cooler ou viajar de longe"
+   },
+   {
+    "roteiro": "tree trunk it does not lie flat like",
+    "ouvido": "ideia ainda esta testada o fogo escuro e o agua sao estranhosos mas"
+   },
+   {
+    "roteiro": "normal log it floats straight up and down like",
+    "ouvido": "ultima misteria e estranha e um rio que parece que se descanse para"
+   },
+   {
+    "roteiro": "fence post people call it the old man of the lake it is",
+    "ouvido": "terra e nunca se retorna em as ruas do noro de minasota perto do superior do lancho"
+   },
+   {
+    "roteiro": "mountain hemlock about thirty feet long with only its bleached top above the surface a geologist first described it over a century ago pushed by the wind it still wanders the lake sometimes drifting for miles always standing straight but here is the strange part most fallen logs slowly soak up water and sink this one has stayed afloat through more than a hundred winters stones probably trapped in its roots keep the bottom heavy why it never sinks is still debated the icy clean water may slow its decay some rangers say storms roll in whenever the old man is tied down it is only folklore our next lake has a stranger habit it disappears high in the oregon cascades lost lake looks ordinary in spring snowmelt fills it pine trees ring the water ducks rest on its calm surface but as summer arrives the water starts to drop not the way a puddle dries in the sun it drains away as if someone pulled a plug the secret is in the lakebed holes leading into old lava tubes as the level falls water swirls quietly into them like a bathtub draining into stone by late summer the lake is often a dry meadow full of wildflowers then rain and snow return and it fills again year after year here is the turn the lake is not really disappearing the lava rock beneath it is full of cracks and tubes and it works like a giant sponge scientists think the water seeps through the mountains and joins hidden underground reservoirs the same kind that feed icy springs and rivers lower down so the lake is a doorway not an ending our next mystery also hides underground but what comes out of it is not water it is fire in a quiet park in western new york a creek spills over layered gray rock it is a small waterfall the kind you could easily walk past until you look behind the falling water tucked in a small hollow in the rock a flame is burning it stays lit while water pours past it it is not magic natural gas leaks through cracks in the rock and once lit it can burn for long stretches through rain snow and spray when it does go out visitors usually relight it in winter the flame can glow behind a curtain of ice like a lantern hidden in the falls gas seeps are common here but when scientists measured this one it held unusually high amounts of ethane and propane gases usually made in very hot rock but the rock beneath these falls was likely never hot enough to cook gas like that by the usual rules this flame should not exist researchers suggested the gas may form another way through a slower process in cooler rock or travel from far below the idea is still being tested fire hidden in water is strange but our last mystery is stranger it is a river that seems to fall into the earth and never come back in the woods of northern minnesota near lake superior the brool river rushes through a rocky",
+    "ouvido": "rio brulha se rola por um"
+   },
+   {
+    "roteiro": "toward a waterfall named",
+    "ouvido": "roco contra um fogo de agua chamado de"
+   },
+   {
+    "roteiro": "at the top of the falls",
+    "ouvido": "ao topo dos fogos um nobre de roco dificil explica o rio em dois uma parte descanse normalmente em um pao embaixo"
+   },
+   {
+    "roteiro": "knob of hard rock splits the river in two one half tumbles down normally into",
+    "ouvido": "outra parte se descanse para um roco em um alto alto e ai parece que se descanse completamente como se o fogo se descanse para os anos os visitantes curiosos se descansem de estes e flores as historias dizem que nenhum de nos nunca apareceu no final ou no lancho entao onde o fogo se descanse muitas imagina um tunnel negro para o superior do lancho mas isso e um roco de volcanico nao e um lancho e depois ha dez anos os cientistas rigidos tentaram algo simples eles me ajudaram"
+   },
+   {
+    "roteiro": "pool below the other half plunges into a deep round hole in the rock and there it seems to vanish completely as if the stone has swallowed it for years curious visitors tossed in sticks and floating balls the stories say none of it ever showed up again downstream or in the great lake so where does the water go many imagined a hidden tunnel to lake superior but this is hard volcanic rock not limestone it does not form caves then about ten years ago river scientists tried something simple they measured how much water flowed above the falls and how much flowed below them the numbers were almost",
+    "ouvido": "ver como o fogo se descanse por cima dos fogos e como se descanse por baixo deles os numeros eram quase"
+   },
+   {
+    "roteiro": "nothing was being lost the",
+    "ouvido": "nada estava sendo descanse o"
+   },
+   {
+    "roteiro": "the river",
+    "ouvido": "o rio"
+   },
+   {
+    "roteiro": "in the churning pool just downstream some still want a dye test but the river was never swallowed its secret was hiding where nobody looked in plain sight just below the falls",
+    "ouvido": "em um pao de churno so em baixo alguns ainda querem um testemunho mas o rio nunca se descanse o seu secretario foi escondido onde ninguem estava em um lugar plenario apenas embaixo dos fogos"
+   }
+  ],
+  "suspeitas": [],
+  "duvidosas": [
+   "uma",
+   "parte",
+   "do",
+   "rio",
+   "caiu",
+   "em",
+   "um",
+   "colo",
+   "no",
+   "rock.",
+   "Os",
+   "rios",
+   "saem,",
+   "os",
+   "flores",
+   "Para",
+   "as",
+   "qualquer",
+   "coisa",
+   "veio.",
+   "única",
+   "que",
+   "tem",
+   "um",
+   "Hoje",
+   "visitamos",
+   "de",
+   "do",
+   "rio",
+   "estranho"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "half of this river falls into",
+    "ouvido": "ha uma parte do rio que caiu em um colo no rock os rios saem os flores saem para as generacoes ninguem encontrou onde qualquer coisa veio nao e"
+   },
+   {
+    "roteiro": "secret tonight we visit four of them from",
+    "ouvido": "parte estranha"
+   },
+   {
+    "roteiro": "river that swallows itself",
+    "ouvido": "descanse nao o jeito que um pudel se descer no sol ele se descanse como se alguem tivesse apagado o segredo e na sala de leste as ruas estao sendo levadas"
+   },
+   {
+    "roteiro": "log that has floated upright for over",
+    "ouvido": "oldes lavatuzes quando o nivel descanse o watero se descanse quietamente como um tubo de batata se descanse em lateo de som o leste e uma metode rica e se descanse em um rio e um rio e se descanse de ano"
+   },
+   {
+    "roteiro": "century",
+    "ouvido": "ano aqui e"
+   },
+   {
+    "roteiro": "lake that drains away every summer and",
+    "ouvido": "torre o leste nao desaparece o rio de lavado esta dentro de um tubo de batata e funciona como um esponjo gigante os cientistas pensam que o watero sepira por as montanhas e se joinsa"
+   },
+   {
+    "roteiro": "fire that burns behind",
+    "ouvido": "reserva de por no sol o mesmo tipo que se enfri"
+   },
+   {
+    "roteiro": "waterfall some riddles have answers now one answer was hiding in plain sight the whole time but the first secret floats quietly in the deepest lake in america crater lake in oregon fills the broken top of an ancient volcano its water is so deep and clear that the blue looks almost like ink out on that water drifts",
+    "ouvido": "espanha e as ruas descer entao o leste e uma porta nao uma envergonha o nosso proximo leste tambem se descanse mas o que vem de fora nao e watero e fogo em um parque quieto no numero do oeste uma ria descanse sobre uma roda grama e um fogo de pequeno o tipo que voce pode facilmente viajar ate voce veja o watero descanse com um fogo pequeno no rodo o fogo se descanse ele fica lido enquanto o watero se passa nao e magia o gaso natural liga por as ruas no rodo e quando e lido pode se descanse por longas estrelas por raio fogo e spray quando e possivel os visitantes se reenvistam em vento o fogo pode se descanse por um curto de azeite como um lancho escuro escuro no fogo as cemis de gaso sao comuns aqui mas quando os cientistas mesmaram essa eles tem um numero de efeitos de alta em alta e de propao as gasas sao usadas em um rodo muito fio mas o rodo beneath esses fogos provavelmente nao era fio para cozinhar gaso assim com as regioes de usual este fogo nao deveria existir as investigantes disseram que o fogo poderia se formar de outra maneira atraves de um processo mais rapido e mais cooler ou viajar de longe"
+   },
+   {
+    "roteiro": "tree trunk it does not lie flat like",
+    "ouvido": "ideia ainda esta testada o fogo escuro e o agua sao estranhosos mas"
+   },
+   {
+    "roteiro": "normal log it floats straight up and down like",
+    "ouvido": "ultima misteria e estranha e um rio que parece que se descanse para"
+   },
+   {
+    "roteiro": "fence post people call it the old man of the lake it is",
+    "ouvido": "terra e nunca se retorna em as ruas do noro de minasota perto do superior do lancho"
+   },
+   {
+    "roteiro": "mountain hemlock about thirty feet long with only its bleached top above the surface a geologist first described it over a century ago pushed by the wind it still wanders the lake sometimes drifting for miles always standing straight but here is the strange part most fallen logs slowly soak up water and sink this one has stayed afloat through more than a hundred winters stones probably trapped in its roots keep the bottom heavy why it never sinks is still debated the icy clean water may slow its decay some rangers say storms roll in whenever the old man is tied down it is only folklore our next lake has a stranger habit it disappears high in the oregon cascades lost lake looks ordinary in spring snowmelt fills it pine trees ring the water ducks rest on its calm surface but as summer arrives the water starts to drop not the way a puddle dries in the sun it drains away as if someone pulled a plug the secret is in the lakebed holes leading into old lava tubes as the level falls water swirls quietly into them like a bathtub draining into stone by late summer the lake is often a dry meadow full of wildflowers then rain and snow return and it fills again year after year here is the turn the lake is not really disappearing the lava rock beneath it is full of cracks and tubes and it works like a giant sponge scientists think the water seeps through the mountains and joins hidden underground reservoirs the same kind that feed icy springs and rivers lower down so the lake is a doorway not an ending our next mystery also hides underground but what comes out of it is not water it is fire in a quiet park in western new york a creek spills over layered gray rock it is a small waterfall the kind you could easily walk past until you look behind the falling water tucked in a small hollow in the rock a flame is burning it stays lit while water pours past it it is not magic natural gas leaks through cracks in the rock and once lit it can burn for long stretches through rain snow and spray when it does go out visitors usually relight it in winter the flame can glow behind a curtain of ice like a lantern hidden in the falls gas seeps are common here but when scientists measured this one it held unusually high amounts of ethane and propane gases usually made in very hot rock but the rock beneath these falls was likely never hot enough to cook gas like that by the usual rules this flame should not exist researchers suggested the gas may form another way through a slower process in cooler rock or travel from far below the idea is still being tested fire hidden in water is strange but our last mystery is stranger it is a river that seems to fall into the earth and never come back in the woods of northern minnesota near lake superior the brool river rushes through a rocky",
+    "ouvido": "rio brulha se rola por um"
+   },
+   {
+    "roteiro": "toward a waterfall named",
+    "ouvido": "roco contra um fogo de agua chamado de"
+   },
+   {
+    "roteiro": "at the top of the falls",
+    "ouvido": "ao topo dos fogos um nobre de roco dificil explica o rio em dois uma parte descanse normalmente em um pao embaixo"
+   },
+   {
+    "roteiro": "knob of hard rock splits the river in two one half tumbles down normally into",
+    "ouvido": "outra parte se descanse para um roco em um alto alto e ai parece que se descanse completamente como se o fogo se descanse para os anos os visitantes curiosos se descansem de estes e flores as historias dizem que nenhum de nos nunca apareceu no final ou no lancho entao onde o fogo se descanse muitas imagina um tunnel negro para o superior do lancho mas isso e um roco de volcanico nao e um lancho e depois ha dez anos os cientistas rigidos tentaram algo simples eles me ajudaram"
+   },
+   {
+    "roteiro": "pool below the other half plunges into a deep round hole in the rock and there it seems to vanish completely as if the stone has swallowed it for years curious visitors tossed in sticks and floating balls the stories say none of it ever showed up again downstream or in the great lake so where does the water go many imagined a hidden tunnel to lake superior but this is hard volcanic rock not limestone it does not form caves then about ten years ago river scientists tried something simple they measured how much water flowed above the falls and how much flowed below them the numbers were almost",
+    "ouvido": "ver como o fogo se descanse por cima dos fogos e como se descanse por baixo deles os numeros eram quase"
+   },
+   {
+    "roteiro": "nothing was being lost the",
+    "ouvido": "nada estava sendo descanse o"
+   },
+   {
+    "roteiro": "the river",
+    "ouvido": "o rio"
+   },
+   {
+    "roteiro": "in the churning pool just downstream some still want a dye test but the river was never swallowed its secret was hiding where nobody looked in plain sight just below the falls",
+    "ouvido": "em um pao de churno so em baixo alguns ainda querem um testemunho mas o rio nunca se descanse o seu secretario foi escondido onde ninguem estava em um lugar plenario apenas embaixo dos fogos"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg",
+  "folha_5.jpg",
+  "folha_6.jpg",
+  "folha_7.jpg",
+  "folha_8.jpg",
+  "folha_9.jpg",
+  "folha_10.jpg",
+  "folha_11.jpg",
+  "folha_12.jpg",
+  "folha_13.jpg",
+  "folha_14.jpg",
+  "folha_15.jpg",
+  "folha_16.jpg",
+  "folha_17.jpg",
+  "folha_18.jpg",
+  "folha_19.jpg",
+  "folha_20.jpg",
+  "folha_21.jpg",
+  "folha_22.jpg",
+  "folha_23.jpg"
+ ]
+}

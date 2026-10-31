@@ -1,0 +1,197 @@
+{
+ "nota": 7.0,
+ "resumo": "Documentário bem medido e sem falhas de áudio, mas o tronco do Old Man muda de forma, a queda dividida nunca mostra o buraco e ainda exibe a caverna que a narração nega, e há saltos de cor nas emendas dos clipes.",
+ "problemas": [
+  {
+   "segundo": 215.4,
+   "cena": 26,
+   "tipo": "visual",
+   "gravidade": "alta",
+   "descricao": "A imagem-chave do último capítulo não mostra o enigma: as duas quedas caem na mesma lagoa calma, sem o buraco redondo na metade direita. Entre elas aparece uma boca de caverna escura em arco. A mesma imagem fecha o vídeo (cena 32, 264,2 s a 273,4 s), logo depois de a narração dizer aos 3:58 que essa rocha não forma cavernas.",
+   "causa": "O modelo não obedece ao prompt 'right half pouring into a deep round black hole': ele transforma o buraco em túnel na rocha. As cenas 28 e 34 do roteiro (26 e 32 aqui) usam o mesmo prompt e as duas estão na lista refeita de rodada.json, com o mesmo defeito.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 45.9,
+   "cena": 7,
+   "tipo": "visual",
+   "gravidade": "media",
+   "descricao": "O Old Man vira outro objeto: na cena 6 é um tronco único e reto; aqui são dois troncos fundidos, grossos e inclinados. A troca vem logo depois de 'straight up and down, like a fence post' e dura até 53,7 s.",
+   "causa": "No close, a geração reinventou o tronco, sem referência visual da cena anterior.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 33.5,
+   "cena": 5,
+   "tipo": "visual",
+   "gravidade": "media",
+   "descricao": "Salto dentro da cena na emenda dos clipes: de um quadro para o outro, contraste, nuvens e rochas mudam, e o lago fica mais escuro. Repete em 36,0 s (cena 5), 73,8 s (cena 10: a luz muda e o gelo ganha outra forma), 85,0 s (cena 11: céu rosa e tronco alaranjado), 168,5 s (cena 21: o gelo se rearranja) e 258,5 s (cena 31: a queda pula para a direita).",
+   "causa": "Cada cena é feita de 3 clipes encadeados por quadro-ponte. O detector não acusa esses saltos: cortes_internos_s está vazio em todas as cenas.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 15.0,
+   "cena": 3,
+   "tipo": "visual",
+   "gravidade": "media",
+   "descricao": "Brilho deriva mais de 15% dentro das cenas: cena 3 +26%, 6 -15%, 8 -22%, 10 -19%, 25 -18%, 29 +32%. A saturação sobe do início ao fim em 30 das 32 cenas, e o fim das cenas fica com pretos esmagados e reflexos estourados (por exemplo, a lagoa em 4:12).",
+   "causa": "O encadeamento de clipes acumula contraste e saturação a cada ponte, de forma sistemática no vídeo.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 0.0,
+   "cena": 1,
+   "tipo": "visual",
+   "gravidade": "media",
+   "descricao": "No gancho, a coluna de água entra pelo topo do quadro e cai num buraco quase perfeito em chão plano e seco. Nenhum rio é visível, embora a narração diga 'half of this river', e o poço parece um bueiro. A cena 27 (222,1 s) repete o enquadramento.",
+   "causa": "O prompt das duas cenas descreve só o buraco e a água, sem rio, borda nem queda em volta.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 150.5,
+   "cena": 19,
+   "tipo": "visual",
+   "gravidade": "media",
+   "descricao": "A narração pede para olhar atrás da água e fala de uma chama numa pequena cavidade, mas a imagem mostra uma chama grande sobre uma laje aberta, na frente da queda. Na cena 24 (199,3 s), 'Fire hidden in water' sai com a chama sobre rocha, sem cortina de água à vista.",
+   "causa": "O prompt pede 'water falling behind it', o inverso da narração.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 70.7,
+   "cena": 10,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "No lugar de água clara batendo na rocha aparece um grande disco de gelo azul, que muda de contorno ao longo da cena.",
+   "causa": "O modelo tomou 'ice-cold' ao pé da letra.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 101.7,
+   "cena": 14,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "A narração fala de água girando para dentro do buraco, como numa banheira, mas a imagem mostra uma poça parada no fundo do poço, com ondas concêntricas e sem redemoinho. Surgem pontinhos laranja e azuis nas pedras a partir de 105 s.",
+   "causa": "O modelo de vídeo não sustenta o redemoinho pedido.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 113.5,
+   "cena": 15,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "Hastes altas de capim surgem no primeiro plano do prado na emenda do clipe. O prado também tem poucas flores para 'full of wildflowers'.",
+   "causa": "Objeto novo inventado no clipe seguinte.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 124.5,
+   "cena": 15,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "Lampejo no canto superior esquerdo da rocha porosa: em 2:04,5 a área fica azulada e volta ao normal em 2:05,0.",
+   "causa": "Instabilidade na geração do clipe; visto em um único quadro da folha.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 190.5,
+   "cena": 23,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "As camadas de xisto parecem um muro de blocos com faixas de musgo. O plano fica escuro e quase parado por 8,8 s, sem o movimento lateral pedido.",
+   "causa": "Prompt de textura com bandas horizontais, que o modelo regularizou.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 0.0,
+   "cena": 1,
+   "tipo": "tecnico",
+   "gravidade": "media",
+   "descricao": "A comparação de narração do medidas.json não vale: taxa_acerto 0,031 e todos os erros e duvidosas vêm de uma transcrição em português de uma narração em inglês. Ela traz resíduos do inglês ('watero', 'beneath', 'cooler'). Os erros não foram contados contra a voz nem aplicaram o teto de nota 6.",
+   "causa": "O inspetor rodou com o idioma padrão pt. A conferência por cena em inglês (narracao_cenas.json) deu acerto 1,0 em 33 das 34 cenas; a única divergência é 'brool'/'brule', a grafia fonética do rio Brule, que saiu certa. Essa conferência é das tomadas, não da mixagem final.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 110.6,
+   "cena": 15,
+   "tipo": "tecnico",
+   "gravidade": "baixa",
+   "descricao": "O inspetor perdeu dois cortes reais, em 118,1 s e 190,5 s. Por isso as cenas 15 e 23 aparecem com 15,6 s e 16,4 s, mas são duas cenas cada, e os números de brilho delas não valem.",
+   "causa": "As cenas vieram da detecção de cortes, que falha entre planos escuros. Da cena 16 em diante a numeração daqui fica atrás da do roteiro (1 cena até a 22, 2 cenas da 24 em diante).",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 0.0,
+   "cena": 1,
+   "tipo": "ritmo",
+   "gravidade": "baixa",
+   "descricao": "São 888 palavras em 273,4 s, ou 3,25 palavras por segundo, acima da faixa de 2,3 a 3,0 e rápido para o tom calmo pedido. A narração usa todo o tempo de cada cena de 8 s.",
+   "causa": "Densidade do roteiro em relação à duração.",
+   "origem": "pipeline"
+  }
+ ],
+ "refazer": [],
+ "licoes": [
+  {
+   "tipo_assunto": "natureza",
+   "alvo": "roteiro",
+   "regra": "Confira cada imagem contra o que a narração nega: se o texto diz que algo não existe, o prompt deve proibir isso, e a imagem não pode mostrá-lo."
+  },
+  {
+   "tipo_assunto": "natureza",
+   "alvo": "roteiro",
+   "regra": "Em lugar físico, o prompt descreve o contexto em volta do assunto (de onde a água vem, para onde vai), não só o detalhe em close."
+  },
+  {
+   "tipo_assunto": "natureza",
+   "alvo": "geracao",
+   "regra": "Quando duas partes do quadro precisam ter destinos diferentes (metade cai na lagoa, metade no buraco), o modelo tende a igualá-las: gere em planos separados."
+  },
+  {
+   "tipo_assunto": "geral",
+   "alvo": "geracao",
+   "regra": "Assunto recorrente precisa de imagem de referência entre cenas; sem ela, o close reinventa o objeto do plano aberto."
+  },
+  {
+   "tipo_assunto": "geral",
+   "alvo": "geracao",
+   "regra": "Adjetivo de textura ou temperatura vira objeto na imagem ('ice-cold' gera gelo): descreva o que deve aparecer, não a sensação."
+  },
+  {
+   "tipo_assunto": "geral",
+   "alvo": "montagem",
+   "regra": "Clipes encadeados por quadro-ponte precisam de correção de cor pelo quadro inicial da cena, senão contraste e saturação sobem a cada emenda."
+  }
+ ],
+ "pipeline": [
+  {
+   "onde": "inspecionar.py, chamada da inspeção",
+   "mudanca": "Passar --idioma en nos vídeos em inglês, de preferência lendo o idioma do roteiro.",
+   "motivo": "Com pt, o Whisper devolve uma tradução, e os erros e a taxa de acerto não medem a voz."
+  },
+  {
+   "onde": "montagem dos clipes de cada cena",
+   "mudanca": "Igualar a cor de cada clipe ao primeiro clipe da cena e usar uma fusão curta nas emendas.",
+   "motivo": "Saltos e deriva de brilho e saturação aparecem no vídeo todo."
+  },
+  {
+   "onde": "prompts das cenas 28 e 34 do roteiro",
+   "mudanca": "Trocar a tentativa de mostrar queda e buraco num plano só por dois planos, ou uma imagem real licenciada, e incluir 'no cave, no tunnel, no arch' no negativo.",
+   "motivo": "A rodada 3 refez essas cenas com o mesmo prompt e o defeito continua; refazer de novo não resolve."
+  },
+  {
+   "onde": "prompts das cenas 1 e 29 do roteiro",
+   "mudanca": "Descrever o rio correndo sobre a rocha até a borda do buraco.",
+   "motivo": "Sem o rio, a água vem de lugar nenhum, justo no gancho."
+  },
+  {
+   "onde": "prompts das cenas 20 e 26 do roteiro",
+   "mudanca": "Colocar a cortina de água entre a câmera e a chama, numa cavidade da rocha.",
+   "motivo": "O prompt atual põe a água atrás da chama, o inverso da narração."
+  },
+  {
+   "onde": "roteiro passado à inspeção",
+   "mudanca": "Incluir dur_s por cena, vindo de narracao_cenas.json.",
+   "motivo": "Assim as cenas seguem o roteiro; a detecção de cortes perdeu duas fronteiras."
+  }
+ ]
+}

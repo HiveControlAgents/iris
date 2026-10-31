@@ -1,0 +1,264 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "This Vampire Fish Is Older Than the Dinosaurs",
+ "tema": "Why the lamprey, a jawless and boneless 'vampire fish' that starts life blind in the mud, is older than the dinosaurs",
+ "estilo_visual": "award-winning photorealistic underwater nature photography, natural light, clear water, shallow depth of field, sharp focus",
+ "inspecionado_em": "2026-10-31T08:15:12",
+ "video": {
+  "duracao_s": 47.4,
+  "tamanho_mb": 29.3,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -15.3,
+  "pico_dbfs": -1.4,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 3.7,
+   "dur_s": 3.7,
+   "brilho_ini": 98.4,
+   "brilho_fim": 93.7,
+   "saturacao_ini": 12.8,
+   "saturacao_fim": 15.5,
+   "cortes_internos_s": [],
+   "narracao": "This fish has no jaws, no bones, and it outlived the dinosaurs.",
+   "palavras_por_s": 3.24,
+   "quadro": "Close view of only the middle section of a very long smooth wet eel body, thick as a garden hose, mottled olive-brown skin with no scales, no head visible, no tail visible, no fins, the body enters and leaves the frame, lying in loose loops over smooth rounded river stones in clear shallow sunlit water",
+   "movimento": "slow push-in, water ripples softly over the stones"
+  },
+  {
+   "n": 2,
+   "inicio_s": 3.7,
+   "fim_s": 8.57,
+   "dur_s": 4.87,
+   "brilho_ini": 91.5,
+   "brilho_fim": 88.9,
+   "saturacao_ini": 12.0,
+   "saturacao_fim": 15.2,
+   "cortes_internos_s": [],
+   "narracao": "It is called the lamprey. Its mouth is a round sucker, lined with rings of teeth.",
+   "palavras_por_s": 3.29,
+   "quadro": "Macro underwater photograph of a wet living gray-pink fleshy mouth disc pressed against aquarium glass, irregular natural skin folds and slime, hundreds of sharp yellow-brown hooked teeth in uneven concentric rings around a dark round throat, no eyes, no face, dark blurred water behind",
+   "movimento": "very slow push-in, tiny particles drift in the water"
+  },
+  {
+   "n": 3,
+   "inicio_s": 8.57,
+   "fim_s": 14.77,
+   "dur_s": 6.2,
+   "brilho_ini": 84.0,
+   "brilho_fim": 93.6,
+   "saturacao_ini": 16.7,
+   "saturacao_fim": 20.8,
+   "cortes_internos_s": [],
+   "narracao": "Many adults latch onto living fish and slowly drink their blood. No wonder people call them vampire fish.",
+   "palavras_por_s": 2.9,
+   "quadro": "Close view of the silver scaled flank of a large lake trout in clear blue-green lake water, a small round red wound mark on its side, soft light from above, only the side of the trout visible, no head visible",
+   "movimento": "gentle drift alongside, light shimmers on the water"
+  },
+  {
+   "n": 4,
+   "inicio_s": 14.77,
+   "fim_s": 20.2,
+   "dur_s": 5.43,
+   "brilho_ini": 109.1,
+   "brilho_fim": 97.3,
+   "saturacao_ini": 18.0,
+   "saturacao_fim": 21.7,
+   "cortes_internos_s": [],
+   "narracao": "But they do not start as vampires. Baby lampreys are blind, toothless, and hide in the mud.",
+   "palavras_por_s": 3.13,
+   "quadro": "Soft brown river mud under clear calm water, small round burrow holes in the mud, fine sand grains, no animals visible",
+   "movimento": "fine silt drifts slowly over the mud"
+  },
+  {
+   "n": 5,
+   "inicio_s": 20.2,
+   "fim_s": 24.8,
+   "dur_s": 4.6,
+   "brilho_ini": 79.3,
+   "brilho_fim": 95.3,
+   "saturacao_ini": 10.4,
+   "saturacao_fim": 13.7,
+   "cortes_internos_s": [],
+   "narracao": "Buried in a riverbed, they filter tiny bits of food from the water for several years.",
+   "palavras_por_s": 3.48,
+   "quadro": "The muddy bed of a calm shallow stream underwater at dawn, rounded pebbles, fallen leaves, small round burrow holes in the mud, clear water above, no animals visible",
+   "movimento": "water ripples gently over the streambed"
+  },
+  {
+   "n": 6,
+   "inicio_s": 24.8,
+   "fim_s": 30.33,
+   "dur_s": 5.53,
+   "brilho_ini": 128.4,
+   "brilho_fim": 107.5,
+   "saturacao_ini": 19.3,
+   "saturacao_fim": 24.1,
+   "cortes_internos_s": [],
+   "narracao": "Then their bodies rebuild themselves. Eyes appear, teeth grow, and they swim away as hunters.",
+   "palavras_por_s": 2.71,
+   "quadro": "Close view of only the middle section of a very long smooth wet eel body, thick as a garden hose, silvery-gray skin with no scales, no head visible, no tail visible, no fins, the body enters and leaves the frame, gliding just above a sandy riverbed in clear water, sunlight dappling the sand",
+   "movimento": "slow gentle pan following the lamprey, sand grains drift"
+  },
+  {
+   "n": 7,
+   "inicio_s": 30.33,
+   "fim_s": 35.67,
+   "dur_s": 5.34,
+   "brilho_ini": 82.7,
+   "brilho_fim": 75.0,
+   "saturacao_ini": 21.2,
+   "saturacao_fim": 24.9,
+   "cortes_internos_s": [],
+   "narracao": "Lampreys already swam in ancient seas. That was long before the first dinosaur walked the Earth.",
+   "palavras_por_s": 3.0,
+   "quadro": "A deep ancient sea floor, a large weathered gray limestone rock covered in moss, sun rays filtering down through blue water, no animals visible",
+   "movimento": "light rays shimmer slowly through the water"
+  },
+  {
+   "n": 8,
+   "inicio_s": 35.67,
+   "fim_s": 41.2,
+   "dur_s": 5.53,
+   "brilho_ini": 69.0,
+   "brilho_fim": 73.3,
+   "saturacao_ini": 6.7,
+   "saturacao_fim": 8.9,
+   "cortes_internos_s": [],
+   "narracao": "Their skeleton is not bone. It is soft cartilage, the same flexible stuff inside your nose.",
+   "palavras_por_s": 2.89,
+   "quadro": "Seen from directly above, only the middle section of a very long smooth wet eel body, thick as a garden hose, mottled olive-brown skin with no scales, no head visible, no tail visible, no fins, the body enters and leaves the frame, bent in a gentle S curve on dark wet river stones in clear shallow water",
+   "movimento": "the body sways softly, water ripples"
+  },
+  {
+   "n": 9,
+   "inicio_s": 41.2,
+   "fim_s": 47.4,
+   "dur_s": 6.2,
+   "brilho_ini": 83.3,
+   "brilho_fim": 50.0,
+   "saturacao_ini": 14.4,
+   "saturacao_fim": 9.0,
+   "cortes_internos_s": [],
+   "narracao": "No jaws, no bones, a childhood in the mud. And this fish still outlived the dinosaurs.",
+   "palavras_por_s": 2.58,
+   "quadro": "Close view of only the middle section of a very long smooth wet eel body, thick as a garden hose, mottled olive-brown skin with no scales, no head visible, no tail visible, no fins, the body enters and leaves the frame, lying in loose loops over smooth rounded river stones in clear shallow water at golden hour, warm light",
+   "movimento": "slow push-in, water ripples softly over the stones"
+  }
+ ],
+ "cortes_bruscos_s": [
+  3.7,
+  8.57,
+  14.77,
+  20.2,
+  24.8,
+  30.33,
+  35.67,
+  41.2
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 142,
+  "palavras_ouvidas": 160,
+  "taxa_acerto": 0.02,
+  "erros": [
+   {
+    "roteiro": "this fish has",
+    "ouvido": "esse peixe nao tem jaz nao tem cem e ele nao vive os dinossores e chamado de lampri a sua boca e um suco de cor com rins de peixe muitos adultos lacham para o peixe e lentamente comem sua sangue nao se perda que as pessoas chamam eles de peixe de vampiro mas eles nao comecam como vampiros os lampris de peixe sao brancos tolos e escondidos"
+   },
+   {
+    "roteiro": "jaws",
+    "ouvido": "muro arrasados em uma cama de rio eles filtram um pouco de comida do water por varios anos e ai seus rios se rebuildam os rios aparecem os rios crescem e eles somam como apresentares os lampris ja se assustaram em antigos rios isso foi muito tempo antes que o primeiro dinossor morreu na terra seu skeleton nao e um bocadinho e um cartilhao sofre o mesmo tipo de coisa flexivel"
+   },
+   {
+    "roteiro": "bones and it outlived the dinosaurs it is called the lamprey its mouth is a round sucker lined with rings of teeth many adults latch onto living fish and slowly drink their blood",
+    "ouvido": "seu rio nao tem jaz nao tem cem um jovem"
+   },
+   {
+    "roteiro": "wonder people call them vampire fish but they do not start as vampires baby lampreys are blind toothless and hide in the mud buried in a riverbed they filter tiny bits of food from the water for several years then their bodies rebuild themselves eyes appear teeth grow and they swim away as hunters lampreys already swam in ancient seas that was long before the first dinosaur walked the earth their skeleton is not bone it is soft cartilage the same flexible stuff inside your nose no jaws no bones a childhood in the mud and this fish still outlived the dinosaurs",
+    "ouvido": "muro e esse peixe ainda vive os dinossores"
+   }
+  ],
+  "suspeitas": [],
+  "duvidosas": [
+   "Esse",
+   "peixe",
+   "não",
+   "jaz,",
+   "não",
+   "cem,",
+   "ele",
+   "não",
+   "vive",
+   "os",
+   "de",
+   "Lampri.",
+   "A",
+   "sua",
+   "boca",
+   "um",
+   "suco",
+   "de",
+   "cor,",
+   "com",
+   "rins",
+   "peixe.",
+   "lacham",
+   "para",
+   "lentamente",
+   "comem",
+   "sua",
+   "sangue.",
+   "Não",
+   "se"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "this fish has",
+    "ouvido": "esse peixe nao tem jaz nao tem cem e ele nao vive os dinossores e chamado de lampri a sua boca e um suco de cor com rins de peixe muitos adultos lacham para o peixe e lentamente comem sua sangue nao se perda que as pessoas chamam eles de peixe de vampiro mas eles nao comecam como vampiros os lampris de peixe sao brancos tolos e escondidos"
+   },
+   {
+    "roteiro": "jaws",
+    "ouvido": "muro arrasados em uma cama de rio eles filtram um pouco de comida do water por varios anos e ai seus rios se rebuildam os rios aparecem os rios crescem e eles somam como apresentares os lampris ja se assustaram em antigos rios isso foi muito tempo antes que o primeiro dinossor morreu na terra seu skeleton nao e um bocadinho e um cartilhao sofre o mesmo tipo de coisa flexivel"
+   },
+   {
+    "roteiro": "bones and it outlived the dinosaurs it is called the lamprey its mouth is a round sucker lined with rings of teeth many adults latch onto living fish and slowly drink their blood",
+    "ouvido": "seu rio nao tem jaz nao tem cem um jovem"
+   },
+   {
+    "roteiro": "wonder people call them vampire fish but they do not start as vampires baby lampreys are blind toothless and hide in the mud buried in a riverbed they filter tiny bits of food from the water for several years then their bodies rebuild themselves eyes appear teeth grow and they swim away as hunters lampreys already swam in ancient seas that was long before the first dinosaur walked the earth their skeleton is not bone it is soft cartilage the same flexible stuff inside your nose no jaws no bones a childhood in the mud and this fish still outlived the dinosaurs",
+    "ouvido": "muro e esse peixe ainda vive os dinossores"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg"
+ ]
+}

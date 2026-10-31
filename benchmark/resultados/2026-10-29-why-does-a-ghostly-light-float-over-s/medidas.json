@@ -1,0 +1,209 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "The Swamp Light Science Still Can't Explain",
+ "tema": "Why does a ghostly light float over swamps at night, and why do our Halloween pumpkins carry its name (the will-o'-the-wisp)?",
+ "estilo_visual": "award-winning photorealistic nature photography at night, soft moonlight, low mist, natural muted colors, shallow depth of field, sharp focus",
+ "inspecionado_em": "2026-10-31T08:01:06",
+ "video": {
+  "duracao_s": 48.7,
+  "tamanho_mb": 30.1,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -15.2,
+  "pico_dbfs": -1.5,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 5.3,
+   "dur_s": 5.3,
+   "brilho_ini": 57.0,
+   "brilho_fim": 67.4,
+   "saturacao_ini": 9.1,
+   "saturacao_fim": 11.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 2,
+   "inicio_s": 5.3,
+   "fim_s": 11.0,
+   "dur_s": 5.7,
+   "brilho_ini": 99.6,
+   "brilho_fim": 91.5,
+   "saturacao_ini": 16.7,
+   "saturacao_fim": 21.7,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 3,
+   "inicio_s": 11.0,
+   "fim_s": 36.87,
+   "dur_s": 25.87,
+   "brilho_ini": 46.8,
+   "brilho_fim": 48.6,
+   "saturacao_ini": 7.8,
+   "saturacao_fim": 11.2,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 4,
+   "inicio_s": 36.87,
+   "fim_s": 48.7,
+   "dur_s": 11.83,
+   "brilho_ini": 56.4,
+   "brilho_fim": 27.7,
+   "saturacao_ini": 13.9,
+   "saturacao_fim": 4.2,
+   "cortes_internos_s": []
+  }
+ ],
+ "cortes_bruscos_s": [
+  5.3,
+  11.0,
+  36.87
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 142,
+  "palavras_ouvidas": 158,
+  "taxa_acerto": 0.053,
+  "erros": [
+   {
+    "roteiro": "",
+    "ouvido": "um lente de luz de lente que despeja nas ruas da noite"
+   },
+   {
+    "roteiro": "pale ghostly light floats over swamps at night science still cannot fully explain it for centuries people across europe saw these lights they hovered low over bogs and marshes folk tales named it",
+    "ouvido": "ciencia ainda nao pode explicar para os anos as pessoas atraves da europa viram essas ruas eles se despejaram de boas e marcas as folhas chamadas de"
+   },
+   {
+    "roteiro": "willothewisp follow it and it leads you astray",
+    "ouvido": "willow"
+   },
+   {
+    "roteiro": "light never stays still walk toward it and it seems to drift away stop and it waits but there is",
+    "ouvido": "wisp seguem e lhes lerem um estraio"
+   },
+   {
+    "roteiro": "twist you know this light you put its name on your porch every",
+    "ouvido": "luz nunca se resta anda para o lado e parece que se despeja pera e espera mas ha uma torcida voce sabe essa luz voce coloca o seu nome na sua porta toda a"
+   },
+   {
+    "roteiro": "another old name for the swamp light was",
+    "ouvido": "outro nome para a luz de lente e o"
+   },
+   {
+    "roteiro": "carved pumpkins borrowed that name much later so what is it really rotting plants under the bog release gases like",
+    "ouvido": "a pumpkin que se despeja de um nome muito mais tarde entao o que e isso plans de rodas sob as gasas de boga como"
+   },
+   {
+    "roteiro": "and phosphine those gases may ignite on their own making",
+    "ouvido": "e fosfina esses gasos podem despejar de seus proprios fazendo uma fonte de fome experimentos nunca se mudaram"
+   },
+   {
+    "roteiro": "faint flame experiments never fully matched it science still cannot catch the swamp light yet every october you light its namesake yourself",
+    "ouvido": "ciencia ainda nao pode pegar a luz de lente mas cada octubre voce lhe despeja seu nome"
+   }
+  ],
+  "suspeitas": [],
+  "duvidosas": [
+   "Um",
+   "lente",
+   "de",
+   "luz",
+   "de",
+   "lente",
+   "que",
+   "despeja",
+   "nas",
+   "ruas",
+   "da",
+   "a",
+   "ciência",
+   "Para",
+   "os",
+   "anos,",
+   "através",
+   "viram",
+   "se",
+   "despejaram",
+   "de",
+   "boas",
+   "marcas.",
+   "As",
+   "folhas",
+   "chamadas",
+   "de",
+   "The",
+   "seguem",
+   "e"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "",
+    "ouvido": "um lente de luz de lente que despeja nas ruas da noite"
+   },
+   {
+    "roteiro": "pale ghostly light floats over swamps at night science still cannot fully explain it for centuries people across europe saw these lights they hovered low over bogs and marshes folk tales named it",
+    "ouvido": "ciencia ainda nao pode explicar para os anos as pessoas atraves da europa viram essas ruas eles se despejaram de boas e marcas as folhas chamadas de"
+   },
+   {
+    "roteiro": "willothewisp follow it and it leads you astray",
+    "ouvido": "willow"
+   },
+   {
+    "roteiro": "light never stays still walk toward it and it seems to drift away stop and it waits but there is",
+    "ouvido": "wisp seguem e lhes lerem um estraio"
+   },
+   {
+    "roteiro": "twist you know this light you put its name on your porch every",
+    "ouvido": "luz nunca se resta anda para o lado e parece que se despeja pera e espera mas ha uma torcida voce sabe essa luz voce coloca o seu nome na sua porta toda a"
+   },
+   {
+    "roteiro": "another old name for the swamp light was",
+    "ouvido": "outro nome para a luz de lente e o"
+   },
+   {
+    "roteiro": "carved pumpkins borrowed that name much later so what is it really rotting plants under the bog release gases like",
+    "ouvido": "a pumpkin que se despeja de um nome muito mais tarde entao o que e isso plans de rodas sob as gasas de boga como"
+   },
+   {
+    "roteiro": "and phosphine those gases may ignite on their own making",
+    "ouvido": "e fosfina esses gasos podem despejar de seus proprios fazendo uma fonte de fome experimentos nunca se mudaram"
+   },
+   {
+    "roteiro": "faint flame experiments never fully matched it science still cannot catch the swamp light yet every october you light its namesake yourself",
+    "ouvido": "ciencia ainda nao pode pegar a luz de lente mas cada octubre voce lhe despeja seu nome"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg",
+  "folha_5.jpg"
+ ]
+}
