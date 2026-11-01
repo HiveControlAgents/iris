@@ -1,0 +1,264 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "The Ship Found Sailing With Nobody on Board",
+ "tema": "Why was the Mary Celeste found sailing by itself in 1872, with everyone on board gone?",
+ "estilo_visual": "award-winning photorealistic documentary photography, moody natural light, muted cold sea tones, shallow depth of field, sharp focus",
+ "inspecionado_em": "2026-11-01T08:17:25",
+ "video": {
+  "duracao_s": 46.6,
+  "tamanho_mb": 28.7,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -14.6,
+  "pico_dbfs": -1.6,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 3.87,
+   "dur_s": 3.87,
+   "brilho_ini": 156.8,
+   "brilho_fim": 149.2,
+   "saturacao_ini": 5.3,
+   "saturacao_fim": 5.8,
+   "cortes_internos_s": [],
+   "narracao": "A ship was found sailing by itself, and ten people had vanished.",
+   "palavras_por_s": 3.1,
+   "quadro": "A weathered two-masted wooden sailing ship with a plain unmarked dark hull, torn pale canvas sails and an empty deck, seen from the side, filling the center of the frame, the brightest thing in the picture, alone on a cold grey open ocean under a low overcast sky.",
+   "movimento": "slow push-in, gentle ocean swell"
+  },
+  {
+   "n": 2,
+   "inicio_s": 3.87,
+   "fim_s": 10.2,
+   "dur_s": 6.33,
+   "brilho_ini": 142.5,
+   "brilho_fim": 128.5,
+   "saturacao_ini": 6.3,
+   "saturacao_fim": 8.1,
+   "cortes_internos_s": [],
+   "narracao": "December, eighteen seventy two. Sailors far out in the Atlantic spot a ship drifting strangely off course.",
+   "palavras_por_s": 2.69,
+   "quadro": "A weathered two-masted wooden sailing ship with a plain unmarked dark hull, torn pale canvas sails and an empty deck, seen from the side through thin sea mist, tilted slightly on a long grey swell at dawn, open ocean to the horizon.",
+   "movimento": "gentle pan right, mist drifts slowly"
+  },
+  {
+   "n": 3,
+   "inicio_s": 10.2,
+   "fim_s": 15.07,
+   "dur_s": 4.87,
+   "brilho_ini": 128.7,
+   "brilho_fim": 106.2,
+   "saturacao_ini": 7.2,
+   "saturacao_fim": 7.6,
+   "cortes_internos_s": [],
+   "narracao": "Her name is the Mary Celeste. They watch her for hours, and nobody stands at the wheel.",
+   "palavras_por_s": 3.49,
+   "quadro": "A large old wooden ship's wheel standing alone on a weathered wooden deck, medium close view, soft grey daylight, blurred sea and pale canvas behind it.",
+   "movimento": "very slow push-in, background sea moves softly"
+  },
+  {
+   "n": 4,
+   "inicio_s": 15.07,
+   "fim_s": 19.93,
+   "dur_s": 4.86,
+   "brilho_ini": 61.1,
+   "brilho_fim": 64.5,
+   "saturacao_ini": 10.7,
+   "saturacao_fim": 16.6,
+   "cortes_internos_s": [],
+   "narracao": "They climb aboard and search every cabin. No captain, no crew, no sign of a fight.",
+   "palavras_por_s": 3.29,
+   "quadro": "An unlit brass oil lantern resting on a small dark wooden table, medium close view, dim cabin blurred behind it, cold grey light falling from a small round porthole.",
+   "movimento": "slow push-in, dust drifts in the light"
+  },
+  {
+   "n": 5,
+   "inicio_s": 19.93,
+   "fim_s": 25.17,
+   "dur_s": 5.24,
+   "brilho_ini": 50.9,
+   "brilho_fim": 57.6,
+   "saturacao_ini": 13.6,
+   "saturacao_fim": 15.8,
+   "cortes_internos_s": [],
+   "narracao": "Six months of food still sit below deck. Their clothes and belongings have not been touched.",
+   "palavras_por_s": 3.05,
+   "quadro": "A folded dark wool coat resting on a closed old wooden sea chest, medium close view, dim wooden cabin blurred behind it, soft cold light from one side.",
+   "movimento": "slow gentle push-in"
+  },
+  {
+   "n": 6,
+   "inicio_s": 25.17,
+   "fim_s": 29.87,
+   "dur_s": 4.7,
+   "brilho_ini": 131.3,
+   "brilho_fim": 108.6,
+   "saturacao_ini": 8.1,
+   "saturacao_fim": 10.4,
+   "cortes_internos_s": [],
+   "narracao": "Then they see what is missing. The only lifeboat is gone, so the crew left on purpose.",
+   "palavras_por_s": 3.62,
+   "quadro": "A thick old rope tied to a weathered wooden ship rail, its frayed loose end hanging over the side above cold grey water, medium close view, blurred ocean behind it.",
+   "movimento": "rope sways softly, water ripples"
+  },
+  {
+   "n": 7,
+   "inicio_s": 29.87,
+   "fim_s": 35.7,
+   "dur_s": 5.83,
+   "brilho_ini": 68.0,
+   "brilho_fim": 66.2,
+   "saturacao_ini": 11.1,
+   "saturacao_fim": 11.6,
+   "cortes_internos_s": [],
+   "narracao": "The ship could still sail, so why run? She carried over a thousand barrels of industrial alcohol.",
+   "palavras_por_s": 2.92,
+   "quadro": "Rows of old dark oak barrels with iron hoops stacked in a dim wooden ship hold, plain surfaces, warm low light on the nearest barrels, the far rows fading into shadow.",
+   "movimento": "slow pan left along the barrels"
+  },
+  {
+   "n": 8,
+   "inicio_s": 35.7,
+   "fim_s": 40.9,
+   "dur_s": 5.2,
+   "brilho_ini": 48.1,
+   "brilho_fim": 54.3,
+   "saturacao_ini": 7.4,
+   "saturacao_fim": 9.0,
+   "cortes_internos_s": [],
+   "narracao": "Nine barrels turned up empty. One theory says fumes scared them into that small lifeboat.",
+   "palavras_por_s": 2.88,
+   "quadro": "One old dark oak barrel with iron hoops and its lid removed, a thin pale vapor rising slowly from the open top, dim wooden ship hold blurred behind it, low warm light from one side.",
+   "movimento": "thin vapor drifts upward, very slow push-in"
+  },
+  {
+   "n": 9,
+   "inicio_s": 40.9,
+   "fim_s": 46.6,
+   "dur_s": 5.7,
+   "brilho_ini": 104.8,
+   "brilho_fim": 64.3,
+   "saturacao_ini": 9.1,
+   "saturacao_fim": 6.4,
+   "cortes_internos_s": [],
+   "narracao": "Nobody ever proved it. The ship was found sailing, but those ten people never were.",
+   "palavras_por_s": 2.63,
+   "quadro": "A weathered two-masted wooden sailing ship with a plain unmarked dark hull, torn pale canvas sails and an empty deck, seen from the side, filling the center of the frame, the brightest thing in the picture, its pale sails lit by the last cold light on a darkening empty ocean.",
+   "movimento": "slow push-in, gentle ocean swell"
+  }
+ ],
+ "cortes_bruscos_s": [
+  3.87,
+  10.2,
+  15.07,
+  19.93,
+  25.17,
+  29.87,
+  35.7,
+  40.9
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 142,
+  "palavras_ouvidas": 147,
+  "taxa_acerto": 0.042,
+  "erros": [
+   {
+    "roteiro": "they watch her for hours and nobody stands at the wheel they climb aboard and search every cabin",
+    "ouvido": "eles veem ela por horas e ninguem se ve na camada eles acima a borda e procuram todo o cabelo sem capitao sem aviao sem sinal de uma fita sess meses de comida ainda se assustam"
+   },
+   {
+    "roteiro": "captain no crew no sign of",
+    "ouvido": "seu local seus rios e felizes nao foram acertados ai eles veem o que esta perdendo"
+   },
+   {
+    "roteiro": "fight six months of food still sit below deck their clothes and belongings have not been touched then they see what is missing the only lifeboat is gone so the crew left on purpose the ship could still sail so why run she carried over",
+    "ouvido": "unica votacao e perfeita entao"
+   },
+   {
+    "roteiro": "thousand barrels of",
+    "ouvido": "aviao esta por um motivo a aviao poderia ainda salva entao por que se desvanejar ela se casou por um mil barulhos de alcohol"
+   }
+  ],
+  "suspeitas": [],
+  "duvidosas": [
+   "Um",
+   "avião",
+   "em",
+   "saída",
+   "e",
+   "10",
+   "foram",
+   "desvanejadas.",
+   "Em",
+   "saídos",
+   "em",
+   "um",
+   "lugar",
+   "estrangeiro",
+   "de",
+   "atletas.",
+   "Seu",
+   "Mary",
+   "Eles",
+   "veem",
+   "ela",
+   "se",
+   "vê",
+   "na",
+   "camada.",
+   "acima",
+   "a",
+   "borda",
+   "todo",
+   "o"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "they watch her for hours and nobody stands at the wheel they climb aboard and search every cabin",
+    "ouvido": "eles veem ela por horas e ninguem se ve na camada eles acima a borda e procuram todo o cabelo sem capitao sem aviao sem sinal de uma fita sess meses de comida ainda se assustam"
+   },
+   {
+    "roteiro": "captain no crew no sign of",
+    "ouvido": "seu local seus rios e felizes nao foram acertados ai eles veem o que esta perdendo"
+   },
+   {
+    "roteiro": "fight six months of food still sit below deck their clothes and belongings have not been touched then they see what is missing the only lifeboat is gone so the crew left on purpose the ship could still sail so why run she carried over",
+    "ouvido": "unica votacao e perfeita entao"
+   },
+   {
+    "roteiro": "thousand barrels of",
+    "ouvido": "aviao esta por um motivo a aviao poderia ainda salva entao por que se desvanejar ela se casou por um mil barulhos de alcohol"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg"
+ ]
+}

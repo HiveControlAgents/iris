@@ -1,0 +1,176 @@
+{
+ "nota": 5.5,
+ "resumo": "Áudio e formato estão bons, mas a cena 5 refeita ainda mostra uma mão tocando o casaco enquanto a narração diz que nada foi tocado, e o navio não corresponde ao roteiro nem entre as próprias cenas.",
+ "rodada": 2,
+ "cenas_refeitas": [5],
+ "avaliacao_rodada": "Cena 5 refeita não aprovada: mantém mão, deformação do casaco e o erro de narração registrado em 'Their'. Não dá para dizer se melhorou em relação à primeira versão, porque nem esse vídeo nem a primeira revisão estavam disponíveis para comparar.",
+ "problemas": [
+  {
+   "segundo": 23.0,
+   "cena": 5,
+   "tipo": "visual",
+   "gravidade": "alta",
+   "descricao": "Uma mão entra pela direita e, até o fim da cena, pousa sobre o casaco dobrado, cuja forma e cor mudam (a dobra de baixo clareia em torno de 24 s). Isso acontece enquanto a narração diz 'have not been touched', em um navio onde não deveria haver ninguém.",
+  "causa": "O prompt não pede pessoa nem mão; o modelo de vídeo a inventou no fim do primeiro clipe, e o quadro de ponte levou a mão para o segundo.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 22.41,
+   "cena": 5,
+   "tipo": "narracao",
+   "gravidade": "alta",
+   "descricao": "A palavra 'Their' ('Their clothes') ficou marcada como erro nas 4 tomadas da checagem de narração do próprio pipeline, que encerrou com erro na cena 5. Não foi possível ouvir o áudio para confirmar se a voz errou ou se o transcritor confundiu com palavra parecida.",
+   "causa": "Palavra curta em início de frase, que repetiu o erro em todas as tomadas; pode ser pronúncia da voz ou confusão do transcritor com 'There'.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 0.0,
+   "cena": 1,
+   "tipo": "visual",
+   "gravidade": "media",
+   "descricao": "Nas cenas 1, 2 e 9 o navio tem três mastros, velas inteiras e proa de frente com esteira de espuma, quando o roteiro pede dois mastros, velas rasgadas e vista lateral. Aos 7,5 s a legenda diz 'A SHIP DRIFTING' sobre um navio que parece navegar a todo pano.",
+   "causa": "O gerador de imagem ignorou os atributos do prompt nas três cenas e devolveu o veleiro clássico.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 3.87,
+   "cena": 2,
+   "tipo": "visual",
+   "gravidade": "media",
+   "descricao": "O navio muda de uma cena para outra: casco escuro e velas claras na cena 1, velas escuras e casco claro com brilho metálico na cena 2, casco preto com faixa branca e proa vermelha na cena 9. O céu pêssego da cena 2 também foge do tom frio e cinza pedido.",
+   "causa": "Cada cena gera o navio do zero, sem imagem de referência que mantenha o mesmo objeto.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 15.07,
+   "cena": 4,
+   "tipo": "visual",
+   "gravidade": "media",
+   "descricao": "O lampião aparece aceso, embora o prompt peça 'unlit', o que sugere alguém a bordo logo quando a narração diz que não há ninguém. Ao fundo, à esquerda, há um objeto branco parecido com uma panela moderna, fora de época, e o feixe azul fica muito saturado (saturação de 10,7 para 16,6).",
+   "causa": "Gerador de imagem ignorou 'unlit' e inventou o objeto de fundo; o feixe azul surgiu no clipe de vídeo, pois não está no quadro original.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 35.7,
+   "cena": 8,
+   "tipo": "visual",
+   "gravidade": "media",
+   "descricao": "O barril está fechado, com tampa inteira, mas o vapor sobe dele como fumaça densa. O prompt pede barril aberto e vapor fino, e a imagem lembra fogo ou água quente, não vapor de álcool em um barril vazio.",
+   "causa": "O gerador ignorou 'lid removed' e o vídeo intensificou o vapor.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 20.7,
+   "cena": 5,
+   "tipo": "visual",
+   "gravidade": "media",
+   "descricao": "Entre 20,5 s e 21 s o enquadramento muda de repente: casaco e baú saltam para a esquerda e para baixo, longe da fronteira de cena. O inspetor não acusou corte interno; visto só nas folhas, não confirmado quadro a quadro.",
+   "causa": "Movimento brusco do modelo de vídeo em vez do push-in lento pedido.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 32.9,
+   "cena": 7,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "Por volta de 33 s a perspectiva das fileiras de barris muda e aparecem mais barris no quadro, na emenda dos dois clipes. Visto só nas folhas, não confirmado quadro a quadro.",
+   "causa": "Emenda entre clipes da mesma cena, com o segundo clipe gerado a partir do quadro de ponte.",
+   "origem": "sorteio"
+  },
+  {
+   "segundo": 25.17,
+   "cena": 6,
+   "tipo": "ritmo",
+   "gravidade": "media",
+   "descricao": "A narração passa de 3,0 palavras/s em várias cenas: 3,62 na cena 6, 3,49 na 3 e 3,29 na 4. O vídeo inteiro fica em cerca de 3,05 palavras/s.",
+   "causa": "Texto denso para a duração das cenas; o roteiro não limita palavras por cena.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 2.0,
+   "cena": 1,
+   "tipo": "legenda",
+   "gravidade": "media",
+   "descricao": "Blocos de legenda quebram ideias no meio em várias cenas: 'AND TEN PEOPLE HAD', 'DECEMBER, EIGHTEEN', 'THE SHIP COULD STILL', 'AND BELONGINGS HAVE NOT', 'SAILING, BUT THOSE TEN'.",
+   "causa": "A divisão parece seguir o tamanho do bloco, sem respeitar a frase.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 10.27,
+   "cena": 3,
+   "tipo": "legenda",
+   "gravidade": "baixa",
+   "descricao": "Blocos curtos demais para ler: 'HER NAME' (0,35 s, com nome do navio logo depois) e 'THEY WATCH' (0,39 s).",
+   "causa": "Sem duração mínima por bloco.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 0.1,
+   "cena": 1,
+   "tipo": "legenda",
+   "gravidade": "baixa",
+   "descricao": "A legenda fica em posição fixa e cobre parte do assunto: casco do navio nas cenas 1, 2 e 9, base do lampião na cena 4 e baú na cena 5.",
+   "causa": "Margem vertical única para todas as cenas.",
+   "origem": "pipeline"
+  },
+  {
+   "segundo": 14.5,
+   "cena": 3,
+   "tipo": "visual",
+   "gravidade": "baixa",
+   "descricao": "O brilho cai cerca de 17% dentro das cenas 3 (128,7 para 106,2) e 6 (131,3 para 108,6), acima do limite de ~15%.",
+   "causa": "Deriva do modelo de vídeo ao longo do clipe.",
+   "origem": "pipeline"
+  }
+ ],
+ "refazer": [],
+ "licoes": [
+  {
+   "tipo_assunto": "historia",
+   "alvo": "geracao",
+   "regra": "Em cenas de lugar vazio ou abandonado, proibir pessoas e mãos também no prompt de vídeo, não só no de imagem, e conferir o quadro de ponte antes de gerar o segundo clipe."
+  },
+  {
+   "tipo_assunto": "geral",
+   "alvo": "geracao",
+   "regra": "Assunto que volta em várias cenas precisa de uma imagem de referência única, senão muda de aparência a cada cena."
+  },
+  {
+   "tipo_assunto": "geral",
+   "alvo": "geracao",
+   "regra": "Atributos fora do padrão do objeto (apagado, aberto, rasgado) tendem a ser ignorados: conferir cada quadro contra o prompt antes de animar."
+  },
+  {
+   "tipo_assunto": "geral",
+   "alvo": "roteiro",
+   "regra": "Limitar o texto de cada cena a 3,0 palavras por segundo da duração prevista."
+  },
+  {
+   "tipo_assunto": "geral",
+   "alvo": "montagem",
+   "regra": "Quebrar legendas em pausas de sentido, com duração mínima de cerca de 0,6 s por bloco."
+  }
+ ],
+ "pipeline": [
+  {
+   "onde": "skills/revisar-video/scripts/inspecionar.py",
+   "mudanca": "Passar --idioma en para vídeos em inglês, ou tirar o idioma do roteiro em vez do padrão pt.",
+   "motivo": "Os 'erros' e a taxa_acerto de 0,042 em medidas.json não valem: o Whisper rodou em português sobre narração em inglês (ouviu 'eles veem ela por horas' para 'they watch her for hours'). A checagem do pipeline em inglês só marcou 'Their'. Sem essa troca, a medida de narração é inútil."
+  },
+  {
+   "onde": "geração de imagem",
+   "mudanca": "Gerar o navio uma vez e usar essa imagem como referência em todas as cenas em que ele aparece.",
+   "motivo": "O navio muda entre as cenas 1, 2 e 9 e não segue o prompt em nenhuma delas."
+  },
+  {
+   "onde": "checagem de narração por tomada",
+   "mudanca": "Depois de esgotar as tomadas com erro na mesma palavra, trocar o texto da frase em vez de seguir com o erro.",
+   "motivo": "A cena 5 repetiu 4 tomadas com o mesmo 'Their' e seguiu para a montagem sem correção."
+  },
+  {
+   "onde": "geração de legendas",
+   "mudanca": "Quebrar por sentido, com duração mínima por bloco.",
+   "motivo": "Há ideias cortadas no meio e blocos de menos de 0,4 s."
+  }
+ ]
+}

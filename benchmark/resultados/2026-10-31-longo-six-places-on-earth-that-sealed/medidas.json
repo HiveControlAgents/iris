@@ -1,0 +1,1563 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "A Cave Sealed for 5 Million Years and 5 Other Places Frozen in Time | Nature Documentary",
+ "tema": "Six places on Earth that sealed away the past: the blue holes of the Bahamas, Lake Natron, the mummified seals of the McMurdo Dry Valleys, the Batagaika crater, the Cave of Crystals at Naica, and Movile Cave",
+ "estilo_visual": "Documentary nature photograph in the style of a night-time wildlife film, natural light, calm mysterious mood, muted colors, one sharp main subject, wide horizontal composition.",
+ "inspecionado_em": "2026-11-01T08:01:01",
+ "video": {
+  "duracao_s": 749.2,
+  "tamanho_mb": 451.1,
+  "largura": 1920,
+  "altura": 1080,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -15.0,
+  "pico_dbfs": -1.1,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 6.97,
+   "dur_s": 6.97,
+   "brilho_ini": 64.6,
+   "brilho_fim": 72.8,
+   "saturacao_ini": 2.6,
+   "saturacao_fim": 2.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 2,
+   "inicio_s": 6.97,
+   "fim_s": 13.73,
+   "dur_s": 6.76,
+   "brilho_ini": 43.1,
+   "brilho_fim": 34.7,
+   "saturacao_ini": 2.7,
+   "saturacao_fim": 3.5,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 3,
+   "inicio_s": 13.73,
+   "fim_s": 21.03,
+   "dur_s": 7.3,
+   "brilho_ini": 49.2,
+   "brilho_fim": 45.4,
+   "saturacao_ini": 4.8,
+   "saturacao_fim": 7.7,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 4,
+   "inicio_s": 21.03,
+   "fim_s": 28.5,
+   "dur_s": 7.47,
+   "brilho_ini": 45.1,
+   "brilho_fim": 48.4,
+   "saturacao_ini": 3.7,
+   "saturacao_fim": 7.0,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 5,
+   "inicio_s": 28.5,
+   "fim_s": 34.67,
+   "dur_s": 6.17,
+   "brilho_ini": 138.4,
+   "brilho_fim": 126.8,
+   "saturacao_ini": 18.4,
+   "saturacao_fim": 22.0,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 6,
+   "inicio_s": 34.67,
+   "fim_s": 42.2,
+   "dur_s": 7.53,
+   "brilho_ini": 133.0,
+   "brilho_fim": 114.4,
+   "saturacao_ini": 14.4,
+   "saturacao_fim": 16.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 7,
+   "inicio_s": 42.2,
+   "fim_s": 49.6,
+   "dur_s": 7.4,
+   "brilho_ini": 95.1,
+   "brilho_fim": 82.7,
+   "saturacao_ini": 9.0,
+   "saturacao_fim": 12.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 8,
+   "inicio_s": 49.6,
+   "fim_s": 56.53,
+   "dur_s": 6.93,
+   "brilho_ini": 68.9,
+   "brilho_fim": 62.3,
+   "saturacao_ini": 10.9,
+   "saturacao_fim": 12.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 9,
+   "inicio_s": 56.53,
+   "fim_s": 63.53,
+   "dur_s": 7.0,
+   "brilho_ini": 74.4,
+   "brilho_fim": 66.8,
+   "saturacao_ini": 16.7,
+   "saturacao_fim": 20.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 10,
+   "inicio_s": 63.53,
+   "fim_s": 70.2,
+   "dur_s": 6.67,
+   "brilho_ini": 38.7,
+   "brilho_fim": 38.7,
+   "saturacao_ini": 8.5,
+   "saturacao_fim": 14.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 11,
+   "inicio_s": 70.2,
+   "fim_s": 78.13,
+   "dur_s": 7.93,
+   "brilho_ini": 73.1,
+   "brilho_fim": 67.7,
+   "saturacao_ini": 13.6,
+   "saturacao_fim": 16.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 12,
+   "inicio_s": 78.13,
+   "fim_s": 85.83,
+   "dur_s": 7.7,
+   "brilho_ini": 73.3,
+   "brilho_fim": 85.2,
+   "saturacao_ini": 12.8,
+   "saturacao_fim": 11.4,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 13,
+   "inicio_s": 85.83,
+   "fim_s": 92.67,
+   "dur_s": 6.84,
+   "brilho_ini": 109.1,
+   "brilho_fim": 102.8,
+   "saturacao_ini": 7.0,
+   "saturacao_fim": 9.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 14,
+   "inicio_s": 92.67,
+   "fim_s": 100.73,
+   "dur_s": 8.06,
+   "brilho_ini": 98.1,
+   "brilho_fim": 78.2,
+   "saturacao_ini": 10.1,
+   "saturacao_fim": 15.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 15,
+   "inicio_s": 100.73,
+   "fim_s": 115.87,
+   "dur_s": 15.14,
+   "brilho_ini": 48.1,
+   "brilho_fim": 53.8,
+   "saturacao_ini": 12.2,
+   "saturacao_fim": 13.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 16,
+   "inicio_s": 115.87,
+   "fim_s": 123.33,
+   "dur_s": 7.46,
+   "brilho_ini": 55.9,
+   "brilho_fim": 57.3,
+   "saturacao_ini": 15.1,
+   "saturacao_fim": 15.5,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 17,
+   "inicio_s": 123.33,
+   "fim_s": 131.87,
+   "dur_s": 8.54,
+   "brilho_ini": 63.3,
+   "brilho_fim": 63.9,
+   "saturacao_ini": 19.0,
+   "saturacao_fim": 20.0,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 18,
+   "inicio_s": 131.87,
+   "fim_s": 139.4,
+   "dur_s": 7.53,
+   "brilho_ini": 71.3,
+   "brilho_fim": 68.5,
+   "saturacao_ini": 9.7,
+   "saturacao_fim": 15.5,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 19,
+   "inicio_s": 139.4,
+   "fim_s": 146.47,
+   "dur_s": 7.07,
+   "brilho_ini": 133.2,
+   "brilho_fim": 93.7,
+   "saturacao_ini": 15.7,
+   "saturacao_fim": 20.0,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 20,
+   "inicio_s": 146.47,
+   "fim_s": 154.03,
+   "dur_s": 7.56,
+   "brilho_ini": 129.7,
+   "brilho_fim": 112.3,
+   "saturacao_ini": 13.3,
+   "saturacao_fim": 19.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 21,
+   "inicio_s": 154.03,
+   "fim_s": 161.83,
+   "dur_s": 7.8,
+   "brilho_ini": 106.7,
+   "brilho_fim": 117.5,
+   "saturacao_ini": 19.8,
+   "saturacao_fim": 19.5,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 22,
+   "inicio_s": 161.83,
+   "fim_s": 169.4,
+   "dur_s": 7.57,
+   "brilho_ini": 128.2,
+   "brilho_fim": 96.2,
+   "saturacao_ini": 16.4,
+   "saturacao_fim": 26.4,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 23,
+   "inicio_s": 169.4,
+   "fim_s": 177.6,
+   "dur_s": 8.2,
+   "brilho_ini": 106.0,
+   "brilho_fim": 111.9,
+   "saturacao_ini": 18.4,
+   "saturacao_fim": 17.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 24,
+   "inicio_s": 177.6,
+   "fim_s": 185.6,
+   "dur_s": 8.0,
+   "brilho_ini": 141.0,
+   "brilho_fim": 127.6,
+   "saturacao_ini": 6.9,
+   "saturacao_fim": 9.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 25,
+   "inicio_s": 185.6,
+   "fim_s": 194.07,
+   "dur_s": 8.47,
+   "brilho_ini": 144.3,
+   "brilho_fim": 126.9,
+   "saturacao_ini": 6.6,
+   "saturacao_fim": 14.2,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 26,
+   "inicio_s": 194.07,
+   "fim_s": 201.07,
+   "dur_s": 7.0,
+   "brilho_ini": 136.6,
+   "brilho_fim": 108.5,
+   "saturacao_ini": 14.6,
+   "saturacao_fim": 20.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 27,
+   "inicio_s": 201.07,
+   "fim_s": 207.63,
+   "dur_s": 6.56,
+   "brilho_ini": 80.6,
+   "brilho_fim": 72.3,
+   "saturacao_ini": 7.6,
+   "saturacao_fim": 10.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 28,
+   "inicio_s": 207.63,
+   "fim_s": 215.6,
+   "dur_s": 7.97,
+   "brilho_ini": 163.5,
+   "brilho_fim": 134.0,
+   "saturacao_ini": 11.2,
+   "saturacao_fim": 14.5,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 29,
+   "inicio_s": 215.6,
+   "fim_s": 223.13,
+   "dur_s": 7.53,
+   "brilho_ini": 135.1,
+   "brilho_fim": 90.8,
+   "saturacao_ini": 8.9,
+   "saturacao_fim": 17.2,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 30,
+   "inicio_s": 223.13,
+   "fim_s": 229.97,
+   "dur_s": 6.84,
+   "brilho_ini": 91.8,
+   "brilho_fim": 80.9,
+   "saturacao_ini": 15.6,
+   "saturacao_fim": 16.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 31,
+   "inicio_s": 229.97,
+   "fim_s": 237.83,
+   "dur_s": 7.86,
+   "brilho_ini": 158.6,
+   "brilho_fim": 134.5,
+   "saturacao_ini": 13.9,
+   "saturacao_fim": 20.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 32,
+   "inicio_s": 237.83,
+   "fim_s": 246.3,
+   "dur_s": 8.47,
+   "brilho_ini": 94.4,
+   "brilho_fim": 84.5,
+   "saturacao_ini": 17.4,
+   "saturacao_fim": 20.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 33,
+   "inicio_s": 246.3,
+   "fim_s": 253.13,
+   "dur_s": 6.83,
+   "brilho_ini": 121.8,
+   "brilho_fim": 108.8,
+   "saturacao_ini": 14.8,
+   "saturacao_fim": 16.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 34,
+   "inicio_s": 253.13,
+   "fim_s": 259.63,
+   "dur_s": 6.5,
+   "brilho_ini": 132.5,
+   "brilho_fim": 122.1,
+   "saturacao_ini": 13.2,
+   "saturacao_fim": 15.2,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 35,
+   "inicio_s": 259.63,
+   "fim_s": 266.53,
+   "dur_s": 6.9,
+   "brilho_ini": 83.1,
+   "brilho_fim": 81.5,
+   "saturacao_ini": 26.3,
+   "saturacao_fim": 26.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 36,
+   "inicio_s": 266.53,
+   "fim_s": 280.4,
+   "dur_s": 13.87,
+   "brilho_ini": 99.4,
+   "brilho_fim": 74.5,
+   "saturacao_ini": 7.8,
+   "saturacao_fim": 10.5,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 37,
+   "inicio_s": 280.4,
+   "fim_s": 288.27,
+   "dur_s": 7.87,
+   "brilho_ini": 54.1,
+   "brilho_fim": 68.4,
+   "saturacao_ini": 16.1,
+   "saturacao_fim": 13.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 38,
+   "inicio_s": 288.27,
+   "fim_s": 296.73,
+   "dur_s": 8.46,
+   "brilho_ini": 130.2,
+   "brilho_fim": 103.4,
+   "saturacao_ini": 17.5,
+   "saturacao_fim": 20.5,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 39,
+   "inicio_s": 296.73,
+   "fim_s": 302.97,
+   "dur_s": 6.24,
+   "brilho_ini": 121.0,
+   "brilho_fim": 117.8,
+   "saturacao_ini": 10.4,
+   "saturacao_fim": 13.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 40,
+   "inicio_s": 302.97,
+   "fim_s": 311.23,
+   "dur_s": 8.26,
+   "brilho_ini": 113.5,
+   "brilho_fim": 85.4,
+   "saturacao_ini": 5.3,
+   "saturacao_fim": 6.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 41,
+   "inicio_s": 311.23,
+   "fim_s": 318.0,
+   "dur_s": 6.77,
+   "brilho_ini": 101.1,
+   "brilho_fim": 82.1,
+   "saturacao_ini": 9.3,
+   "saturacao_fim": 12.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 42,
+   "inicio_s": 318.0,
+   "fim_s": 325.33,
+   "dur_s": 7.33,
+   "brilho_ini": 103.0,
+   "brilho_fim": 83.9,
+   "saturacao_ini": 6.0,
+   "saturacao_fim": 9.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 43,
+   "inicio_s": 325.33,
+   "fim_s": 332.43,
+   "dur_s": 7.1,
+   "brilho_ini": 74.7,
+   "brilho_fim": 56.9,
+   "saturacao_ini": 13.2,
+   "saturacao_fim": 15.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 44,
+   "inicio_s": 332.43,
+   "fim_s": 339.83,
+   "dur_s": 7.4,
+   "brilho_ini": 108.3,
+   "brilho_fim": 115.4,
+   "saturacao_ini": 8.8,
+   "saturacao_fim": 15.0,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 45,
+   "inicio_s": 339.83,
+   "fim_s": 345.9,
+   "dur_s": 6.07,
+   "brilho_ini": 147.9,
+   "brilho_fim": 134.3,
+   "saturacao_ini": 8.0,
+   "saturacao_fim": 10.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 46,
+   "inicio_s": 345.9,
+   "fim_s": 353.37,
+   "dur_s": 7.47,
+   "brilho_ini": 104.7,
+   "brilho_fim": 94.9,
+   "saturacao_ini": 6.0,
+   "saturacao_fim": 9.0,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 47,
+   "inicio_s": 353.37,
+   "fim_s": 359.97,
+   "dur_s": 6.6,
+   "brilho_ini": 116.0,
+   "brilho_fim": 105.6,
+   "saturacao_ini": 10.6,
+   "saturacao_fim": 14.4,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 48,
+   "inicio_s": 359.97,
+   "fim_s": 368.4,
+   "dur_s": 8.43,
+   "brilho_ini": 103.1,
+   "brilho_fim": 75.3,
+   "saturacao_ini": 12.0,
+   "saturacao_fim": 13.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 49,
+   "inicio_s": 368.4,
+   "fim_s": 376.77,
+   "dur_s": 8.37,
+   "brilho_ini": 136.4,
+   "brilho_fim": 92.2,
+   "saturacao_ini": 23.2,
+   "saturacao_fim": 21.0,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 50,
+   "inicio_s": 376.77,
+   "fim_s": 383.9,
+   "dur_s": 7.13,
+   "brilho_ini": 78.5,
+   "brilho_fim": 67.6,
+   "saturacao_ini": 11.6,
+   "saturacao_fim": 16.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 51,
+   "inicio_s": 383.9,
+   "fim_s": 390.3,
+   "dur_s": 6.4,
+   "brilho_ini": 66.7,
+   "brilho_fim": 63.6,
+   "saturacao_ini": 5.5,
+   "saturacao_fim": 6.4,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 52,
+   "inicio_s": 390.3,
+   "fim_s": 397.53,
+   "dur_s": 7.23,
+   "brilho_ini": 75.2,
+   "brilho_fim": 63.8,
+   "saturacao_ini": 6.2,
+   "saturacao_fim": 7.4,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 53,
+   "inicio_s": 397.53,
+   "fim_s": 405.0,
+   "dur_s": 7.47,
+   "brilho_ini": 73.9,
+   "brilho_fim": 55.5,
+   "saturacao_ini": 4.6,
+   "saturacao_fim": 6.7,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 54,
+   "inicio_s": 405.0,
+   "fim_s": 413.47,
+   "dur_s": 8.47,
+   "brilho_ini": 108.8,
+   "brilho_fim": 98.8,
+   "saturacao_ini": 7.7,
+   "saturacao_fim": 10.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 55,
+   "inicio_s": 413.47,
+   "fim_s": 420.1,
+   "dur_s": 6.63,
+   "brilho_ini": 102.8,
+   "brilho_fim": 93.0,
+   "saturacao_ini": 8.4,
+   "saturacao_fim": 9.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 56,
+   "inicio_s": 420.1,
+   "fim_s": 427.03,
+   "dur_s": 6.93,
+   "brilho_ini": 92.1,
+   "brilho_fim": 74.8,
+   "saturacao_ini": 9.1,
+   "saturacao_fim": 10.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 57,
+   "inicio_s": 427.03,
+   "fim_s": 434.7,
+   "dur_s": 7.67,
+   "brilho_ini": 59.5,
+   "brilho_fim": 55.2,
+   "saturacao_ini": 6.4,
+   "saturacao_fim": 9.5,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 58,
+   "inicio_s": 434.7,
+   "fim_s": 441.97,
+   "dur_s": 7.27,
+   "brilho_ini": 89.9,
+   "brilho_fim": 76.8,
+   "saturacao_ini": 7.1,
+   "saturacao_fim": 7.7,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 59,
+   "inicio_s": 441.97,
+   "fim_s": 450.0,
+   "dur_s": 8.03,
+   "brilho_ini": 80.3,
+   "brilho_fim": 66.4,
+   "saturacao_ini": 6.8,
+   "saturacao_fim": 5.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 60,
+   "inicio_s": 450.0,
+   "fim_s": 458.27,
+   "dur_s": 8.27,
+   "brilho_ini": 56.7,
+   "brilho_fim": 62.6,
+   "saturacao_ini": 6.9,
+   "saturacao_fim": 8.4,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 61,
+   "inicio_s": 458.27,
+   "fim_s": 467.23,
+   "dur_s": 8.96,
+   "brilho_ini": 107.1,
+   "brilho_fim": 91.0,
+   "saturacao_ini": 6.9,
+   "saturacao_fim": 11.7,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 62,
+   "inicio_s": 467.23,
+   "fim_s": 474.07,
+   "dur_s": 6.84,
+   "brilho_ini": 112.2,
+   "brilho_fim": 95.4,
+   "saturacao_ini": 8.6,
+   "saturacao_fim": 13.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 63,
+   "inicio_s": 474.07,
+   "fim_s": 480.2,
+   "dur_s": 6.13,
+   "brilho_ini": 92.1,
+   "brilho_fim": 81.7,
+   "saturacao_ini": 21.8,
+   "saturacao_fim": 24.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 64,
+   "inicio_s": 480.2,
+   "fim_s": 486.17,
+   "dur_s": 5.97,
+   "brilho_ini": 75.2,
+   "brilho_fim": 61.7,
+   "saturacao_ini": 5.8,
+   "saturacao_fim": 7.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 65,
+   "inicio_s": 486.17,
+   "fim_s": 494.37,
+   "dur_s": 8.2,
+   "brilho_ini": 73.5,
+   "brilho_fim": 64.6,
+   "saturacao_ini": 4.2,
+   "saturacao_fim": 7.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 66,
+   "inicio_s": 494.37,
+   "fim_s": 501.83,
+   "dur_s": 7.46,
+   "brilho_ini": 63.3,
+   "brilho_fim": 48.3,
+   "saturacao_ini": 14.9,
+   "saturacao_fim": 17.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 67,
+   "inicio_s": 501.83,
+   "fim_s": 511.0,
+   "dur_s": 9.17,
+   "brilho_ini": 37.6,
+   "brilho_fim": 35.2,
+   "saturacao_ini": 3.6,
+   "saturacao_fim": 5.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 68,
+   "inicio_s": 511.0,
+   "fim_s": 517.9,
+   "dur_s": 6.9,
+   "brilho_ini": 80.4,
+   "brilho_fim": 64.6,
+   "saturacao_ini": 17.8,
+   "saturacao_fim": 14.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 69,
+   "inicio_s": 517.9,
+   "fim_s": 525.33,
+   "dur_s": 7.43,
+   "brilho_ini": 57.7,
+   "brilho_fim": 62.8,
+   "saturacao_ini": 15.0,
+   "saturacao_fim": 15.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 70,
+   "inicio_s": 525.33,
+   "fim_s": 532.3,
+   "dur_s": 6.97,
+   "brilho_ini": 78.8,
+   "brilho_fim": 91.7,
+   "saturacao_ini": 17.8,
+   "saturacao_fim": 17.0,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 71,
+   "inicio_s": 532.3,
+   "fim_s": 541.73,
+   "dur_s": 9.43,
+   "brilho_ini": 95.9,
+   "brilho_fim": 92.3,
+   "saturacao_ini": 6.8,
+   "saturacao_fim": 8.5,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 72,
+   "inicio_s": 541.73,
+   "fim_s": 548.93,
+   "dur_s": 7.2,
+   "brilho_ini": 61.3,
+   "brilho_fim": 54.2,
+   "saturacao_ini": 7.2,
+   "saturacao_fim": 12.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 73,
+   "inicio_s": 548.93,
+   "fim_s": 556.67,
+   "dur_s": 7.74,
+   "brilho_ini": 65.9,
+   "brilho_fim": 57.2,
+   "saturacao_ini": 17.3,
+   "saturacao_fim": 22.7,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 74,
+   "inicio_s": 556.67,
+   "fim_s": 566.1,
+   "dur_s": 9.43,
+   "brilho_ini": 82.4,
+   "brilho_fim": 72.9,
+   "saturacao_ini": 11.7,
+   "saturacao_fim": 9.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 75,
+   "inicio_s": 566.1,
+   "fim_s": 574.47,
+   "dur_s": 8.37,
+   "brilho_ini": 78.7,
+   "brilho_fim": 71.3,
+   "saturacao_ini": 4.3,
+   "saturacao_fim": 6.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 76,
+   "inicio_s": 574.47,
+   "fim_s": 582.03,
+   "dur_s": 7.56,
+   "brilho_ini": 56.5,
+   "brilho_fim": 60.9,
+   "saturacao_ini": 13.5,
+   "saturacao_fim": 10.5,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 77,
+   "inicio_s": 582.03,
+   "fim_s": 588.73,
+   "dur_s": 6.7,
+   "brilho_ini": 52.4,
+   "brilho_fim": 49.8,
+   "saturacao_ini": 5.2,
+   "saturacao_fim": 6.2,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 78,
+   "inicio_s": 588.73,
+   "fim_s": 595.73,
+   "dur_s": 7.0,
+   "brilho_ini": 73.9,
+   "brilho_fim": 72.0,
+   "saturacao_ini": 15.7,
+   "saturacao_fim": 13.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 79,
+   "inicio_s": 595.73,
+   "fim_s": 605.63,
+   "dur_s": 9.9,
+   "brilho_ini": 136.3,
+   "brilho_fim": 122.0,
+   "saturacao_ini": 10.0,
+   "saturacao_fim": 11.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 80,
+   "inicio_s": 605.63,
+   "fim_s": 613.2,
+   "dur_s": 7.57,
+   "brilho_ini": 58.9,
+   "brilho_fim": 52.0,
+   "saturacao_ini": 4.5,
+   "saturacao_fim": 6.5,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 81,
+   "inicio_s": 613.2,
+   "fim_s": 620.17,
+   "dur_s": 6.97,
+   "brilho_ini": 67.5,
+   "brilho_fim": 73.1,
+   "saturacao_ini": 5.6,
+   "saturacao_fim": 7.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 82,
+   "inicio_s": 620.17,
+   "fim_s": 626.93,
+   "dur_s": 6.76,
+   "brilho_ini": 46.3,
+   "brilho_fim": 54.4,
+   "saturacao_ini": 6.0,
+   "saturacao_fim": 9.4,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 83,
+   "inicio_s": 626.93,
+   "fim_s": 634.37,
+   "dur_s": 7.44,
+   "brilho_ini": 114.0,
+   "brilho_fim": 97.3,
+   "saturacao_ini": 8.1,
+   "saturacao_fim": 8.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 84,
+   "inicio_s": 634.37,
+   "fim_s": 641.83,
+   "dur_s": 7.46,
+   "brilho_ini": 79.2,
+   "brilho_fim": 66.9,
+   "saturacao_ini": 5.1,
+   "saturacao_fim": 3.5,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 85,
+   "inicio_s": 641.83,
+   "fim_s": 649.77,
+   "dur_s": 7.94,
+   "brilho_ini": 70.2,
+   "brilho_fim": 79.1,
+   "saturacao_ini": 3.3,
+   "saturacao_fim": 5.5,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 86,
+   "inicio_s": 649.77,
+   "fim_s": 657.3,
+   "dur_s": 7.53,
+   "brilho_ini": 108.5,
+   "brilho_fim": 74.0,
+   "saturacao_ini": 2.8,
+   "saturacao_fim": 3.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 87,
+   "inicio_s": 657.3,
+   "fim_s": 664.43,
+   "dur_s": 7.13,
+   "brilho_ini": 42.7,
+   "brilho_fim": 37.3,
+   "saturacao_ini": 2.5,
+   "saturacao_fim": 3.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 88,
+   "inicio_s": 664.43,
+   "fim_s": 671.63,
+   "dur_s": 7.2,
+   "brilho_ini": 68.5,
+   "brilho_fim": 63.6,
+   "saturacao_ini": 3.9,
+   "saturacao_fim": 4.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 89,
+   "inicio_s": 671.63,
+   "fim_s": 679.73,
+   "dur_s": 8.1,
+   "brilho_ini": 57.2,
+   "brilho_fim": 47.5,
+   "saturacao_ini": 6.1,
+   "saturacao_fim": 7.3,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 90,
+   "inicio_s": 679.73,
+   "fim_s": 687.7,
+   "dur_s": 7.97,
+   "brilho_ini": 53.6,
+   "brilho_fim": 49.0,
+   "saturacao_ini": 6.4,
+   "saturacao_fim": 7.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 91,
+   "inicio_s": 687.7,
+   "fim_s": 695.9,
+   "dur_s": 8.2,
+   "brilho_ini": 52.9,
+   "brilho_fim": 54.4,
+   "saturacao_ini": 12.8,
+   "saturacao_fim": 15.2,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 92,
+   "inicio_s": 695.9,
+   "fim_s": 703.7,
+   "dur_s": 7.8,
+   "brilho_ini": 85.3,
+   "brilho_fim": 80.1,
+   "saturacao_ini": 3.6,
+   "saturacao_fim": 3.9,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 93,
+   "inicio_s": 703.7,
+   "fim_s": 711.13,
+   "dur_s": 7.43,
+   "brilho_ini": 114.8,
+   "brilho_fim": 101.8,
+   "saturacao_ini": 5.6,
+   "saturacao_fim": 8.1,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 94,
+   "inicio_s": 711.13,
+   "fim_s": 719.0,
+   "dur_s": 7.87,
+   "brilho_ini": 138.0,
+   "brilho_fim": 131.5,
+   "saturacao_ini": 9.6,
+   "saturacao_fim": 15.4,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 95,
+   "inicio_s": 719.0,
+   "fim_s": 725.03,
+   "dur_s": 6.03,
+   "brilho_ini": 66.1,
+   "brilho_fim": 66.3,
+   "saturacao_ini": 3.3,
+   "saturacao_fim": 3.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 96,
+   "inicio_s": 725.03,
+   "fim_s": 733.23,
+   "dur_s": 8.2,
+   "brilho_ini": 60.7,
+   "brilho_fim": 56.0,
+   "saturacao_ini": 2.8,
+   "saturacao_fim": 3.6,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 97,
+   "inicio_s": 733.23,
+   "fim_s": 741.07,
+   "dur_s": 7.84,
+   "brilho_ini": 38.4,
+   "brilho_fim": 43.4,
+   "saturacao_ini": 4.6,
+   "saturacao_fim": 5.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 98,
+   "inicio_s": 741.07,
+   "fim_s": 749.2,
+   "dur_s": 8.13,
+   "brilho_ini": 67.5,
+   "brilho_fim": 48.1,
+   "saturacao_ini": 2.9,
+   "saturacao_fim": 2.5,
+   "cortes_internos_s": []
+  }
+ ],
+ "cortes_bruscos_s": [
+  6.97,
+  13.73,
+  21.03,
+  28.5,
+  34.67,
+  42.2,
+  49.6,
+  56.53,
+  63.53,
+  70.2,
+  78.13,
+  85.83,
+  92.67,
+  100.73,
+  115.87,
+  123.33,
+  131.87,
+  139.4,
+  146.47,
+  154.03,
+  161.83,
+  169.4,
+  177.6,
+  185.6,
+  194.07,
+  201.07,
+  207.63,
+  215.6,
+  223.13,
+  229.97,
+  237.83,
+  246.3,
+  253.13,
+  259.63,
+  266.53,
+  280.4,
+  288.27,
+  296.73,
+  302.97,
+  311.23,
+  318.0,
+  325.33,
+  332.43,
+  339.83,
+  345.9,
+  353.37,
+  359.97,
+  368.4,
+  376.77,
+  383.9,
+  390.3,
+  397.53,
+  405.0,
+  413.47,
+  420.1,
+  427.03,
+  434.7,
+  441.97,
+  450.0,
+  458.27,
+  467.23,
+  474.07,
+  480.2,
+  486.17,
+  494.37,
+  501.83,
+  511.0,
+  517.9,
+  525.33,
+  532.3,
+  541.73,
+  548.93,
+  556.67,
+  566.1,
+  574.47,
+  582.03,
+  588.73,
+  595.73,
+  605.63,
+  613.2,
+  620.17,
+  626.93,
+  634.37,
+  641.83,
+  649.77,
+  657.3,
+  664.43,
+  671.63,
+  679.73,
+  687.7,
+  695.9,
+  703.7,
+  711.13,
+  719.0,
+  725.03,
+  733.23,
+  741.07
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 2398,
+  "palavras_ouvidas": 2389,
+  "taxa_acerto": 0.018,
+  "erros": [
+   {
+    "roteiro": "cave in romania stayed sealed for more than five million years when it was opened something inside it was still alive",
+    "ouvido": "terra mantem secretos como isso em mais lugares que voce poderia imaginar umes sao flutuados outros sao frosos e os outros sao maridos em fome hoje visitamos seis de eles fos desses lugares mantem o passado perfeito os seis mantem vivo e vamos la para a ultima em bahamas a terra e palha e brilhante entao sem o avanco se torna um cerco perfeito de azul os sairos e os ilimpicos chamam de cerco azul de fora do ar eles parecem como se algo se encontrou direto na floresta do oceano alguns de eles se sentem em terra escondidos entre os pines eles parecem como paes quinhentos ate voce notar que eles nao tem um boto visivel o water parece calmo mas e arrangado em lagrimas o frango de raiva flutuando"
+   },
+   {
+    "roteiro": "sunlight had ever reached it no rain had ever dripped in whatever lived down there had no obvious reason to exist the earth keeps secrets like this in more places than you would guess some are flooded some are frozen and some are buried in heat tonight we visit six of them five of these places held the past perfectly still the sixth kept it alive and we go there last in the bahamas the sea is pale and bright then without warning it turns into",
+    "ouvido": "topo e"
+   },
+   {
+    "roteiro": "perfect circle of dark blue sailors and islanders call these circles blue holes from the air they look",
+    "ouvido": "agua de sal pesada se espera estcasting os aliados la em la em la em laholes"
+   },
+   {
+    "roteiro": "if something punched straight through the floor of the ocean some of them sit on land hidden among the pines they look like quiet ponds until you notice that they have no visible bottom the water seems calm but it is arranged in layers fresh rainwater floats on top and heavy salt water waits underneath where the two layers meet a cloudy band hangs in the dark it is thick with bacteria and a gas that smells of rotten eggs below that band there is almost no oxygen divers who pass through it enter some of the stillest water on the planet and there on the walls of the flooded caves they found something that should not be underwater long stone spikes hang from the ceiling these are stalactites and this is the first turn in the story stalactites grow from dripping water and they can only form in open air so these caves were",
+    "ouvido": "neve entao essas paredes foram"
+   },
+   {
+    "roteiro": "during the ice ages so much water was locked in ice that the sea fell far below todays shores rain carved the limestone into caverns then the ice melted the sea came back and the roofs of some caves collapsed into perfect circles that alone would be strange enough but in the dark water of one inland hole divers noticed shapes lying on",
+    "ouvido": "durante as paredes de azeite tanto agua foi deslouca de azeite que"
+   },
+   {
+    "roteiro": "slope of old peat they were shells tortoise shells whole and undamaged along with the skulls of",
+    "ouvido": "terra caiu muito abaixo de hojes ruas o raio encarregou a pareda de limite em cavernas ai a azeite se deslouca a azeite voltou e as ruas de algumas paredes se colabram em circos perfeitos isso alem seria estranho mas no agua do lar de uma pareda de azeite os diversos notos de forma notificados lhe falam de um peito de ouro eles eram celos torturais celos rolos e despejos alem dos escales de"
+   },
+   {
+    "roteiro": "crocodile lives today those animals had vanished from the islands long ago some of the remains were more than a thousand years old yet they looked recently placed without oxygen the creatures that normally eat a body cannot survive so nothing rotted nothing moved and the bones simply waited in the dark one flooded hole had become a perfect record of a lost island world it preserved the dead because the water itself was barely alive but water can preserve in a far harsher way across the world in",
+    "ouvido": "ar um rolo de rolo se tornou um recorde perfeito de um mundo de lo que preservou o morto porque o agua mesmo era quase vivo mas o agua pode preservar em um caminho muito mais dificil ao mundo em"
+   },
+   {
+    "roteiro": "a lake does it in plain sight under a blazing sun lake",
+    "ouvido": "um lago faz isso em um lugar de planejamento sob um sonho de lago o lago"
+   },
+   {
+    "roteiro": "lies in northern",
+    "ouvido": "esta no norte de"
+   },
+   {
+    "roteiro": "in the",
+    "ouvido": "no valle de"
+   },
+   {
+    "roteiro": "valley in the dry season its shallow water turns",
+    "ouvido": "em sabado sabado o lago de agua se torna um rato de luz desacelado o rato vem de microbes de sal que vivem onde quase nada mais pode e eles pintam o lago todo"
+   },
+   {
+    "roteiro": "deep unsettling red the red comes from tiny saltloving microbes they thrive where almost nothing else can and they paint the whole lake the color of rust the water is fed by hot springs and rich in minerals washed from volcanic ash",
+    "ouvido": "cor de rola o agua e feita por fas de fas de fas e minas ricas que sao feitas por agua volcaneca um volcano de fas de fas ainda esta no ovo no horizonte esses minas fazem o lago extremamente alcoolico forte para descer os rios e os olhos de muitos animais em dias de fas de fas e mais quente que um bato vem"
+   },
+   {
+    "roteiro": "dark volcano still stands watch on the horizon those minerals make the lake extremely alkaline strong enough to burn the skin and eyes of most animals on hot days it is warmer than",
+    "ouvido": "lua da chora e voce encontrara o porque para"
+   },
+   {
+    "roteiro": "bath walk the shoreline and you would find the reason for its dark fame small birds lie there hardened looking",
+    "ouvido": "fama de fas de fas os pequenos rios moram la arrasados olhando como se carvessem da palia batas sualhos e dovos tem tudo sido encontrados como isso encostados em minas ricas todos os fas ainda estao em lugar eles sejam frosos no meio de um momento"
+   },
+   {
+    "roteiro": "if carved from pale stone bats swallows and doves have all been found like this crusted in minerals every feather still in place they look frozen in the middle of a moment pictures of them spread around the world and a legend was born a lake that turns any creature to stone at a",
+    "ouvido": "fotos de eles se esperem ao mundo e uma legenda foi criada um lago que se torna qualquer creche para uma chora em um"
+   },
+   {
+    "roteiro": "here is the turn the lake does",
+    "ouvido": "aqui e o turno o lago nao faz nada esses rios moraram primeiro e os minas ricas se encostaram depois da morte muitas das poses famosas nao eram naturales os rios foram encontrados na chora e entao se arrangaram por parte das frases para as fotos o processo real e mais rapido e mais quieto os saltos se despejam para o moico e deixam um dificil churro para que o corpo se despeje ao inves de descarrejar longa vez um salvio bem similar foi usado para arrasar mumios em egipto o lago tambem se tornou o nome daquela salvia ancha nao sabe exatamente por que tantas brancas moram aqui uma ideia e que a espada mirada se confusa em um rio e uma ideia mas a parte mais morta do lago se escuta o maior surpresa de todos todo ano grandes flocs dos flamengos pinkam chegam aqui para se dar a sua crianca esta e a principal grana de brancas de menos flamengos em africa do oeste eles se enfriam em os mesmos microbios que se tornam o rio rio o rio de brancas e exatamente por que eles vem os predadores nao podem se cruzar entao os chicos sao seguros nas islames de sal um lago que se despeja de morte tambem protege o novoborn e"
+   },
+   {
+    "roteiro": "process is slower and quieter the salts pull out the moisture and leave",
+    "ouvido": "nao e como eles foram e por isso que um animal de marro morreria de fora da terra muitos de eles sao criabedeiros e muitos aparecem"
+   },
+   {
+    "roteiro": "hard crust so the body dries instead of decaying long ago",
+    "ouvido": "ser jovens"
+   },
+   {
+    "roteiro": "very similar salt was used to dry out mummies in egypt the lake even shares its name with that ancient salt",
+    "ouvido": "ideia do rio e simples e um pouco triste eles foram perdidos talvez eles tomaram uma errada errada na terra do ar e continuaram movendo em a errada direcao nao tem ninguem que pode dizer por um certo por que aqui vem a errada esse mundo morto nao e muito morto esplitam alguns rios de sandblas e uma bandada de cor cor cor que aparece beneath a terra essa bandada esta vivo micros se esculpe dentro do rio escondendo do vento survivendo"
+   },
+   {
+    "roteiro": "one knows exactly why so many birds die here one idea is that the still mirrored surface confuses them in flight it remains",
+    "ouvido": "sol do sol que passa por dentro da terra o vento pode parar o tempo para um corpo mas o que acontece quando o vento comeca"
+   },
+   {
+    "roteiro": "guess but the deadliest part of the lake hides the biggest surprise of all every year huge flocks of pink flamingos arrive here to raise their young this is the main breeding ground for lesser flamingos in east africa they feed on the same microbes that turn the water red the burning water is exactly why they come predators cannot cross it so the chicks are safe on islands of white salt a lake that dries the dead also protects the newborn and at the bottom of the world there is a place even drier than this antarctica is a continent of ice yet near its coast lies a group of valleys with almost no ice or snow at all these are the mcmurdo dry valleys gravel bare rock and wind stretch for miles and it could easily be mistaken for another planet scientists take that seriously these valleys are among the closest places on earth to the surface of mars and they are used to study it the mountains hold back the glaciers cold heavy air pours down from the high ice drying everything it touches as it falls toward the valley floor almost nothing falls from the sky here snow that does land often turns to vapor before it can ever melt early explorers walked through here expecting nothing but stones then far from the sea they came across the last thing they expected a seal it lay on the gravel dry as old leather miles from any open water and it was not alone because there were many more researchers have mapped many of these mummies scattered deep inland some lie high up the valleys many miles away from the coast dating shows that some of these seals died centuries ago and a few more than a thousand years ago still their skin remains the cold and the dry air do the work there is so little moisture that decay almost stops and the wind slowly sculpts the bodies but the real question is not how they lasted it is why a sea animal would crawl away from the sea at all most of them are crabeater seals and many appear to have been young the leading idea is simple and a little sad they got lost perhaps they took a wrong turn on the sea ice and kept moving in the wrong direction no one can say for certain why here comes the turn this dead world is not quite dead split open certain sandstone rocks and a thin colored band appears beneath the surface that band is alive microbes shelter inside the rock itself hiding from the wind surviving on the faint sunlight that passes through the stone cold can stop time for a body but what happens when the cold finally begins to let go in siberia the ground is answering deep in eastern",
+    "ouvido": "deixar ir em"
+   },
+   {
+    "roteiro": "huge scar is opening in the forest from above it has the shape of",
+    "ouvido": "terra esta respondendo em sabio e estrangeiro um grande escarro esta aberto na floresta de fora tem"
+   },
+   {
+    "roteiro": "giant horseshoe it is around",
+    "ouvido": "forma de um gato enorme e por um quilometro de distancia e ainda cresceu os locais tem dado um nome negro eles chamamse o gato way para o underworld seus rios se desbastaram por fora dos treinos barralhados e bandidos e nao parecem como qualquer normal clif cada ano mais de eles se desculpe as pessoas vivendo perto tem descrubido sounds de som de som como grandes blocos da terra se desceram em um cacador as vezes o crador parece ser grao parece que o escarro e um rio de medio nao foi nada caiu do ceu e nada explodiu na terra aqui e"
+   },
+   {
+    "roteiro": "kilometer across and still growing locals have given it",
+    "ouvido": "torre esse crador nao foi aberto e o resultado do grao de fronso que se desculpe muita parte de siberia esta no permafrost soja que se descoberou por muitos anos aqui e o sol que se descoberou com o sol decadas atras parte da torre aqui foi descoberida sem o sol o sonho do som descoberou o grao e"
+   },
+   {
+    "roteiro": "dark nickname they call it the gateway to the underworld its walls drop far below the trees bare and banded and they",
+    "ouvido": "agua que descoberou comecou a descer quando o sol descoberou a agua nao tinha nada a escutar o grao desculpe um pequeno chao aberto e o chao nunca se descoberou agora cada um dos palcos e uma pagina"
+   },
+   {
+    "roteiro": "great blocks of earth break away and fall sometimes the crater seems to groan it looks like the scar of",
+    "ouvido": "pesaduras tem encontrado dozens de espais animais aqui e"
+   },
+   {
+    "roteiro": "meteorite it was not nothing fell from the sky and nothing exploded out of the ground here is the turn this crater was not blasted open it is the result of frozen ground slowly melting from the top down much of siberia sits on permafrost soil that has stayed frozen for many thousands of years here that soil is packed with solid ice decades ago part of the forest here was cleared without shade the summer sun warmed the ground and the buried ice began to thaw once the ice melted the soil above had nothing holding it the ground slumped",
+    "ouvido": "maioria deles vivem em nada mais no mundo cada um e um experimento longo e lente cada chave de comida que aprendemos comeca com o sol as plantas se mantem os animais comem as plantas e o resto seguem esse nao faz aqui e"
+   },
+   {
+    "roteiro": "small gully opened and the gully never stopped growing now every layer of those walls is",
+    "ouvido": "ultima volta"
+   },
+   {
+    "roteiro": "page from the past scientists believe the deepest frozen ground here may be hundreds of thousands of years old ancient pollen seeds and wood rest inside the layers together they reveal what grew here through warm ages and cold ages long before any written record animals have come out of it as well among the finds was",
+    "ouvido": "agua flota e uma matada de pao rincelada feito de microbios acountos e"
+   },
+   {
+    "roteiro": "young foal tens of thousands of years old with its hair intact its body had barely changed the frozen ground had held it almost perfectly while ice ages came and went above it",
+    "ouvido": "caixa depende de isso esses microbios nao comem luz eles traem energia dos ques mesmos no water o sulfur e o metano que se levantam de baixo os animais pequenos grazem na matada os animais maiores huntam os pequenos um mundo completo de vida se trata de chemistia em vez de um sonho esses chaves de comida foram conhecidos por ventos na flora do mar mas essa foi a primeira que foi encontrada em luta e por isso que os cientistas guardam isso tao perto"
+   }
+  ],
+  "suspeitas": [],
+  "duvidosas": [
+   "Uma",
+   "caixa",
+   "Romanhia",
+   "se",
+   "assalou",
+   "foi",
+   "dentro",
+   "de",
+   "ela",
+   "estava",
+   "ainda",
+   "vivo.",
+   "Sem",
+   "luz",
+   "do",
+   "sol",
+   "nunca",
+   "se",
+   "enganou,",
+   "sem",
+   "raio",
+   "se",
+   "O",
+   "viveu",
+   "não",
+   "tinha",
+   "uma",
+   "obvia",
+   "para",
+   "A"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "cave in romania stayed sealed for more than five million years when it was opened something inside it was still alive",
+    "ouvido": "terra mantem secretos como isso em mais lugares que voce poderia imaginar umes sao flutuados outros sao frosos e os outros sao maridos em fome hoje visitamos seis de eles fos desses lugares mantem o passado perfeito os seis mantem vivo e vamos la para a ultima em bahamas a terra e palha e brilhante entao sem o avanco se torna um cerco perfeito de azul os sairos e os ilimpicos chamam de cerco azul de fora do ar eles parecem como se algo se encontrou direto na floresta do oceano alguns de eles se sentem em terra escondidos entre os pines eles parecem como paes quinhentos ate voce notar que eles nao tem um boto visivel o water parece calmo mas e arrangado em lagrimas o frango de raiva flutuando"
+   },
+   {
+    "roteiro": "sunlight had ever reached it no rain had ever dripped in whatever lived down there had no obvious reason to exist the earth keeps secrets like this in more places than you would guess some are flooded some are frozen and some are buried in heat tonight we visit six of them five of these places held the past perfectly still the sixth kept it alive and we go there last in the bahamas the sea is pale and bright then without warning it turns into",
+    "ouvido": "topo e"
+   },
+   {
+    "roteiro": "perfect circle of dark blue sailors and islanders call these circles blue holes from the air they look",
+    "ouvido": "agua de sal pesada se espera estcasting os aliados la em la em la em laholes"
+   },
+   {
+    "roteiro": "if something punched straight through the floor of the ocean some of them sit on land hidden among the pines they look like quiet ponds until you notice that they have no visible bottom the water seems calm but it is arranged in layers fresh rainwater floats on top and heavy salt water waits underneath where the two layers meet a cloudy band hangs in the dark it is thick with bacteria and a gas that smells of rotten eggs below that band there is almost no oxygen divers who pass through it enter some of the stillest water on the planet and there on the walls of the flooded caves they found something that should not be underwater long stone spikes hang from the ceiling these are stalactites and this is the first turn in the story stalactites grow from dripping water and they can only form in open air so these caves were",
+    "ouvido": "neve entao essas paredes foram"
+   },
+   {
+    "roteiro": "during the ice ages so much water was locked in ice that the sea fell far below todays shores rain carved the limestone into caverns then the ice melted the sea came back and the roofs of some caves collapsed into perfect circles that alone would be strange enough but in the dark water of one inland hole divers noticed shapes lying on",
+    "ouvido": "durante as paredes de azeite tanto agua foi deslouca de azeite que"
+   },
+   {
+    "roteiro": "slope of old peat they were shells tortoise shells whole and undamaged along with the skulls of",
+    "ouvido": "terra caiu muito abaixo de hojes ruas o raio encarregou a pareda de limite em cavernas ai a azeite se deslouca a azeite voltou e as ruas de algumas paredes se colabram em circos perfeitos isso alem seria estranho mas no agua do lar de uma pareda de azeite os diversos notos de forma notificados lhe falam de um peito de ouro eles eram celos torturais celos rolos e despejos alem dos escales de"
+   },
+   {
+    "roteiro": "crocodile lives today those animals had vanished from the islands long ago some of the remains were more than a thousand years old yet they looked recently placed without oxygen the creatures that normally eat a body cannot survive so nothing rotted nothing moved and the bones simply waited in the dark one flooded hole had become a perfect record of a lost island world it preserved the dead because the water itself was barely alive but water can preserve in a far harsher way across the world in",
+    "ouvido": "ar um rolo de rolo se tornou um recorde perfeito de um mundo de lo que preservou o morto porque o agua mesmo era quase vivo mas o agua pode preservar em um caminho muito mais dificil ao mundo em"
+   },
+   {
+    "roteiro": "a lake does it in plain sight under a blazing sun lake",
+    "ouvido": "um lago faz isso em um lugar de planejamento sob um sonho de lago o lago"
+   },
+   {
+    "roteiro": "lies in northern",
+    "ouvido": "esta no norte de"
+   },
+   {
+    "roteiro": "in the",
+    "ouvido": "no valle de"
+   },
+   {
+    "roteiro": "valley in the dry season its shallow water turns",
+    "ouvido": "em sabado sabado o lago de agua se torna um rato de luz desacelado o rato vem de microbes de sal que vivem onde quase nada mais pode e eles pintam o lago todo"
+   },
+   {
+    "roteiro": "deep unsettling red the red comes from tiny saltloving microbes they thrive where almost nothing else can and they paint the whole lake the color of rust the water is fed by hot springs and rich in minerals washed from volcanic ash",
+    "ouvido": "cor de rola o agua e feita por fas de fas de fas e minas ricas que sao feitas por agua volcaneca um volcano de fas de fas ainda esta no ovo no horizonte esses minas fazem o lago extremamente alcoolico forte para descer os rios e os olhos de muitos animais em dias de fas de fas e mais quente que um bato vem"
+   },
+   {
+    "roteiro": "dark volcano still stands watch on the horizon those minerals make the lake extremely alkaline strong enough to burn the skin and eyes of most animals on hot days it is warmer than",
+    "ouvido": "lua da chora e voce encontrara o porque para"
+   },
+   {
+    "roteiro": "bath walk the shoreline and you would find the reason for its dark fame small birds lie there hardened looking",
+    "ouvido": "fama de fas de fas os pequenos rios moram la arrasados olhando como se carvessem da palia batas sualhos e dovos tem tudo sido encontrados como isso encostados em minas ricas todos os fas ainda estao em lugar eles sejam frosos no meio de um momento"
+   },
+   {
+    "roteiro": "if carved from pale stone bats swallows and doves have all been found like this crusted in minerals every feather still in place they look frozen in the middle of a moment pictures of them spread around the world and a legend was born a lake that turns any creature to stone at a",
+    "ouvido": "fotos de eles se esperem ao mundo e uma legenda foi criada um lago que se torna qualquer creche para uma chora em um"
+   },
+   {
+    "roteiro": "here is the turn the lake does",
+    "ouvido": "aqui e o turno o lago nao faz nada esses rios moraram primeiro e os minas ricas se encostaram depois da morte muitas das poses famosas nao eram naturales os rios foram encontrados na chora e entao se arrangaram por parte das frases para as fotos o processo real e mais rapido e mais quieto os saltos se despejam para o moico e deixam um dificil churro para que o corpo se despeje ao inves de descarrejar longa vez um salvio bem similar foi usado para arrasar mumios em egipto o lago tambem se tornou o nome daquela salvia ancha nao sabe exatamente por que tantas brancas moram aqui uma ideia e que a espada mirada se confusa em um rio e uma ideia mas a parte mais morta do lago se escuta o maior surpresa de todos todo ano grandes flocs dos flamengos pinkam chegam aqui para se dar a sua crianca esta e a principal grana de brancas de menos flamengos em africa do oeste eles se enfriam em os mesmos microbios que se tornam o rio rio o rio de brancas e exatamente por que eles vem os predadores nao podem se cruzar entao os chicos sao seguros nas islames de sal um lago que se despeja de morte tambem protege o novoborn e"
+   },
+   {
+    "roteiro": "process is slower and quieter the salts pull out the moisture and leave",
+    "ouvido": "nao e como eles foram e por isso que um animal de marro morreria de fora da terra muitos de eles sao criabedeiros e muitos aparecem"
+   },
+   {
+    "roteiro": "hard crust so the body dries instead of decaying long ago",
+    "ouvido": "ser jovens"
+   },
+   {
+    "roteiro": "very similar salt was used to dry out mummies in egypt the lake even shares its name with that ancient salt",
+    "ouvido": "ideia do rio e simples e um pouco triste eles foram perdidos talvez eles tomaram uma errada errada na terra do ar e continuaram movendo em a errada direcao nao tem ninguem que pode dizer por um certo por que aqui vem a errada esse mundo morto nao e muito morto esplitam alguns rios de sandblas e uma bandada de cor cor cor que aparece beneath a terra essa bandada esta vivo micros se esculpe dentro do rio escondendo do vento survivendo"
+   },
+   {
+    "roteiro": "one knows exactly why so many birds die here one idea is that the still mirrored surface confuses them in flight it remains",
+    "ouvido": "sol do sol que passa por dentro da terra o vento pode parar o tempo para um corpo mas o que acontece quando o vento comeca"
+   },
+   {
+    "roteiro": "guess but the deadliest part of the lake hides the biggest surprise of all every year huge flocks of pink flamingos arrive here to raise their young this is the main breeding ground for lesser flamingos in east africa they feed on the same microbes that turn the water red the burning water is exactly why they come predators cannot cross it so the chicks are safe on islands of white salt a lake that dries the dead also protects the newborn and at the bottom of the world there is a place even drier than this antarctica is a continent of ice yet near its coast lies a group of valleys with almost no ice or snow at all these are the mcmurdo dry valleys gravel bare rock and wind stretch for miles and it could easily be mistaken for another planet scientists take that seriously these valleys are among the closest places on earth to the surface of mars and they are used to study it the mountains hold back the glaciers cold heavy air pours down from the high ice drying everything it touches as it falls toward the valley floor almost nothing falls from the sky here snow that does land often turns to vapor before it can ever melt early explorers walked through here expecting nothing but stones then far from the sea they came across the last thing they expected a seal it lay on the gravel dry as old leather miles from any open water and it was not alone because there were many more researchers have mapped many of these mummies scattered deep inland some lie high up the valleys many miles away from the coast dating shows that some of these seals died centuries ago and a few more than a thousand years ago still their skin remains the cold and the dry air do the work there is so little moisture that decay almost stops and the wind slowly sculpts the bodies but the real question is not how they lasted it is why a sea animal would crawl away from the sea at all most of them are crabeater seals and many appear to have been young the leading idea is simple and a little sad they got lost perhaps they took a wrong turn on the sea ice and kept moving in the wrong direction no one can say for certain why here comes the turn this dead world is not quite dead split open certain sandstone rocks and a thin colored band appears beneath the surface that band is alive microbes shelter inside the rock itself hiding from the wind surviving on the faint sunlight that passes through the stone cold can stop time for a body but what happens when the cold finally begins to let go in siberia the ground is answering deep in eastern",
+    "ouvido": "deixar ir em"
+   },
+   {
+    "roteiro": "huge scar is opening in the forest from above it has the shape of",
+    "ouvido": "terra esta respondendo em sabio e estrangeiro um grande escarro esta aberto na floresta de fora tem"
+   },
+   {
+    "roteiro": "giant horseshoe it is around",
+    "ouvido": "forma de um gato enorme e por um quilometro de distancia e ainda cresceu os locais tem dado um nome negro eles chamamse o gato way para o underworld seus rios se desbastaram por fora dos treinos barralhados e bandidos e nao parecem como qualquer normal clif cada ano mais de eles se desculpe as pessoas vivendo perto tem descrubido sounds de som de som como grandes blocos da terra se desceram em um cacador as vezes o crador parece ser grao parece que o escarro e um rio de medio nao foi nada caiu do ceu e nada explodiu na terra aqui e"
+   },
+   {
+    "roteiro": "kilometer across and still growing locals have given it",
+    "ouvido": "torre esse crador nao foi aberto e o resultado do grao de fronso que se desculpe muita parte de siberia esta no permafrost soja que se descoberou por muitos anos aqui e o sol que se descoberou com o sol decadas atras parte da torre aqui foi descoberida sem o sol o sonho do som descoberou o grao e"
+   },
+   {
+    "roteiro": "dark nickname they call it the gateway to the underworld its walls drop far below the trees bare and banded and they",
+    "ouvido": "agua que descoberou comecou a descer quando o sol descoberou a agua nao tinha nada a escutar o grao desculpe um pequeno chao aberto e o chao nunca se descoberou agora cada um dos palcos e uma pagina"
+   },
+   {
+    "roteiro": "great blocks of earth break away and fall sometimes the crater seems to groan it looks like the scar of",
+    "ouvido": "pesaduras tem encontrado dozens de espais animais aqui e"
+   },
+   {
+    "roteiro": "meteorite it was not nothing fell from the sky and nothing exploded out of the ground here is the turn this crater was not blasted open it is the result of frozen ground slowly melting from the top down much of siberia sits on permafrost soil that has stayed frozen for many thousands of years here that soil is packed with solid ice decades ago part of the forest here was cleared without shade the summer sun warmed the ground and the buried ice began to thaw once the ice melted the soil above had nothing holding it the ground slumped",
+    "ouvido": "maioria deles vivem em nada mais no mundo cada um e um experimento longo e lente cada chave de comida que aprendemos comeca com o sol as plantas se mantem os animais comem as plantas e o resto seguem esse nao faz aqui e"
+   },
+   {
+    "roteiro": "small gully opened and the gully never stopped growing now every layer of those walls is",
+    "ouvido": "ultima volta"
+   },
+   {
+    "roteiro": "page from the past scientists believe the deepest frozen ground here may be hundreds of thousands of years old ancient pollen seeds and wood rest inside the layers together they reveal what grew here through warm ages and cold ages long before any written record animals have come out of it as well among the finds was",
+    "ouvido": "agua flota e uma matada de pao rincelada feito de microbios acountos e"
+   },
+   {
+    "roteiro": "young foal tens of thousands of years old with its hair intact its body had barely changed the frozen ground had held it almost perfectly while ice ages came and went above it",
+    "ouvido": "caixa depende de isso esses microbios nao comem luz eles traem energia dos ques mesmos no water o sulfur e o metano que se levantam de baixo os animais pequenos grazem na matada os animais maiores huntam os pequenos um mundo completo de vida se trata de chemistia em vez de um sonho esses chaves de comida foram conhecidos por ventos na flora do mar mas essa foi a primeira que foi encontrada em luta e por isso que os cientistas guardam isso tao perto"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg",
+  "folha_5.jpg",
+  "folha_6.jpg",
+  "folha_7.jpg",
+  "folha_8.jpg",
+  "folha_9.jpg",
+  "folha_10.jpg",
+  "folha_11.jpg",
+  "folha_12.jpg",
+  "folha_13.jpg",
+  "folha_14.jpg",
+  "folha_15.jpg",
+  "folha_16.jpg",
+  "folha_17.jpg",
+  "folha_18.jpg",
+  "folha_19.jpg",
+  "folha_20.jpg",
+  "folha_21.jpg",
+  "folha_22.jpg",
+  "folha_23.jpg",
+  "folha_24.jpg",
+  "folha_25.jpg",
+  "folha_26.jpg",
+  "folha_27.jpg",
+  "folha_28.jpg",
+  "folha_29.jpg",
+  "folha_30.jpg",
+  "folha_31.jpg",
+  "folha_32.jpg",
+  "folha_33.jpg",
+  "folha_34.jpg",
+  "folha_35.jpg",
+  "folha_36.jpg",
+  "folha_37.jpg",
+  "folha_38.jpg",
+  "folha_39.jpg",
+  "folha_40.jpg",
+  "folha_41.jpg",
+  "folha_42.jpg",
+  "folha_43.jpg",
+  "folha_44.jpg",
+  "folha_45.jpg",
+  "folha_46.jpg",
+  "folha_47.jpg",
+  "folha_48.jpg",
+  "folha_49.jpg",
+  "folha_50.jpg",
+  "folha_51.jpg",
+  "folha_52.jpg",
+  "folha_53.jpg",
+  "folha_54.jpg",
+  "folha_55.jpg",
+  "folha_56.jpg",
+  "folha_57.jpg",
+  "folha_58.jpg",
+  "folha_59.jpg",
+  "folha_60.jpg",
+  "folha_61.jpg",
+  "folha_62.jpg",
+  "folha_63.jpg"
+ ]
+}
