@@ -1,0 +1,266 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "The Ghost Plant That Never Uses the Sun",
+ "tema": "Why does the ghost pipe, a pure white plant with no green pigment, survive in dark forests without using the sun?",
+ "estilo_visual": "award-winning photorealistic nature photography, natural light, shallow depth of field, sharp focus, dark moody forest tones",
+ "inspecionado_em": "2026-11-04T03:55:12",
+ "video": {
+  "duracao_s": 46.3,
+  "tamanho_mb": 23.9,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -15.5,
+  "pico_dbfs": 0.2,
+  "picos_cortados": {
+   "trechos": 1,
+   "segundos": [
+    0.1
+   ]
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 3.73,
+   "dur_s": 3.73,
+   "brilho_ini": 55.2,
+   "brilho_fim": 58.3,
+   "saturacao_ini": 7.8,
+   "saturacao_fim": 10.7,
+   "cortes_internos_s": [],
+   "narracao": "This ghost white plant never uses the sun. How is it alive?",
+   "palavras_por_s": 3.22,
+   "quadro": "A cluster of five ghost pipe plants, thin smooth waxy pure white stems, tiny white scales instead of leaves, each stem top bends over and points downward, ending in one drooping pure white flower, the whole plant entirely white, rising from dark brown leaf litter, the brightest thing in the picture, at the center of the frame, deep shadow behind.",
+   "movimento": "Very slow push-in, the plants stay still."
+  },
+  {
+   "n": 2,
+   "inicio_s": 3.73,
+   "fim_s": 8.97,
+   "dur_s": 5.24,
+   "brilho_ini": 67.8,
+   "brilho_fim": 67.6,
+   "saturacao_ini": 9.4,
+   "saturacao_fim": 9.9,
+   "cortes_internos_s": [],
+   "narracao": "It grows in the darkest corners of old forests. Almost nothing green can survive down there.",
+   "palavras_por_s": 3.05,
+   "quadro": "Low view across a shadowy old forest floor, huge dark mossy tree trunks in the background, bare brown leaf litter, and in the foreground a cluster of five ghost pipe plants, thin smooth waxy pure white stems, tiny white scales instead of leaves, each stem top bends over and points downward, ending in one drooping pure white flower, the whole plant entirely white.",
+   "movimento": "Gentle pan right across the forest floor."
+  },
+  {
+   "n": 3,
+   "inicio_s": 8.97,
+   "fim_s": 14.17,
+   "dur_s": 5.2,
+   "brilho_ini": 59.8,
+   "brilho_fim": 67.0,
+   "saturacao_ini": 6.9,
+   "saturacao_fim": 10.5,
+   "cortes_internos_s": [],
+   "narracao": "People call it the ghost pipe, or the corpse plant. Its stem looks carved from pale wax.",
+   "palavras_por_s": 3.27,
+   "quadro": "Medium-close view of two ghost pipe plants, thin smooth waxy pure white stems, tiny white scales instead of leaves, each stem top bends over and points downward, ending in one drooping pure white flower, the whole plant entirely white, soft translucent glow in the stems, dark blurred forest floor behind.",
+   "movimento": "Slow upward tilt along the stems."
+  },
+  {
+   "n": 4,
+   "inicio_s": 14.17,
+   "fim_s": 19.67,
+   "dur_s": 5.5,
+   "brilho_ini": 71.9,
+   "brilho_fim": 75.1,
+   "saturacao_ini": 13.6,
+   "saturacao_fim": 16.5,
+   "cortes_internos_s": [],
+   "narracao": "Every normal plant is green for one reason. A pigment that catches sunlight. This one has none.",
+   "palavras_por_s": 3.09,
+   "quadro": "One bright green fern frond on the left beside a cluster of five ghost pipe plants on the right, thin smooth waxy pure white stems, tiny white scales instead of leaves, each stem top bends over and points downward, ending in one drooping pure white flower, the whole plant entirely white, dark soil and brown leaf litter below.",
+   "movimento": "The fern frond sways softly."
+  },
+  {
+   "n": 5,
+   "inicio_s": 19.67,
+   "fim_s": 25.17,
+   "dur_s": 5.5,
+   "brilho_ini": 58.8,
+   "brilho_fim": 60.4,
+   "saturacao_ini": 9.4,
+   "saturacao_fim": 12.5,
+   "cortes_internos_s": [],
+   "narracao": "Without that pigment, it cannot make its own food. So by every rule of plants, it should starve.",
+   "palavras_por_s": 3.27,
+   "quadro": "Dry curled brown fallen leaves on dark soil in deep shade, a single ghost pipe plant among them, thin smooth waxy pure white stem, tiny white scales instead of leaves, the stem top bends over and points downward, ending in one drooping pure white flower, the whole plant entirely white.",
+   "movimento": "Slow push-in toward the white stem."
+  },
+  {
+   "n": 6,
+   "inicio_s": 25.17,
+   "fim_s": 29.93,
+   "dur_s": 4.76,
+   "brilho_ini": 88.8,
+   "brilho_fim": 83.9,
+   "saturacao_ini": 8.3,
+   "saturacao_fim": 9.5,
+   "cortes_internos_s": [],
+   "narracao": "But it does not starve. Its roots tap into a hidden web of fungus under the soil.",
+   "palavras_por_s": 3.57,
+   "quadro": "Macro view of fine white branching fungus threads spreading through dark damp soil and decaying brown leaves, the threads reaching the frame edges, wet soil texture, soft low light.",
+   "movimento": "Very slow pan left across the soil."
+  },
+  {
+   "n": 7,
+   "inicio_s": 29.93,
+   "fim_s": 35.2,
+   "dur_s": 5.27,
+   "brilho_ini": 62.5,
+   "brilho_fim": 58.3,
+   "saturacao_ini": 13.0,
+   "saturacao_fim": 13.1,
+   "cortes_internos_s": [],
+   "narracao": "That fungus trades with the tall trees above. It brings them minerals, and they pay in sugar.",
+   "palavras_por_s": 3.23,
+   "quadro": "One plain red-capped wild mushroom in sharp focus on the forest floor beside thick mossy oak roots, a massive oak trunk rising behind it, thin sunlight touching the green moss, blurred dark forest behind.",
+   "movimento": "Slow upward tilt, leaves sway softly in the light."
+  },
+  {
+   "n": 8,
+   "inicio_s": 35.2,
+   "fim_s": 40.8,
+   "dur_s": 5.6,
+   "brilho_ini": 58.8,
+   "brilho_fim": 59.4,
+   "saturacao_ini": 10.1,
+   "saturacao_fim": 7.9,
+   "cortes_internos_s": [],
+   "narracao": "The white plant quietly steals that sugar from the fungus. And it gives nothing back in return.",
+   "palavras_por_s": 3.04,
+   "quadro": "Three ghost pipe plants growing from dark soil at the foot of thick mossy oak roots, thin smooth waxy pure white stems, tiny white scales instead of leaves, each stem top bends over and points downward, ending in one drooping pure white flower, the whole plant entirely white, fine white fungus threads visible on the soil around the stems.",
+   "movimento": "Gentle slow push-in, the moss stays still."
+  },
+  {
+   "n": 9,
+   "inicio_s": 40.8,
+   "fim_s": 46.3,
+   "dur_s": 5.5,
+   "brilho_ini": 66.8,
+   "brilho_fim": 37.9,
+   "saturacao_ini": 4.2,
+   "saturacao_fim": 2.4,
+   "cortes_internos_s": [],
+   "narracao": "This ghost white plant never uses the sun. It just robs the trees that do.",
+   "palavras_por_s": 2.73,
+   "quadro": "A cluster of five ghost pipe plants, thin smooth waxy pure white stems, tiny white scales instead of leaves, each stem top bends over and points downward, ending in one drooping pure white flower, the whole plant entirely white, the brightest thing in the picture, at the center of the frame, tall dark tree trunks blurred behind, faint sunlight high among distant leaves.",
+   "movimento": "Very slow push-in, distant leaves sway softly."
+  }
+ ],
+ "cortes_bruscos_s": [
+  3.73,
+  8.97,
+  14.17,
+  19.67,
+  25.17,
+  29.93,
+  35.2,
+  40.8
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 146,
+  "palavras_ouvidas": 150,
+  "taxa_acerto": 0.02,
+  "erros": [
+   {
+    "roteiro": "this ghost white plant never uses the sun how is it alive it grows in the darkest corners of old forests almost nothing green can survive down there people call it the ghost pipe or the corpse plant its stem looks carved from pale wax every",
+    "ouvido": "essa planta de posmato nao usa o sol como e que e livre ela cresce nas partes mais escuras de oldes foras quanto mais nada verde pode sobreviver la embaixo as pessoas chamamse o posmato ou planta de corpo a sua steminha parece carvada de palvara cada planta"
+   },
+   {
+    "roteiro": "plant is green for one reason",
+    "ouvido": "e verde por uma razao um pigmento que se engana com"
+   },
+   {
+    "roteiro": "pigment that catches sunlight this one has none without that pigment it cannot make its own food",
+    "ouvido": "luz de sol essa nao tem nada sem aquele pigmento nao pode fazer com a sua comida entao por toda a regra de plantas ela deve estar mas ela nao esta as ruinas se tapam em um pao de fangus no sol esse fangus se trade com os palvars mais grandes eles sao os minerales e pagam em acucar a planta de palvara quente o acucar da fangus e nao da nada de volta esse planta de palvara nao usa o sol ela"
+   },
+   {
+    "roteiro": "by every rule of plants it should starve but it does not starve its roots tap into a hidden web of fungus under the soil that fungus trades with the tall trees above it brings them minerals and they pay in sugar the white plant quietly steals that sugar from the fungus and it gives nothing back in return this ghost white plant never uses the sun it just robs the trees that do",
+    "ouvido": "rouba os palvars que fazem"
+   }
+  ],
+  "suspeitas": [],
+  "duvidosas": [
+   "Essa",
+   "de",
+   "pós",
+   "-mato",
+   "não",
+   "sol.",
+   "é",
+   "é",
+   "livre?",
+   "Ela",
+   "nas",
+   "partes",
+   "mais",
+   "escuras",
+   "de",
+   "oldes",
+   "foras.",
+   "Quanto",
+   "mais",
+   "nada",
+   "embaixo.",
+   "-se",
+   "o",
+   "pós",
+   "de",
+   "corpó.",
+   "A",
+   "sua",
+   "steminha",
+   "parece"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "this ghost white plant never uses the sun how is it alive it grows in the darkest corners of old forests almost nothing green can survive down there people call it the ghost pipe or the corpse plant its stem looks carved from pale wax every",
+    "ouvido": "essa planta de posmato nao usa o sol como e que e livre ela cresce nas partes mais escuras de oldes foras quanto mais nada verde pode sobreviver la embaixo as pessoas chamamse o posmato ou planta de corpo a sua steminha parece carvada de palvara cada planta"
+   },
+   {
+    "roteiro": "plant is green for one reason",
+    "ouvido": "e verde por uma razao um pigmento que se engana com"
+   },
+   {
+    "roteiro": "pigment that catches sunlight this one has none without that pigment it cannot make its own food",
+    "ouvido": "luz de sol essa nao tem nada sem aquele pigmento nao pode fazer com a sua comida entao por toda a regra de plantas ela deve estar mas ela nao esta as ruinas se tapam em um pao de fangus no sol esse fangus se trade com os palvars mais grandes eles sao os minerales e pagam em acucar a planta de palvara quente o acucar da fangus e nao da nada de volta esse planta de palvara nao usa o sol ela"
+   },
+   {
+    "roteiro": "by every rule of plants it should starve but it does not starve its roots tap into a hidden web of fungus under the soil that fungus trades with the tall trees above it brings them minerals and they pay in sugar the white plant quietly steals that sugar from the fungus and it gives nothing back in return this ghost white plant never uses the sun it just robs the trees that do",
+    "ouvido": "rouba os palvars que fazem"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg"
+ ]
+}
