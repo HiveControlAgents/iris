@@ -27,7 +27,7 @@ python benchmark/rotular.py --videos my_videos/                    # labeling pa
 <!-- metricas:inicio -->
 | rotulados / labeled | precisão / precision | revocação / recall | certos | errados | perdidos |
 |---|---|---|---|---|---|
-| 3 (pendentes: 24) | 92% | 85% | 34 | 3 | 6 |
+| 3 (pendentes: 25) | 92% | 85% | 34 | 3 | 6 |
 
 | tipo / type | precisão / precision | certos | errados |
 |---|---|---|---|
@@ -37,7 +37,7 @@ python benchmark/rotular.py --videos my_videos/                    # labeling pa
 | ritmo | 100% | 5 | 0 |
 | visual | 94% | 16 | 1 |
 
-_Atualizado em 2026-11-04 com `python benchmark/bench.py metricas`._
+_Atualizado em 2026-11-05 com `python benchmark/bench.py metricas`._
 <!-- metricas:fim -->
 
 ## Defects per video / defeitos por vídeo
@@ -72,6 +72,7 @@ _Atualizado em 2026-11-04 com `python benchmark/bench.py metricas`._
 | A Cave Sealed for 5 Million Years and 5 Other Plac | 5.5 | 25 | 19 | 2 | 2 | 0 | 0 | 2 | 1:35.5 visual; 3:36.0 visual; 4:19.8 visual; 4:42.5 visual; 7:50.0 visual; 7:40.5 visual; 6:02.0 visual; 10:11.0 visual; 6:20.0 visual; 4:36.5 visual; 1:35.0 visual; 6:23.9 visual; 2:57.6 visual; 10:42.0 visual; 6:45.0 visual; 9:16.5 visual; 2:19.5 visual; 5:45.9 visual; 5:46.2 narracao; 0:13.7 narracao; 0:00.0 tecnico; 0:00.0 ritmo; 0:00.0 ritmo; 3:58.0 visual; 1:48.1 tecnico |
 | The Ship Found Sailing With Nobody on Board | 5.5 | 13 | 8 | 1 | 1 | 0 | 3 | 0 | 0:23.0 visual; 0:22.4 narracao; 0:00.0 visual; 0:03.9 visual; 0:15.1 visual; 0:35.7 visual; 0:20.7 visual; 0:32.9 visual; 0:25.2 ritmo; 0:02.0 legenda; 0:10.3 legenda; 0:00.1 legenda; 0:14.5 visual |
 | The Ghost Plant That Never Uses the Sun | 5.0 | 9 | 4 | 1 | 2 | 1 | 1 | 0 | 0:00.0 narracao; 0:00.0 visual; 0:19.7 visual; 0:00.0 ritmo; 0:25.2 visual; 0:29.9 visual; 0:25.2 ritmo; 0:00.1 audio; 0:00.0 legenda |
+| This Hole in the Ground Breathes | 6.5 | 9 | 4 | 0 | 1 | 1 | 2 | 1 | 0:00.0 tecnico; 0:08.5 visual; 0:22.5 visual; 0:03.6 visual; 0:04.5 visual; 0:04.0 legenda; 0:15.5 legenda; 0:03.6 ritmo; 0:00.0 audio |
 <!-- tabela:fim -->
 
 ---

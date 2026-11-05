@@ -1,0 +1,272 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "This Hole in the Ground Breathes",
+ "tema": "Why does a small hole in the South Dakota prairie breathe in and out? (Wind Cave: the cave's natural entrance blows air out or pulls it in as the outside air pressure changes)",
+ "estilo_visual": "award-winning photorealistic nature photography, natural light, shallow depth of field, sharp focus, quiet empty landscape, no people",
+ "inspecionado_em": "2026-11-05T02:00:09",
+ "video": {
+  "duracao_s": 43.1,
+  "tamanho_mb": 26.6,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -15.1,
+  "pico_dbfs": -1.6,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 3.6,
+   "dur_s": 3.6,
+   "brilho_ini": 115.6,
+   "brilho_fim": 131.3,
+   "saturacao_ini": 14.9,
+   "saturacao_fim": 17.5,
+   "cortes_internos_s": [],
+   "narracao": "A small hole in the South Dakota prairie breathes in and out.",
+   "palavras_por_s": 3.33,
+   "quadro": "A small dark natural opening in pale grey limestone rock, low to the ground, surrounded by dry golden prairie grass. A thin plume of white mist flows out of the dark opening and drifts upward. The white mist plume is the brightest thing in the picture, at the center of the frame. Cold early morning light, background softly blurred.",
+   "movimento": "mist drifts slowly upward"
+  },
+  {
+   "n": 2,
+   "inicio_s": 3.6,
+   "fim_s": 8.43,
+   "dur_s": 4.83,
+   "brilho_ini": 139.4,
+   "brilho_fim": 126.1,
+   "saturacao_ini": 23.0,
+   "saturacao_fim": 25.6,
+   "cortes_internos_s": [],
+   "narracao": "On some days, a strong wind rushes out of it. On other days, it pulls air inside.",
+   "palavras_por_s": 3.52,
+   "quadro": "Low side view, close to the ground: a small dark natural opening in pale grey limestone rock, low to the ground, surrounded by dry golden prairie grass. The grass blades beside the opening are bent away from it, all leaning in the same direction. Soft daylight, background blurred.",
+   "movimento": "grass blades sway steadily"
+  },
+  {
+   "n": 3,
+   "inicio_s": 8.43,
+   "fim_s": 13.13,
+   "dur_s": 4.7,
+   "brilho_ini": 152.8,
+   "brilho_fim": 140.0,
+   "saturacao_ini": 28.0,
+   "saturacao_fim": 31.3,
+   "cortes_internos_s": [],
+   "narracao": "That hole is the natural entrance to Wind Cave, named for the wind at its mouth.",
+   "palavras_por_s": 3.4,
+   "quadro": "Wide view of rolling golden prairie hills under a pale blue sky. In the foreground, a low pale grey limestone outcrop with a small dark natural opening in pale grey limestone rock, low to the ground, surrounded by dry golden prairie grass.",
+   "movimento": "gentle pan left"
+  },
+  {
+   "n": 4,
+   "inicio_s": 13.13,
+   "fim_s": 17.93,
+   "dur_s": 4.8,
+   "brilho_ini": 70.7,
+   "brilho_fim": 69.5,
+   "saturacao_ini": 21.7,
+   "saturacao_fim": 25.3,
+   "cortes_internos_s": [],
+   "narracao": "Early explorers heard it whistle and felt it push. Nobody could see what was pushing.",
+   "palavras_por_s": 3.13,
+   "quadro": "A small dark natural opening in pale grey limestone rock, low to the ground, surrounded by dry golden prairie grass, at dusk. Deep blue twilight sky, the opening a pitch-black shadow, the grass dim and still.",
+   "movimento": "slow push-in toward the opening"
+  },
+  {
+   "n": 5,
+   "inicio_s": 17.93,
+   "fim_s": 22.4,
+   "dur_s": 4.47,
+   "brilho_ini": 126.6,
+   "brilho_fim": 116.6,
+   "saturacao_ini": 11.2,
+   "saturacao_fim": 13.7,
+   "cortes_internos_s": [],
+   "narracao": "But nothing down there is alive. The cave is simply answering the sky above it.",
+   "palavras_por_s": 3.36,
+   "quadro": "Towering dark grey storm clouds over a wide golden prairie, a low pale grey limestone outcrop in the foreground, dramatic soft light breaking through the clouds.",
+   "movimento": "clouds drift slowly"
+  },
+  {
+   "n": 6,
+   "inicio_s": 22.4,
+   "fim_s": 27.23,
+   "dur_s": 4.83,
+   "brilho_ini": 71.2,
+   "brilho_fim": 64.5,
+   "saturacao_ini": 17.6,
+   "saturacao_fim": 16.7,
+   "cortes_internos_s": [],
+   "narracao": "Behind that tiny opening lies one of the longest caves on Earth, filled with trapped air.",
+   "palavras_por_s": 3.31,
+   "quadro": "Inside a dark limestone cave, the low ceiling is covered in thin flat brown calcite fins that cross each other in a dense grid of small square and diamond-shaped cells. Soft warm light falls on the ceiling, and a narrow rock passage fades into darkness at the far end.",
+   "movimento": "slow pan along the ceiling"
+  },
+  {
+   "n": 7,
+   "inicio_s": 27.23,
+   "fim_s": 32.33,
+   "dur_s": 5.1,
+   "brilho_ini": 118.7,
+   "brilho_fim": 113.2,
+   "saturacao_ini": 19.7,
+   "saturacao_fim": 23.5,
+   "cortes_internos_s": [],
+   "narracao": "When a storm moves in, the air pressure outside drops, and the cave slowly breathes out.",
+   "palavras_por_s": 3.14,
+   "quadro": "Dark grey storm clouds gather low over the golden prairie. In the foreground, a small dark natural opening in pale grey limestone rock, low to the ground, surrounded by dry golden prairie grass, with the grass blades beside it bent away from the opening.",
+   "movimento": "grass bends steadily, clouds drift"
+  },
+  {
+   "n": 8,
+   "inicio_s": 32.33,
+   "fim_s": 37.43,
+   "dur_s": 5.1,
+   "brilho_ini": 110.6,
+   "brilho_fim": 98.9,
+   "saturacao_ini": 35.0,
+   "saturacao_fim": 35.0,
+   "cortes_internos_s": [],
+   "narracao": "When the weather clears and the pressure rises again, air rushes back in. The cave inhales.",
+   "palavras_por_s": 3.14,
+   "quadro": "Clear bright blue sky after rain. A small dark natural opening in pale grey limestone rock, low to the ground, surrounded by dry golden prairie grass, with the grass blades now leaning in toward the opening, wet and glistening in the sunlight.",
+   "movimento": "grass sways toward the opening"
+  },
+  {
+   "n": 9,
+   "inicio_s": 37.43,
+   "fim_s": 43.1,
+   "dur_s": 5.67,
+   "brilho_ini": 128.5,
+   "brilho_fim": 82.0,
+   "saturacao_ini": 19.8,
+   "saturacao_fim": 14.8,
+   "cortes_internos_s": [],
+   "narracao": "So the hole is not breathing on its own. It is the sky, breathing through the ground.",
+   "palavras_por_s": 3.0,
+   "quadro": "Low angle view: a small dark natural opening in pale grey limestone rock, low to the ground, surrounded by dry golden prairie grass. A thin plume of white mist rises from the opening into a wide glowing pink dawn sky. The white mist plume is the brightest thing in the picture, at the center of the frame.",
+   "movimento": "mist rises slowly, very slow push-in"
+  }
+ ],
+ "cortes_bruscos_s": [
+  3.6,
+  8.43,
+  13.13,
+  17.93,
+  22.4,
+  27.23,
+  32.33,
+  37.43
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 140,
+  "palavras_ouvidas": 136,
+  "taxa_acerto": 0.029,
+  "erros": [
+   {
+    "roteiro": "",
+    "ouvido": "um pequeno hole no praia do sul se desce em e fora em alguns dias um forte vento se desce em outros dias se desce esse hole e"
+   },
+   {
+    "roteiro": "small",
+    "ouvido": "entrada natural para a cave de vento chamada para o vento na boca os exploradores ouviram e sentaram que se puse ninguem poderia ver o que estava puse mas nada la esta vivo a cave e simplesmente responder o ceu por cima bemvindo aquele pequeno opening esta um dos mais longos canais da terra fechado com aqueira quando um estouramento se desce o pressao do vento se desce e a cave se desce quando o vento se desce e o pressao se desce o vento se desce o vento se desce entao o"
+   },
+   {
+    "roteiro": "in the south dakota prairie breathes in and out on some days",
+    "ouvido": "nao e"
+   },
+   {
+    "roteiro": "strong wind rushes out of it on other days it pulls air inside that hole is the natural entrance to wind cave named for the wind at its mouth early explorers heard it whistle and felt it push nobody could see what was pushing but nothing down there is alive the cave is simply answering the sky above it behind that tiny opening lies one of the longest caves on earth filled with trapped air when",
+    "ouvido": "sua propria desce e o ceu"
+   },
+   {
+    "roteiro": "storm moves in the air pressure outside drops and the cave slowly breathes out when the weather clears and the pressure rises again air rushes back in the cave inhales so the hole is not breathing on its own it is the sky breathing through the ground",
+    "ouvido": "desce por cima"
+   }
+  ],
+  "suspeitas": [],
+  "duvidosas": [
+   "hole",
+   "praia",
+   "do",
+   "Sul",
+   "se",
+   "desce",
+   "em",
+   "fora.",
+   "se",
+   "desce.",
+   "se",
+   "desce.",
+   "Esse",
+   "hole",
+   "a",
+   "entrada",
+   "para",
+   "a",
+   "cave",
+   "de",
+   "para",
+   "na",
+   "boca.",
+   "Os",
+   "ouviram",
+   "e",
+   "sentaram",
+   "que",
+   "se",
+   "puse."
+  ],
+  "divergencias": [
+   {
+    "roteiro": "",
+    "ouvido": "um pequeno hole no praia do sul se desce em e fora em alguns dias um forte vento se desce em outros dias se desce esse hole e"
+   },
+   {
+    "roteiro": "small",
+    "ouvido": "entrada natural para a cave de vento chamada para o vento na boca os exploradores ouviram e sentaram que se puse ninguem poderia ver o que estava puse mas nada la esta vivo a cave e simplesmente responder o ceu por cima bemvindo aquele pequeno opening esta um dos mais longos canais da terra fechado com aqueira quando um estouramento se desce o pressao do vento se desce e a cave se desce quando o vento se desce e o pressao se desce o vento se desce o vento se desce entao o"
+   },
+   {
+    "roteiro": "in the south dakota prairie breathes in and out on some days",
+    "ouvido": "nao e"
+   },
+   {
+    "roteiro": "strong wind rushes out of it on other days it pulls air inside that hole is the natural entrance to wind cave named for the wind at its mouth early explorers heard it whistle and felt it push nobody could see what was pushing but nothing down there is alive the cave is simply answering the sky above it behind that tiny opening lies one of the longest caves on earth filled with trapped air when",
+    "ouvido": "sua propria desce e o ceu"
+   },
+   {
+    "roteiro": "storm moves in the air pressure outside drops and the cave slowly breathes out when the weather clears and the pressure rises again air rushes back in the cave inhales so the hole is not breathing on its own it is the sky breathing through the ground",
+    "ouvido": "desce por cima"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg"
+ ]
+}

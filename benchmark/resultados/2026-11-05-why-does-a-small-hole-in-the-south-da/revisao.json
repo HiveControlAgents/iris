@@ -1,0 +1,32 @@
+{
+ "nota": 6.5,
+ "resumo": "Visual bonito e gancho forte com a fumaça saindo do buraco, mas a cena 3 não mostra o buraco que a narração aponta, o teto da caverna (cena 6) parece uma grade artificial, o 'buraco' muda de forma em cada cena e a checagem da narração falhou porque a transcrição saiu em português.",
+ "problemas": [
+  {"segundo": 0.0, "cena": 0, "tipo": "tecnico", "gravidade": "alta", "descricao": "A transcrição da narração saiu em português (tradução do texto em inglês), por isso taxa_acerto 0,029 e os 5 'erros' cobrindo o vídeo inteiro. O conteúdo ouvido segue o roteiro na ordem (buraco, pradaria, vento forte, entrada natural da Wind Cave, exploradores, tempestade, pressão), então não é a voz errando: a pronúncia simplesmente não foi conferida.", "causa": "Whisper rodou com detecção de idioma errada ou idioma fixo em 'pt' para um roteiro em inglês.", "origem": "pipeline"},
+  {"segundo": 8.5, "cena": 3, "tipo": "visual", "gravidade": "media", "descricao": "Plano aberto da pradaria com um afloramento de calcário, mas nenhuma abertura visível. A narração diz 'That hole is the natural entrance to Wind Cave' e não há buraco na tela. Imagem quase parada por 4,7 s.", "causa": "Prompt pede plano aberto e buraco pequeno ao mesmo tempo; o modelo descartou o detalhe pequeno.", "origem": "sorteio"},
+  {"segundo": 22.5, "cena": 6, "tipo": "visual", "gravidade": "media", "descricao": "Teto da caverna vira uma grade perfeitamente regular de quadrados, como treliça de madeira, com pontas marrons penduradas e um túnel com luz azul no fundo. Parece estrutura artificial, não boxwork natural, e destoa do estilo fotorrealista do resto.", "causa": "O prompt pede 'dense grid of small square and diamond-shaped cells' e o modelo levou 'grid' ao pé da letra.", "origem": "sorteio"},
+  {"segundo": 3.6, "cena": 2, "tipo": "visual", "gravidade": "media", "descricao": "O 'buraco' tem forma diferente em cada cena: fenda com fumaça (cena 1), toca sob laje (2), arco de caverna (4), vão sob pedra (7), portal retangular entre blocos (8), fenda vertical (9). Quem assiste não sente que é o mesmo lugar.", "causa": "Cada cena é gerada sem imagem de referência; só o texto do prompt descreve o buraco.", "origem": "pipeline"},
+  {"segundo": 4.5, "cena": 2, "tipo": "visual", "gravidade": "baixa", "descricao": "Narração fala de vento forte saindo do buraco, mas a grama ao lado não se dobra para longe dele e a cena fica quase parada; o mesmo na cena 7 (27,2 s), onde as nuvens e a grama mal se mexem.", "causa": "Modelo de vídeo não sustenta vento direcional sutil.", "origem": "pipeline"},
+  {"segundo": 4.0, "cena": 2, "tipo": "legenda", "gravidade": "media", "descricao": "A legenda fica a ~70% da altura em todas as cenas e cai em cima do buraco nas cenas 2, 7 e 9 (ex.: 'ON SOME DAYS,' sobre a abertura; 'SO THE HOLE' sobre a base da fumaça em 37,5 s).", "causa": "Posição fixa da legenda; o assunto principal está na mesma faixa da tela.", "origem": "pipeline"},
+  {"segundo": 15.5, "cena": 4, "tipo": "legenda", "gravidade": "baixa", "descricao": "Blocos cortam a ideia e deixam uma palavra sozinha: 'WHISTLE AND FELT IT' / 'PUSH.', 'WHEN A STORM MOVES' / 'IN, THE AIR PRESSURE', 'ANSWERING THE SKY ABOVE' / 'IT.', 'AIR RUSHES BACK' / 'IN.'.", "causa": "Quebra de legenda por contagem de palavras, sem olhar pontuação nem verbo frasal.", "origem": "pipeline"},
+  {"segundo": 3.6, "cena": 2, "tipo": "ritmo", "gravidade": "baixa", "descricao": "Narração a 3,0-3,5 palavras/s em todas as cenas (pico de 3,52 na cena 2), acima da faixa de 2,3-3,0.", "causa": "Roteiro com texto demais para a duração das cenas.", "origem": "pipeline"},
+  {"segundo": 0.0, "cena": 0, "tipo": "audio", "gravidade": "baixa", "descricao": "Loudness integrado de -15,1 LUFS, um pouco abaixo do alvo de -14 (±1). Pico em -1,6 dBFS, sem cortes nem silêncios.", "causa": "Normalização final mirando um alvo mais baixo.", "origem": "pipeline"}
+ ],
+ "refazer": [
+  {"cena": 3, "motivo": "A narração diz 'that hole' e a imagem não mostra buraco nenhum.", "ajuste_prompt": "Trocar o plano aberto por plano médio baixo: o afloramento de calcário ocupa o terço de baixo e a abertura escura fica visível e centralizada; a pradaria e o céu ficam ao fundo."},
+  {"cena": 6, "motivo": "Teto em grade regular parece treliça artificial e quebra o fotorrealismo.", "ajuste_prompt": "Tirar 'grid', 'square' e 'diamond'. Descrever: 'irregular honeycomb-like boxwork of thin brown calcite fins, uneven cell sizes, natural cave rock, no straight lines'."}
+ ],
+ "licoes": [
+  {"tipo_assunto": "natureza", "alvo": "geracao", "regra": "Quando a narração aponta para um objeto pequeno ('aquele buraco', 'essa pedra'), a cena precisa de plano médio ou fechado em que ele apareça; plano aberto faz o modelo sumir com o detalhe."},
+  {"tipo_assunto": "natureza", "alvo": "geracao", "regra": "Evite palavras geométricas ('grid', 'square', 'diamond') para formação natural: o modelo gera estrutura artificial. Use 'irregular', 'uneven', 'natural'."},
+  {"tipo_assunto": "geral", "alvo": "geracao", "regra": "Objeto que se repete em várias cenas precisa de imagem de referência fixa, senão muda de forma a cada cena."},
+  {"tipo_assunto": "geral", "alvo": "montagem", "regra": "Legenda não pode ficar na mesma faixa do assunto principal e não deve deixar palavra sozinha no fim do bloco."}
+ ],
+ "pipeline": [
+  {"onde": "transcrição da narração (inspecionar.py / Whisper)", "mudanca": "Passar o idioma do roteiro ao Whisper (language='en' para roteiro em inglês) e usar task='transcribe', nunca 'translate'.", "motivo": "A transcrição saiu traduzida para português, então a checagem da narração deste vídeo não vale."},
+  {"onde": "geração de imagem/vídeo por cena", "mudanca": "Gerar uma imagem-âncora do assunto recorrente (o buraco) e usá-la como referência nas cenas em que ele aparece.", "motivo": "O buraco muda de forma em 6 cenas."},
+  {"onde": "legendas", "mudanca": "Subir a legenda para ~20-25% da altura (ou trocar de lado quando o assunto estiver embaixo) e quebrar blocos na pontuação, juntando palavra solta ao bloco anterior.", "motivo": "Legenda cobre o buraco nas cenas 2, 7 e 9 e deixa 'PUSH.', 'IT.', 'IN.' sozinhos."},
+  {"onde": "roteiro", "mudanca": "Limitar a ~2,8 palavras/s por cena (cortar palavras ou alongar a cena).", "motivo": "Todas as cenas passam de 3,0 palavras/s."},
+  {"onde": "mixagem final", "mudanca": "Normalizar para -14 LUFS com pico máximo de -1 dBFS.", "motivo": "Saiu em -15,1 LUFS."}
+ ]
+}
