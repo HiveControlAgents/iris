@@ -46,8 +46,9 @@ def revisar(video: Path, pasta: Path, revisao_em: str | None = None) -> bool:
                            skill=(SKILL / "SKILL.md").read_text(encoding="utf-8"))
     inicio = time.time()
     with open(pasta / "claude.log", "w", encoding="utf-8") as log:      # a conversa do Claude fica fora da tela
-        subprocess.run([claude, "-p", "--permission-mode", "acceptEdits", "--add-dir", str(SKILL),
-                        "--allowedTools", "Read,Write,Edit,Glob"], input=pedido, text=True, encoding="utf-8",
+        # --setting-sources project: a revisão não muda por causa dos plugins e hooks de quem roda
+        subprocess.run([claude, "-p", "--setting-sources", "project", "--permission-mode", "acceptEdits",
+                        "--add-dir", str(SKILL), "--allowedTools", "Read,Write,Edit,Glob"], input=pedido, text=True, encoding="utf-8",
                        stdout=log, stderr=subprocess.STDOUT)
     feita = pasta / "revisao.json"
     return feita.exists() and feita.stat().st_mtime >= inicio

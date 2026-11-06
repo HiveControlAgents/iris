@@ -35,6 +35,14 @@ def test_sem_claude_fica_so_a_inspecao(video, tmp_path, monkeypatch):
     assert cli.revisar(video, tmp_path) is False
 
 
+def test_revisao_isola_plugins_e_hooks_de_quem_roda(tmp_path, monkeypatch):
+    monkeypatch.setattr(cli.shutil, "which", lambda nome: "claude")
+    chamadas = []
+    monkeypatch.setattr(cli.subprocess, "run", lambda cmd, **k: chamadas.append(cmd))
+    cli.revisar(tmp_path / "v.mp4", tmp_path)
+    assert chamadas[0][chamadas[0].index("--setting-sources") + 1] == "project"
+
+
 def test_video_inexistente_devolve_2(tmp_path, monkeypatch):
     monkeypatch.chdir(tmp_path)
     assert cli.main([str(tmp_path / "nada.mp4"), "--sem-revisao", "--resumo", "r.md"]) == 2
