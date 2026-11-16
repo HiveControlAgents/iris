@@ -1,0 +1,248 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "The Volcano That Burns Blue Fire Every Night",
+ "tema": "Why does a volcano in Indonesia burn with electric blue fire at night if it is not blue lava? Hot sulfur gas rushes out of cracks in the Ijen crater and catches fire when it meets the air. Some of it cools into liquid sulfur that runs downhill still burning. The flames burn all day too, but sunlight hides them.",
+ "estilo_visual": "award-winning photorealistic nature photography, natural light, shallow depth of field, sharp focus, documentary realism",
+ "inspecionado_em": "2026-11-16T02:02:51",
+ "video": {
+  "duracao_s": 43.9,
+  "tamanho_mb": 27.2,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -15.0,
+  "pico_dbfs": -0.9,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 4.6,
+   "dur_s": 4.6,
+   "brilho_ini": 60.5,
+   "brilho_fim": 61.7,
+   "saturacao_ini": 10.1,
+   "saturacao_fim": 15.9,
+   "cortes_internos_s": [],
+   "narracao": "A volcano in Indonesia burns with blue fire every night. But it is not lava.",
+   "palavras_por_s": 3.26,
+   "quadro": "Pitch-black overcast night sky, no moon, no stars. A volcanic crater floor of rough dark grey rock crusted with bright yellow sulfur, thin irregular tongues of electric blue flame rising from cracks in the rock. The blue flames are the brightest thing in the picture, at the center of the frame. Pale white sulfur smoke drifts above them. No people, no buildings, no fences.",
+   "movimento": "slow push-in, blue flames flicker softly"
+  },
+  {
+   "n": 2,
+   "inicio_s": 4.6,
+   "fim_s": 11.0,
+   "dur_s": 6.4,
+   "brilho_ini": 68.7,
+   "brilho_fim": 51.3,
+   "saturacao_ini": 12.9,
+   "saturacao_fim": 13.4,
+   "cortes_internos_s": [],
+   "narracao": "Deep inside the crater, thin blue flames crawl across yellow rocks. Sometimes they run downhill like rivers.",
+   "palavras_por_s": 2.66,
+   "quadro": "Pitch-black night, no moon, no stars. Medium-close view of a single cluster of rough dark grey rocks crusted with bright yellow sulfur, thin irregular tongues of electric blue flame rising from the cracks between them, faint blue light reflected on the yellow crust. No people.",
+   "movimento": "gentle pan right, flames flicker"
+  },
+  {
+   "n": 3,
+   "inicio_s": 11.0,
+   "fim_s": 15.2,
+   "dur_s": 4.2,
+   "brilho_ini": 72.3,
+   "brilho_fim": 67.1,
+   "saturacao_ini": 20.8,
+   "saturacao_fim": 24.0,
+   "cortes_internos_s": [],
+   "narracao": "Many people call it blue lava. But this fire is not molten rock at all.",
+   "palavras_por_s": 3.57,
+   "quadro": "At dusk, after sunset, deep blue twilight. The wide rim of a huge volcanic crater with steep grey rock walls, pale white smoke rising slowly from the crater floor far below, distant mountain ridges under the twilight sky. No people, no buildings, no paths.",
+   "movimento": "slow drift forward, smoke rises gently"
+  },
+  {
+   "n": 4,
+   "inicio_s": 15.2,
+   "fim_s": 19.7,
+   "dur_s": 4.5,
+   "brilho_ini": 106.3,
+   "brilho_fim": 98.4,
+   "saturacao_ini": 6.6,
+   "saturacao_fim": 7.5,
+   "cortes_internos_s": [],
+   "narracao": "The fire is gas. Hot sulfur gas rushes out of cracks in the crater floor.",
+   "palavras_por_s": 3.33,
+   "quadro": "Overcast daylight. Close view of one wide crack in rough grey volcanic rock with dense white sulfur gas pouring out of it, the rock around the crack crusted with bright yellow sulfur crystals. No flames, no people, no pipes.",
+   "movimento": "white gas billows slowly upward"
+  },
+  {
+   "n": 5,
+   "inicio_s": 19.7,
+   "fim_s": 24.2,
+   "dur_s": 4.5,
+   "brilho_ini": 66.3,
+   "brilho_fim": 64.8,
+   "saturacao_ini": 7.3,
+   "saturacao_fim": 10.2,
+   "cortes_internos_s": [],
+   "narracao": "When that hot gas meets the air, it catches fire on its own. Sulfur burns blue.",
+   "palavras_por_s": 3.56,
+   "quadro": "Pitch-black overcast night sky, no moon, no stars. A volcanic crater floor of rough dark grey rock crusted with bright yellow sulfur, thin irregular tongues of electric blue flame rising from cracks in the rock, pale white sulfur smoke drifting through the blue light. No people.",
+   "movimento": "slow push-in, smoke drifts left"
+  },
+  {
+   "n": 6,
+   "inicio_s": 24.2,
+   "fim_s": 28.87,
+   "dur_s": 4.67,
+   "brilho_ini": 64.9,
+   "brilho_fim": 88.4,
+   "saturacao_ini": 8.7,
+   "saturacao_fim": 11.5,
+   "cortes_internos_s": [],
+   "narracao": "Some of the gas cools into liquid sulfur. It flows down the rocks, still burning.",
+   "palavras_por_s": 3.21,
+   "quadro": "Pitch-black night, no moon, no stars. A narrow stream of electric blue flame running down a slope of rough dark grey rock crusted with bright yellow sulfur, the stream glowing along its whole length, faint white smoke above it. No people.",
+   "movimento": "slow tilt down along the slope"
+  },
+  {
+   "n": 7,
+   "inicio_s": 28.87,
+   "fim_s": 33.37,
+   "dur_s": 4.5,
+   "brilho_ini": 148.8,
+   "brilho_fim": 137.1,
+   "saturacao_ini": 13.6,
+   "saturacao_fim": 16.3,
+   "cortes_internos_s": [],
+   "narracao": "Beside the flames lies a turquoise lake. It is one of the most acidic in the world.",
+   "palavras_por_s": 3.78,
+   "quadro": "Overcast daylight. A bright milky turquoise lake filling the bottom of a volcanic crater, steep grey and pale yellow crater walls around it, thin white steam drifting low over the still water. No people, no boats, no buildings.",
+   "movimento": "steam drifts slowly across the water"
+  },
+  {
+   "n": 8,
+   "inicio_s": 33.37,
+   "fim_s": 38.37,
+   "dur_s": 5.0,
+   "brilho_ini": 131.0,
+   "brilho_fim": 115.9,
+   "saturacao_ini": 7.8,
+   "saturacao_fim": 8.2,
+   "cortes_internos_s": [],
+   "narracao": "Here is the twist. The flames never stop in daylight. Sunlight simply drowns them out.",
+   "palavras_por_s": 3.0,
+   "quadro": "Bright daylight. A volcanic crater floor of rough grey rock crusted with bright yellow sulfur, thick white sulfur smoke rising from the cracks, no visible flame. No people, no buildings.",
+   "movimento": "smoke rises slowly, gentle pan left"
+  },
+  {
+   "n": 9,
+   "inicio_s": 38.37,
+   "fim_s": 43.9,
+   "dur_s": 5.53,
+   "brilho_ini": 73.3,
+   "brilho_fim": 50.9,
+   "saturacao_ini": 12.8,
+   "saturacao_fim": 13.1,
+   "cortes_internos_s": [],
+   "narracao": "This volcano burns with blue fire all day long. Only the night reveals it.",
+   "palavras_por_s": 2.53,
+   "quadro": "Pitch-black overcast night sky, no moon, no stars. A volcanic crater floor of rough dark grey rock crusted with bright yellow sulfur, thin irregular tongues of electric blue flame rising from cracks in the rock. The blue flames are the brightest thing in the picture, at the center of the frame. Pale white sulfur smoke drifts above them. No people, no buildings, no fences.",
+   "movimento": "very slow push-in, flames flicker softly"
+  }
+ ],
+ "cortes_bruscos_s": [
+  4.6,
+  11.0,
+  15.2,
+  19.7,
+  24.2,
+  28.87,
+  33.37,
+  38.37
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 139,
+  "palavras_ouvidas": 142,
+  "taxa_acerto": 0.007,
+  "erros": [
+   {
+    "roteiro": "",
+    "ouvido": "um volcano em indonesia se torna com o fogo blu todo dia e nao e lava em um lado do creio flores flores se tornam por rocas de roda as vezes elas se tornam por roda como rivores muitas pessoas chamamse de lava blu mas esse fogo nao e roda molta o fogo e gas o gas de solfro se torna de craques na floreta quando aquele gas de sol se encontra no ar se torna de sol o solfro se torna blu algum dos gas se torna em solfro liquido fala os rocos ainda se torna alem dos fios se torna um lago turco e um dos mais aciticos do mundo aqui e o pessaro os fios nunca se tornam em luz o fogo simplesmente se torna esse fogo se torna com fios blus todo dia so"
+   },
+   {
+    "roteiro": "volcano in indonesia burns with blue fire every night but it is not lava deep inside the crater thin blue flames crawl across yellow rocks sometimes they run downhill like rivers many people call it blue lava but this fire is not molten rock at all the fire is gas hot sulfur gas rushes out of cracks in the crater floor when that hot gas meets the air it catches fire on its own sulfur burns blue some of the gas cools into liquid sulfur it flows down the rocks still burning beside the flames lies a turquoise lake it is one of the most acidic in the world here is the twist the flames never stop in daylight sunlight simply drowns them out this volcano burns with blue fire all day long only the night reveals it",
+    "ouvido": "noite revela isso"
+   }
+  ],
+  "suspeitas": [],
+  "duvidosas": [
+   "Um",
+   "em",
+   "Indonesia",
+   "se",
+   "torna",
+   "o",
+   "fogo",
+   "blu",
+   "todo",
+   "dia",
+   "e",
+   "não",
+   "é",
+   "Em",
+   "um",
+   "lado",
+   "do",
+   "creio,",
+   "flores",
+   "se",
+   "tornam",
+   "por",
+   "rocas",
+   "de",
+   "roda.",
+   "elas",
+   "se",
+   "tornam",
+   "por",
+   "roda"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "",
+    "ouvido": "um volcano em indonesia se torna com o fogo blu todo dia e nao e lava em um lado do creio flores flores se tornam por rocas de roda as vezes elas se tornam por roda como rivores muitas pessoas chamamse de lava blu mas esse fogo nao e roda molta o fogo e gas o gas de solfro se torna de craques na floreta quando aquele gas de sol se encontra no ar se torna de sol o solfro se torna blu algum dos gas se torna em solfro liquido fala os rocos ainda se torna alem dos fios se torna um lago turco e um dos mais aciticos do mundo aqui e o pessaro os fios nunca se tornam em luz o fogo simplesmente se torna esse fogo se torna com fios blus todo dia so"
+   },
+   {
+    "roteiro": "volcano in indonesia burns with blue fire every night but it is not lava deep inside the crater thin blue flames crawl across yellow rocks sometimes they run downhill like rivers many people call it blue lava but this fire is not molten rock at all the fire is gas hot sulfur gas rushes out of cracks in the crater floor when that hot gas meets the air it catches fire on its own sulfur burns blue some of the gas cools into liquid sulfur it flows down the rocks still burning beside the flames lies a turquoise lake it is one of the most acidic in the world here is the twist the flames never stop in daylight sunlight simply drowns them out this volcano burns with blue fire all day long only the night reveals it",
+    "ouvido": "noite revela isso"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg"
+ ]
+}

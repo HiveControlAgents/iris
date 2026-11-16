@@ -27,7 +27,7 @@ python benchmark/rotular.py --videos my_videos/                    # labeling pa
 <!-- metricas:inicio -->
 | rotulados / labeled | precisão / precision | revocação / recall | certos | errados | perdidos |
 |---|---|---|---|---|---|
-| 3 (pendentes: 25) | 92% | 85% | 34 | 3 | 6 |
+| 3 (pendentes: 27) | 92% | 85% | 34 | 3 | 6 |
 
 | tipo / type | precisão / precision | certos | errados |
 |---|---|---|---|
@@ -37,7 +37,7 @@ python benchmark/rotular.py --videos my_videos/                    # labeling pa
 | ritmo | 100% | 5 | 0 |
 | visual | 94% | 16 | 1 |
 
-_Atualizado em 2026-11-10 com `python benchmark/bench.py metricas`._
+_Atualizado em 2026-11-16 com `python benchmark/bench.py metricas`._
 <!-- metricas:fim -->
 
 ## Defects per video / defeitos por vídeo
@@ -73,6 +73,8 @@ _Atualizado em 2026-11-10 com `python benchmark/bench.py metricas`._
 | The Ship Found Sailing With Nobody on Board | 5.5 | 13 | 8 | 1 | 1 | 0 | 3 | 0 | 0:23.0 visual; 0:22.4 narracao; 0:00.0 visual; 0:03.9 visual; 0:15.1 visual; 0:35.7 visual; 0:20.7 visual; 0:32.9 visual; 0:25.2 ritmo; 0:02.0 legenda; 0:10.3 legenda; 0:00.1 legenda; 0:14.5 visual |
 | The Ghost Plant That Never Uses the Sun | 5.0 | 9 | 4 | 1 | 2 | 1 | 1 | 0 | 0:00.0 narracao; 0:00.0 visual; 0:19.7 visual; 0:00.0 ritmo; 0:25.2 visual; 0:29.9 visual; 0:25.2 ritmo; 0:00.1 audio; 0:00.0 legenda |
 | This Hole in the Ground Breathes | 6.5 | 9 | 4 | 0 | 1 | 1 | 2 | 1 | 0:00.0 tecnico; 0:08.5 visual; 0:22.5 visual; 0:03.6 visual; 0:04.5 visual; 0:04.0 legenda; 0:15.5 legenda; 0:03.6 ritmo; 0:00.0 audio |
+| The Signal From Space That Never Came Back | 7.0 | 11 | 6 | 1 | 2 | 0 | 2 | 0 | 0:29.0 visual; 0:37.7 visual; 0:10.5 visual; 0:09.7 visual; 0:14.5 visual; 0:17.0 legenda; 0:16.0 legenda; 0:09.5 visual; 0:20.2 ritmo; 0:00.0 narracao; 0:47.8 ritmo |
+| The Volcano That Burns Blue Fire Every Night | 7.0 | 9 | 5 | 0 | 1 | 1 | 1 | 1 | 0:20.5 visual; 0:27.5 visual; 0:03.0 visual; 0:07.5 visual; 0:39.0 visual; 0:31.0 ritmo; 0:00.0 tecnico; 0:39.5 legenda; 0:00.0 audio |
 <!-- tabela:fim -->
 
 ---

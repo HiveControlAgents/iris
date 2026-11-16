@@ -1,0 +1,193 @@
+{
+ "video_arquivo": "video.mp4",
+ "titulo": "The Signal From Space That Never Came Back",
+ "tema": "Why did a radio signal from deep space, the Wow! signal of 1977, arrive once for seventy-two seconds and never come back? It lasted as long as the telescope could watch one spot of sky, so it pointed to space and not the ground. It sat right beside the natural radio note of hydrogen, the note scientists had guessed a distant civilization would use. Decades of searching that same patch of sky have found nothing.",
+ "estilo_visual": "award-winning photorealistic night sky and landscape photography, natural light, deep dark tones, shallow depth of field, sharp focus",
+ "inspecionado_em": "2026-11-16T02:00:08",
+ "video": {
+  "duracao_s": 49.7,
+  "tamanho_mb": 29.4,
+  "largura": 1080,
+  "altura": 1920,
+  "fps": 30.0,
+  "tem_audio": true,
+  "audio_hz": 48000,
+  "audio_canais": 1
+ },
+ "audio": {
+  "lufs_integrado": -15.1,
+  "pico_dbfs": -1.6,
+  "picos_cortados": {
+   "trechos": 0,
+   "segundos": []
+  },
+  "silencios": [],
+  "saltos_volume": [],
+  "voz_abafada": [],
+  "como_ler": "picos_cortados.trechos > 0 = distorção; silencios = buraco de 0,7 s ou mais no meio do vídeo; saltos_volume = volume muda 6 LU ou mais em 1 s; voz_abafada = trecho em que a música (ou ruído) preenche os vãos da fala (heurística: confirme pela transcrição)"
+ },
+ "cenas": [
+  {
+   "n": 1,
+   "inicio_s": 0.0,
+   "fim_s": 4.37,
+   "dur_s": 4.37,
+   "brilho_ini": 57.2,
+   "brilho_fim": 56.0,
+   "saturacao_ini": 5.2,
+   "saturacao_fim": 9.4,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 2,
+   "inicio_s": 4.37,
+   "fim_s": 9.67,
+   "dur_s": 5.3,
+   "brilho_ini": 71.2,
+   "brilho_fim": 64.7,
+   "saturacao_ini": 16.4,
+   "saturacao_fim": 18.4,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 3,
+   "inicio_s": 9.67,
+   "fim_s": 14.53,
+   "dur_s": 4.86,
+   "brilho_ini": 44.2,
+   "brilho_fim": 43.4,
+   "saturacao_ini": 5.0,
+   "saturacao_fim": 8.2,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 4,
+   "inicio_s": 14.53,
+   "fim_s": 20.23,
+   "dur_s": 5.7,
+   "brilho_ini": 57.1,
+   "brilho_fim": 55.4,
+   "saturacao_ini": 13.0,
+   "saturacao_fim": 15.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 5,
+   "inicio_s": 20.23,
+   "fim_s": 31.33,
+   "dur_s": 11.1,
+   "brilho_ini": 50.3,
+   "brilho_fim": 46.0,
+   "saturacao_ini": 4.4,
+   "saturacao_fim": 19.7,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 6,
+   "inicio_s": 31.33,
+   "fim_s": 37.7,
+   "dur_s": 6.37,
+   "brilho_ini": 58.7,
+   "brilho_fim": 51.7,
+   "saturacao_ini": 6.0,
+   "saturacao_fim": 7.8,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 7,
+   "inicio_s": 37.7,
+   "fim_s": 43.1,
+   "dur_s": 5.4,
+   "brilho_ini": 126.4,
+   "brilho_fim": 107.0,
+   "saturacao_ini": 14.6,
+   "saturacao_fim": 13.4,
+   "cortes_internos_s": []
+  },
+  {
+   "n": 8,
+   "inicio_s": 43.1,
+   "fim_s": 49.7,
+   "dur_s": 6.6,
+   "brilho_ini": 58.2,
+   "brilho_fim": 27.2,
+   "saturacao_ini": 5.7,
+   "saturacao_fim": 3.0,
+   "cortes_internos_s": []
+  }
+ ],
+ "cortes_bruscos_s": [
+  4.37,
+  9.67,
+  14.53,
+  20.23,
+  31.33,
+  37.7,
+  43.1
+ ],
+ "congelamentos": [],
+ "telas_pretas": [],
+ "max_refazer": 3,
+ "folha": {
+  "quadros_por_segundo": 2,
+  "colunas": 6,
+  "segundos_por_imagem": 12
+ },
+ "narracao": {
+  "palavras_roteiro": 141,
+  "palavras_ouvidas": 140,
+  "taxa_acerto": 0.007,
+  "erros": [
+   {
+    "roteiro": "it never came back a radio telescope in ohio was listening to space scanning the sky as the planet turned one night a powerful burst rose far above the quiet hiss of the stars then faded it lasted seventytwo seconds that is exactly how long the telescope could watch one spot of sky that pattern points to space not the ground it came from the direction of sagittarius stranger still it sat right beside the natural radio note of hydrogen hydrogen fills the whole universe years earlier scientists had guessed something anyone calling across the galaxy would choose that very note checking the printout days later the astronomer circled it beside it went one word wow telescopes have listened to that same patch of sky for decades that one signal never came back",
+    "ouvido": "nunca voltou"
+   }
+  ],
+  "suspeitas": [],
+  "duvidosas": [
+   "sinal,",
+   "nunca",
+   "voltou.",
+   "radio",
+   "em",
+   "Ohio",
+   "estava",
+   "escondendo",
+   "para",
+   "o",
+   "escando",
+   "como",
+   "se",
+   "raiva",
+   "rose",
+   "longe",
+   "do",
+   "barro",
+   "de",
+   "os",
+   "estados,",
+   "e",
+   "então",
+   "se",
+   "desfazia.",
+   "Isso",
+   "nos",
+   "assustou",
+   "72",
+   "e"
+  ],
+  "divergencias": [
+   {
+    "roteiro": "it never came back a radio telescope in ohio was listening to space scanning the sky as the planet turned one night a powerful burst rose far above the quiet hiss of the stars then faded it lasted seventytwo seconds that is exactly how long the telescope could watch one spot of sky that pattern points to space not the ground it came from the direction of sagittarius stranger still it sat right beside the natural radio note of hydrogen hydrogen fills the whole universe years earlier scientists had guessed something anyone calling across the galaxy would choose that very note checking the printout days later the astronomer circled it beside it went one word wow telescopes have listened to that same patch of sky for decades that one signal never came back",
+    "ouvido": "nunca voltou"
+   }
+  ]
+ },
+ "folhas": [
+  "folha_1.jpg",
+  "folha_2.jpg",
+  "folha_3.jpg",
+  "folha_4.jpg",
+  "folha_5.jpg"
+ ]
+}
